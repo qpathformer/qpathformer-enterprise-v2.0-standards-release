@@ -1,0 +1,64 @@
+{
+  "format": "tr010_pdf_paper_selection_v2",
+  "date": "2026-09-06",
+  "edition": "v2.0 Standards Edition",
+  "manuscript_revision": "Final compact standards papers; no editorial revision suffix",
+  "publication_format": "PDF_ONLY",
+  "status": "FINAL_PDFS_REGISTERED_OWNER_SEAL_PENDING",
+  "repository": "qpathformer/qpathformer-enterprise-v2.0-standards-release",
+  "tag": "v2.0-qpathformer-enterprise-standards",
+  "title": "Q-Pathformer Enterprise v2.0 Standards Edition",
+  "release_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+  "git_tag_created": false,
+  "tag_target_commit": null,
+  "sealed_archive": null,
+  "published": false,
+  "papers": [
+    {
+      "path": "docs/research/APOD-TR-010_STANDARDS_REVIEW.pdf",
+      "bytes": 358864,
+      "sha256": "61fc5a19e19a963f3d5754daf0f5dc53d1f2d5b116078e29f2f180458bc35fe0",
+      "pages": 43,
+      "status": "OWNER_EXPORT_VISUALLY_REVIEWED_AND_REGISTERED",
+      "visual_review_date": "2026-09-06",
+      "historical_preceding_word_source": {
+        "archive_id": "standards_cleanup_20260906",
+        "relative_path": "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+        "bytes": 120600,
+        "sha256": "836f72a26eb6d036115c803babf789057aa773fa1e984ad2d3460931f81a8ffb",
+        "included_in_release": false,
+        "relationship": "Pre-final-editorial snapshot, not a byte-level binding to the final conversion source."
+      }
+    },
+    {
+      "path": "docs/research/APOD-TR-010-R_STANDARDS_REVIEW.pdf",
+      "bytes": 310093,
+      "sha256": "59984745b80eeacfcb1b872375e8dbf4dd1f7bbd0790c1f39bbd10f0f17f0db6",
+      "pages": 30,
+      "status": "OWNER_EXPORT_VISUALLY_REVIEWED_AND_REGISTERED",
+      "visual_review_date": "2026-09-06",
+      "historical_preceding_word_source": {
+        "archive_id": "standards_cleanup_20260906",
+        "relative_path": "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+        "bytes": 108251,
+        "sha256": "5d95b75ad780fceea3ac003c0a37b005301407e74ffe501433411de4bcafd9a7",
+        "included_in_release": false,
+        "relationship": "Pre-final-editorial snapshot, not a byte-level binding to the final conversion source."
+      }
+    }
+  ],
+  "archive_relocation_index": "release/provenance/RELOCATION_INDEX_20260906.json",
+  "qa_pdf_policy": "Earlier QA PDFs remain external records; they are not substituted for owner exports.",
+  "scope": "Exact two-paper selection, not a complete rights disposition or release seal.",
+  "sealing_order": "Keep registered PDFs unchanged; verify exact selected folder and applicable rights disposition; owner final file inventory/checksums; ZIP outside the project folder; external ZIP SHA-256 and member verification; separately authorized Git/publication.",
+  "actual_lawyer_review_completed": false,
+  "historical_editorial_handoff": {
+    "archive_root": "owner_local_all_records",
+    "relative_path": "standards_cleanup_20260906/docs/research/TR010_R02_EDITORIAL_HANDOFF.json",
+    "bytes": 5663,
+    "sha256": "4f3559ea86416f84ef3d536177106e141bccee2f9ff63cb373b4be059a275892",
+    "included_in_release": false,
+    "relationship": "Historical manuscript and internal QA identities, not final PDF identities."
+  },
+  "finalization_record": "docs/release/V2_STANDARDS_PDF_FINALIZATION_20260906.md"
+}

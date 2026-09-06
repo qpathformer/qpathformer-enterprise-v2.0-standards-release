@@ -1,0 +1,29 @@
+{
+  "document_id": "QPATH-V2-M09-V1-GIT-ANCHOR-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:52:56Z",
+  "classification": "HISTORICAL_V1_CSC_EVIDENCE",
+  "repository_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release.git",
+  "tag": "v1.0-qpathformer-enterprise",
+  "tag_type": "lightweight",
+  "commit_sha": "0fa94ecf47d698a894bc868545f110570d0dec50",
+  "git_tree_sha": "03fe111643e2c127e0446d8a36624cfc594cfee0",
+  "commit_timestamp": "2026-04-18T23:42:22+10:00",
+  "commit_subject": "v1.0 sealed enterprise release",
+  "m08_source_archive": {
+    "logical_name": "v1_csc_source_set.zip",
+    "sha256": "00b6c822e97d9e3074625a4464cf075e91758a5521cb6b157f573b09b008fac2",
+    "method": "git archive from the immutable v1 tag"
+  },
+  "active_source_selection": {
+    "path": "shared/standards/access_pod/STANDARDS_PAPER_SOURCE_SET_20260415.md",
+    "sha256": "a7c8a6c9499383c834021d38b5222a3d916786bf1a3bdf126b29587829f0b0af"
+  },
+  "qualified_evidence_manifest": {
+    "path": "release/V1_CSC_EVIDENCE_MANIFEST.json",
+    "sha256_at_m08": "e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f",
+    "selected_item_count": 25,
+    "profile_count": 4
+  },
+  "verification_statement": "The selected M08 CSC source set and added summaries were extracted from and byte-compared with this immutable v1 tag. They were not regenerated under v2."
+}

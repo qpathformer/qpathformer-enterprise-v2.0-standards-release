@@ -1,0 +1,78 @@
+{
+  "pages": 35,
+  "unchanged_page_images": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    31,
+    32,
+    33
+  ],
+  "changed_page_images": [
+    1,
+    14,
+    21,
+    22,
+    24,
+    30,
+    34,
+    35
+  ],
+  "new_page_images": [],
+  "prior_render": "C:\\Users\\Alnotrea\\.codex\\visualizations\\2026\\04\\17\\019d9d06-f9f0-7c12-8ffb-2f7f9ff9094f\\tr010_paper_references_20260906\\qa_results\\png",
+  "page_openings": [
+    {
+      "page": 1,
+      "text": "Page | 1 Verification Results and v1.0 Comparison Q-Pathformer Enterprise v2.0 Standards Edition Verification of recorde"
+    },
+    {
+      "page": 14,
+      "text": "Page | 14 4. Historical v1.0 Execution Results 4.1 Source and interpretation boundary This chapter summarizes the retain"
+    },
+    {
+      "page": 21,
+      "text": "Page | 21 result, weaken a gate to match a desired outcome, or treat a new report as official release approval. 7.3 Inde"
+    },
+    {
+      "page": 22,
+      "text": "Page | 22 8. Limitations and Review Disposition 8.1 Technical limits The evidence is bounded to the tested fixtures and "
+    },
+    {
+      "page": 24,
+      "text": "Page | 24 Appendix A. Evidence Catalogue The following identifiers resolve the source references. The preserved source_l"
+    },
+    {
+      "page": 30,
+      "text": "Page | 30 Historical July milestones continued The candidate is the exact set of files being considered for release. The"
+    },
+    {
+      "page": 34,
+      "text": "Page | 34 References and release links These references distinguish the published TR007-TR009 background, this completed"
+    },
+    {
+      "page": 35,
+      "text": "Page | 35 Standards release and Access PoD background The v2.0 repository and tag below identify the release destination"
+    }
+  ]
+}

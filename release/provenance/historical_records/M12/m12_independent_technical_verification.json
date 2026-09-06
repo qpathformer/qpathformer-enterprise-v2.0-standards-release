@@ -1,0 +1,41 @@
+{
+  "document_id": "QPATH-V2-M12-INDEPENDENT-TECHNICAL-VERIFICATION-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:10:31Z",
+  "phase": "M12",
+  "result": "PASS",
+  "target_path": "C:\\qpathformer_enterprise_v2_release",
+  "source_baseline_commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "candidate": {
+    "regular_file_count": 351,
+    "byte_count": 35757693,
+    "canonical_tree_sha256": "ef86494a1009d6c526211d9efa3b81fdcd2ed45624c163c68c55f8443f07f961"
+  },
+  "publication_inventory": {
+    "sha256": "875dd343ce1a730b1db58b7b2edf6af4e90ed3db3197687c0e7bc448dde95fea",
+    "listed_file_count": 348,
+    "listed_byte_count": 35622766,
+    "canonical_file_set_sha256": "f2e4bc6a6b9e48f4114ea5dc0362093d00870d460667d3a73ae20c4f6bd4bb62",
+    "exception_set_verified": true,
+    "all_listed_bytes_verified": true
+  },
+  "checksum_set": {
+    "sha256": "7fbc1f1a86de783ac7e4d4244ce76123f7a59a795d2ab477fd67fa144373ebd4",
+    "entry_count": 350,
+    "self_excluded": true,
+    "all_other_regular_files_verified": true
+  },
+  "build_report": {
+    "sha256": "dcefa142a81d87f741c8096d261de43525f8574982adbbf1ef3c5ac4d69bb607",
+    "inventory_digest_binding_verified": true
+  },
+  "structured_data": {
+    "json_files_parsed": 183,
+    "jsonl_records_parsed": 6313,
+    "syntax_failure_count": 0
+  },
+  "prohibited_target_entry_count": 0,
+  "failure_count": 0,
+  "failures": [],
+  "authority_boundary": "Technical verification is not the external human review decision and authorizes no next action."
+}

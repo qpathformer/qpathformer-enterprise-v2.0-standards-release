@@ -1,0 +1,66 @@
+{
+  "document_id": "QPATH-V2-M09-EXCLUSIONS-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:52:56Z",
+  "release_stage": "M09_public_review_candidate",
+  "policy": "Exclude machine-bound, private, mutable, duplicate, legacy, or separately licensed binary assets unless explicitly selected and qualified.",
+  "excluded_roots": [
+    {
+      "path": "_upstream_qpath-dataset-lifecycle/",
+      "reason": "local external reference clone; no active runtime, test, or execution-document dependency"
+    },
+    {
+      "path": "legacy_reference/",
+      "reason": "deprecated comparison material"
+    },
+    {
+      "path": "tests/fixtures/",
+      "reason": "current release control tests are self-contained"
+    },
+    {
+      "path": ".git/",
+      "reason": "controlled target is not initialized until a later authorized public-commit gate"
+    }
+  ],
+  "excluded_content_classes": [
+    {
+      "class": "mutable_registry_records",
+      "included_replacement": "shared/registry/examples/",
+      "reason": "avoid machine-bound state and mutable execution history"
+    },
+    {
+      "class": "private_keys_and_secrets",
+      "included_replacement": "none",
+      "reason": "private signing material is never a release artifact"
+    },
+    {
+      "class": "base_model_weights_tokenizers_and_model_caches",
+      "included_replacement": "model identifiers and download guidance only",
+      "reason": "model rights and distribution are separate from the platform licence"
+    },
+    {
+      "class": "lora_adapters_checkpoints_optimizer_state_and_training_caches",
+      "included_replacement": "historical JSON and text run summaries only",
+      "reason": "no derivative model binaries are distributed"
+    },
+    {
+      "class": "path_3_qpds_package_001_positive_evidence_bundle",
+      "included_replacement": "contained input, normalized examples, and run summaries selected by the export allowlist",
+      "reason": "M03 reconciliation excluded unsupported positive-evidence treatment"
+    },
+    {
+      "class": "untracked_source_workspace_files",
+      "count_at_m06": 66,
+      "included_replacement": "none unless separately selected by a later gate",
+      "reason": "not part of the immutable M05 tracked source baseline"
+    }
+  ],
+  "not_yet_created": [
+    "final public v2 commit",
+    "final public v2 tag",
+    "release ZIP asset",
+    "final publication inventory and checksums",
+    "external attestation",
+    "final APOD-TR-010 commit and tag binding"
+  ]
+}

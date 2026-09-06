@@ -1,0 +1,164 @@
+{
+  "document_id": "QPATH-V2-M09-CANONICAL-RESOLUTION-001",
+  "version": "1.0",
+  "phase": "M09",
+  "mode": "A_release_candidate",
+  "result": "PASS",
+  "repository": "qpathformer-enterprise-v2",
+  "branch": "main",
+  "source_head": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "source_baseline_commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "source_baseline_tag": "v2.0-qpathformer-enterprise-source-baseline",
+  "target_path": "C:\\qpathformer_enterprise_v2_release",
+  "target_state": "M09_PASS_canonical_equivalence_resolved_v2_scoring_contract_defined",
+  "started_at_utc": "2026-07-17T23:08:00Z",
+  "completed_at_utc": "2026-07-17T23:28:22Z",
+  "executor": "OpenAI Codex under human-authorized M09 resolution scope",
+  "reviewer": "Anthony Siljeg",
+  "reviewer_authority": "Human release authority",
+  "supersedes_gate_result": {
+    "record": "V2_M09_DOCUMENTATION_NOTICES_LOCKS_LAYOUT_CI_REPORT.json",
+    "sha256": "af5ec9180420499bd2bdd174cb6e94e52334bf13401d7c6982aa3af6fb16ba77",
+    "prior_result": "HOLD",
+    "history_treatment": "retained; not overwritten or deleted"
+  },
+  "human_decision": {
+    "decision": "retain_all_six_files_and_accept_transparent_canonical_equivalence",
+    "conditions": [
+      "Retain physical historical bytes.",
+      "Record physical and canonical identities separately.",
+      "Keep the v1 enterprise governance layer separate from the v1a public-review contracts.",
+      "Define a separate non-retroactive v2 governance snapshot and scoring contract."
+    ],
+    "approval_reference": "Explicit user decision in the active Codex task on 2026-07-18 Australia/Sydney."
+  },
+  "canonical_equivalence_evidence": {
+    "manifest_entry_count": 9,
+    "byte_exact_entry_count": 3,
+    "canonical_lf_entry_count": 6,
+    "unresolved_entry_count": 0,
+    "allowed_transform": "CRLF byte sequence 0D0A to LF byte 0A only",
+    "result": "PASS",
+    "entries": [
+      {
+        "path": "catalogs/csc_metric_catalog_v1a.json",
+        "crlf_sequence_count": 1792,
+        "physical_sha256": "fefdea2d2b44a8b9056b88146dc5c673ff1c83b01d215ad5f748024c81a30b29",
+        "canonical_sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632"
+      },
+      {
+        "path": "docs/Access_PoD_JSON_Instructions_v1a.pdf",
+        "crlf_sequence_count": 93,
+        "physical_sha256": "1244a73c8351e275120c299b344ee4acb91046ee31ac188684df3159623f4994",
+        "canonical_sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f"
+      },
+      {
+        "path": "examples/example_csc_certificate_v1a.json",
+        "crlf_sequence_count": 241,
+        "physical_sha256": "12e6f1033c32f514b3ecf43d2992c5cbd4348e8afa25d642a277307d817dbcc9",
+        "canonical_sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1"
+      },
+      {
+        "path": "profiles/csc_sector_profiles_v1a.json",
+        "crlf_sequence_count": 58,
+        "physical_sha256": "653d8d27678b454d59acdbe444349d3194830caaf9bfc47d96d9581d80937204",
+        "canonical_sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f"
+      },
+      {
+        "path": "schemas/csc_metric_catalog_schema_v1a.json",
+        "crlf_sequence_count": 80,
+        "physical_sha256": "e62ade4a2f78447ce81fc4fb9b58946765276cdec3be36cc8bbdc7c68c0f28da",
+        "canonical_sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2"
+      },
+      {
+        "path": "schemas/csc-certificate.schema_v1a.json",
+        "crlf_sequence_count": 814,
+        "physical_sha256": "ae04a0426be668794b462f5ad2582be7be818e54e5de11af7683aef58538ba30",
+        "canonical_sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34"
+      }
+    ]
+  },
+  "v2_governance_snapshot": {
+    "contract_path": "release/V2_CSC_GOVERNANCE_SNAPSHOT_CONTRACT.json",
+    "contract_sha256": "69bd51ee94c8562b261b4a89c06911b32c432dc7e10b053e1f23510c11a5daf7",
+    "document_path": "docs/release/V2_CSC_GOVERNANCE_SNAPSHOT_AND_SCORING_CONTRACT.md",
+    "document_sha256": "0dbb6311b4aad2765512d1db7bb92dc667c4a07c4493e2b392d0a8b757eadf00",
+    "status": "DESIGN_BASELINE_NOT_YET_ENFORCED",
+    "active_v2_scoring_enabled": false,
+    "historical_non_retroactivity": true,
+    "cross_version_implicit_blending_allowed": false,
+    "calibration_required": true
+  },
+  "checks": [
+    {
+      "check_id": "canonical_equivalence",
+      "status": "PASS",
+      "details": "All six CRLF physical files reproduce exact v1a manifest byte counts and SHA-256 hashes after the sole approved transform."
+    },
+    {
+      "check_id": "documentation_and_repository_conformance",
+      "status": "PASS",
+      "details": "21 of 21 release checks passed, including the new governance/scoring contract check."
+    },
+    {
+      "check_id": "unit_tests",
+      "status": "PASS",
+      "details": "24 tests ran: 23 passed and one symlink-capability test was skipped by its environment guard."
+    },
+    {
+      "check_id": "dependency_consistency",
+      "status": "PASS",
+      "details": "pip check reported no broken requirements."
+    },
+    {
+      "check_id": "historical_evidence_preservation",
+      "status": "PASS",
+      "details": "The v1 CSC evidence manifest remained byte-identical with SHA-256 e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f. No vendor or historical CSC artifact bytes were rewritten."
+    },
+    {
+      "check_id": "source_baseline_preservation",
+      "status": "PASS",
+      "details": "The immutable M05 tracked source remained clean at cf9721afb81273d82667dd7b33ee5e5f3ad806d9."
+    },
+    {
+      "check_id": "target_hygiene",
+      "status": "PASS",
+      "details": "No cache files, reparse points, model binaries, private keys, or .git directory were present."
+    }
+  ],
+  "outputs": {
+    "target_file_count": 347,
+    "target_byte_count": 35602907,
+    "target_canonical_tree_sha256": "82d46c8f23875bcdab497f8cdd83bea66273f1a4f052b1404e5b03bdf1533fa5",
+    "resolution_overlay_file_count": 13,
+    "new_target_file_count": 2,
+    "historical_vendor_files_modified": 0,
+    "historical_csc_files_modified": 0,
+    "git_initialized": false,
+    "public_commit_created": false,
+    "public_tag_created": false,
+    "zip_created": false,
+    "push_performed": false
+  },
+  "evidence_references": [
+    {
+      "path": "release/DOCUMENTATION_CONFORMANCE_REPORT.json",
+      "sha256": "520904b87bb2c2ebbadcdae8329daa9e0a5dd34e78e602222600b3485406beb6"
+    },
+    {
+      "path": "release/V1_STANDARDS_VENDOR_VERIFICATION.json",
+      "sha256": "07c1ae0b86651fb7b3bd2944368413dad17b7367f548449151c2d50f88fa998a"
+    },
+    {
+      "path": "scripts/validate_v2_release.py",
+      "sha256": "adb5ceab3ad8b3f07dd6b332916a2ececcc50e534d96343bad0ddca971ae77fe"
+    },
+    {
+      "path": "REPOSITORY_MANIFEST.json",
+      "sha256": "52ab859cf4b15540bd25393c94562dc346aee63d553ac22869865d965d058701"
+    }
+  ],
+  "exceptions": [],
+  "next_authorized_phase": "M10_complete_source_and_target_verification",
+  "approval_reference": "Human canonical-equivalence decision and v2 governance-snapshot authorization recorded in the active Codex task on 2026-07-18 Australia/Sydney."
+}

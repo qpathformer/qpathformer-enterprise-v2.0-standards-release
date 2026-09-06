@@ -1,0 +1,180 @@
+{
+  "document_id": "QPATH-V2-M10-GATE-001",
+  "version": "1.0",
+  "phase": "M10",
+  "mode": "A_release_candidate",
+  "result": "PASS",
+  "started_at_utc": "2026-07-17T23:33:00Z",
+  "completed_at_utc": "2026-07-17T23:50:45Z",
+  "executor": "OpenAI Codex under human-authorized M10 scope",
+  "human_release_authority": "Anthony Siljeg",
+  "record_location_policy": "External to both the immutable M05 source repository and the controlled public target.",
+  "source_anchor": {
+    "path": "C:\\qpathformer_enterprise_v2",
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tag_type": "annotated",
+    "tracked_change_count_after_m10": 0,
+    "intentionally_excluded_untracked_file_count": 66
+  },
+  "controlled_target": {
+    "path": "C:\\qpathformer_enterprise_v2_release",
+    "state": "M10_pre_seal_verified_release_candidate",
+    "file_count": 348,
+    "byte_count": 35621407,
+    "canonical_tree_sha256": "b168febd3effaf4f874a33d8950c31864ea2335a7e2df7e09e8604a78a30b00b",
+    "git_initialized": false,
+    "public_commit_created": false,
+    "public_tag_created": false,
+    "zip_created": false,
+    "push_performed": false
+  },
+  "verification_summary": {
+    "source_unit_tests": {
+      "ran": 24,
+      "passed": 23,
+      "failed": 0,
+      "skipped": 1,
+      "skip_reason": "Windows symlink creation unavailable; the test is environment-guarded and direct reparse-point scanning passed."
+    },
+    "target_unit_tests": {
+      "ran": 24,
+      "passed": 23,
+      "failed": 0,
+      "skipped": 1,
+      "skip_reason": "Same environment-guarded Windows symlink-capability condition."
+    },
+    "schema_validation": {
+      "checked": 27,
+      "invalid": 0
+    },
+    "reviewer_cli_resolution": {
+      "checked": 19,
+      "failed": 0
+    },
+    "dependency_consistency": {
+      "exact_pins_checked": 8,
+      "pip_check": "No broken requirements found."
+    },
+    "release_conformance": {
+      "checked": 23,
+      "passed": 23,
+      "failed": 0
+    },
+    "source_target_reconciliation": {
+      "checked": 11,
+      "passed": 11,
+      "failed": 0
+    }
+  },
+  "export_and_lineage": {
+    "M07_reproduced_file_count": 320,
+    "M07_reproduced_byte_count": 35414938,
+    "M07_reproduced_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080",
+    "M08_added_file_count": 12,
+    "M09_overlay_file_count": 28,
+    "M09_resolution_overlay_file_count": 13,
+    "M10_overlay_file_count": 11,
+    "missing_file_count": 0,
+    "extra_file_count": 0,
+    "hash_mismatch_count": 0,
+    "M07_preserved_historical_file_count": 174,
+    "M07_preserved_historical_hash_failure_count": 0
+  },
+  "path3_result": {
+    "M03_reconciliation": "PASS",
+    "excluded_positive_evidence": "QPDS-PACKAGE-001",
+    "excluded_bundle_present": false,
+    "selected_populated_example": "CLIENT-DATASET-EXAMPLE-001",
+    "selected_example_hash_status": "ok",
+    "selected_example_normalized_record_count": 4,
+    "active_guidance_reconciled": true
+  },
+  "historical_csc_result": {
+    "profile_count": 4,
+    "selected_item_count": 25,
+    "v1_tag_bound_record_count_including_source_set": 26,
+    "path_id": "path_2_access_mode_canonical",
+    "path2_run_id": "RTRUN-llm-runtime-registration-check-20260413T095208Z-77a538bc",
+    "missing_qualification_field_count": 0,
+    "missing_provenance_field_count": 0,
+    "v2_recalculation_performed": false
+  },
+  "security_and_asset_result": {
+    "credential_or_secret_finding_count": 0,
+    "private_key_file_count": 0,
+    "reparse_point_count": 0,
+    "cache_file_count": 0,
+    "mutable_registry_path_count": 0,
+    "model_or_training_binary_count": 0,
+    "optimizer_checkpoint_or_adapter_count": 0
+  },
+  "vendor_result": {
+    "verification_outcome": "PASS_CANONICAL_EQUIVALENCE",
+    "byte_exact_entry_count": 3,
+    "canonical_lf_entry_count": 6,
+    "unresolved_entry_count": 0,
+    "vendor_files_modified_during_m10": 0
+  },
+  "resolved_findings": [
+    {
+      "finding": "Active Path 3 external-bundle commands represented the M03-excluded QPDS-PACKAGE-001 bundle as populated and hash-valid.",
+      "resolution": "The external commands now describe a strict reviewer-supplied route and the M03 exclusion; the populated end-to-end prompt uses the client-JSON route.",
+      "historical_record_changes": 0
+    },
+    {
+      "finding": "The first CLI-resolution invocation generated nine Python cache files in two target cache directories.",
+      "resolution": "Only those generated cache directories were removed; all subsequent Python commands used an external pycache root and final cache count is zero.",
+      "release_file_changes_from_cleanup": 0
+    }
+  ],
+  "target_records": [
+    {
+      "path": "release/PRE_SEAL_VERIFICATION_REPORT.json",
+      "sha256": "e51a1c376c7d9e13db50123d64da8091555dcb299df1b83be1a92a7958df8a1b"
+    },
+    {
+      "path": "release/DOCUMENTATION_CONFORMANCE_REPORT.json",
+      "sha256": "fe29ba545930ed21d93d68ba00b6f4f3cecf3f9ebe8aa251206b17853caba731"
+    },
+    {
+      "path": "scripts/validate_v2_release.py",
+      "sha256": "c460cd843ed96283ca7769e2b6023360c6bf4a48c785342b0c0507f0d19c0e2f"
+    },
+    {
+      "path": "REPOSITORY_MANIFEST.json",
+      "sha256": "82a29793ef5e3d9dfb44590b4870962dec6fdbb94ef780df16c96fc9aa6a741f"
+    }
+  ],
+  "external_evidence": [
+    {
+      "record": "m10_controlled_target_reconciliation_evidence.json",
+      "sha256": "50866714c1a924219ea00619d9f280956c371e303831185b1940b462880d8fa8"
+    },
+    {
+      "record": "m10_base_export_log.json",
+      "sha256": "1f974d10b7172cc3f262ee8dae24b2c01abbec13d3e145741b00b4144b87b194"
+    },
+    {
+      "record": "m10_base_verify_log.json",
+      "sha256": "354286c8898a3411d9fd082e9251fb1983922b57f88795612454f0891c15d022"
+    },
+    {
+      "record": "M08/V2_M08_V1_CSC_EVIDENCE_QUALIFICATION_REPORT.json",
+      "sha256": "e2dc751d8c225dec56c7f6049b169cb88c9567612d2975a21da68c5aac380fc1"
+    },
+    {
+      "record": "M09/V2_M09_CANONICAL_EQUIVALENCE_RESOLUTION_REPORT.json",
+      "sha256": "4925969454d1905cabfb0a721c631c320fb2c47891771c216c89c708b826dd2c"
+    }
+  ],
+  "unexplained_warnings": [],
+  "known_holds": [],
+  "next_gate": {
+    "milestone": "M11",
+    "status": "AWAITING_EXPLICIT_HUMAN_AUTHORIZATION",
+    "action": "Freeze regular files and generate publication inventory, release-candidate build report, and SHA256SUMS in the mandated order.",
+    "authorized": false
+  }
+}

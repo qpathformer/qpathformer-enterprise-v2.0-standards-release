@@ -1,0 +1,45 @@
+{
+  "references": [
+    {
+      "reference_id": "current_tr010",
+      "name": "tr10 - Fail-Closed Governed Dataset Lifecycles (23) - Rights and Provenance Integrated 20260721.docx",
+      "bytes": 562752,
+      "sha256": "44295dbe0cad76a6c4fc0edfe52a760070796d3f8c14d18cb63909fc4cf7883d",
+      "imported": false,
+      "status": "EXTERNAL_REFERENCE_NOT_ADOPTED"
+    },
+    {
+      "reference_id": "research_licence_review",
+      "name": "QPATHFORMER-RESEARCH-STANDARDS-EXPLORATION-LICENCE-1.1-THIRD-PASS-RECONCILED-LEGAL-REVIEW-CANDIDATE-20260719.md",
+      "bytes": 54557,
+      "sha256": "c4a1305f053d565c824c5d26919a7d5b9da6e41c7d79c463bf4afc051a86566a",
+      "imported": false,
+      "status": "EXTERNAL_REFERENCE_NOT_ADOPTED"
+    },
+    {
+      "reference_id": "historical_rights_notice",
+      "name": "ACCESS-POD-HISTORICAL-MATERIALS-RIGHTS-CONFIRMATION-AND-DISTRIBUTION-NOTICE-PRE-REBUILD-DECISION-REVIEW-DRAFT-20260721.md",
+      "bytes": 41911,
+      "sha256": "cd38df9db94de05b5f42d20fdffca8ca5f886dbe4bc0d4a8b11dc7b74c037ad1",
+      "imported": false,
+      "status": "EXTERNAL_REFERENCE_NOT_ADOPTED"
+    },
+    {
+      "reference_id": "licence_history",
+      "name": "LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "imported": false,
+      "status": "EXTERNAL_REFERENCE_NOT_ADOPTED"
+    },
+    {
+      "reference_id": "latest_review",
+      "name": "APOD-TR-010_READ_ONLY_REVIEW_AND_PRIVATE_DEVELOPMENT_PLAN_20260905.md",
+      "bytes": 29658,
+      "sha256": "377baf2adcba965d5c7211095da1ff3afbdbb3b3cd0a8a158f32edeceee5200a",
+      "imported": false,
+      "status": "EXTERNAL_REFERENCE_NOT_ADOPTED"
+    }
+  ],
+  "claims": "Hashes identify referenced documents; they do not grant permissions."
+}

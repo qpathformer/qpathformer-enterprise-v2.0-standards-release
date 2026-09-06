@@ -1,0 +1,180 @@
+{
+  "format": "tr007_tr010_requirement_sources_v1",
+  "inspection_date": "2026-09-06",
+  "method": "Read-only local runbooks, imports, configuration and two trainer summaries; no historical execution, dependency installation or model download.",
+  "sources": [
+    {
+      "path": "requirements-release.txt",
+      "bytes": 153,
+      "sha256": "8d4000cba762b2b7d1795c39b8005b69b99411672bafc9b2b10213c56be7d69e",
+      "source_id": "current_standards",
+      "availability": "included_current_workspace"
+    },
+    {
+      "path": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "bytes": 5836,
+      "sha256": "af466dcbd3484d917f1a444aacd6ce646f06c47ff96800d27087efd2b854974a",
+      "source_id": "current_standards",
+      "availability": "included_current_workspace"
+    },
+    {
+      "path": "scripts/export_v2_public_release.py",
+      "bytes": 13937,
+      "sha256": "7e37422bea5fbaeeac0e5eb98c488c7c70fea49e7cf434c151c4ee919d48022a",
+      "source_id": "current_standards",
+      "availability": "included_current_workspace"
+    },
+    {
+      "path": "tests/unit/test_export_v2_public_release.py",
+      "bytes": 5539,
+      "sha256": "b7d26a4e5ec0f3eb64f056bae259c0fad978dc8c21ae62ba2ee23e45703a92dd",
+      "source_id": "current_standards",
+      "availability": "included_current_workspace"
+    },
+    {
+      "path": "_upstream_qpath-dataset-lifecycle/README.md",
+      "bytes": 15117,
+      "sha256": "707308774462425c1929032071af365a9d64bc413b2a32634d151f14636eb369",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/DOWNLOAD_MODEL.md",
+      "bytes": 4530,
+      "sha256": "613ad15526254200d628a647c17a737a772b857babacda1e22e22997b43853a9",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/path_1_tr_corpus_reference_commands.md",
+      "bytes": 8163,
+      "sha256": "29e72b9b533eef8d27f1bc35ff5a177075b616cbc83cee06f588f6a4796694bc",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/path_2_access_mode_canonical_source_first_commands.md",
+      "bytes": 17720,
+      "sha256": "8a60c3ab59151fec066ee49f1fa907366aff5213859d457a411a2f6681106d3d",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/path_2_access_mode_canonical_runtime_signal_commands.md",
+      "bytes": 9229,
+      "sha256": "5c44aa5b048d6a766fca7c3c5cd1b3e97c8ec64d774834767590eb1be02503a0",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/path_3_client_custom_dataset_commands.md",
+      "bytes": 5416,
+      "sha256": "3c73b5a8dd58a95b084b03e1138d2b0dbd54dc48bebfa7de539e187e09fb95b9",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/path_3_external_custom_adapter_commands.md",
+      "bytes": 5833,
+      "sha256": "f4df7d0f318cbbc96ecb647ce25071176c7c71625b4a70e5987fe95584da2af9",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "docs/execution/access_pod_csc_commands.md",
+      "bytes": 4438,
+      "sha256": "09b6548d66ab716de7a166be7c32b5578fd0247b7803132fff5ef2d924f68bad",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "shared/configs/training_backend_profile.local_lora.json",
+      "bytes": 1328,
+      "sha256": "d8464f234de21bc0f5d36e07f6651abbe40a176ff7de9e242d620e8193981626",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/build_tr_corpus_json.py",
+      "bytes": 9232,
+      "sha256": "c414c1efc3b0fd0cf7cb7a619013491e3b84e20e3ce64abb28cf2df6a65ad082",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/build_tr_signals.py",
+      "bytes": 22237,
+      "sha256": "97f494a2ee5c81d8ea3105c7c1dc9f6c82172f429896de964ebf0562d5911b20",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/run_external_adapter_ingestion.py",
+      "bytes": 62849,
+      "sha256": "e5a4d494542ec3244ee739c66e20b940518e66132a1e69f55d15feac8dbbc582",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/runtime/run_runtime_signal_emitter.py",
+      "bytes": 22502,
+      "sha256": "cac208f5a1d7ff85cea920efb044e567a76603b8a38b58b11e3b58511ffe0875",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/build_csc_certificate.py",
+      "bytes": 30882,
+      "sha256": "94442086a718b6f5b26e9328d55bc292f3cc0280b2c485e4e85544241b970fc1",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/build_csc_metric_observation_draft.py",
+      "bytes": 60474,
+      "sha256": "50c4ceb687021886cc835e0d826e8328837a7281c31496818f244420b7f1d942",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "scripts/build_csc_evidence_input_draft.py",
+      "bytes": 15599,
+      "sha256": "f6c8d58da241fabefff651c7221d6559c5ac175b7434fac038d93ffcdaf6846d",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/05_runs/FTRUN-tr_v14_tinyllama_run-local_lora-20260418T030626Z-e9e168a1/trainer_summary.json",
+      "bytes": 1496,
+      "sha256": "f6c7babd68c24dce475b2eb21b5fe9fc79ee71c96c6533c8e9a42938b68eb0ac",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    },
+    {
+      "path": "path_2_access_mode_canonical/05_runs/FTRUN-path2_state1_run-local_lora-20260418T044852Z-82edd22b/trainer_summary.json",
+      "bytes": 1588,
+      "sha256": "53462b50a873d95d8a1277d57ccfecfaa525bb5af0919b90b8894e2338c21eab",
+      "source_id": "external_july_source",
+      "availability": "external_not_imported"
+    }
+  ],
+  "official_references": [
+    {
+      "title": "Python 3.11 os.symlink",
+      "url": "https://docs.python.org/3.11/library/os.html#os.symlink",
+      "accessed": "2026-09-06"
+    },
+    {
+      "title": "Microsoft Settings for developers",
+      "url": "https://learn.microsoft.com/en-us/windows/advanced-settings/developer-mode",
+      "accessed": "2026-09-06"
+    }
+  ],
+  "boundaries": [
+    "Historical source is the previously identified local July development source, not a newly cloned or immutable upstream tag.",
+    "File hashes identify inspected bytes only. No claim of a complete historical dependency lock or hardware minimum.",
+    "The historical DOWNLOAD_MODEL.md contains an old remote pipe-to-shell installer. That installer is not reproduced, executed or recommended here.",
+    "No external TR papers, datasets, model weights or source code were copied into the standards release by this review.",
+    "TR007-TR010 coverage is activity-based implementation guidance, not universal normative requirements for the papers."
+  ]
+}

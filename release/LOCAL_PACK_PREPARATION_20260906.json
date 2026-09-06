@@ -1,0 +1,928 @@
+{
+  "record_type": "Local standards pack housekeeping verification; not a seal or release gate",
+  "checked_utc": "2026-09-06T06:49:50.1973637Z",
+  "status": "SOURCE_PREPARED_FINAL_PDFS_PENDING",
+  "initial_file_count": 579,
+  "moved_files": 240,
+  "moved_bytes": 52074369,
+  "retained_original_files_unchanged": 322,
+  "intentional_modified_files": [
+    {
+      "path": "README.md",
+      "before_sha256": "710751396bd42cae38e259193f7abb0ec074d175a94d1aeb9c1e959be5030a09",
+      "before_bytes": 7762,
+      "current_sha256": "cf9b505be8190c76a7677e605d3b1ebabab3ee1cf62a557ef91a5646ff73db27",
+      "current_bytes": 5824
+    },
+    {
+      "path": "docs/README.md",
+      "before_sha256": "3702e6997b21702fde0be078511fb75dd11838c8a020544f2a4b2457af5cb4e0",
+      "before_bytes": 5546,
+      "current_sha256": "590dc731048c7f34d6e78aad72970496aa3002e0fbe0aa85637a8d21e05597b0",
+      "current_bytes": 2888
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "before_sha256": "861e43aa603279d93f50816d7e1bb5efbb05885f638337cbb9442f6853e613b5",
+      "before_bytes": 2138,
+      "current_sha256": "b2cb4a6d4b7b038fa4ff939279ccced43ef3942c4f2d0232cd3dfd257eb60b79",
+      "current_bytes": 4037
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "before_sha256": "eecfa678522c09f36104614413e27634dbd5cda87f7d593871c3cb0846802724",
+      "before_bytes": 341,
+      "current_sha256": "84e21dbf089799003b074f24edadc305f3294b8d9e81df7fdae04aa1479cb8c2",
+      "current_bytes": 1551
+    },
+    {
+      "path": "docs/execution/LOCAL_CHECKS.md",
+      "before_sha256": "b374d1d72ebb5eceba1004b8975c6a765dc3a5c4a74ad4b62204006b01ec3b32",
+      "before_bytes": 2139,
+      "current_sha256": "0802349e630cbbd73f26240baa27aef75886a811ff8c2b4ae969a4d679ebf22d",
+      "current_bytes": 2837
+    },
+    {
+      "path": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "before_sha256": "af466dcbd3484d917f1a444aacd6ce646f06c47ff96800d27087efd2b854974a",
+      "before_bytes": 5836,
+      "current_sha256": "c74a67c2355fbd3b44fb1a4d3b78988252e7feec03a4a4e2d3935781accb243b",
+      "current_bytes": 6123
+    },
+    {
+      "path": "docs/legal-review/README.md",
+      "before_sha256": "534b1b4f0a168e76d96e7c470b058fccbdd3a30d49a22588d73baefa7db9f8ca",
+      "before_bytes": 1587,
+      "current_sha256": "2512df33bc036c8a1d195bb16b82f954816a6d4d7399bb04f4c01d1b65ee3961",
+      "current_bytes": 1887
+    },
+    {
+      "path": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "before_sha256": "a8ed430e2b4851825845f14ca73eb76869dfa59ea3acf46ca99f3535470b494b",
+      "before_bytes": 4579,
+      "current_sha256": "5f0e15d5e28b8964be2193143c1b0627487ff015953efa2231bb8e6ffc8ca87a",
+      "current_bytes": 3514
+    },
+    {
+      "path": "docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "before_sha256": "3fd27c52852b1b17dd1ec69672f6a55e4aee560da2d9f737be1ddb30284500e1",
+      "before_bytes": 3499,
+      "current_sha256": "99de01ff3b363fe9acd3a5e56a67fa6c98200e50d6476d747bdf5ee9fa76f1ff",
+      "current_bytes": 3857
+    },
+    {
+      "path": "path_1_tr_corpus_reference/README.md",
+      "before_sha256": "3ee0d1348ba3f560a208ceb38aa6641dbf6dcce632e9cf7011caa79bf7711ef6",
+      "before_bytes": 350,
+      "current_sha256": "02ca1ce4a671a0ea0e64284dd7bdd93a7d44bf28ba31c83abc337eb952f52eea",
+      "current_bytes": 1118
+    },
+    {
+      "path": "path_2_access_mode_canonical/README.md",
+      "before_sha256": "2755075fd2c688a4f1a39f7e5490be22f9f64882ada23a226ed32eaba3b284ab",
+      "before_bytes": 352,
+      "current_sha256": "1b4174ef3b58fe6688e3da916399cac69a4496ee6783dbb61d2eb10852340f61",
+      "current_bytes": 1178
+    },
+    {
+      "path": "path_3_external_custom_adapter/README.md",
+      "before_sha256": "3b2f8d72355961fef6a57494d7adfda57fbc8cf64e9805f1ff18b0e713a24b7b",
+      "before_bytes": 354,
+      "current_sha256": "114784b8dae0a7bd691d4a1ad065ff707accdddb1a2feed11953631c15c0a47c",
+      "current_bytes": 1118
+    },
+    {
+      "path": "release/PAPER_RELEASE_SELECTION.json",
+      "before_sha256": "34ea910d9617b072a6c518baab897fb2d56448fc9bf73c852360142b6beab701",
+      "before_bytes": 2688,
+      "current_sha256": "910475409aa4af2e3da9fb5a6d46e59513a283cc2639469dd31df775ac659a34",
+      "current_bytes": 2394
+    },
+    {
+      "path": "release/provenance/DOCUMENT_ALLOWLIST.json",
+      "before_sha256": "7837c69aa87daa77a37e88cc7cba241ebe380745c8b8e00e8ba06bf36acec466",
+      "before_bytes": 14731,
+      "current_sha256": "75c6e44c0bb5fa81d8749bb982d21c35430eb63ae136138fbf1aed2006c80de4",
+      "current_bytes": 954
+    },
+    {
+      "path": "release/provenance/README.md",
+      "before_sha256": "d7d52d35eee81ce0d22bc7842dd8b2c92910003d18369c6ca86294548401ad34",
+      "before_bytes": 6504,
+      "current_sha256": "4eaafbc02aa7713ea422f4de1823cc7cf018ef172c62be79bbe33b236e3c6b8b",
+      "current_bytes": 3265
+    },
+    {
+      "path": "tests/unit/test_private_document_allowlist.py",
+      "before_sha256": "9a35cceede377b2451935566024deff7d17975e8e75ac7ea50036ac0c6f893ce",
+      "before_bytes": 4017,
+      "current_sha256": "7514627cb0c51ac53c4e5f8f642ca71be61bf041cdc6bd6b77df53285bed08a7",
+      "current_bytes": 9526
+    },
+    {
+      "path": "tools/verify_private_workspace.py",
+      "before_sha256": "bdfd89c0dd65257aac7912edc0cf223b49583b8e9c88cdce5e4d7a1f1c12688e",
+      "before_bytes": 10233,
+      "current_sha256": "a8588b596851f65daf6e9f3e0d9a6d88cf0bcb6c613a890ea3173b2a748348fd",
+      "current_bytes": 12183
+    }
+  ],
+  "new_files": [
+    {
+      "path": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "bytes": 5102,
+      "sha256": "64511604599b67fb28d3c9cb3f48bf95c9f8ec5afe176c2874a5c9757acc6521"
+    },
+    {
+      "path": "docs/research/README.md",
+      "bytes": 2819,
+      "sha256": "77adfe7cc951834a095b475e1fb64101e93715023b79e54fde435a335296ace3"
+    },
+    {
+      "path": "release/provenance/RELOCATION_INDEX_20260906.json",
+      "bytes": 123323,
+      "sha256": "4631ba6214d1b71dfc535d1ea6d059be4b7a33146e90007c6bbd492479bc780b"
+    }
+  ],
+  "final_file_count_including_this_record": 343,
+  "no_new_release_directories": true,
+  "no_directory_renames": true,
+  "no_word_files_in_release": true,
+  "no_final_owner_pdfs_yet": true,
+  "original_manuscripts_preserved_in_archive": true,
+  "all_original_files_accounted_for": true,
+  "inherited_runtime_scripts_schemas_licences_standards_and_evidence_unchanged_since_cleanup_start": true,
+  "source_preparation_check": {
+    "status": "PASS",
+    "scope": "private_workspace_preparation_not_release_or_authorization_approval",
+    "verify_origin_bytes": false,
+    "file_count": 342,
+    "selected_copy_count": 170,
+    "python_ast_count": 47,
+    "json_parse_count": 182,
+    "schema_definition_count": 28,
+    "allowlisted_working_drafts_verified": 0,
+    "allowlisted_documents_verified": 0,
+    "final_pdf_pair_registered": false,
+    "require_final_papers": false,
+    "unregistered_final_pdf_paths": [
+      "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf"
+    ],
+    "active_inherited_changes": [
+      "scripts/create_training_authorization_v2.py",
+      "scripts/migrate_training_package_authorization_v2.py",
+      "scripts/run_state1_finetune_local_lora.py",
+      "scripts/run_training_state1.py",
+      "scripts/training_authorization.py",
+      "shared/schemas/authorization/training_authorization_v2.schema.json",
+      "tests/unit/test_training_authorization_v2.py"
+    ],
+    "errors": [],
+    "limits": [
+      "No model execution or training.",
+      "Secret-pattern scan is limited, not a complete security audit.",
+      "No legal, human-release, GitHub-visibility or single-scope approval.",
+      "Local machine folders .git, .local and .venv are excluded.",
+      "PDF checks establish exact registered bytes and a basic envelope, not visual correctness or complete PDF safety.",
+      "A preparation PASS with unregistered final PDFs is not readiness to seal or publish."
+    ]
+  },
+  "final_paper_check": {
+    "status": "FAIL",
+    "scope": "private_workspace_preparation_not_release_or_authorization_approval",
+    "verify_origin_bytes": false,
+    "file_count": 342,
+    "selected_copy_count": 170,
+    "python_ast_count": 47,
+    "json_parse_count": 182,
+    "schema_definition_count": 28,
+    "allowlisted_working_drafts_verified": 0,
+    "allowlisted_documents_verified": 0,
+    "final_pdf_pair_registered": false,
+    "require_final_papers": true,
+    "unregistered_final_pdf_paths": [
+      "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf"
+    ],
+    "active_inherited_changes": [
+      "scripts/create_training_authorization_v2.py",
+      "scripts/migrate_training_package_authorization_v2.py",
+      "scripts/run_state1_finetune_local_lora.py",
+      "scripts/run_training_state1.py",
+      "scripts/training_authorization.py",
+      "shared/schemas/authorization/training_authorization_v2.schema.json",
+      "tests/unit/test_training_authorization_v2.py"
+    ],
+    "errors": [
+      "final_pdf_pair_not_registered"
+    ],
+    "limits": [
+      "No model execution or training.",
+      "Secret-pattern scan is limited, not a complete security audit.",
+      "No legal, human-release, GitHub-visibility or single-scope approval.",
+      "Local machine folders .git, .local and .venv are excluded.",
+      "PDF checks establish exact registered bytes and a basic envelope, not visual correctness or complete PDF safety.",
+      "A preparation PASS with unregistered final PDFs is not readiness to seal or publish."
+    ]
+  },
+  "active_markdown_links_checked": 89,
+  "active_markdown_link_checks": [
+    {
+      "source": "README.md",
+      "target": "docs/research/README.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/README.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/execution/LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "release/provenance/README.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/legal-review/ILLUSTRATIVE_LEGAL_REVIEW_WORKED_EXAMPLE.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSE",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "QPATHFORMER-PLATFORM-1.0.txt",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "NOTICE.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "THIRD_PARTY_NOTICES.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "history_notice.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "architecture/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "execution/LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "legal-review/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/V2_STANDARDS_RELEASE_NOTES.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "history/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "architecture/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "../evidence/v2_validation/standards_local_20260905/",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "../release/provenance/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/V2_STANDARDS_CLEANUP_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "research/TR010_R02_FINAL_ADJUSTMENTS_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/LOCAL_STANDARDS_CONSOLIDATION_20260905.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/TR010_STANDARDS_LOCAL_PREPARATION_20260905.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/WINDOWS_DRY_RUN_FIX_20260905.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "release/WINDOWS_SYMLINK_RECHECK_20260905.md",
+      "verified": true
+    },
+    {
+      "source": "docs/README.md",
+      "target": "../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/REPOSITORY_LAYOUT.md",
+      "target": "../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/REPOSITORY_LAYOUT.md",
+      "target": "research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/REPOSITORY_LAYOUT.md",
+      "target": "../release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "docs/architecture/README.md",
+      "target": "../REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "docs/architecture/README.md",
+      "target": "../research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/architecture/README.md",
+      "target": "../execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "docs/architecture/README.md",
+      "target": "../../shared/standards/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/execution/LOCAL_CHECKS.md",
+      "target": "TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "target": "LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "target": "../legal-review/ILLUSTRATIVE_LEGAL_REVIEW_WORKED_EXAMPLE.md",
+      "verified": true
+    },
+    {
+      "source": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "target": "LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "target": "../release/TR010_STANDARDS_LOCAL_PREPARATION_20260905.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "V2_STANDARDS_RELEASE_NOTES.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "../research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "../../release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "../../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "../execution/LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "V2_STANDARDS_CLEANUP_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "target": "../research/TR010_R02_FINAL_ADJUSTMENTS_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "target": "../research/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "target": "V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "../PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "DOCUMENT_ALLOWLIST.json",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "../../docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "../../docs/research/TR010_R02_EDITORIAL_HANDOFF.json",
+      "verified": true
+    },
+    {
+      "source": "release/provenance/README.md",
+      "target": "../../history_notice.md",
+      "verified": true
+    },
+    {
+      "source": "path_1_tr_corpus_reference/README.md",
+      "target": "../docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "path_1_tr_corpus_reference/README.md",
+      "target": "../docs/research/README.md",
+      "verified": true
+    },
+    {
+      "source": "path_1_tr_corpus_reference/README.md",
+      "target": "../docs/REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "path_2_access_mode_canonical/README.md",
+      "target": "../docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "path_2_access_mode_canonical/README.md",
+      "target": "../docs/research/README.md",
+      "verified": true
+    },
+    {
+      "source": "path_2_access_mode_canonical/README.md",
+      "target": "../docs/REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "path_3_external_custom_adapter/README.md",
+      "target": "../docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "verified": true
+    },
+    {
+      "source": "path_3_external_custom_adapter/README.md",
+      "target": "../docs/research/README.md",
+      "verified": true
+    },
+    {
+      "source": "path_3_external_custom_adapter/README.md",
+      "target": "../docs/REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "docs/legal-review/README.md",
+      "target": "ILLUSTRATIVE_LEGAL_REVIEW_WORKED_EXAMPLE.md",
+      "verified": true
+    },
+    {
+      "source": "docs/legal-review/README.md",
+      "target": "../../release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "docs/legal-review/README.md",
+      "target": "../../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../../release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../../release/provenance/DOCUMENT_ALLOWLIST.json",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../execution/LOCAL_CHECKS.md",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "TR010_R02_FINAL_ADJUSTMENTS_20260906.md",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "TR010_R02_EDITORIAL_HANDOFF.json",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../../history_notice.md",
+      "verified": true
+    },
+    {
+      "source": "docs/research/README.md",
+      "target": "../../release/provenance/README.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "target": "../REPOSITORY_LAYOUT.md",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "target": "../../release/provenance/RELOCATION_INDEX_20260906.json",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "target": "../../release/PAPER_RELEASE_SELECTION.json",
+      "verified": true
+    },
+    {
+      "source": "docs/release/V2_STANDARDS_CLEANUP_20260906.md",
+      "target": "../../release/LOCAL_PACK_PREPARATION_20260906.json",
+      "verified": true
+    }
+  ],
+  "historical_link_boundary": "Original historical record locators are preserved, not rewritten. Relocation aliases resolve archived manuscript references where the bytes were available.",
+  "regression": {
+    "command": "py -3.11 -B -m unittest discover -s .\\tests\\unit -p 'test_*.py' -v",
+    "tests": 56,
+    "passed": 56,
+    "skipped": 0,
+    "failed": 0,
+    "log_archive_relative_path": "unit_tests.txt",
+    "log_sha256": "5033be759b6894d96175f147860c2b01a1dad7be2aaacc5dbd97fedaf6e44116",
+    "cases": [
+      {
+        "test": "test_dry_run_does_not_create_target (test_export_v2_public_release.ExportV2PublicReleaseTests.test_dry_run_does_not_create_target)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_export_normalizes_active_text_and_preserves_historical_bytes (test_export_v2_public_release.ExportV2PublicReleaseTests.test_export_normalizes_active_text_and_preserves_historical_bytes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_non_empty_target_is_rejected (test_export_v2_public_release.ExportV2PublicReleaseTests.test_non_empty_target_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_path_traversal_is_rejected (test_export_v2_public_release.ExportV2PublicReleaseTests.test_path_traversal_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_source_hash_mismatch_fails_closed (test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_hash_mismatch_fails_closed)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_source_symlink_is_rejected_when_supported (test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_symlink_is_rejected_when_supported)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_verify_only_accepts_exact_tree (test_export_v2_public_release.ExportV2PublicReleaseTests.test_verify_only_accepts_exact_tree)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_verify_only_rejects_extra_file (test_export_v2_public_release.ExportV2PublicReleaseTests.test_verify_only_rejects_extra_file)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_held_freeze_writes_no_freeze_outputs (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_held_freeze_writes_no_freeze_outputs)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_held_handoff_does_not_emit_freeze_ready_manifest (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_held_handoff_does_not_emit_freeze_ready_manifest)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_held_registry_update_does_not_modify_registry (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_held_registry_update_does_not_modify_registry)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_latest_handoff_skips_newer_held_package (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_latest_handoff_skips_newer_held_package)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_latest_promotion_skips_newer_held_package (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_latest_promotion_skips_newer_held_package)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_latest_review_skips_newer_held_package (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_latest_review_skips_newer_held_package)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_missing_maturity_is_insufficient_evidence (test_fail_closed_lifecycle.FailClosedLifecycleTests.test_missing_maturity_is_insufficient_evidence)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_changed_added_and_removed_files_fail_inventory_verification (test_package_sealing_v2.PackageSealingV2Tests.test_changed_added_and_removed_files_fail_inventory_verification)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_inventory_and_merkle_root_are_deterministic (test_package_sealing_v2.PackageSealingV2Tests.test_inventory_and_merkle_root_are_deterministic)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_manifest_binding_must_match_seal_request (test_package_sealing_v2.PackageSealingV2Tests.test_manifest_binding_must_match_seal_request)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_signed_seal_metadata_tampering_fails_signature_verification (test_package_sealing_v2.PackageSealingV2Tests.test_signed_seal_metadata_tampering_fails_signature_verification)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_signed_seal_validates_and_wrong_key_fails (test_package_sealing_v2.PackageSealingV2Tests.test_signed_seal_validates_and_wrong_key_fails)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_changed_document_is_rejected (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_changed_document_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_duplicate_document_exception_is_rejected (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_duplicate_document_exception_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_exact_identity_is_read_without_modifying_bytes (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_exact_identity_is_read_without_modifying_bytes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_macros_and_embedded_objects_are_rejected (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_macros_and_embedded_objects_are_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_only_tr010_docx_paths_are_allowed (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_only_tr010_docx_paths_are_allowed)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_traversal_is_rejected (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_traversal_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_valid_exception_is_loaded (test_private_document_allowlist.PrivateDocumentAllowlistTests.test_valid_exception_is_loaded)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_changed_pdf_identity_is_rejected (test_private_document_allowlist.StandardsPdfAllowlistTests.test_changed_pdf_identity_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_invalid_pdf_envelope_is_rejected (test_private_document_allowlist.StandardsPdfAllowlistTests.test_invalid_pdf_envelope_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_missing_registered_pdf_fails_final_check (test_private_document_allowlist.StandardsPdfAllowlistTests.test_missing_registered_pdf_fails_final_check)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_partial_pair_registration_is_rejected (test_private_document_allowlist.StandardsPdfAllowlistTests.test_partial_pair_registration_is_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_pending_conversion_is_not_final_completion (test_private_document_allowlist.StandardsPdfAllowlistTests.test_pending_conversion_is_not_final_completion)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_registered_pair_is_verified_without_changes (test_private_document_allowlist.StandardsPdfAllowlistTests.test_registered_pair_is_verified_without_changes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_unregistered_pdf_is_not_silently_accepted (test_private_document_allowlist.StandardsPdfAllowlistTests.test_unregistered_pdf_is_not_silently_accepted)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_word_and_unselected_pdf_paths_are_rejected (test_private_document_allowlist.StandardsPdfAllowlistTests.test_word_and_unselected_pdf_paths_are_rejected)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_builder_rejects_implicit_multiple_and_invalid_scopes (test_standards_single_scope.SingleScopeContractTests.test_builder_rejects_implicit_multiple_and_invalid_scopes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_creator_requires_one_explicit_scope_without_writes_on_rejection (test_standards_single_scope.SingleScopeContractTests.test_creator_requires_one_explicit_scope_without_writes_on_rejection)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_isolated_cli_rehearsal_records_nine_expected_outcomes (test_standards_single_scope.SingleScopeContractTests.test_isolated_cli_rehearsal_records_nine_expected_outcomes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_legacy_authorization_is_not_automatically_migrated_or_written (test_standards_single_scope.SingleScopeContractTests.test_legacy_authorization_is_not_automatically_migrated_or_written)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_migration_cannot_relabel_operation (test_standards_single_scope.SingleScopeContractTests.test_migration_cannot_relabel_operation)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_preparation_rejects_other_operations_before_registry_access (test_standards_single_scope.SingleScopeContractTests.test_preparation_rejects_other_operations_before_registry_access)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_runner_rejects_relabelled_operation_before_package_access (test_standards_single_scope.SingleScopeContractTests.test_runner_rejects_relabelled_operation_before_package_access)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_schema_and_verifier_agree_on_scope_and_version_rejection (test_standards_single_scope.SingleScopeContractTests.test_schema_and_verifier_agree_on_scope_and_version_rejection)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_sealed_denied_expired_and_mismatched_records_never_enter_backend (test_standards_single_scope.SingleScopeContractTests.test_sealed_denied_expired_and_mismatched_records_never_enter_backend)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_shared_authorization_and_seal_key_rejected_without_outputs (test_standards_single_scope.SingleScopeContractTests.test_shared_authorization_and_seal_key_rejected_without_outputs)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_signed_dataset_binding_mismatches_fail (test_standards_single_scope.SingleScopeContractTests.test_signed_dataset_binding_mismatches_fail)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_signed_deny_has_no_scope_and_never_authorizes (test_standards_single_scope.SingleScopeContractTests.test_signed_deny_has_no_scope_and_never_authorizes)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_unsupported_log_route_leaves_no_run_directory (test_standards_single_scope.SingleScopeContractTests.test_unsupported_log_route_leaves_no_run_directory)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_validity_boundaries_are_inclusive_start_exclusive_expiry (test_standards_single_scope.SingleScopeContractTests.test_validity_boundaries_are_inclusive_start_exclusive_expiry)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_validly_sealed_wrong_scope_is_rejected_for_research_runner (test_standards_single_scope.SingleScopeContractTests.test_validly_sealed_wrong_scope_is_rejected_for_research_runner)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_ed25519_allow_validates_and_tampering_fails (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_ed25519_allow_validates_and_tampering_fails)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_legacy_flags_never_create_v2_scope (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_legacy_flags_never_create_v2_scope)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_legacy_package_migration_creates_authorized_sealed_copy (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_legacy_package_migration_creates_authorized_sealed_copy)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_training_package_and_finetune_reverify_authorization_and_seal (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_training_package_and_finetune_reverify_authorization_and_seal)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_training_package_dry_run_with_dotdot_temp_root (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_training_package_dry_run_with_dotdot_temp_root)",
+        "outcome": "ok"
+      },
+      {
+        "test": "test_training_package_dry_run_with_windows_short_temp_root (test_training_authorization_v2.TrainingAuthorizationV2Tests.test_training_package_dry_run_with_windows_short_temp_root)",
+        "outcome": "ok"
+      }
+    ]
+  },
+  "git_reference": {
+    "repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+    "tag": "v1.0-qpathformer-enterprise",
+    "commit": "0fa94ecf47d698a894bc868545f110570d0dec50",
+    "inspected": "release metadata, tag ref, recursive tree, root README, docs README",
+    "upstream_zip_downloaded_or_audited": false
+  },
+  "limits": [
+    "Owner PDF export and visual review pending.",
+    "Exact PDF registration and applicable rights disposition precede owner sealing.",
+    "No full synthetic CLI rehearsal, model training or CSC scoring performed by this cleanup.",
+    "No Git initialization, commit, tag, ZIP, push or publication.",
+    "Historical results and paper bytes were not revised.",
+    "Limited pattern/header checks are not complete security, legal or PDF-content review."
+  ]
+}

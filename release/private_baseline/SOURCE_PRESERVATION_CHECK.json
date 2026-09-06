@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "changed_source_roots": [],
+  "roots_verified": [
+    "source_baseline",
+    "corrected_candidate",
+    "release_records",
+    "earlier_tr010"
+  ],
+  "total_regular_files": 994,
+  "method": "Before/after path, size and SHA-256 comparison; Git internals excluded."
+}

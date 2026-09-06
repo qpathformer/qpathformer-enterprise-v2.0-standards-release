@@ -1,0 +1,551 @@
+{
+  "format": "tr010r_drafting_sources_v1",
+  "date": "2026-09-05",
+  "scope": "Retained records for documentary comparison plus a separately identified targeted Windows link-capability recheck; no historical run replay or legal review.",
+  "sources": [
+    {
+      "id": "E01",
+      "title": "Companion manuscript R04",
+      "evidence_class": "Editorial reference",
+      "files": [
+        {
+          "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+          "bytes": 570411,
+          "sha256": "a6ceb060ad18cacc55588ddfe0c0831342b49d7fed9be9aa6cabe8404ec42e06"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "History and provenance notice",
+      "evidence_class": "Dated historical notice",
+      "files": [
+        {
+          "path": "history_notice.md",
+          "bytes": 9738,
+          "sha256": "ea115bbb3931cfb67ec35f2ad1af775857e3dac474d66881b059af75249ed080"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "September unit test log",
+      "evidence_class": "Retained executed test log",
+      "files": [
+        {
+          "path": "evidence/v2_validation/standards_consolidation_20260905/unit_tests.txt",
+          "bytes": 8114,
+          "sha256": "179f385a489fba9e20456fa88d1a703ad4bd51efa400abb783223dc93bb93f85"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "September synthetic CLI rehearsal",
+      "evidence_class": "Retained executed subprocess results",
+      "files": [
+        {
+          "path": "evidence/v2_validation/standards_consolidation_20260905/rehearsal.json",
+          "bytes": 19567,
+          "sha256": "e58f4bb12c55f13fdd5b35f497b5aaee632055b4e43a1d2872711bef5c28d93d"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "September recorded environment",
+      "evidence_class": "Retained environment record",
+      "files": [
+        {
+          "path": "evidence/v2_validation/standards_local_20260905/environment.json",
+          "bytes": 959,
+          "sha256": "08df62492771ddc77917bba47a16baa9381a79d6440ea565ea6d1fd954c702e9"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "title": "September source captures",
+      "evidence_class": "Point-in-time source identities",
+      "files": [
+        {
+          "path": "evidence/v2_validation/standards_local_20260905/source_inventory.json",
+          "bytes": 52211,
+          "sha256": "d32c15c8d45e4bbf5d50c07ab2926d186a0b9c63e53e194776f8dd42ad4e2a57"
+        },
+        {
+          "path": "release/provenance/standards_consolidation_20260905/SOURCE_CAPTURE.json",
+          "bytes": 54596,
+          "sha256": "77188c4c9b073ab0a8c6c97a308509f7bc7fcb74ba4c30675dcd78cd1d0f699a"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "Current implementation and tests",
+      "evidence_class": "Read-only implementation context",
+      "files": [
+        {
+          "path": "scripts/training_authorization.py",
+          "bytes": 17170,
+          "sha256": "dd96032fbe96b4a4fee78400818f3e59b424e3d79071f6d6adb2aced9dc6505a"
+        },
+        {
+          "path": "scripts/package_sealing.py",
+          "bytes": 16946,
+          "sha256": "48ed6822ca1881d18628b89ac7f5a14d81e25aa4666aa1e3c472e82872eda086"
+        },
+        {
+          "path": "scripts/create_training_authorization_v2.py",
+          "bytes": 5691,
+          "sha256": "65ce0c90e74ea93583fb3fcce59b62791d2197cd2104dd910ef8a51942725a01"
+        },
+        {
+          "path": "scripts/migrate_training_package_authorization_v2.py",
+          "bytes": 12074,
+          "sha256": "1ca98a7cb89c3001aa0781ea33402f7fd402654ebb344f409d2f0a6e20a1a19c"
+        },
+        {
+          "path": "scripts/run_training_state1.py",
+          "bytes": 38726,
+          "sha256": "ef74ef423711b9605838389ff41ef38a1acc4ebacf45b057cc244503718eb743"
+        },
+        {
+          "path": "scripts/run_state1_finetune_local_lora.py",
+          "bytes": 64046,
+          "sha256": "88e7d22be7a1372a92cc73de07695028ce342af1152cb1509a477ea2999a5bb6"
+        },
+        {
+          "path": "shared/schemas/authorization/training_authorization_v2.schema.json",
+          "bytes": 3968,
+          "sha256": "2fb917523f61e4c7d7d25f7361f777e1238b00b0e893a9cbee9ef5dc598af405"
+        },
+        {
+          "path": "shared/schemas/authorization/package_seal_v2.schema.json",
+          "bytes": 3154,
+          "sha256": "27fb2f9b6b50f58c60bb1f155925f78aae9cf6180a37ed57c3dce665f465f2d3"
+        },
+        {
+          "path": "tools/rehearse_standards_release.py",
+          "bytes": 11831,
+          "sha256": "5890b3e9c585e2a6bde16ec90df1611482da08efd2f8db75ee965ebee7da59da"
+        },
+        {
+          "path": "tools/standards_rehearsal_child.py",
+          "bytes": 1154,
+          "sha256": "c13841579160df1442e5000612f5b4bee7c175ac9b52e89198398bea99f05cae"
+        },
+        {
+          "path": "tests/unit/test_export_v2_public_release.py",
+          "bytes": 5539,
+          "sha256": "b7d26a4e5ec0f3eb64f056bae259c0fad978dc8c21ae62ba2ee23e45703a92dd"
+        },
+        {
+          "path": "tests/unit/test_fail_closed_lifecycle.py",
+          "bytes": 15162,
+          "sha256": "a86b53639676e5bb76d5dbaf133c9338ba09a4325cf12bb587f680763f963058"
+        },
+        {
+          "path": "tests/unit/test_package_sealing_v2.py",
+          "bytes": 7628,
+          "sha256": "abce9edfe064772bbae71d76adbefad63f4055dab9180f95bd7342336843d589"
+        },
+        {
+          "path": "tests/unit/test_private_document_allowlist.py",
+          "bytes": 4017,
+          "sha256": "9a35cceede377b2451935566024deff7d17975e8e75ac7ea50036ac0c6f893ce"
+        },
+        {
+          "path": "tests/unit/test_standards_single_scope.py",
+          "bytes": 18002,
+          "sha256": "ad451f445ea9109d4ebd006b0e10417fbfb09197387c1656c825aa7abcc69f85"
+        },
+        {
+          "path": "tests/unit/test_training_authorization_v2.py",
+          "bytes": 22635,
+          "sha256": "5f94042282c9447450165b9efb482df97af6de6d297a942669a60a2d482ef152"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "Current reviewer commands and pins",
+      "evidence_class": "Reproduction guidance",
+      "files": [
+        {
+          "path": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+          "bytes": 5836,
+          "sha256": "af466dcbd3484d917f1a444aacd6ce646f06c47ff96800d27087efd2b854974a"
+        },
+        {
+          "path": "requirements-release.txt",
+          "bytes": 153,
+          "sha256": "8d4000cba762b2b7d1795c39b8005b69b99411672bafc9b2b10213c56be7d69e"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "title": "September consolidation checks",
+      "evidence_class": "Retained selection verification",
+      "files": [
+        {
+          "path": "evidence/v2_validation/standards_consolidation_20260905/selection_checks.json",
+          "bytes": 13919,
+          "sha256": "b5d12c30d1d5278db30935d79ef9e87e3f701b1ba0ac5af6bc119c1b8aba2be2"
+        },
+        {
+          "path": "evidence/v2_validation/standards_consolidation_20260905/workspace_verification.json",
+          "bytes": 1031,
+          "sha256": "0b158f1f52b6a73435e713cc7f4f6460113499926598bc81e7cfded632a8df2d"
+        },
+        {
+          "path": "docs/release/LOCAL_STANDARDS_CONSOLIDATION_20260905.md",
+          "bytes": 6050,
+          "sha256": "3050e6226711614d37ba30cf5f8a087561937eda16745556e85151b50383a140"
+        },
+        {
+          "path": "docs/release/TR010_STANDARDS_LOCAL_PREPARATION_20260905.md",
+          "bytes": 7316,
+          "sha256": "49ea126632374ae9585f625281e5d19fb55788f3d886ea30138dd4ac762fd398"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "title": "July results and v1 comparison source",
+      "evidence_class": "Historical narrative summary",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/TR010_DRAFTING/QPATHFORMER_V2_TR010_RESULTS_AND_V1_COMPARISON.md",
+          "bytes": 17253,
+          "sha256": "32cfcbe2231a4e274470435e5166233437f43f3b6715e81ac3f02caff47568fa"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "title": "July deterministic export rehearsal",
+      "evidence_class": "Historical verification report",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/M06/V2_EXPORT_REHEARSAL_REPORT.json",
+          "bytes": 3829,
+          "sha256": "414d24ccea740c4a93a9cbdedee7f369e0a1487ca72782d89e450faa61357ead"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "July corrected M10",
+      "evidence_class": "Historical verification report",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/M10/V2_M10_RERUN_AFTER_M12_REMEDIATION_REPORT.json",
+          "bytes": 2870,
+          "sha256": "4252fa6ee78f8aaa295e29afb61304567d07b3eca631a17d89682b0de5877741"
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "title": "July corrected M11",
+      "evidence_class": "Historical candidate identity",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/M11/V2_M11_REBUILD_AFTER_M12_REMEDIATION_REPORT.json",
+          "bytes": 3676,
+          "sha256": "103abc3310ef993f4f7c1140401942dae08826513e2af380acf236848257be52"
+        },
+        {
+          "path": "release/provenance/historical_records/M11/m11_rebuild_frozen_tree_verification.json",
+          "bytes": 1451,
+          "sha256": "0777cd368a985081f9b64c27cd325f8f02e0fa6082ade0ae12e6b994046ec042"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "title": "July M12 review and remediation scope",
+      "evidence_class": "Historical human and technical records",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/M12/HUMAN_RELEASE_REVIEW_20260718.md",
+          "bytes": 3215,
+          "sha256": "8d94eec095c9a5e5a0c7724fc1dbe5fdfdbc56693105dfff2adca7abadfebc9d"
+        },
+        {
+          "path": "release/provenance/historical_records/M12/M12_REMEDIATION_AUTHORIZATION_20260718.md",
+          "bytes": 1131,
+          "sha256": "8d7d66b9e3bb751d5ea3a592579c67fa87b67aae8f58ef4f161ddc36a4e7f2db"
+        },
+        {
+          "path": "release/provenance/historical_records/M12/V2_M12_TECHNICAL_REVIEW_REPORT.json",
+          "bytes": 7146,
+          "sha256": "a34f34c361a3cca997e93b215ca3d7e7b80da011afc086394c561a06a7065b6d"
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "title": "Historical v1 CSC qualification",
+      "evidence_class": "Historical qualification and source manifest",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/M08/V2_M08_V1_CSC_EVIDENCE_QUALIFICATION_REPORT.json",
+          "bytes": 4959,
+          "sha256": "e2dc751d8c225dec56c7f6049b169cb88c9567612d2975a21da68c5aac380fc1"
+        },
+        {
+          "path": "release/provenance/historical_records/M08/V1_CSC_EVIDENCE_MANIFEST.json",
+          "bytes": 72387,
+          "sha256": "e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f"
+        }
+      ]
+    },
+    {
+      "id": "E16",
+      "title": "Historical vendor equivalence and selected subset",
+      "evidence_class": "Historical resolution and current selection",
+      "files": [
+        {
+          "path": "release/provenance/STANDARDS_SUBSET.json",
+          "bytes": 4725,
+          "sha256": "6977277d5f4e2c08b32e8294ed9521e228bae87d5a37d734d8b17f0ff5764cb7"
+        },
+        {
+          "path": "release/provenance/historical_records/M09/V2_M09_CANONICAL_EQUIVALENCE_RESOLUTION_REPORT.json",
+          "bytes": 7181,
+          "sha256": "4925969454d1905cabfb0a721c631c320fb2c47891771c216c89c708b826dd2c"
+        }
+      ]
+    },
+    {
+      "id": "E17",
+      "title": "Separate CSC governance snapshot contract",
+      "evidence_class": "Design baseline not active scoring",
+      "files": [
+        {
+          "path": "release/provenance/historical_candidate/release/V2_CSC_GOVERNANCE_SNAPSHOT_CONTRACT.json",
+          "bytes": 6485,
+          "sha256": "69bd51ee94c8562b261b4a89c06911b32c432dc7e10b053e1f23510c11a5daf7"
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "title": "Illustrative legal review",
+      "evidence_class": "Fictional documentation fixture",
+      "files": [
+        {
+          "path": "docs/legal-review/ILLUSTRATIVE_LEGAL_REVIEW_WORKED_EXAMPLE.md",
+          "bytes": 6873,
+          "sha256": "62789578292cc854f59f72564e58371051920276b1cda21985b35144203529af"
+        },
+        {
+          "path": "tests/fixtures/synthetic/legal_review/review_record.json",
+          "bytes": 2281,
+          "sha256": "79a0c8b87b779c8c33584555aee1817eeb430dfc6977ad828170cfee4cf7ee24"
+        },
+        {
+          "path": "tests/fixtures/synthetic/legal_review/materials.json",
+          "bytes": 635,
+          "sha256": "c1cc00f01cfdaac35258535e1debd8857b1143266d9d4b2664467f442c1f079b"
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "title": "Legal status and external references",
+      "evidence_class": "Status records not a new legal opinion",
+      "files": [
+        {
+          "path": "docs/legal-review/README.md",
+          "bytes": 1587,
+          "sha256": "534b1b4f0a168e76d96e7c470b058fccbdd3a30d49a22588d73baefa7db9f8ca"
+        },
+        {
+          "path": "release/provenance/EXTERNAL_REFERENCES.json",
+          "bytes": 1801,
+          "sha256": "c70285e3295cb341229ba03168f1c18b9171a3288878310ea27603336342ab9c"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 137,
+          "sha256": "fd846602e82b4948ebaefd3186a43b131fd5845d6b2a556e94512362347d3340"
+        },
+        {
+          "path": "NOTICE.md",
+          "bytes": 1019,
+          "sha256": "ede63a6ee6c2d76a5efdf5e5945ccc853e4a1a024d61c4a7e11280f33cc1c93d"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 1835,
+          "sha256": "50bb796de3da13c45c154c6655d1007c160ce13e672ae9912f84df1d9b3b1532"
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "title": "Pre-drafting editorial identity",
+      "evidence_class": "Local point-in-time file identity",
+      "files": [
+        {
+          "path": "release/provenance/development_slices/TR010_R04_TABLES_20260905.json",
+          "bytes": 64834,
+          "sha256": "40e7b604469c8647bf8aadd6a09743a25b66c41595ffc4f520685d77ea7747c7"
+        },
+        {
+          "path": "evidence/v2_validation/tr010_r04_tables_20260905/manuscript_verification.json",
+          "bytes": 2170,
+          "sha256": "4c91e94f80bb08a16842d9efcc419c41f6dee97004f8160c9160a89ce0a3b5c5"
+        }
+      ]
+    },
+    {
+      "id": "E21",
+      "title": "Windows dry-run investigation",
+      "evidence_class": "Earlier September test-fixture results",
+      "files": [
+        {
+          "path": "docs/release/WINDOWS_DRY_RUN_FIX_20260905.md",
+          "bytes": 5342,
+          "sha256": "2b1d023903a2c9ff4334a7f23b29bec486a2669b3913dbbfb1b163c432803a5e"
+        },
+        {
+          "path": "evidence/v2_validation/windows_dryrun_20260905_unit_tests.txt",
+          "bytes": 5391,
+          "sha256": "06072991f2c99d62ab5caae34ffc092c1ba44049845ea34eb30cd40f2e7369ec"
+        }
+      ]
+    },
+    {
+      "id": "E22",
+      "title": "Historical data selection boundary",
+      "evidence_class": "Explicitly unpopulated historical data stage",
+      "files": [
+        {
+          "path": "evidence/historical_v1/README.md",
+          "bytes": 346,
+          "sha256": "4b5b1128522ec970d1980b5be11f0b5e73ed68e4ae734b3fcd5b45ba4f8d60a0"
+        }
+      ]
+    },
+    {
+      "id": "E23",
+      "title": "Retained July publication records",
+      "evidence_class": "Historical listed-file and checksum identities",
+      "files": [
+        {
+          "path": "release/provenance/historical_candidate/release/PUBLICATION_INVENTORY.json",
+          "bytes": 78787,
+          "sha256": "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+        },
+        {
+          "path": "release/provenance/historical_candidate/release/SHA256SUMS.txt",
+          "bytes": 54003,
+          "sha256": "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75"
+        }
+      ]
+    },
+    {
+      "id": "E24",
+      "title": "Historical milestone sequence",
+      "evidence_class": "Historical release-process narrative",
+      "files": [
+        {
+          "path": "release/provenance/historical_records/TR010_DRAFTING/QPATHFORMER_V2_TR010_RELEASE_PROCESS.md",
+          "bytes": 22443,
+          "sha256": "518b5f6472c06ef7f500782de1c43507710fc64199f441d0656fd1c8991474a8"
+        }
+      ]
+    },
+    {
+      "id": "E25",
+      "title": "Targeted Windows symbolic link recheck",
+      "evidence_class": "Current targeted diagnostic, one test attempted and skipped",
+      "files": [
+        {
+          "path": "evidence/v2_validation/windows_symlink_recheck_20260905/symlink_recheck.json",
+          "bytes": 2163,
+          "sha256": "3452d7761057780b07694fe769b65155f7680be32f3eb86ba475f18eecbaf74e"
+        }
+      ]
+    }
+  ],
+  "current_rehearsal_source_bindings": [
+    {
+      "path": "scripts/crypto_keys.py",
+      "recorded_sha256": "72247447266e0b16e1993b4f563fc0f189faa12ec5d89bfbc2fbe96a530654d3",
+      "current_sha256": "72247447266e0b16e1993b4f563fc0f189faa12ec5d89bfbc2fbe96a530654d3",
+      "matched": true
+    },
+    {
+      "path": "scripts/package_sealing.py",
+      "recorded_sha256": "48ed6822ca1881d18628b89ac7f5a14d81e25aa4666aa1e3c472e82872eda086",
+      "current_sha256": "48ed6822ca1881d18628b89ac7f5a14d81e25aa4666aa1e3c472e82872eda086",
+      "matched": true
+    },
+    {
+      "path": "scripts/path_layout.py",
+      "recorded_sha256": "a5abc4dadb5a1c87ba9255adc20579a65fb7f3cbcde990e1974f1fe6d4afca30",
+      "current_sha256": "a5abc4dadb5a1c87ba9255adc20579a65fb7f3cbcde990e1974f1fe6d4afca30",
+      "matched": true
+    },
+    {
+      "path": "scripts/training_authorization.py",
+      "recorded_sha256": "dd96032fbe96b4a4fee78400818f3e59b424e3d79071f6d6adb2aced9dc6505a",
+      "current_sha256": "dd96032fbe96b4a4fee78400818f3e59b424e3d79071f6d6adb2aced9dc6505a",
+      "matched": true
+    },
+    {
+      "path": "scripts/generate_ed25519_keypair_v2.py",
+      "recorded_sha256": "afbc232716effa26f195df5fdf4edf281e3074021fd614f29ba049a83eaebe4d",
+      "current_sha256": "afbc232716effa26f195df5fdf4edf281e3074021fd614f29ba049a83eaebe4d",
+      "matched": true
+    },
+    {
+      "path": "scripts/create_training_authorization_v2.py",
+      "recorded_sha256": "65ce0c90e74ea93583fb3fcce59b62791d2197cd2104dd910ef8a51942725a01",
+      "current_sha256": "65ce0c90e74ea93583fb3fcce59b62791d2197cd2104dd910ef8a51942725a01",
+      "matched": true
+    },
+    {
+      "path": "scripts/run_training_state1.py",
+      "recorded_sha256": "ef74ef423711b9605838389ff41ef38a1acc4ebacf45b057cc244503718eb743",
+      "current_sha256": "ef74ef423711b9605838389ff41ef38a1acc4ebacf45b057cc244503718eb743",
+      "matched": true
+    },
+    {
+      "path": "scripts/run_state1_finetune_local_lora.py",
+      "recorded_sha256": "88e7d22be7a1372a92cc73de07695028ce342af1152cb1509a477ea2999a5bb6",
+      "current_sha256": "88e7d22be7a1372a92cc73de07695028ce342af1152cb1509a477ea2999a5bb6",
+      "matched": true
+    },
+    {
+      "path": "tools/standards_rehearsal_child.py",
+      "recorded_sha256": "c13841579160df1442e5000612f5b4bee7c175ac9b52e89198398bea99f05cae",
+      "current_sha256": "c13841579160df1442e5000612f5b4bee7c175ac9b52e89198398bea99f05cae",
+      "matched": true
+    },
+    {
+      "path": "tools/rehearse_standards_release.py",
+      "recorded_sha256": "5890b3e9c585e2a6bde16ec90df1611482da08efd2f8db75ee965ebee7da59da",
+      "current_sha256": "5890b3e9c585e2a6bde16ec90df1611482da08efd2f8db75ee965ebee7da59da",
+      "matched": true
+    },
+    {
+      "path": "shared/configs/training_backend_profile.local_lora.json",
+      "recorded_sha256": "d86f8aa0c69de3b9fdf4540af5fd0c7e8f5f4d7ff4dfc7cd758307b2c6c4c5ea",
+      "current_sha256": "d86f8aa0c69de3b9fdf4540af5fd0c7e8f5f4d7ff4dfc7cd758307b2c6c4c5ea",
+      "matched": true
+    }
+  ],
+  "exclusions": [
+    "Open Word owner files beginning ~$ are transient, not report sources or release content.",
+    "Original v1 training/run binaries and the full historical candidate were not re-imported or reverified."
+  ],
+  "signed": false,
+  "official_release": false
+}

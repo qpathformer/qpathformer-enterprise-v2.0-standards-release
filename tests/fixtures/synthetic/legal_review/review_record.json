@@ -1,0 +1,48 @@
+{
+  "record_format": "qpath_illustrative_rights_review_v0.1",
+  "record_id": "EXAMPLE-RIGHTS-REVIEW-001",
+  "example_only": true,
+  "not_legal_advice": true,
+  "real_practitioner_review_completed": false,
+  "documented_on": "2026-09-05",
+  "subject": {
+    "organization": "Example Research Unit (fictional)",
+    "fixture_id": "SYNTHETIC-LEGAL-REVIEW-MATERIALS-001",
+    "repository_relative_path": "tests/fixtures/synthetic/legal_review/materials.json",
+    "sha256": "c1cc00f01cfdaac35258535e1debd8857b1143266d9d4b2664467f442c1f079b",
+    "record_count": 4,
+    "proposed_operation": "validation_parameter_update",
+    "proposed_location": "private local workstation",
+    "jurisdiction_to_investigate": "New South Wales, Australia; hypothetical only, not a legal analysis"
+  },
+  "reviewer": {
+    "role_id": "FICTIONAL-PRACTITIONER-ROLE",
+    "verified_person": null,
+    "practising_certificate_verified": false,
+    "engagement_executed": false,
+    "signature": null
+  },
+  "illustrative_assumptions": [
+    "A fictional organization commissions the statements and can establish the necessary rights; no real rights conclusion is recorded.",
+    "Only the identified generic fixture is in scope; no client dataset or historical TR publication is reviewed."
+  ],
+  "illustrative_conditions": [
+    "Obtain actual evidence supporting the proposed use before a real legal conclusion.",
+    "Limit any later separately authorized activity to the identified material and named operation.",
+    "Do not transfer material to an external provider, release a model or deploy it under this example.",
+    "Reassess material, purpose, jurisdiction, recipient or relevant terms when they change.",
+    "Keep confidential advice outside Git and approve any bounded summary separately."
+  ],
+  "simulated_review_status": "ILLUSTRATIVE_CONDITIONS_RECORDED",
+  "actual_review_status": "HOLD_PENDING_REAL_REVIEW",
+  "actual_organizational_disposition": "NOT_AUTHORIZED_FOR_REAL_OPERATION",
+  "actual_training_authorization_issued": false,
+  "runtime_consumes_this_record": false,
+  "does_not_clear": [
+    "actual standards-release distribution schedule",
+    "TR010 or historical TR papers",
+    "standards extracts",
+    "code, dependency or model licences",
+    "client materials"
+  ]
+}

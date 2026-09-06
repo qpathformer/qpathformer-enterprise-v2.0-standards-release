@@ -1,0 +1,8 @@
+# Preserve imported and historical bytes across Git checkouts.
+# New manually authored files use LF; no checkout normalization is performed.
+* -text
+*.py diff=python
+*.pdf binary
+*.docx binary
+*.zip binary
+*.safetensors binary

@@ -1,0 +1,122 @@
+{
+  "format": "tr010r_d04_editorial_verification_v1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "scope": "Reader overview and relocation of the historical map only; no new execution evidence or gates.",
+  "document": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+    "bytes": 115779,
+    "sha256": "83d055e63c6a14e6ea8d3ed980b77dcd27ce01d0b3096126050c3564bc06d767",
+    "pages": 30
+  },
+  "source_document_sha256": "13c13b4b79904bbce9aaee50f1cac867d4de5e247a38c11476d8d9184abeca35",
+  "source_document_preserved": true,
+  "reader_page": 3,
+  "contents_pages": [
+    4,
+    5
+  ],
+  "historical_map_pages": [
+    29,
+    30
+  ],
+  "reader_paragraphs": [
+    "What TR010 and TR010 R explain",
+    "TR010 explains the design: how a system checks recorded permission before an operation and detects changes to a protected package. TR010-R is its results companion: what was tested, what happened and what remains unproven. Together they let readers examine the method and its evidence, rather than accept a claim of success alone. [E01, E26]",
+    "The central question is simple: does preparing a dataset mean it may now be used? The answer is no. Readiness, recorded permission and intact files are different checks. A valid signature does not establish legal rights or human authority. [E01, E07]",
+    "The current synthetic demonstration",
+    "Synthetic dataset \u2192 one-operation authorization \u2192 sealed package \u2192 valid dry run and rejection tests \u2192 verification report",
+    "This is an isolated software test, not the full Path 1-3 workflow. It starts with an already prepared synthetic dataset and registry. [E04, E08]",
+    "Synthetic dataset. Four made-up records let reviewers test the controls without using the historical paper corpus or client data.",
+    "One-operation authorization. A signed test record names one permitted operation. It is not permission for every possible use of the data.",
+    "Sealed package. A separate signing key binds the package's file list and hashes so that altered contents can be detected.",
+    "Valid dry run and rejection tests. A correctly bound package passes the dry run without loading a model. Separate wrong-scope and tampering cases must stop; rejection is their expected result.",
+    "Verification report. The report records the nine detailed outcomes and file identities. This five-part overview groups those steps; it adds no test or approval. [E04, E08]",
+    "Background from TR007 to TR010",
+    "TR007 explains dataset passports, origins, containment and controlled lifecycle movement. TR008 explains signal exchange and routing. TR009 explains session-bound governance evidence and its limits. TR010 strengthens the checks between prepared data and a named operation; TR010-R shows the verification evidence and comparison with v1.0. This is a progression of ideas, not a command sequence. [E01, E26]",
+    "Keep the three views separate. The flow above explains the current test. TR007-TR010 explains the paper background. Appendix B records the historical July release milestones. Neither the flow nor the milestone arrows grant permission, establish lawyer review or introduce new release gates."
+  ],
+  "bounded_replacements": [
+    {
+      "old": "Edition: Local drafting edition D03 with the clarified milestone map and targeted test recheck.",
+      "new": "Edition: Local drafting edition D04 with a reader overview and historical milestone appendix."
+    },
+    {
+      "old": "Appendix A identifies 25 source groups.",
+      "new": "Appendix A identifies 26 source groups."
+    },
+    {
+      "old": "records 59 file references",
+      "new": "records 60 file references"
+    },
+    {
+      "old": "TR010-R D03 has its own Markdown source",
+      "new": "TR010-R D04 has its own Markdown source"
+    },
+    {
+      "old": "evidence/v2_validation/tr010_results_d03_20260905",
+      "new": "evidence/v2_validation/tr010_results_d04_20260905"
+    }
+  ],
+  "map_replacements": [
+    {
+      "old": "The milestone map in plain language",
+      "new": "Appendix B Historical July release milestones"
+    },
+    {
+      "old": "The milestone map continued",
+      "new": "Historical July milestones continued"
+    }
+  ],
+  "map_scope_added": "This is the July release-preparation sequence and its recorded future work, not the current synthetic demonstration. It preserves the historical checkpoints without restarting them. [E24]",
+  "added_catalogue_paragraphs": [
+    "[E26] Standards review purpose and paper progression",
+    "Recorded standards-review plan. Used for purpose and TR007-TR010 background, not as evidence that planned work executed.",
+    "docs/release/",
+    "TR010_STANDARDS_REVIEW_DEVELOPMENT_RELEASE_PLAN.md"
+  ],
+  "original_narrative_recovered_by_reversing_recorded_changes": true,
+  "map_milestone_labels_explanations_and_historical_statuses_preserved": true,
+  "verified_body_and_cell_paragraphs": 544,
+  "tables_unchanged": 11,
+  "page_geometry_preserved": true,
+  "source_groups_verified": 26,
+  "source_file_references_verified": 60,
+  "toc_pagerefs_verified": 44,
+  "command_blocks_unchanged": true,
+  "rendered_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "new_runtime_tests_or_model_execution": false,
+  "actual_lawyer_review_completed": false,
+  "release_action_performed": false
+}

@@ -1,0 +1,33 @@
+{
+  "format": "operator_reported_symlink_result_v1",
+  "recorded_for_editorial_update": "2026-09-06",
+  "evidence_class": "USER_SUPPLIED_CONSOLE_EXCERPT_NOT_AGENT_RERUN",
+  "exact_execution_timestamp": null,
+  "execution_timestamp_limit": "Not supplied; editorial record date is not asserted as the exact test date or time.",
+  "command_normalized": "py -3.11 -B -m unittest discover -s .\\tests\\unit -p test_export_v2_public_release.py -k test_source_symlink_is_rejected_when_supported -v",
+  "test_id": "test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_symlink_is_rejected_when_supported",
+  "reported_result": {
+    "tests": 1,
+    "passed": 1,
+    "skipped": 0,
+    "failed": 0,
+    "elapsed_seconds": 0.01,
+    "final_status": "OK"
+  },
+  "reported_conditions": {
+    "developer_mode_enabled": true,
+    "administrator_powershell": true
+  },
+  "console_excerpt": "test_source_symlink_is_rejected_when_supported (test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_symlink_is_rejected_when_supported) ... ok\nRan 1 test in 0.010s\nOK",
+  "operator_context_verbatim": "i turned developer mode on in settings - then in admin PS i executed the command.",
+  "limitations": [
+    "Not independently rerun or machine-attested.",
+    "No non-elevated pass established. Both reported settings do not establish that both were necessary.",
+    "No full-suite pass established. Prior logs remain unchanged.",
+    "Source hashes inspected today are not hashes captured at operator test time."
+  ],
+  "previous_evidence": [
+    "evidence/v2_validation/standards_consolidation_20260905/unit_tests.txt",
+    "evidence/v2_validation/windows_symlink_recheck_20260905/symlink_recheck.json"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "document_id": "QPATH-V2-M09-V1-STANDARDS-VENDOR-001",
+  "version": "2.0",
+  "generated_at_utc": "2026-07-17T23:22:06Z",
+  "vendor_root": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a",
+  "manifest_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/manifest_v1a_pack.json",
+  "manifest_pack_id": "APOD-TR-002",
+  "manifest_pack_version": "v1a-pack",
+  "verification_outcome": "PASS_CANONICAL_EQUIVALENCE",
+  "release_treatment": "ACCEPTED_CANONICAL_EQUIVALENCE",
+  "summary": {
+    "manifest_entry_count": 9,
+    "byte_exact_entry_count": 3,
+    "canonical_lf_entry_count": 6,
+    "verified_entry_count": 9,
+    "unresolved_entry_count": 0,
+    "missing_entry_count": 0,
+    "nested_license_present": true,
+    "nested_license_byte_exact": true,
+    "all_physical_target_files_match_immutable_v1_enterprise_tag": true
+  },
+  "canonical_equivalence_policy": {
+    "allowed_transform": "Replace each CRLF byte sequence 0D0A with LF byte 0A.",
+    "applies_only_when_physical_manifest_hash_mismatches": true,
+    "prohibited_transforms": [
+      "JSON reserialization",
+      "field reordering",
+      "whitespace trimming",
+      "Unicode normalization",
+      "content rewriting",
+      "PDF reconstruction"
+    ],
+    "verification_rule": "The transformed bytes must reproduce both the exact manifest byte count and SHA-256.",
+    "historical_byte_rule": "Retain the physical v1 enterprise bytes; record physical and canonical identities separately."
+  },
+  "historical_provenance": {
+    "immutable_v1_tag": "v1.0-qpathformer-enterprise",
+    "immutable_v1_commit": "0fa94ecf47d698a894bc868545f110570d0dec50",
+    "immutable_v1_tree": "03fe111643e2c127e0446d8a36624cfc594cfee0",
+    "physical_verification": "Each retained target file was byte-compared with the corresponding path in the immutable v1 enterprise tag during M08.",
+    "upstream_manifest_verification": "Three files match physically and six reproduce the original v1a manifest exactly after the single allowed CRLF-to-LF transform."
+  },
+  "entries": [
+    {
+      "relative_path": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "manifest_bytes": 547992,
+      "physical_bytes": 547992,
+      "manifest_sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+      "physical_sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+      "verification_status": "BYTE_MATCH",
+      "canonicalization": "none"
+    },
+    {
+      "relative_path": "catalogs/csc_metric_catalog_v1a.json",
+      "manifest_bytes": 38949,
+      "physical_bytes": 40741,
+      "manifest_sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632",
+      "physical_sha256": "fefdea2d2b44a8b9056b88146dc5c673ff1c83b01d215ad5f748024c81a30b29",
+      "crlf_sequence_count": 1792,
+      "canonical_bytes": 38949,
+      "canonical_sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    },
+    {
+      "relative_path": "docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "manifest_bytes": 4347,
+      "physical_bytes": 4440,
+      "manifest_sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f",
+      "physical_sha256": "1244a73c8351e275120c299b344ee4acb91046ee31ac188684df3159623f4994",
+      "crlf_sequence_count": 93,
+      "canonical_bytes": 4347,
+      "canonical_sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    },
+    {
+      "relative_path": "examples/example_csc_certificate_v1a.json",
+      "manifest_bytes": 6350,
+      "physical_bytes": 6591,
+      "manifest_sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1",
+      "physical_sha256": "12e6f1033c32f514b3ecf43d2992c5cbd4348e8afa25d642a277307d817dbcc9",
+      "crlf_sequence_count": 241,
+      "canonical_bytes": 6350,
+      "canonical_sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    },
+    {
+      "relative_path": "LICENSE",
+      "manifest_bytes": 1115,
+      "physical_bytes": 1115,
+      "manifest_sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "physical_sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "verification_status": "BYTE_MATCH",
+      "canonicalization": "none"
+    },
+    {
+      "relative_path": "profiles/csc_sector_profiles_v1a.json",
+      "manifest_bytes": 1546,
+      "physical_bytes": 1604,
+      "manifest_sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f",
+      "physical_sha256": "653d8d27678b454d59acdbe444349d3194830caaf9bfc47d96d9581d80937204",
+      "crlf_sequence_count": 58,
+      "canonical_bytes": 1546,
+      "canonical_sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    },
+    {
+      "relative_path": "README.md",
+      "manifest_bytes": 2682,
+      "physical_bytes": 2682,
+      "manifest_sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80",
+      "physical_sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80",
+      "verification_status": "BYTE_MATCH",
+      "canonicalization": "none"
+    },
+    {
+      "relative_path": "schemas/csc_metric_catalog_schema_v1a.json",
+      "manifest_bytes": 1887,
+      "physical_bytes": 1967,
+      "manifest_sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2",
+      "physical_sha256": "e62ade4a2f78447ce81fc4fb9b58946765276cdec3be36cc8bbdc7c68c0f28da",
+      "crlf_sequence_count": 80,
+      "canonical_bytes": 1887,
+      "canonical_sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    },
+    {
+      "relative_path": "schemas/csc-certificate.schema_v1a.json",
+      "manifest_bytes": 18576,
+      "physical_bytes": 19390,
+      "manifest_sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34",
+      "physical_sha256": "ae04a0426be668794b462f5ad2582be7be818e54e5de11af7683aef58538ba30",
+      "crlf_sequence_count": 814,
+      "canonical_bytes": 18576,
+      "canonical_sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34",
+      "verification_status": "CANONICAL_LF_MATCH",
+      "canonicalization": "CRLF_TO_LF"
+    }
+  ],
+  "human_release_decision": {
+    "decision": "retain_all_six_canonical_equivalent_files",
+    "authority": "Anthony Siljeg, human release authority",
+    "recorded_at_utc": "2026-07-17T23:22:06Z",
+    "conditions": [
+      "Preserve the physical historical bytes.",
+      "Disclose physical and canonical hashes.",
+      "Do not treat canonical equivalence as a new scoring version.",
+      "Keep the enterprise governance snapshot separate from the v1a contract layer."
+    ]
+  }
+}

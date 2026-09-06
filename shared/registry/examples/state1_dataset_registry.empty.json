@@ -1,0 +1,7 @@
+{
+  "registry_id": "replace-at-initialization",
+  "registry_scope": "STATE_1",
+  "entries": [],
+  "updated_at_utc": null,
+  "registry_note": "Portable empty example. Copy to state1_dataset_registry.json before use or allow the lifecycle tool to initialize the registry."
+}

@@ -1,0 +1,2100 @@
+{
+  "record_type": "Local standards file relocation; not a release seal",
+  "date": "2026-09-06",
+  "archive_id": "standards_cleanup_20260906",
+  "archive_location_policy": "Owner-local all records directory; archive is outside the release and not a published asset.",
+  "initial_file_count": 579,
+  "relocated_file_count": 240,
+  "relocated_bytes": 52074369,
+  "transfer_verification": "Every moved file was checked against its recorded pre-move size and SHA-256.",
+  "locator_alias_policy": "Aliases resolve earlier manuscript locators by filename and recorded hash. They do not assert the file was present at that path at cleanup time.",
+  "files": [
+    {
+      "original_path": "docs/research/records/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R01.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R01.docx",
+      "bytes": 130312,
+      "sha256": "b0beca3e4d590af380713f5087bf5e888c73472bbbcf1b0d200507277e5eee4f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R01.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx",
+      "bytes": 573689,
+      "sha256": "36df947027e0fd2f480df8de1768386488a2e3f1a9e2f5b1b789a79b806102e5",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R02.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R02.docx",
+      "bytes": 569130,
+      "sha256": "218677828f071a1ec2d30e78adbc43ce285453184a1b9da154ac87e8f8743145",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R02.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R03.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R03.docx",
+      "bytes": 568712,
+      "sha256": "744afc31b95e79105e7a40bc225ba048ef34bdb7e521b8e0154e9800f49696ba",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R03.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+      "bytes": 573297,
+      "sha256": "5c47b2d4591c6d47b2612707dd51fa1a4f804b962de758e39e824c96af1fe173",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905.docx",
+      "bytes": 554814,
+      "sha256": "e13fbfc4c0f8f1dac203db51f361e030120f6efdc06162b7b48d24b07bc2731c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010_WORKING_DRAFT_20260721.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010_WORKING_DRAFT_20260721.docx",
+      "bytes": 562752,
+      "sha256": "44295dbe0cad76a6c4fc0edfe52a760070796d3f8c14d18cb63909fc4cf7883d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010_WORKING_DRAFT_20260721.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R01.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R01.docx",
+      "bytes": 117413,
+      "sha256": "b771bdeafcdd2eec3e1ddccc6e74b0e35c272042cb48f9cff29090a4d2928e7d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R01.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D02.md",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D02.md",
+      "bytes": 49179,
+      "sha256": "b24ea23fc8b24d679cb5adcb693985f9ec5f86594402be517710037b73a61751",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_DRAFT_SOURCE_20260905_D02.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D03.md",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D03.md",
+      "bytes": 50279,
+      "sha256": "6329e73ede5a89dfae18914ce9b5954c1ca0e74ce54973abb487174c7fdaad03",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_DRAFT_SOURCE_20260905_D03.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D04.md",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905_D04.md",
+      "bytes": 53293,
+      "sha256": "0f8a473be70cd497d91b524eb1fb8dee1a526344ef5bb479b7daaa6765c5a10e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_DRAFT_SOURCE_20260905_D04.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905.md",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_DRAFT_SOURCE_20260905.md",
+      "bytes": 45583,
+      "sha256": "0f870883184962ab87974228b0738c869e1669f05bc9ac48b53ceab801349364",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_DRAFT_SOURCE_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_SOURCE.md",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_SOURCE.md",
+      "bytes": 67029,
+      "sha256": "74bd0d500ba7f3d8c3e9e804cba0a9f3583009b0984b26cd4c5f070bf63338ea",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_SOURCE.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D02.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D02.docx",
+      "bytes": 113355,
+      "sha256": "dd21e67cb6274feb0e7b4b080e861e1e91f28feb64a82e52475cf9361bea1e91",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D02.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D03.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D03.docx",
+      "bytes": 113939,
+      "sha256": "13c13b4b79904bbce9aaee50f1cac867d4de5e247a38c11476d8d9184abeca35",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D03.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+      "bytes": 116934,
+      "sha256": "60d0e7ad896e9ed3c00b2473b6c832071cbec05e882cfe520f36298db0b5caa6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905.docx",
+      "bytes": 110192,
+      "sha256": "27eb183cf69cbce9ae22e060d4db94147948274252478950c0d9b9269c8eae7b",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+      "archive_relative_path": "docs/research/records/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+      "bytes": 123025,
+      "sha256": "cdf59200f272583534b421de7202499858acbadc9d9ccfdadb62eed51a7e3a3c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/README.md",
+      "archive_relative_path": "docs/research/records/README.md",
+      "bytes": 13352,
+      "sha256": "e54b5998f2c2e2c98b6c0ea7104d25e7e7024481bba37d4ed76df2b8893ce2aa",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/README.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_FINAL_EDITION_EDIT_RECORD_20260906.md",
+      "archive_relative_path": "docs/research/records/TR010_FINAL_EDITION_EDIT_RECORD_20260906.md",
+      "bytes": 21565,
+      "sha256": "b14b99f4f3f20038878def39d250fa384332edf715c811b3f67ba1df56ee88a9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_FINAL_EDITION_EDIT_RECORD_20260906.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_D02_MAP_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_R_D02_MAP_EDIT_RECORD_20260905.md",
+      "bytes": 6609,
+      "sha256": "140a62687d2c6bdfce06a717df80344f483789750ab77ecc0e559c6f302c9c7d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_D02_MAP_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_D03_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_R_D03_EDIT_RECORD_20260905.md",
+      "bytes": 5412,
+      "sha256": "6212224e7218979653960bd76c67938b940756375b2211832859a3ce802bf062",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_D03_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_D04_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_R_D04_EDIT_RECORD_20260905.md",
+      "bytes": 6182,
+      "sha256": "c7caa891407594c16f72f2bc7e47860155b6819e3540e3ab493a7a90f6c98fa2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_D04_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_DRAFTING_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_R_DRAFTING_RECORD_20260905.md",
+      "bytes": 9525,
+      "sha256": "6549fbbcebb85cefb5fadd8e178a2c0b94248663a4d8c49e2472dad22145a3f2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_DRAFTING_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_EXPLANATORY_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_R_EXPLANATORY_EDIT_RECORD_20260905.md",
+      "bytes": 24790,
+      "sha256": "65df200f8541aea7760c7cc95ca7beb7d16d3fff8729dd615314d2e069d20d85",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_EXPLANATORY_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_RELEASE_SCOPE_EDIT_RECORD_20260906.md",
+      "archive_relative_path": "docs/research/records/TR010_R_RELEASE_SCOPE_EDIT_RECORD_20260906.md",
+      "bytes": 4225,
+      "sha256": "597fd5910c072d3a85d850afc380eeb191614314d0048c25a1aba1ad9949cfaf",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_RELEASE_SCOPE_EDIT_RECORD_20260906.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_R_REQUIREMENTS_EDIT_RECORD_20260906.md",
+      "archive_relative_path": "docs/research/records/TR010_R_REQUIREMENTS_EDIT_RECORD_20260906.md",
+      "bytes": 19418,
+      "sha256": "874081e088c1777803adfbba7f90a57e005f822ce6287d4e2d698d05cda0a756",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_R_REQUIREMENTS_EDIT_RECORD_20260906.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_REFERENCES_EDIT_RECORD_20260906.md",
+      "archive_relative_path": "docs/research/records/TR010_REFERENCES_EDIT_RECORD_20260906.md",
+      "bytes": 9091,
+      "sha256": "2b0f0a60b21b7a46cc4e8613e5d51a6bde26908b094bf7535f674f7ec9263201",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_REFERENCES_EDIT_RECORD_20260906.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_RELEASE_POSITION_EDIT_RECORD_20260906.md",
+      "archive_relative_path": "docs/research/records/TR010_RELEASE_POSITION_EDIT_RECORD_20260906.md",
+      "bytes": 37219,
+      "sha256": "d19e1664771364de3df2451109220bf43e287ade3762bae5128f7380d3e45ad4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_RELEASE_POSITION_EDIT_RECORD_20260906.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_STANDARDS_R02_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_STANDARDS_R02_EDIT_RECORD_20260905.md",
+      "bytes": 28688,
+      "sha256": "e13e28ea808d45347d7b163de4d61ed902173d7a4ec8ae37403e83ec79b749bf",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_STANDARDS_R02_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_STANDARDS_R03_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_STANDARDS_R03_EDIT_RECORD_20260905.md",
+      "bytes": 112354,
+      "sha256": "f1942d438ee871ba106712c063fd779e7ec069493a30c28144cc93dd3cd5784f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_STANDARDS_R03_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_STANDARDS_R04_EDIT_RECORD_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_STANDARDS_R04_EDIT_RECORD_20260905.md",
+      "bytes": 19790,
+      "sha256": "c7187688998c1393e430b04049e1db1d958cae7090ec6c8155eb75cbd4a3c101",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_STANDARDS_R04_EDIT_RECORD_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/TR010_STANDARDS_REVISION_CHANGELOG_20260905.md",
+      "archive_relative_path": "docs/research/records/TR010_STANDARDS_REVISION_CHANGELOG_20260905.md",
+      "bytes": 23434,
+      "sha256": "32588763389ffcec25bd4350d05af1433e5fcb94b744b7fedba8b34427031b5e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": [
+        "docs/research/tr010/TR010_STANDARDS_REVISION_CHANGELOG_20260905.md"
+      ]
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/artifact.md",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/artifact.md",
+      "bytes": 816,
+      "sha256": "17b62e083c3abf69be3d76bce7986131606b8ee88fc4426b52f745503482fa26",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/document_qa.json",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/document_qa.json",
+      "bytes": 15300,
+      "sha256": "120f9d72dfd33cffaed300db869d540a6fb752d2b619173249171076c62f2536",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/finish_r02.py",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/finish_r02.py",
+      "bytes": 16891,
+      "sha256": "9c3579510719327f6cf15d5fd8acdc92a7a069584c784a2149dc07a69002b191",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/main_remaining_status_contexts.txt",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/main_remaining_status_contexts.txt",
+      "bytes": 16648,
+      "sha256": "38b98333ca0fc5e5a8f40ab68b8e1c30dd23f154115970990b0debd4f0e83ddd",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/package_fidelity.json",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/package_fidelity.json",
+      "bytes": 1098,
+      "sha256": "928fbd3d166fd95a5f6a4504dc0b3e6bf572da4fbc8c898f57acc0f8fd388ff7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/preserve_package.py",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/preserve_package.py",
+      "bytes": 2667,
+      "sha256": "1a053774f659a527c405a546e5480c026dc12c0395fc056f0fba6f4fbd7a3296",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/render_final_readonly.ps1",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/render_final_readonly.ps1",
+      "bytes": 1142,
+      "sha256": "475dbd80a83eb855a1186fcb38b011a8ffc495d536f8843be658dd61e312d551",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/render_word.ps1",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/render_word.ps1",
+      "bytes": 2791,
+      "sha256": "fe56e4d451b40a8bf1f61abf17b7d0d323d66fa42120c6391f2273f5360bedb6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/results_remaining_status_contexts.txt",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/results_remaining_status_contexts.txt",
+      "bytes": 3924,
+      "sha256": "272b3069845e780f7d017bd3901a933a93efe1e6bcaff36071990254169b81bf",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/text_edits_and_input_inventory.json",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/text_edits_and_input_inventory.json",
+      "bytes": 222987,
+      "sha256": "4dd99dfdec89a088995924c26521a63d6d1f934443c4c53dd24b16a07a9573e3",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/verify_and_rasterize.py",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/verify_and_rasterize.py",
+      "bytes": 7132,
+      "sha256": "5b07889299ee5b83c88367485fd4b18612e9b8f8a860fcbe9c7b640a554d8a09",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/word_render.json",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/word_render.json",
+      "bytes": 1247,
+      "sha256": "de7b30e3d210abd24762be17f8f4583d36cb8cb87b40fad3cad2176773f92580",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/write_handoff.py",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/write_handoff.py",
+      "bytes": 9653,
+      "sha256": "071539d2b395397a435bd8392db6a73eee8b1a91bba60c4e20f450608c65a470",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R01.pdf",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R01.pdf",
+      "bytes": 410425,
+      "sha256": "3a6d00b2b55a8aad2a1b5477d6dc61a8a57864ea0524431944ca5d4b3aa15047",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "bytes": 422380,
+      "sha256": "9a4c3a72053e324c5594c0fdc7ce55861ec50e65eeba9ae9c6f3edf95e7c1a0c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R01.pdf",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R01.pdf",
+      "bytes": 349973,
+      "sha256": "cf6cfc7fc169cc6d4e2d5c464624ffe3c48ba60bcb73d60ec13109e655bd2fea",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.pdf",
+      "bytes": 358896,
+      "sha256": "44aa4b965bbb77616883469b701e76d8a97bd5e346268297090739099ae65c12",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-01.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-01.png",
+      "bytes": 112098,
+      "sha256": "3e974255166e38d88a773f6872898124477857afbdd89da04c86caa8514af40d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-02.png",
+      "bytes": 204833,
+      "sha256": "58ecf78d16fac5734877eed64a5be868291776f97a6d8a35c6f56e5bf99be083",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-03.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-03.png",
+      "bytes": 112396,
+      "sha256": "61c6a26087ce8d2d1c54aff0415503569212786b997a4f36638b5c7cc1277c76",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-04.png",
+      "bytes": 244958,
+      "sha256": "4a8ad4810eed0e1b23c64dd1b2ffb72b2c89348b2712b7b737fa9f7d95c327b2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-05.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-05.png",
+      "bytes": 78440,
+      "sha256": "0860e1fd07eacfa06d2de08f2bcd80ad8a538c0194e9b253bad45409e2c0706c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-06.png",
+      "bytes": 283789,
+      "sha256": "f799ab3f0a284c6cbb685ccf2022904cc9a618b473deab7e78f9ba577e7ed2c5",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-07.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-07.png",
+      "bytes": 242790,
+      "sha256": "39df5a05505b41ece3ea10112c9f7584db391f9e44e82e607c5b167a9e091223",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-08.png",
+      "bytes": 222434,
+      "sha256": "5fb1ec4b0df10d2d49f917cdb8ec4dd0873aad66d55762806c2e5b4c0e0c02e9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-09.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-09.png",
+      "bytes": 104194,
+      "sha256": "2b462062f1d92984340bf59d1e64e322754ac47d364bcd2b21be4625ca25403f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-10.png",
+      "bytes": 259998,
+      "sha256": "f5206f1fe35be6858dbb09389039943abf1d692762de6a52e90bfa3a8a6b0617",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-11.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-11.png",
+      "bytes": 275829,
+      "sha256": "6c0b8e66aa3bb8f1682110eb26d2419c98d177e20d1f12fe9b98858e96949eea",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-12.png",
+      "bytes": 209431,
+      "sha256": "9b7b4bd721b3c95137700827d386cd769e658b064721c64f0a2a482da9c7e2eb",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-13.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-13.png",
+      "bytes": 238001,
+      "sha256": "3d6c01ba947ebb86200b27005f596c1f15ff8006cc9f190b22a97774e2b1f775",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-14.png",
+      "bytes": 224516,
+      "sha256": "bfaaf502c687adfa34249ec2e0dd5c0c5baebc39c1107155a171a49787404297",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-15.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-15.png",
+      "bytes": 243137,
+      "sha256": "9133f4196af803b4036859650792144cdf209af4a3ecbc4d3984f95c706189f7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-16.png",
+      "bytes": 239394,
+      "sha256": "81127fb8c3acfdf69cc3be142de49ab91f80653ab184d6fa8b8a97037202d704",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-17.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-17.png",
+      "bytes": 238675,
+      "sha256": "fe7ad271c58b7799819201cd6b88410cd6596a7dcf8a3eeb789504ae8bb815c7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-18.png",
+      "bytes": 231042,
+      "sha256": "5b88a2972be53788fbe05f1f4bd49a7ccb703af9e22161769a36b9c8f7776d68",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-19.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-19.png",
+      "bytes": 63293,
+      "sha256": "68b674561905863162200c26e3a5f8d942645801412168eb93dc08a2f1017dd4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-20.png",
+      "bytes": 270823,
+      "sha256": "df5e0c1668d6f833aa16e5da1e59d28f6dab3dfbd31948c0ed07fd079aff32f4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-21.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-21.png",
+      "bytes": 234556,
+      "sha256": "ea7a62ac33abb9c1fd1610110fbac13af07f9953005d86558ff8938ec927b65c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-22.png",
+      "bytes": 285896,
+      "sha256": "af42ab0d2539e20c6c052fbfbb4c417e7f113e85278ea0552d1c6dfb4337e912",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-23.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-23.png",
+      "bytes": 191906,
+      "sha256": "ac8392e9caf2b32cd7d62ea1e5831a532259a8916b01c62d448af89efcf036e1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-24.png",
+      "bytes": 249840,
+      "sha256": "3d23f5e8b147244b3d42081fa7593b1410a1ee3b07b5be38d41ba037e68c2f3f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-25.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-25.png",
+      "bytes": 244400,
+      "sha256": "0c640ba8b6f7a91ebe95417287f1d61e1e0ac13acc4f67251a5db80300df2267",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-26.png",
+      "bytes": 55460,
+      "sha256": "b07cf5a4db5b593b11d812e364f748f0ec64c0edfb4beb2d8482c72b2a58e63c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-27.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-27.png",
+      "bytes": 223182,
+      "sha256": "b77a6f4ff5127412e0b0b40e38c0d1a790f594f6d79bdab18bfafe1635740ff6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-28.png",
+      "bytes": 272065,
+      "sha256": "7aaec97c894335909eaa8e020bdfac673274b6ef7d523f49759069e7e3a54979",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-29.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-29.png",
+      "bytes": 300372,
+      "sha256": "89b145cefe1acc59c060516fc7cf8b9bbc602a3f6cf6774fc10541f1cca130a7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-30.png",
+      "bytes": 95692,
+      "sha256": "8d04f8afed9516346128590d0a2ca82b19610b1080e55af91194502140631ff1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-31.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-31.png",
+      "bytes": 272267,
+      "sha256": "131805e3384daff2d8ed3c6c24e20e217354dc0b04f74dd8e7674c986158e81e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-32.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-32.png",
+      "bytes": 231390,
+      "sha256": "e8dbabe220051cecec8a68cd411ca47ef0f0b5e1ac5103707b453076fa883deb",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-33.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-33.png",
+      "bytes": 238200,
+      "sha256": "0c02aefdfe7a89e7654c5a737c24f69ce5825e3b38b2342e55358e4490a77936",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-34.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-34.png",
+      "bytes": 83086,
+      "sha256": "3ebf1dd6805562d8a6ca7778bb8dcc820aab470112dedbdca0e503b12edab3d0",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-35.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-35.png",
+      "bytes": 289658,
+      "sha256": "a8a1af12cd6007a532b398f076ee2d70f844cfacb246aa9a6b90eaee114e8588",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-36.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-36.png",
+      "bytes": 254053,
+      "sha256": "750585fe22cbc778d94318e63aa8463eb066c1ff27873095c816fef335437ff4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-37.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-37.png",
+      "bytes": 202692,
+      "sha256": "43660bf74ceb90f970bad8bc026981420bb877452871788cc3cb3b464d665ee2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-38.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-38.png",
+      "bytes": 158796,
+      "sha256": "39fa7b7f66b51157cf081cb89b449d8f5684722f13d6f91ff5defa41aca16aab",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-39.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-39.png",
+      "bytes": 100119,
+      "sha256": "9f841573911de4667eb0998c076b3b65514d1e8278578c8439581590cd31b219",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-40.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-40.png",
+      "bytes": 278613,
+      "sha256": "87a668e8270ec6f853b6c72463883b26398a0f1e55a9132ea29aee6c748b15ab",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-41.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-41.png",
+      "bytes": 249242,
+      "sha256": "23031628e40ec29b583beec4736399dc2012c5eb61a76648a790c9663b4c8411",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-42.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-42.png",
+      "bytes": 212361,
+      "sha256": "ce095a2b1bf406b70230a400511237a10cc976072509ffb77e7f8364c6696e98",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-43.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R01/page-43.png",
+      "bytes": 232071,
+      "sha256": "21c5b5c884258ee042d04e3a461a91c854150295ed00932179d48e5cb2c72f98",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-01.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-01.png",
+      "bytes": 107407,
+      "sha256": "63446edd8f9f477066278f2839ecc0993b8d3532369dc6d1fad24e3de17c686e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-02.png",
+      "bytes": 208048,
+      "sha256": "2544b7ac28055d07d5303a99fd52646be1ba1528de0ef58f9b185d1e6de68ea0",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-03.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-03.png",
+      "bytes": 116880,
+      "sha256": "186c12b333ca708b94f3bf70a5048b36edb1af6878216290c97803e41dbd0103",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-04.png",
+      "bytes": 244958,
+      "sha256": "4a8ad4810eed0e1b23c64dd1b2ffb72b2c89348b2712b7b737fa9f7d95c327b2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-05.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-05.png",
+      "bytes": 77279,
+      "sha256": "3fba66b8099f2920ada9db03fb24ea672dd493805df2f4ff43c1094ec90dd481",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-06.png",
+      "bytes": 283789,
+      "sha256": "f799ab3f0a284c6cbb685ccf2022904cc9a618b473deab7e78f9ba577e7ed2c5",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-07.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-07.png",
+      "bytes": 242790,
+      "sha256": "39df5a05505b41ece3ea10112c9f7584db391f9e44e82e607c5b167a9e091223",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-08.png",
+      "bytes": 222434,
+      "sha256": "5fb1ec4b0df10d2d49f917cdb8ec4dd0873aad66d55762806c2e5b4c0e0c02e9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-09.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-09.png",
+      "bytes": 104194,
+      "sha256": "2b462062f1d92984340bf59d1e64e322754ac47d364bcd2b21be4625ca25403f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-10.png",
+      "bytes": 259998,
+      "sha256": "f5206f1fe35be6858dbb09389039943abf1d692762de6a52e90bfa3a8a6b0617",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-11.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-11.png",
+      "bytes": 275829,
+      "sha256": "6c0b8e66aa3bb8f1682110eb26d2419c98d177e20d1f12fe9b98858e96949eea",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-12.png",
+      "bytes": 209431,
+      "sha256": "9b7b4bd721b3c95137700827d386cd769e658b064721c64f0a2a482da9c7e2eb",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-13.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-13.png",
+      "bytes": 238001,
+      "sha256": "3d6c01ba947ebb86200b27005f596c1f15ff8006cc9f190b22a97774e2b1f775",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-14.png",
+      "bytes": 224516,
+      "sha256": "bfaaf502c687adfa34249ec2e0dd5c0c5baebc39c1107155a171a49787404297",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-15.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-15.png",
+      "bytes": 243137,
+      "sha256": "9133f4196af803b4036859650792144cdf209af4a3ecbc4d3984f95c706189f7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-16.png",
+      "bytes": 239394,
+      "sha256": "81127fb8c3acfdf69cc3be142de49ab91f80653ab184d6fa8b8a97037202d704",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-17.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-17.png",
+      "bytes": 238675,
+      "sha256": "fe7ad271c58b7799819201cd6b88410cd6596a7dcf8a3eeb789504ae8bb815c7",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-18.png",
+      "bytes": 231042,
+      "sha256": "5b88a2972be53788fbe05f1f4bd49a7ccb703af9e22161769a36b9c8f7776d68",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-19.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-19.png",
+      "bytes": 63293,
+      "sha256": "68b674561905863162200c26e3a5f8d942645801412168eb93dc08a2f1017dd4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-20.png",
+      "bytes": 270823,
+      "sha256": "df5e0c1668d6f833aa16e5da1e59d28f6dab3dfbd31948c0ed07fd079aff32f4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-21.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-21.png",
+      "bytes": 234556,
+      "sha256": "ea7a62ac33abb9c1fd1610110fbac13af07f9953005d86558ff8938ec927b65c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-22.png",
+      "bytes": 285896,
+      "sha256": "af42ab0d2539e20c6c052fbfbb4c417e7f113e85278ea0552d1c6dfb4337e912",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-23.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-23.png",
+      "bytes": 191906,
+      "sha256": "ac8392e9caf2b32cd7d62ea1e5831a532259a8916b01c62d448af89efcf036e1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-24.png",
+      "bytes": 249840,
+      "sha256": "3d23f5e8b147244b3d42081fa7593b1410a1ee3b07b5be38d41ba037e68c2f3f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-25.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-25.png",
+      "bytes": 244400,
+      "sha256": "0c640ba8b6f7a91ebe95417287f1d61e1e0ac13acc4f67251a5db80300df2267",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-26.png",
+      "bytes": 55460,
+      "sha256": "b07cf5a4db5b593b11d812e364f748f0ec64c0edfb4beb2d8482c72b2a58e63c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-27.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-27.png",
+      "bytes": 223182,
+      "sha256": "b77a6f4ff5127412e0b0b40e38c0d1a790f594f6d79bdab18bfafe1635740ff6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-28.png",
+      "bytes": 272065,
+      "sha256": "7aaec97c894335909eaa8e020bdfac673274b6ef7d523f49759069e7e3a54979",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-29.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-29.png",
+      "bytes": 291505,
+      "sha256": "b5df05eecb93937c0d6912fb9073c634df30bdfa2c2337340b0b930ca15eec21",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-30.png",
+      "bytes": 100306,
+      "sha256": "d78234fa6eb5404c2109f3149ce0741d5155b7d2431834c4c86117b6bc642259",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-31.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-31.png",
+      "bytes": 272543,
+      "sha256": "eea2403f9ff0ca62ca2b6f9919fba8b1f979914ff8b22f1023e79162d3a0521b",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-32.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-32.png",
+      "bytes": 231390,
+      "sha256": "e8dbabe220051cecec8a68cd411ca47ef0f0b5e1ac5103707b453076fa883deb",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-33.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-33.png",
+      "bytes": 237754,
+      "sha256": "0177797a48b34ca9821ddf09fb6ac53c837403e71ebd8cee9b8e4fcc367d95b9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-34.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-34.png",
+      "bytes": 83635,
+      "sha256": "9ca64bb00fd5ce73d253e3352613e9e721cbbbbd5b1bff8b704ac1f54f1bb1c2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-35.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-35.png",
+      "bytes": 289658,
+      "sha256": "a8a1af12cd6007a532b398f076ee2d70f844cfacb246aa9a6b90eaee114e8588",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-36.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-36.png",
+      "bytes": 255178,
+      "sha256": "a55d682501e6f299c14ce39a54570a1c8c055e33b01294aa7aaa418340029fbe",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-37.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-37.png",
+      "bytes": 202692,
+      "sha256": "43660bf74ceb90f970bad8bc026981420bb877452871788cc3cb3b464d665ee2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-38.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-38.png",
+      "bytes": 158796,
+      "sha256": "39fa7b7f66b51157cf081cb89b449d8f5684722f13d6f91ff5defa41aca16aab",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-39.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-39.png",
+      "bytes": 99559,
+      "sha256": "079ac4b8edb28f25f5d483cc5b45277298f3b7b4cb56897f3493b981e4a451cd",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-40.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-40.png",
+      "bytes": 278613,
+      "sha256": "87a668e8270ec6f853b6c72463883b26398a0f1e55a9132ea29aee6c748b15ab",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-41.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-41.png",
+      "bytes": 242733,
+      "sha256": "2e1fecd87af7a4ab0eedd98247df260fe36d1395b78f4128bc9d17dbf37e1786",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-42.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-42.png",
+      "bytes": 217073,
+      "sha256": "7cf42443a9cba4512739354e180318f6c226fd524ef45c588b8ed2c780d9bbd0",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-43.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_R02/page-43.png",
+      "bytes": 232071,
+      "sha256": "21c5b5c884258ee042d04e3a461a91c854150295ed00932179d48e5cb2c72f98",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-01-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-01-02.png",
+      "bytes": 309978,
+      "sha256": "6a33e3addba86956d84848c17e4be5aea938972a9eb03257d9213adb7523cc06",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-03-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-03-04.png",
+      "bytes": 362435,
+      "sha256": "c58c2c0a600ecbab32c4c39e66cafe14a2429b099d836a3972fb6910806dfcfe",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-05-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-05-06.png",
+      "bytes": 365584,
+      "sha256": "8af2509a381f1e3071dccab0053df36edb061df73aac7022312b6ef3e5a0cfcc",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-07-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-07-08.png",
+      "bytes": 469327,
+      "sha256": "d1c9e015aabaecc27cff10384b6ca3992af0e52397c3074dd69e75fdbe1fa425",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-09-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-09-10.png",
+      "bytes": 361940,
+      "sha256": "ab7bd70d8b2bb98f8df886917e340c79debcc5defd4066deef6e8c69a13c8566",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-11-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-11-12.png",
+      "bytes": 493222,
+      "sha256": "971e1d1eafa0740b8eb01af57a73d1db73e6fbaa3172a37db331edc854f724fd",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-13-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-13-14.png",
+      "bytes": 463105,
+      "sha256": "f2266a5ce8b0c052119e9b05f286c7878b282995208871a94a89238b08e0b37d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-15-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-15-16.png",
+      "bytes": 490940,
+      "sha256": "c9e6cf0460de7167ccc6fee1200d85ce1b5dcf0e71cea8e99fc8b2602a245e1f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-17-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-17-18.png",
+      "bytes": 466814,
+      "sha256": "cca9837ea661d65acd8898ed91481e857217c00175b4a1dc5b5b9b4e7a1a6050",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-19-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-19-20.png",
+      "bytes": 331544,
+      "sha256": "72f1812f1043412f85e23196415b3333e6d96bb8fd9ac2ec3bd45e781c4ad3ef",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-21-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-21-22.png",
+      "bytes": 505699,
+      "sha256": "54b77e80bfe9aa850b9003c8c0b41f29ec6cc76b85d2ab3505f63d7aef71a7b5",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-23-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-23-24.png",
+      "bytes": 423006,
+      "sha256": "30a9d2f5b529532a06d0ed14a0f1ed90e94de6788cb7deef994fdf54aa6fa15a",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-25-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-25-26.png",
+      "bytes": 305810,
+      "sha256": "3bc47f963e5e59c0d784a16f077cd8cc98282664e71bd9659dfe5d9ae991429f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-27-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-27-28.png",
+      "bytes": 484916,
+      "sha256": "df5785fd4613dfd2eb5d5f142d372ca4c36cd72f89777723e3ecfbd6168720cc",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-29-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-29-30.png",
+      "bytes": 374716,
+      "sha256": "a2c95b84a22f3af51f23db14362f94606a4e58f19e3aae0cf7fd9c80c82cedc2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-31-32.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-31-32.png",
+      "bytes": 506294,
+      "sha256": "9b25635595eeff8262f48c98a960b7788f953478f43b2151ea38170f4e400904",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-33-34.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-33-34.png",
+      "bytes": 327632,
+      "sha256": "672ee9fd2468de1124cb2dbe65e8a6d9835ca395d9358c91f27c48c17d711366",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-35-36.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-35-36.png",
+      "bytes": 520117,
+      "sha256": "b82e8e178be4b364b58b87896255f8fc86c8575c38afabf791d9f79c6d755f33",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-37-38.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-37-38.png",
+      "bytes": 379017,
+      "sha256": "a61927cab20d2ae3f79fe527a134dec145b8e1493b387516f08f52d1a0564eea",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-39-40.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-39-40.png",
+      "bytes": 365777,
+      "sha256": "a79f62eb8c1351e455e414244213bc8984055aca8931bea5b8c01f27cf62b5a9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-41-42.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-41-42.png",
+      "bytes": 454988,
+      "sha256": "bbc66cd1742f738b00c503c62e7860b52cbc8dec98f521999f332792855b7421",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-43-43.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/main_spreads/pages-43-43.png",
+      "bytes": 232071,
+      "sha256": "21c5b5c884258ee042d04e3a461a91c854150295ed00932179d48e5cb2c72f98",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-01.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-01.png",
+      "bytes": 98182,
+      "sha256": "251ab60bbd1587808720a9d600afc16b281ef64f0e131b4ece15cc3db7d7aab8",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-02.png",
+      "bytes": 178163,
+      "sha256": "9efa99955fbd6b8371255316012a8be4c980adb3f160719627e4c598256b271f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-03.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-03.png",
+      "bytes": 64944,
+      "sha256": "430c3a3e16c4b50700710068275d52b23712b72920501a79ad436c9f59af234d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-04.png",
+      "bytes": 257814,
+      "sha256": "d19159d6294c29d844fbd56d6e924680223cbeaf880faff8c08b8875dd70b86e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-05.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-05.png",
+      "bytes": 274489,
+      "sha256": "278f1644a5aacd99fc717eb469584cfe421f4b6e86d5e4404034fc486d33e6fa",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-06.png",
+      "bytes": 181890,
+      "sha256": "b1bbcb2b12ec9ed7e3890dd25bfd5c9f88d84409fb3d1c4562e97d0ebff9e916",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-07.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-07.png",
+      "bytes": 214487,
+      "sha256": "805cc4378e3404c84d9e62c748f88d038ce3b82df9a85211461f6061c531a3c3",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-08.png",
+      "bytes": 180893,
+      "sha256": "dba4f23ee6ffed106b116fb23965a21d50cdf9b514836f12a0537408d587f901",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-09.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-09.png",
+      "bytes": 210414,
+      "sha256": "64f83a1aaafcb3503849a90ad459309b436be2fb64041b325c1c9b95915e61ef",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-10.png",
+      "bytes": 203796,
+      "sha256": "3d46d09d0e72f55d725f848847454b06929c12de19b1f4f5d5f416cf86270706",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-11.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-11.png",
+      "bytes": 234162,
+      "sha256": "27141188857bf02feea15e1c5c5918e11636b8032a700f46780fd4d49e05dae3",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-12.png",
+      "bytes": 67484,
+      "sha256": "270f393f2167d1dcbe16b22bbe1bd269d7009dc6fb8420c280a8108a36ff8d1f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-13.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-13.png",
+      "bytes": 248121,
+      "sha256": "a5a0d14fbad41d299c2f6016e7a5c4d3df0c527c20a1d36b61fa860823378dc1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-14.png",
+      "bytes": 186459,
+      "sha256": "78adb196e2d2401d09c03cee8a17945f1e5c97a2046198cbc41aa10076747936",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-15.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-15.png",
+      "bytes": 245464,
+      "sha256": "c1275311a8d1486793e6771f0b697ba28a473f574ada281a93269b2c24fb488d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-16.png",
+      "bytes": 109243,
+      "sha256": "6c33b0ea4c5c63c335357f0328ee18b795337f0d5c8724e9db5f01d36afc1845",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-17.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-17.png",
+      "bytes": 239936,
+      "sha256": "b6b7d4d6e87f310b02fa94d99c748137ebad7d0d7c819e7c061e1fbfbb324bfa",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-18.png",
+      "bytes": 172612,
+      "sha256": "28a22b115ec1f2dcdca20f141d71810563dc22b2dd997e302b8c07e9a44a8c67",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-19.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-19.png",
+      "bytes": 249689,
+      "sha256": "756ce17f511109ab1beb69f45f7fba77bb345f12895242fe6b745057b3c0ad37",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-20.png",
+      "bytes": 255606,
+      "sha256": "c6ea17ec1ef7111e70b2c0ffe78087b4fe18c190e2061ea1cbafe8e7915ab141",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-21.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-21.png",
+      "bytes": 298822,
+      "sha256": "620c0adacc9262d17c91c059c5c72357f0017f642ccd92440e62c6f3bfecb106",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-22.png",
+      "bytes": 92669,
+      "sha256": "cb131fac0512c56501d2382573304c8421528f27cec614aeea2a17cbd9f65dc6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-23.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-23.png",
+      "bytes": 245199,
+      "sha256": "75b33b2bbb270a607ce31d6fb8c94bf4812c6597c5031e2b41c6c6b57e0ead01",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-24.png",
+      "bytes": 198451,
+      "sha256": "b3ea50c1b5f1b404cfc89e8c94179b53db52be26b51ade07622b846fe1ac610c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-25.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-25.png",
+      "bytes": 61596,
+      "sha256": "02fb5d838b0a9944af5d9bfbe4223f1a89f5a8ddc4bb6431c70d0b30031fea1e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-26.png",
+      "bytes": 200237,
+      "sha256": "e9caf4c0f678b0a0520ed0d5368b9c0067c08716be3a7dded64ab823eec5b5ec",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-27.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-27.png",
+      "bytes": 337390,
+      "sha256": "8f8c622c65660328d70039031e55df45e7c76d22f6d55ca67d43ab8f1be3966f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-28.png",
+      "bytes": 251241,
+      "sha256": "d6832a61b109b59df29cece19ebf6020fe97a912a2a6582c29d657a646fe82b4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-29.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-29.png",
+      "bytes": 308033,
+      "sha256": "4b0456e78fb0ed538c6012b6f6c0fc423cb3af98ebac2a34888668b8c422d2ac",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R01/page-30.png",
+      "bytes": 145396,
+      "sha256": "6bf6b4e7ef79d85faeee38be4c624789267853fd2619fa5d260a91bc57018d40",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-01.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-01.png",
+      "bytes": 96191,
+      "sha256": "d6d286280565ddd2ae2f9c0889df3dc2e633be805fd4469c283562f0e2e70205",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-02.png",
+      "bytes": 178288,
+      "sha256": "71175416f19acc3b1f3f7076de61237ea3cc3e0fbee7667acc7efeb7869086cc",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-03.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-03.png",
+      "bytes": 64944,
+      "sha256": "430c3a3e16c4b50700710068275d52b23712b72920501a79ad436c9f59af234d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-04.png",
+      "bytes": 257187,
+      "sha256": "4c25f5a90af0d0458d8a782e2fd640b85d1b1c038d4a9e4ba0cc0864bbab0474",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-05.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-05.png",
+      "bytes": 274489,
+      "sha256": "278f1644a5aacd99fc717eb469584cfe421f4b6e86d5e4404034fc486d33e6fa",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-06.png",
+      "bytes": 181890,
+      "sha256": "b1bbcb2b12ec9ed7e3890dd25bfd5c9f88d84409fb3d1c4562e97d0ebff9e916",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-07.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-07.png",
+      "bytes": 221182,
+      "sha256": "4ac0e7fa8aa7031d2dc5db695d13195fe7cb6db5af284c3f3662fded9883b1a1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-08.png",
+      "bytes": 180893,
+      "sha256": "dba4f23ee6ffed106b116fb23965a21d50cdf9b514836f12a0537408d587f901",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-09.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-09.png",
+      "bytes": 210414,
+      "sha256": "64f83a1aaafcb3503849a90ad459309b436be2fb64041b325c1c9b95915e61ef",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-10.png",
+      "bytes": 204269,
+      "sha256": "c6ed9feacbf40f75a3a5a6ebf344de7693619195b285d32df470043f261be8f4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-11.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-11.png",
+      "bytes": 234162,
+      "sha256": "27141188857bf02feea15e1c5c5918e11636b8032a700f46780fd4d49e05dae3",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-12.png",
+      "bytes": 67484,
+      "sha256": "270f393f2167d1dcbe16b22bbe1bd269d7009dc6fb8420c280a8108a36ff8d1f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-13.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-13.png",
+      "bytes": 248121,
+      "sha256": "a5a0d14fbad41d299c2f6016e7a5c4d3df0c527c20a1d36b61fa860823378dc1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-14.png",
+      "bytes": 187769,
+      "sha256": "45f9d42f82dca40d403e23f5d35d8e5d11f315bfbfaf2f916c6eab032d5f3d0f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-15.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-15.png",
+      "bytes": 245464,
+      "sha256": "c1275311a8d1486793e6771f0b697ba28a473f574ada281a93269b2c24fb488d",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-16.png",
+      "bytes": 109243,
+      "sha256": "6c33b0ea4c5c63c335357f0328ee18b795337f0d5c8724e9db5f01d36afc1845",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-17.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-17.png",
+      "bytes": 239936,
+      "sha256": "b6b7d4d6e87f310b02fa94d99c748137ebad7d0d7c819e7c061e1fbfbb324bfa",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-18.png",
+      "bytes": 172612,
+      "sha256": "28a22b115ec1f2dcdca20f141d71810563dc22b2dd997e302b8c07e9a44a8c67",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-19.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-19.png",
+      "bytes": 248125,
+      "sha256": "786b44e21f3528fd2460c22d0c28d5d88173774bb7d2f189e9825738b82a0cd1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-20.png",
+      "bytes": 255115,
+      "sha256": "10c6671d37c8b0234977561ec545b3c35e1f4709ddbce8818c65c14d283b01b2",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-21.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-21.png",
+      "bytes": 312916,
+      "sha256": "d984ed198927ff68880c7e5eea664d83f4584f2937d67b29545bb229920cf6b4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-22.png",
+      "bytes": 79804,
+      "sha256": "fdc5f9aaaac095b11d4bcd975be1e9332d51a966d9ab38a3126560a6a87e2176",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-23.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-23.png",
+      "bytes": 245397,
+      "sha256": "5d448ff922acd4851b801ae697e7677e70a2f565388594bcd52db60911ecb3e5",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-24.png",
+      "bytes": 198451,
+      "sha256": "b3ea50c1b5f1b404cfc89e8c94179b53db52be26b51ade07622b846fe1ac610c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-25.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-25.png",
+      "bytes": 61596,
+      "sha256": "02fb5d838b0a9944af5d9bfbe4223f1a89f5a8ddc4bb6431c70d0b30031fea1e",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-26.png",
+      "bytes": 200237,
+      "sha256": "e9caf4c0f678b0a0520ed0d5368b9c0067c08716be3a7dded64ab823eec5b5ec",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-27.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-27.png",
+      "bytes": 337390,
+      "sha256": "8f8c622c65660328d70039031e55df45e7c76d22f6d55ca67d43ab8f1be3966f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-28.png",
+      "bytes": 251241,
+      "sha256": "d6832a61b109b59df29cece19ebf6020fe97a912a2a6582c29d657a646fe82b4",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-29.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-29.png",
+      "bytes": 307254,
+      "sha256": "3639e071d0dcb8ea31d9b92b0f7463632600f35a481d51c7792842a02baa0a7f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_R02/page-30.png",
+      "bytes": 139593,
+      "sha256": "579cb6534af604859d8e60c43f174818fda2c25b0c8e6c27b05535d6436859f9",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-01-02.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-01-02.png",
+      "bytes": 273058,
+      "sha256": "d41e3b8b84551860561d64188c3833cd6ee33b0309d2744a09147546b84fba60",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-03-04.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-03-04.png",
+      "bytes": 331766,
+      "sha256": "261a07d0f2b7c001ff76d199d896872ebdc8f0d9be7494d0078497522a2fa4dc",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-05-06.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-05-06.png",
+      "bytes": 448250,
+      "sha256": "deeeae0a55f523baf46be57d3c9a4ceba4d05028945b30842bc731d2d92d52cf",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-07-08.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-07-08.png",
+      "bytes": 395994,
+      "sha256": "9d72a4092bbe8803f8ec450d1614c0aae1d3d817268db3c380057597671127dc",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-09-10.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-09-10.png",
+      "bytes": 415838,
+      "sha256": "7e457f286369beaaf16e226bc758189fab9b8675610ad63d023fc1e27ddca268",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-11-12.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-11-12.png",
+      "bytes": 304722,
+      "sha256": "27c62f1f88cb648f34d662f55a07c5ef1e0da3cf9c513bd8ed269dde63b0eab6",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-13-14.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-13-14.png",
+      "bytes": 425026,
+      "sha256": "8315de79977a1abc683e83049928b4bfc5ca516e1c9f04a86f4b1e5ba51e42ef",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-15-16.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-15-16.png",
+      "bytes": 347701,
+      "sha256": "6e12d6cfb8f3a024666c7892eda107a8f1a57bad60d1b9a16d2c1536648cdfcb",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-17-18.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-17-18.png",
+      "bytes": 408189,
+      "sha256": "7711575022124f334544980a4080405769646a0181253169a4b2d28ef1539e16",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-19-20.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-19-20.png",
+      "bytes": 492341,
+      "sha256": "28d12a0e7e79fefd1a615eb8d00fa1ebbe2e441fba0f92e4c5fb50defb7fa290",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-21-22.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-21-22.png",
+      "bytes": 396462,
+      "sha256": "a7b4d086d76f0ed954615ba8df6b3bf238c4822df14fa5a3876dc716698f9d4f",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-23-24.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-23-24.png",
+      "bytes": 473884,
+      "sha256": "a04b9653b55e9029f04405bd51b54039065ae4cba74190a4c1e050424ba8881b",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-25-26.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-25-26.png",
+      "bytes": 272525,
+      "sha256": "399a955e5e6efb87d473dbf5045d30043058d14ebdfe10b0c30ad08d8237dc7c",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-27-28.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-27-28.png",
+      "bytes": 580793,
+      "sha256": "3de5ca5cad8c35d2fc2289466261c8f502c86649729d976b6b420fefaaf71cf1",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-29-30.png",
+      "archive_relative_path": "docs/research/records/r02_editorial_20260906/qa/results_spreads/pages-29-30.png",
+      "bytes": 433508,
+      "sha256": "d27481839739d7aa506c4a268bc6077d4fb10f92478fe5d3aa2556469afcbebe",
+      "reason": "Superseded manuscripts, editorial working files and QA renders; preserved outside release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+      "archive_relative_path": "docs/research/APOD-TR-010_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+      "bytes": 120600,
+      "sha256": "836f72a26eb6d036115c803babf789057aa773fa1e984ad2d3460931f81a8ffb",
+      "reason": "Current Word conversion source; owner requested PDF-only release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+      "archive_relative_path": "docs/research/APOD-TR-010-R_COMPACT_STANDARDS_REVIEW_20260906_R02.docx",
+      "bytes": 108251,
+      "sha256": "5d95b75ad780fceea3ac003c0a37b005301407e74ffe501433411de4bcafd9a7",
+      "reason": "Current Word conversion source; owner requested PDF-only release.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "dev_assist.md",
+      "archive_relative_path": "dev_assist.md",
+      "bytes": 2108,
+      "sha256": "ff88465e96135598ab3a7786c5182b15f22c8324c5014789e6c29ca4787aaca1",
+      "reason": "Earlier private-development instructions or future-release plan; not current standards navigation.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/release/PRIVATE_GIT_CHECKLIST.md",
+      "archive_relative_path": "docs/release/PRIVATE_GIT_CHECKLIST.md",
+      "bytes": 1924,
+      "sha256": "cadceeebf1fd2286d7de448257b119041ec4b74bb0fc56c9ff901841ea08f421",
+      "reason": "Earlier private-development instructions or future-release plan; not current standards navigation.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/release/PRIVATE_DEVELOPMENT_SCOPE.md",
+      "archive_relative_path": "docs/release/PRIVATE_DEVELOPMENT_SCOPE.md",
+      "bytes": 2381,
+      "sha256": "8b732e341fafbd568250dc7185aac2a43cf7f2e1e3f9a244349f23bd280b659c",
+      "reason": "Earlier private-development instructions or future-release plan; not current standards navigation.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/release/TR010_LICENSED_SERVICE_DEVELOPMENT_RELEASE_PLAN.md",
+      "archive_relative_path": "docs/release/TR010_LICENSED_SERVICE_DEVELOPMENT_RELEASE_PLAN.md",
+      "bytes": 18807,
+      "sha256": "4462251d55b0c69444e662bc8ab727d205f52c04b597725791c3f48bba5129a2",
+      "reason": "Earlier private-development instructions or future-release plan; not current standards navigation.",
+      "historical_locator_aliases": []
+    },
+    {
+      "original_path": "docs/release/TR010_STANDARDS_REVIEW_DEVELOPMENT_RELEASE_PLAN.md",
+      "archive_relative_path": "docs/release/TR010_STANDARDS_REVIEW_DEVELOPMENT_RELEASE_PLAN.md",
+      "bytes": 13502,
+      "sha256": "73a1ed6cf3a04268ab1b6cfac02d4badc390e1afdae2da0d209165b2b2e2b689",
+      "reason": "Earlier private-development instructions or future-release plan; not current standards navigation.",
+      "historical_locator_aliases": []
+    }
+  ],
+  "preserved_before_edits": [
+    {
+      "original_path": "README.md",
+      "archive_relative_path": "before_edits/README.md",
+      "bytes": 7762,
+      "sha256": "710751396bd42cae38e259193f7abb0ec074d175a94d1aeb9c1e959be5030a09"
+    },
+    {
+      "original_path": "docs/README.md",
+      "archive_relative_path": "before_edits/docs/README.md",
+      "bytes": 5546,
+      "sha256": "3702e6997b21702fde0be078511fb75dd11838c8a020544f2a4b2457af5cb4e0"
+    },
+    {
+      "original_path": "docs/REPOSITORY_LAYOUT.md",
+      "archive_relative_path": "before_edits/docs/REPOSITORY_LAYOUT.md",
+      "bytes": 2138,
+      "sha256": "861e43aa603279d93f50816d7e1bb5efbb05885f638337cbb9442f6853e613b5"
+    },
+    {
+      "original_path": "docs/architecture/README.md",
+      "archive_relative_path": "before_edits/docs/architecture/README.md",
+      "bytes": 341,
+      "sha256": "eecfa678522c09f36104614413e27634dbd5cda87f7d593871c3cb0846802724"
+    },
+    {
+      "original_path": "docs/execution/LOCAL_CHECKS.md",
+      "archive_relative_path": "before_edits/docs/execution/LOCAL_CHECKS.md",
+      "bytes": 2139,
+      "sha256": "b374d1d72ebb5eceba1004b8975c6a765dc3a5c4a74ad4b62204006b01ec3b32"
+    },
+    {
+      "original_path": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "archive_relative_path": "before_edits/docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "bytes": 5836,
+      "sha256": "af466dcbd3484d917f1a444aacd6ce646f06c47ff96800d27087efd2b854974a"
+    },
+    {
+      "original_path": "docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "archive_relative_path": "before_edits/docs/release/V2_STANDARDS_PUBLICATION_HANDOFF_20260906.md",
+      "bytes": 4579,
+      "sha256": "a8ed430e2b4851825845f14ca73eb76869dfa59ea3acf46ca99f3535470b494b"
+    },
+    {
+      "original_path": "docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "archive_relative_path": "before_edits/docs/release/V2_STANDARDS_RELEASE_NOTES.md",
+      "bytes": 3499,
+      "sha256": "3fd27c52852b1b17dd1ec69672f6a55e4aee560da2d9f737be1ddb30284500e1"
+    },
+    {
+      "original_path": "release/PAPER_RELEASE_SELECTION.json",
+      "archive_relative_path": "before_edits/release/PAPER_RELEASE_SELECTION.json",
+      "bytes": 2688,
+      "sha256": "34ea910d9617b072a6c518baab897fb2d56448fc9bf73c852360142b6beab701"
+    },
+    {
+      "original_path": "release/provenance/DOCUMENT_ALLOWLIST.json",
+      "archive_relative_path": "before_edits/release/provenance/DOCUMENT_ALLOWLIST.json",
+      "bytes": 14731,
+      "sha256": "7837c69aa87daa77a37e88cc7cba241ebe380745c8b8e00e8ba06bf36acec466"
+    },
+    {
+      "original_path": "release/provenance/README.md",
+      "archive_relative_path": "before_edits/release/provenance/README.md",
+      "bytes": 6504,
+      "sha256": "d7d52d35eee81ce0d22bc7842dd8b2c92910003d18369c6ca86294548401ad34"
+    },
+    {
+      "original_path": "path_1_tr_corpus_reference/README.md",
+      "archive_relative_path": "before_edits/path_1_tr_corpus_reference/README.md",
+      "bytes": 350,
+      "sha256": "3ee0d1348ba3f560a208ceb38aa6641dbf6dcce632e9cf7011caa79bf7711ef6"
+    },
+    {
+      "original_path": "path_2_access_mode_canonical/README.md",
+      "archive_relative_path": "before_edits/path_2_access_mode_canonical/README.md",
+      "bytes": 352,
+      "sha256": "2755075fd2c688a4f1a39f7e5490be22f9f64882ada23a226ed32eaba3b284ab"
+    },
+    {
+      "original_path": "path_3_external_custom_adapter/README.md",
+      "archive_relative_path": "before_edits/path_3_external_custom_adapter/README.md",
+      "bytes": 354,
+      "sha256": "3b2f8d72355961fef6a57494d7adfda57fbc8cf64e9805f1ff18b0e713a24b7b"
+    },
+    {
+      "original_path": "tools/verify_private_workspace.py",
+      "archive_relative_path": "before_edits/tools/verify_private_workspace.py",
+      "bytes": 10233,
+      "sha256": "bdfd89c0dd65257aac7912edc0cf223b49583b8e9c88cdce5e4d7a1f1c12688e"
+    },
+    {
+      "original_path": "tests/unit/test_private_document_allowlist.py",
+      "archive_relative_path": "before_edits/tests/unit/test_private_document_allowlist.py",
+      "bytes": 4017,
+      "sha256": "9a35cceede377b2451935566024deff7d17975e8e75ac7ea50036ac0c6f893ce"
+    }
+  ],
+  "retained_byte_preservation": "Historical candidate/records/seals, dated evidence, original source inventories, licences, shared standards and executable lifecycle code remain in the release with their existing bytes.",
+  "word_distribution": "R02 Word originals are outside the release for owner PDF conversion. Earlier QA PDFs are not final publication exports.",
+  "publication_status": "OWNER_PDF_CONVERSION_AND_REGISTRATION_PENDING; no seal, Git operation or publication performed."
+}

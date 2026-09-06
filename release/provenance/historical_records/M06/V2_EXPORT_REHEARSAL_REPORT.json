@@ -1,0 +1,99 @@
+{
+  "document_id": "QPATH-V2-M06-EXPORT-REHEARSAL-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:21:53.8974775Z",
+  "mode": "A_release_candidate",
+  "milestone": "M06",
+  "gate_result": "PASS",
+  "report_location_policy": "External to the immutable M05 source repository. This report was not written back into the tagged source tree.",
+  "source_anchor": {
+    "repository_logical": "qpathformer_enterprise_v2",
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "tag_object_sha": "c600ef2f1b153cebeaf9308f5dba44ad88a50f27",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_change_count_after_rehearsal": 0,
+    "intentionally_excluded_untracked_file_count": 66
+  },
+  "frozen_inputs": {
+    "exporter_path": "scripts/export_v2_public_release.py",
+    "exporter_sha256": "7e37422bea5fbaeeac0e5eb98c488c7c70fea49e7cf434c151c4ee919d48022a",
+    "allowlist_path": "planning/migration/V2_PUBLIC_COPY_ALLOWLIST.json",
+    "allowlist_sha256": "3315f405f69b2d3442f7f1d77ecae810ed013f92f2eaa92756319944db4faf6b",
+    "resolved_file_count": 320,
+    "resolved_source_bytes": 35442108,
+    "expected_target_bytes": 35414938,
+    "expected_target_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+  },
+  "rehearsal_targets": [
+    {
+      "target_id": "candidate_a",
+      "path": "C:\\2\\qpathformer_enterprise\\.codex_staging\\v2_release_prep\\m06_rehearsal\\candidate_a",
+      "export_status": "ok",
+      "verify_only_status": "ok",
+      "file_count": 320,
+      "byte_count": 35414938,
+      "target_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+    },
+    {
+      "target_id": "candidate_b",
+      "path": "C:\\2\\qpathformer_enterprise\\.codex_staging\\v2_release_prep\\m06_rehearsal\\candidate_b",
+      "export_status": "ok",
+      "verify_only_status": "ok",
+      "file_count": 320,
+      "byte_count": 35414938,
+      "target_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+    }
+  ],
+  "verification": {
+    "cross_target_hash_mismatch_count": 0,
+    "cross_target_extra_or_missing_count": 0,
+    "byte_preserved_historical_file_count": 174,
+    "byte_preservation_failure_count": 0,
+    "normalized_active_text_file_count": 146,
+    "candidate_a_reparse_point_count": 0,
+    "candidate_b_reparse_point_count": 0,
+    "forbidden_or_excluded_path_count": 0,
+    "source_mutation_detected": false,
+    "controlled_public_target_created": false,
+    "deterministic_rerun_confirmed": true
+  },
+  "excluded_path_controls_verified": [
+    "_upstream_qpath-dataset-lifecycle",
+    "legacy_reference",
+    "tests/fixtures",
+    ".git",
+    "mutable_registry_records",
+    "model_weights_checkpoints_adapters_and_private_keys",
+    "path_3_qpds_package_001_positive_evidence"
+  ],
+  "logs": [
+    {
+      "name": "candidate_a_export.json",
+      "sha256": "13e9d3cfa48801e436119d00932761c8f36e9bbefa69fd0cb877c6b5f258be14"
+    },
+    {
+      "name": "candidate_a_verify.json",
+      "sha256": "f70066ef4bed0dbf3ee9d1541219be9ba726315c413e4c3866fb2f30c812c89f"
+    },
+    {
+      "name": "candidate_b_export.json",
+      "sha256": "03130fe37d7fb5d9b131cf701864633671836f6275b0fe7f351785235faf6fad"
+    },
+    {
+      "name": "candidate_b_verify.json",
+      "sha256": "daa3bb3d795c94693f4d55205d5a2b8a7b370ee96b9e56953aa715429173053a"
+    }
+  ],
+  "retention": {
+    "candidate_a": "retained",
+    "candidate_b": "retained",
+    "cleanup_authorized": false,
+    "cleanup_rule": "Delete or archive only through a separately reviewed cleanup action."
+  },
+  "next_gate": {
+    "milestone": "M07",
+    "action": "Create the controlled public target from the immutable M05 anchor.",
+    "authorized": false
+  }
+}

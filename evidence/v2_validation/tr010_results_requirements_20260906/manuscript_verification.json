@@ -1,0 +1,135 @@
+{
+  "format": "tr010_results_requirements_manuscript_check_v1",
+  "date": "2026-09-06",
+  "status": "CONTENT_LAYOUT_AND_VISUAL_REVIEW_PASS",
+  "input": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 116663,
+    "sha256": "ff2f34c57f1042ad9ce8019612ffa4952aa10cad15b006199b2ca3d3fcbc8174"
+  },
+  "output": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 120324,
+    "sha256": "f0a49fde35eb803a9171f4674e3547f92f268e477b98d535f726c9f294771f3b"
+  },
+  "owner_saved_delta": [
+    {
+      "before": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 115168,
+        "sha256": "ada78ae9201512fb781bc7b5ff4170ea390f4a048495ec207d5fe51f8da7095b"
+      },
+      "owner_saved": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 116663,
+        "sha256": "ff2f34c57f1042ad9ce8019612ffa4952aa10cad15b006199b2ca3d3fcbc8174"
+      }
+    }
+  ],
+  "body_paragraphs_before": 330,
+  "body_paragraphs_after": 366,
+  "bounded_replacements": 7,
+  "unchanged_tables": 11,
+  "preserved_primary_source_references_verified": 60,
+  "supplemental_source_groups": [
+    "E27",
+    "E28"
+  ],
+  "pages": 33,
+  "contents_references_verified": 49,
+  "appendix_c_pages": [
+    31,
+    32,
+    33
+  ],
+  "byte_identical_previously_reviewed_page_pngs": [
+    4,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    25,
+    26,
+    27,
+    29,
+    30
+  ],
+  "changed_or_new_pages_for_visual_review": [
+    1,
+    2,
+    3,
+    5,
+    9,
+    10,
+    14,
+    20,
+    22,
+    23,
+    24,
+    28,
+    31,
+    32,
+    33
+  ],
+  "main_manuscript_unchanged": true,
+  "runtime_tests_run_by_editor": false,
+  "operator_report_not_promoted_to_machine_attestation": true,
+  "system_settings_changed_by_editor": false,
+  "release_gate_or_publication": false,
+  "visual_review": {
+    "status": "PASS",
+    "method": "All 15 changed/new pages visually inspected at rendered resolution; 18 byte-identical PNGs match the previously fully reviewed edition.",
+    "reviewed_pages": [
+      1,
+      2,
+      3,
+      5,
+      9,
+      10,
+      14,
+      20,
+      22,
+      23,
+      24,
+      28,
+      31,
+      32,
+      33
+    ],
+    "inherited_identical_pages": [
+      4,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      25,
+      26,
+      27,
+      29,
+      30
+    ],
+    "issues_corrected": [
+      "Removed the owner-saved abstract paragraph heading outline level from the contents without changing its wording.",
+      "Kept new evidence entries together and removed an otherwise almost-empty extra evidence page.",
+      "Started Windows capability subsection on a fresh page; preserved command indentation."
+    ],
+    "rendering": "Separate hidden Word PDF export, then document skill render_docx.py rasterize at 100 DPI.",
+    "qa_intermediates_not_release_artifacts": true
+  }
+}

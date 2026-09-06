@@ -1,0 +1,337 @@
+{
+  "format": "tr010r_word_layout_v1",
+  "tool": "Separate hidden Microsoft Word instance",
+  "pages": 27,
+  "toc_count": 1,
+  "stabilized": true,
+  "rounds": 2,
+  "checked_pagerefs": 41,
+  "toc_pagerefs": [
+    {
+      "bookmark": "_Toc239519169",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519170",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519171",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519172",
+      "actual": 5,
+      "displayed": "5",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519173",
+      "actual": 5,
+      "displayed": "5",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519174",
+      "actual": 5,
+      "displayed": "5",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519175",
+      "actual": 6,
+      "displayed": "6",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519176",
+      "actual": 6,
+      "displayed": "6",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519177",
+      "actual": 7,
+      "displayed": "7",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519178",
+      "actual": 7,
+      "displayed": "7",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519179",
+      "actual": 7,
+      "displayed": "7",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519180",
+      "actual": 8,
+      "displayed": "8",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519181",
+      "actual": 9,
+      "displayed": "9",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519182",
+      "actual": 10,
+      "displayed": "10",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519183",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519184",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519185",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519186",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519187",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519188",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519189",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519190",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519191",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519192",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519193",
+      "actual": 15,
+      "displayed": "15",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519194",
+      "actual": 15,
+      "displayed": "15",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519195",
+      "actual": 15,
+      "displayed": "15",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519196",
+      "actual": 16,
+      "displayed": "16",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519197",
+      "actual": 17,
+      "displayed": "17",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519198",
+      "actual": 17,
+      "displayed": "17",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519199",
+      "actual": 17,
+      "displayed": "17",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519200",
+      "actual": 18,
+      "displayed": "18",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519201",
+      "actual": 19,
+      "displayed": "19",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519202",
+      "actual": 19,
+      "displayed": "19",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519203",
+      "actual": 19,
+      "displayed": "19",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519204",
+      "actual": 20,
+      "displayed": "20",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519205",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519206",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519207",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519208",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239519209",
+      "actual": 23,
+      "displayed": "23",
+      "matched": true
+    }
+  ],
+  "tables": [
+    {
+      "table": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "rows": 5,
+      "columns": 3
+    },
+    {
+      "table": 2,
+      "start_page": 7,
+      "end_page": 7,
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "table": 3,
+      "start_page": 8,
+      "end_page": 8,
+      "rows": 8,
+      "columns": 3
+    },
+    {
+      "table": 4,
+      "start_page": 8,
+      "end_page": 9,
+      "rows": 7,
+      "columns": 3
+    },
+    {
+      "table": 5,
+      "start_page": 9,
+      "end_page": 9,
+      "rows": 10,
+      "columns": 3
+    },
+    {
+      "table": 6,
+      "start_page": 11,
+      "end_page": 11,
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "table": 7,
+      "start_page": 12,
+      "end_page": 12,
+      "rows": 7,
+      "columns": 2
+    },
+    {
+      "table": 8,
+      "start_page": 13,
+      "end_page": 13,
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "table": 9,
+      "start_page": 15,
+      "end_page": 15,
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "table": 10,
+      "start_page": 17,
+      "end_page": 17,
+      "rows": 7,
+      "columns": 3
+    },
+    {
+      "table": 11,
+      "start_page": 18,
+      "end_page": 18,
+      "rows": 7,
+      "columns": 3
+    }
+  ],
+  "actual_legal_review_completed": false
+}

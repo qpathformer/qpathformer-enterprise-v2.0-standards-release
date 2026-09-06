@@ -1,0 +1,101 @@
+{
+  "schema_version": "historical_document_seal_verification_v1",
+  "verified_at_utc": "2026-09-05T01:11:47.879877+00:00",
+  "source_id": "tr010_docs_seal_20260721_100018",
+  "scope": "Historical archive integrity only, not current draft or repository sealing",
+  "seal_id": "20260721_100018",
+  "recorded_creation_utc": "2026-07-21T10:00:18.8963602Z",
+  "archive": {
+    "filename": "sealed_20260721_100018.zip",
+    "bytes": 1192359,
+    "sha256": "9f61634e4493c2a2e8a5813b816c27f766fcf0c56d8a4c61e5a09db719f4adf2",
+    "external_manifest_digest_match": true,
+    "companion_checksum_match": true,
+    "included_in_git": false
+  },
+  "verification_result": "PASS_HISTORICAL_ARCHIVE_INTEGRITY",
+  "method": "Read ZIP entries in memory; compare exact member bytes, SHA-256, sizes and complete member set against the internal manifest. Compare ZIP SHA-256 to both sidecars. No extraction, execution or rewriting of sealed content.",
+  "content_file_count": 5,
+  "archive_member_count": 6,
+  "embedded_internal_manifest_matches_sidecar_bytes": true,
+  "unlisted_or_duplicate_members": [],
+  "files": [
+    {
+      "path": "APOD-TR-010_20260721_RIGHTS_PROVENANCE_DOCX_INTEGRATION_REPORT.md",
+      "bytes": 13504,
+      "sha256": "a172492bd7f43c59fc0aec793d26bde69ae6c7d2304481eafd10b9373d353f87",
+      "result": "MATCH"
+    },
+    {
+      "path": "APOD-TR-010_CLAIM_EVIDENCE_MATRIX.md",
+      "bytes": 25459,
+      "sha256": "913575d83a32994f20e0b07c1461822d11eb152793c0368cef6d6983b365a221",
+      "result": "MATCH"
+    },
+    {
+      "path": "APOD-TR-010_DOCUMENT_REVIEW_AND_NEXT_PHASE_REPORT.md",
+      "bytes": 60190,
+      "sha256": "4632651e0d6f0668b82b4d2c04a3d1f6174a688890102dfffa6679fee6233f00",
+      "result": "MATCH"
+    },
+    {
+      "path": "Fail-Closed Governed Dataset Lifecycles .docx",
+      "bytes": 609918,
+      "sha256": "211edcd2de068138c3dddc936c6346a61b21c65547a995b7c0ecfec5b7224dcc",
+      "result": "MATCH"
+    },
+    {
+      "path": "Fail-Closed Governed Dataset Lifecycles (23) - Rights and Provenance Integrated 20260721.docx",
+      "bytes": 593599,
+      "sha256": "0faa2384b6f2ee3a31f11b67d3547112e6a5df9eeee42c67b17e62b9872e3c9d",
+      "result": "MATCH"
+    }
+  ],
+  "copied_sidecars": [
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/manifest.external.json",
+      "bytes": 674,
+      "sha256": "3fcfe46035192f07e67934167e038c6dbbb51a00888e6ce9ee09d9c1551592f4",
+      "transformation": "NONE_BYTE_FOR_BYTE_COPY"
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/manifest.internal.json",
+      "bytes": 1271,
+      "sha256": "b9e98e83bf606bf0db70cc119c10e0b4be74ecedd33e51baa24b319ec15a7ed3",
+      "transformation": "NONE_BYTE_FOR_BYTE_COPY"
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/sealed_20260721_100018.zip.sha256",
+      "bytes": 102,
+      "sha256": "ed5b903742185c505b5c31112c9d10dba39c21074b9bde636dea30c8b2e5b39e",
+      "transformation": "NONE_BYTE_FOR_BYTE_COPY"
+    }
+  ],
+  "current_private_draft": {
+    "path": "docs/research/tr010/APOD-TR-010_WORKING_DRAFT_20260721.docx",
+    "bytes": 562752,
+    "sha256": "44295dbe0cad76a6c4fc0edfe52a760070796d3f8c14d18cb63909fc4cf7883d",
+    "matching_sealed_members": [],
+    "stored_word_metadata": {
+      "revision": "38",
+      "modified_utc": "2026-07-21T19:10:00Z",
+      "source": "Stored Word metadata, not independently authenticated timestamp evidence"
+    },
+    "sealed_integrated_manuscript_stored_word_metadata": {
+      "revision": "37",
+      "modified_utc": "2026-07-18T09:06:00Z",
+      "source": "Stored Word metadata, not independently authenticated timestamp evidence"
+    },
+    "selection_note": "The selected draft records revision 38 and a 2026-07-21T19:10:00Z save, later than the archive's recorded 10:00 UTC seal. Preserve it as the current working draft; the seal remains historical.",
+    "result": "NOT_THE_SAME_BYTES_AS_ANY_SEALED_MANUSCRIPT",
+    "action": "Retain the selected working draft unchanged; retain this seal as a separate historical identity. No content equivalence or direct revision relationship is inferred."
+  },
+  "source_archive_and_sidecars_unchanged": true,
+  "limitations": [
+    "This historical seal covers five manuscript/review files, not the new private code baseline.",
+    "The archive is retained externally. Git contains sidecars and this verification result, not the archive or its historical manuscripts.",
+    "Repository CI cannot re-read the external ZIP; this is the recorded local verification result.",
+    "Hash agreement establishes byte consistency with the supplied manifests, not independent authentication, trusted timestamping, authorship, rights clearance or release approval.",
+    "No new signature, seal, ZIP, tag, release asset or licence adoption was performed."
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "document_id": "QPATH-V2-M10-RECONCILIATION-EVIDENCE-001",
+  "generated_at_utc": "2026-07-17T23:50:30.559083Z",
+  "result": "PASS",
+  "source": "C:\\qpathformer_enterprise_v2",
+  "target": "C:\\qpathformer_enterprise_v2_release",
+  "check_count": 11,
+  "passed_check_count": 11,
+  "failed_check_count": 0,
+  "checks": [
+    {
+      "check_id": "immutable_source_anchor",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "head": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+        "tag_commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+        "tag_tree": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+        "tag_type": "tag",
+        "tracked_status": "",
+        "excluded_untracked_file_count": 66,
+        "excluded_untracked_roots": [
+          "legacy_reference",
+          "tests"
+        ]
+      }
+    },
+    {
+      "check_id": "m07_export_reproduction",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "file_count": 320,
+        "byte_count": 35414938,
+        "tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080",
+        "recorded_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+      }
+    },
+    {
+      "check_id": "m08_historical_byte_binding",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "failures": [],
+        "v1_tag_bound_record_count": 26,
+        "new_narrative_file_count": 11,
+        "manifest_sha256": "e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f",
+        "external_m08_report_sha256": "e2dc751d8c225dec56c7f6049b169cb88c9567612d2975a21da68c5aac380fc1"
+      }
+    },
+    {
+      "check_id": "authorized_target_reconstruction",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "base_file_count": 320,
+        "M08_added_file_count": 12,
+        "overlay_file_counts": {
+          "M09": 28,
+          "M09_resolution": 13,
+          "M10": 11
+        },
+        "target_file_count": 348,
+        "target_byte_count": 35621407,
+        "target_tree_sha256": "b168febd3effaf4f874a33d8950c31864ea2335a7e2df7e09e8604a78a30b00b",
+        "missing": [],
+        "extra": [],
+        "mismatched": []
+      }
+    },
+    {
+      "check_id": "historical_m07_byte_preservation",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "checked": 174,
+        "failures": []
+      }
+    },
+    {
+      "check_id": "path3_m03_reconciliation",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "M03_result": "PASS",
+        "M03_decision": "Exclude the bundle and its normalized output from positive v2 evidence. Publish this reconciliation as a negative finding. Do not rewrite hashes.txt or historical files.",
+        "excluded_roots_present": [],
+        "selected_example": "CLIENT-DATASET-EXAMPLE-001",
+        "selected_example_hash_status": "ok",
+        "selected_example_normalized_rows": 4
+      }
+    },
+    {
+      "check_id": "historical_csc_qualification_and_path2_provenance",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "failures": [],
+        "profile_count": 4,
+        "item_count": 25,
+        "path2_run_id": "RTRUN-llm-runtime-registration-check-20260413T095208Z-77a538bc"
+      }
+    },
+    {
+      "check_id": "vendor_canonical_equivalence",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "byte_exact": 3,
+        "canonical_lf": 6,
+        "verification_outcome": "PASS_CANONICAL_EQUIVALENCE",
+        "release_treatment": "ACCEPTED_CANONICAL_EQUIVALENCE"
+      }
+    },
+    {
+      "check_id": "security_and_asset_exclusion",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "model_or_training_binaries": [],
+        "private_key_files": [],
+        "cache_files": [],
+        "mutable_registry_paths": [],
+        "reparse_points": [],
+        "git_initialized": false
+      }
+    },
+    {
+      "check_id": "documentation_layout_and_release_conformance",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "document_id": "QPATH-V2-M10-RELEASE-CONFORMANCE-001",
+        "checks": 23,
+        "passed": 23,
+        "failed": 0,
+        "sha256": "fe29ba545930ed21d93d68ba00b6f4f3cecf3f9ebe8aa251206b17853caba731"
+      }
+    },
+    {
+      "check_id": "prior_gate_record_binding",
+      "status": "PASS",
+      "reviewer_identity": "OpenAI Codex automated checker",
+      "reviewer_authority": "bounded M10 verification under human authorization",
+      "evidence": {
+        "M08": "e2dc751d8c225dec56c7f6049b169cb88c9567612d2975a21da68c5aac380fc1",
+        "M09": "4925969454d1905cabfb0a721c631c320fb2c47891771c216c89c708b826dd2c",
+        "M07_export_log": "bbadab2a66d0daae6dd8c4a6e43cc4b7840dc6aab66dbe35d0811bc65e0dec0b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "status": "SELECTED_SUBSET_NOT_FULL_PACK",
+  "physical_bytes_modified": false,
+  "retained_files": [
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/catalogs/csc_metric_catalog_v1a.json",
+      "physical_sha256": "fefdea2d2b44a8b9056b88146dc5c673ff1c83b01d215ad5f748024c81a30b29",
+      "physical_bytes": 40741,
+      "comparison": "CANONICAL_LF_MATCH",
+      "manifest_sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632",
+      "manifest_bytes": 38949,
+      "canonical_sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/examples/example_csc_certificate_v1a.json",
+      "physical_sha256": "12e6f1033c32f514b3ecf43d2992c5cbd4348e8afa25d642a277307d817dbcc9",
+      "physical_bytes": 6591,
+      "comparison": "CANONICAL_LF_MATCH",
+      "manifest_sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1",
+      "manifest_bytes": 6350,
+      "canonical_sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/LICENSE",
+      "physical_sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "physical_bytes": 1115,
+      "comparison": "BYTE_MATCH",
+      "manifest_sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "manifest_bytes": 1115
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/manifest_v1a_pack.json",
+      "physical_sha256": "a98e992307f1d76ac52d2354636c7d4ddd349a6894f17d6f838d77d9d6d2a649",
+      "physical_bytes": 3004,
+      "comparison": "PROVENANCE_METADATA_NOT_MANIFEST_ENTRY"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/ORIGIN.md",
+      "physical_sha256": "96a685635a782d539d5a34c81b048262a9aa2fabf165bf2793c7d92dc81e2700",
+      "physical_bytes": 894,
+      "comparison": "PROVENANCE_METADATA_NOT_MANIFEST_ENTRY"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/profiles/csc_sector_profiles_v1a.json",
+      "physical_sha256": "653d8d27678b454d59acdbe444349d3194830caaf9bfc47d96d9581d80937204",
+      "physical_bytes": 1604,
+      "comparison": "CANONICAL_LF_MATCH",
+      "manifest_sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f",
+      "manifest_bytes": 1546,
+      "canonical_sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/README.md",
+      "physical_sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80",
+      "physical_bytes": 2682,
+      "comparison": "BYTE_MATCH",
+      "manifest_sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80",
+      "manifest_bytes": 2682
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/schemas/csc_metric_catalog_schema_v1a.json",
+      "physical_sha256": "e62ade4a2f78447ce81fc4fb9b58946765276cdec3be36cc8bbdc7c68c0f28da",
+      "physical_bytes": 1967,
+      "comparison": "CANONICAL_LF_MATCH",
+      "manifest_sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2",
+      "manifest_bytes": 1887,
+      "canonical_sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2"
+    },
+    {
+      "destination_path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/schemas/csc-certificate.schema_v1a.json",
+      "physical_sha256": "ae04a0426be668794b462f5ad2582be7be818e54e5de11af7683aef58538ba30",
+      "physical_bytes": 19390,
+      "comparison": "CANONICAL_LF_MATCH",
+      "manifest_sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34",
+      "manifest_bytes": 18576,
+      "canonical_sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34"
+    }
+  ],
+  "omitted_manifest_entries": [
+    {
+      "path": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "manifest_sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+      "reason": "PDF intentionally not imported; original retained externally."
+    },
+    {
+      "path": "docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "manifest_sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f",
+      "reason": "PDF intentionally not imported; original retained externally."
+    }
+  ]
+}

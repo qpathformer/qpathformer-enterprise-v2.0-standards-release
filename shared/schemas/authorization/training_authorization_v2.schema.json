@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qpathformer.org/schemas/authorization/training_authorization_v2.schema.json",
+  "title": "Q-Pathformer v2 Training Authorization",
+  "description": "Dataset-bound, time-limited, Ed25519-signed human decision. ALLOW names exactly one scope; DENY names none. Legacy versions require a fresh decision, not automatic conversion.",
+  "type": "object",
+  "required": [
+    "authorization_schema_version",
+    "authorization_id",
+    "decision",
+    "authorized_scopes",
+    "dataset_binding",
+    "human_decision",
+    "validity",
+    "authentication"
+  ],
+  "properties": {
+    "authorization_schema_version": {
+      "const": "qpath_training_authorization_v2.2"
+    },
+    "authorization_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["ALLOW", "DENY"]
+    },
+    "authorized_scopes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "validation_parameter_update",
+          "production_training",
+          "external_provider_training",
+          "model_release",
+          "deployment"
+        ]
+      }
+    },
+    "dataset_binding": {
+      "type": "object",
+      "required": ["dataset_version", "dataset_sha256", "registry_entry_id"],
+      "properties": {
+        "dataset_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dataset_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "registry_entry_id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "human_decision": {
+      "type": "object",
+      "required": ["reviewer_id", "reviewed_at_utc", "decision_source", "rationale"],
+      "properties": {
+        "reviewer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "decision_source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "additionalProperties": false
+    },
+    "validity": {
+      "type": "object",
+      "required": ["issued_at_utc", "not_before_utc", "expires_at_utc"],
+      "properties": {
+        "issued_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "not_before_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expires_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "authentication": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "canonicalization",
+        "key_id",
+        "public_key_sha256",
+        "value"
+      ],
+      "properties": {
+        "algorithm": {
+          "const": "Ed25519"
+        },
+        "canonicalization": {
+          "const": "qpath-json-sort-keys-v1"
+        },
+        "key_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "public_key_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "value": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9+/]{86}==$"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "ALLOW"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "authorized_scopes": {
+            "minItems": 1,
+            "maxItems": 1
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "authorized_scopes": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

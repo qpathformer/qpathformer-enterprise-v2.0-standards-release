@@ -1,0 +1,1145 @@
+{
+  "format": "tr010_r04_word_layout_v1",
+  "tool": "Separate hidden Microsoft Word instance",
+  "pages": 378,
+  "toc_count": 1,
+  "stabilized": true,
+  "rounds": 2,
+  "checked_pagerefs": 178,
+  "toc_pagerefs": [
+    {
+      "bookmark": "_Toc239513320",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513321",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513322",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513323",
+      "actual": 9,
+      "displayed": "9",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513324",
+      "actual": 9,
+      "displayed": "9",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513325",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513326",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513327",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513328",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513329",
+      "actual": 15,
+      "displayed": "15",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513330",
+      "actual": 16,
+      "displayed": "16",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513331",
+      "actual": 18,
+      "displayed": "18",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513332",
+      "actual": 19,
+      "displayed": "19",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513333",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513334",
+      "actual": 22,
+      "displayed": "22",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513335",
+      "actual": 24,
+      "displayed": "24",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513336",
+      "actual": 26,
+      "displayed": "26",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513337",
+      "actual": 27,
+      "displayed": "27",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513338",
+      "actual": 28,
+      "displayed": "28",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513339",
+      "actual": 31,
+      "displayed": "31",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513340",
+      "actual": 33,
+      "displayed": "33",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513341",
+      "actual": 34,
+      "displayed": "34",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513342",
+      "actual": 36,
+      "displayed": "36",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513343",
+      "actual": 38,
+      "displayed": "38",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513344",
+      "actual": 39,
+      "displayed": "39",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513345",
+      "actual": 41,
+      "displayed": "41",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513346",
+      "actual": 43,
+      "displayed": "43",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513347",
+      "actual": 45,
+      "displayed": "45",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513348",
+      "actual": 46,
+      "displayed": "46",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513349",
+      "actual": 49,
+      "displayed": "49",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513350",
+      "actual": 50,
+      "displayed": "50",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513351",
+      "actual": 53,
+      "displayed": "53",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513352",
+      "actual": 58,
+      "displayed": "58",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513353",
+      "actual": 60,
+      "displayed": "60",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513354",
+      "actual": 64,
+      "displayed": "64",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513355",
+      "actual": 67,
+      "displayed": "67",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513356",
+      "actual": 69,
+      "displayed": "69",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513357",
+      "actual": 71,
+      "displayed": "71",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513358",
+      "actual": 72,
+      "displayed": "72",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513359",
+      "actual": 74,
+      "displayed": "74",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513360",
+      "actual": 76,
+      "displayed": "76",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513361",
+      "actual": 78,
+      "displayed": "78",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513362",
+      "actual": 80,
+      "displayed": "80",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513363",
+      "actual": 81,
+      "displayed": "81",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513364",
+      "actual": 83,
+      "displayed": "83",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513365",
+      "actual": 86,
+      "displayed": "86",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513366",
+      "actual": 88,
+      "displayed": "88",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513367",
+      "actual": 91,
+      "displayed": "91",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513368",
+      "actual": 92,
+      "displayed": "92",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513369",
+      "actual": 93,
+      "displayed": "93",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513370",
+      "actual": 95,
+      "displayed": "95",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513371",
+      "actual": 98,
+      "displayed": "98",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513372",
+      "actual": 100,
+      "displayed": "100",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513373",
+      "actual": 103,
+      "displayed": "103",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513374",
+      "actual": 104,
+      "displayed": "104",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513375",
+      "actual": 107,
+      "displayed": "107",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513376",
+      "actual": 109,
+      "displayed": "109",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513377",
+      "actual": 111,
+      "displayed": "111",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513378",
+      "actual": 115,
+      "displayed": "115",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513379",
+      "actual": 118,
+      "displayed": "118",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513380",
+      "actual": 118,
+      "displayed": "118",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513381",
+      "actual": 119,
+      "displayed": "119",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513382",
+      "actual": 121,
+      "displayed": "121",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513383",
+      "actual": 123,
+      "displayed": "123",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513384",
+      "actual": 125,
+      "displayed": "125",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513385",
+      "actual": 127,
+      "displayed": "127",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513386",
+      "actual": 129,
+      "displayed": "129",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513387",
+      "actual": 131,
+      "displayed": "131",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513388",
+      "actual": 133,
+      "displayed": "133",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513389",
+      "actual": 135,
+      "displayed": "135",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513390",
+      "actual": 138,
+      "displayed": "138",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513391",
+      "actual": 142,
+      "displayed": "142",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513392",
+      "actual": 143,
+      "displayed": "143",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513393",
+      "actual": 144,
+      "displayed": "144",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513394",
+      "actual": 146,
+      "displayed": "146",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513395",
+      "actual": 148,
+      "displayed": "148",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513396",
+      "actual": 151,
+      "displayed": "151",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513397",
+      "actual": 152,
+      "displayed": "152",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513398",
+      "actual": 154,
+      "displayed": "154",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513399",
+      "actual": 156,
+      "displayed": "156",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513400",
+      "actual": 158,
+      "displayed": "158",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513401",
+      "actual": 160,
+      "displayed": "160",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513402",
+      "actual": 162,
+      "displayed": "162",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513403",
+      "actual": 163,
+      "displayed": "163",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513404",
+      "actual": 166,
+      "displayed": "166",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513405",
+      "actual": 169,
+      "displayed": "169",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513406",
+      "actual": 171,
+      "displayed": "171",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513407",
+      "actual": 174,
+      "displayed": "174",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513408",
+      "actual": 176,
+      "displayed": "176",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513409",
+      "actual": 177,
+      "displayed": "177",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513410",
+      "actual": 180,
+      "displayed": "180",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513411",
+      "actual": 183,
+      "displayed": "183",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513412",
+      "actual": 188,
+      "displayed": "188",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513413",
+      "actual": 193,
+      "displayed": "193",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513414",
+      "actual": 195,
+      "displayed": "195",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513415",
+      "actual": 196,
+      "displayed": "196",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513416",
+      "actual": 200,
+      "displayed": "200",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513417",
+      "actual": 203,
+      "displayed": "203",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513418",
+      "actual": 206,
+      "displayed": "206",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513419",
+      "actual": 209,
+      "displayed": "209",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513420",
+      "actual": 212,
+      "displayed": "212",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513421",
+      "actual": 214,
+      "displayed": "214",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513422",
+      "actual": 216,
+      "displayed": "216",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513423",
+      "actual": 219,
+      "displayed": "219",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513424",
+      "actual": 222,
+      "displayed": "222",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513425",
+      "actual": 226,
+      "displayed": "226",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513426",
+      "actual": 228,
+      "displayed": "228",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513427",
+      "actual": 229,
+      "displayed": "229",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513428",
+      "actual": 230,
+      "displayed": "230",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513429",
+      "actual": 231,
+      "displayed": "231",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513430",
+      "actual": 232,
+      "displayed": "232",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513431",
+      "actual": 234,
+      "displayed": "234",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513432",
+      "actual": 236,
+      "displayed": "236",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513433",
+      "actual": 237,
+      "displayed": "237",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513434",
+      "actual": 238,
+      "displayed": "238",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513435",
+      "actual": 239,
+      "displayed": "239",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513436",
+      "actual": 241,
+      "displayed": "241",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513437",
+      "actual": 242,
+      "displayed": "242",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513438",
+      "actual": 243,
+      "displayed": "243",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513439",
+      "actual": 244,
+      "displayed": "244",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513440",
+      "actual": 246,
+      "displayed": "246",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513441",
+      "actual": 248,
+      "displayed": "248",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513442",
+      "actual": 249,
+      "displayed": "249",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513443",
+      "actual": 251,
+      "displayed": "251",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513444",
+      "actual": 254,
+      "displayed": "254",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513445",
+      "actual": 257,
+      "displayed": "257",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513446",
+      "actual": 260,
+      "displayed": "260",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513447",
+      "actual": 263,
+      "displayed": "263",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513448",
+      "actual": 266,
+      "displayed": "266",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513449",
+      "actual": 270,
+      "displayed": "270",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513450",
+      "actual": 271,
+      "displayed": "271",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513451",
+      "actual": 274,
+      "displayed": "274",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513452",
+      "actual": 276,
+      "displayed": "276",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513453",
+      "actual": 279,
+      "displayed": "279",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513454",
+      "actual": 284,
+      "displayed": "284",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513455",
+      "actual": 286,
+      "displayed": "286",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513456",
+      "actual": 289,
+      "displayed": "289",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513457",
+      "actual": 293,
+      "displayed": "293",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513458",
+      "actual": 294,
+      "displayed": "294",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513459",
+      "actual": 295,
+      "displayed": "295",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513460",
+      "actual": 297,
+      "displayed": "297",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513461",
+      "actual": 299,
+      "displayed": "299",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513462",
+      "actual": 300,
+      "displayed": "300",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513463",
+      "actual": 302,
+      "displayed": "302",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513464",
+      "actual": 304,
+      "displayed": "304",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513465",
+      "actual": 306,
+      "displayed": "306",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513466",
+      "actual": 307,
+      "displayed": "307",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513467",
+      "actual": 309,
+      "displayed": "309",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513468",
+      "actual": 310,
+      "displayed": "310",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513469",
+      "actual": 312,
+      "displayed": "312",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513470",
+      "actual": 313,
+      "displayed": "313",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513471",
+      "actual": 314,
+      "displayed": "314",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513472",
+      "actual": 316,
+      "displayed": "316",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513473",
+      "actual": 317,
+      "displayed": "317",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513474",
+      "actual": 319,
+      "displayed": "319",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513475",
+      "actual": 321,
+      "displayed": "321",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513476",
+      "actual": 323,
+      "displayed": "323",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513477",
+      "actual": 327,
+      "displayed": "327",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513478",
+      "actual": 330,
+      "displayed": "330",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513479",
+      "actual": 334,
+      "displayed": "334",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513480",
+      "actual": 336,
+      "displayed": "336",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513481",
+      "actual": 339,
+      "displayed": "339",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513482",
+      "actual": 344,
+      "displayed": "344",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513483",
+      "actual": 348,
+      "displayed": "348",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513484",
+      "actual": 351,
+      "displayed": "351",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513485",
+      "actual": 354,
+      "displayed": "354",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513486",
+      "actual": 358,
+      "displayed": "358",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513487",
+      "actual": 360,
+      "displayed": "360",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513488",
+      "actual": 361,
+      "displayed": "361",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513489",
+      "actual": 363,
+      "displayed": "363",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513490",
+      "actual": 364,
+      "displayed": "364",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513491",
+      "actual": 365,
+      "displayed": "365",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513492",
+      "actual": 368,
+      "displayed": "368",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513493",
+      "actual": 369,
+      "displayed": "369",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513494",
+      "actual": 371,
+      "displayed": "371",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513495",
+      "actual": 373,
+      "displayed": "373",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513496",
+      "actual": 374,
+      "displayed": "374",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239513497",
+      "actual": 376,
+      "displayed": "376",
+      "matched": true
+    }
+  ],
+  "targeted_tables": [
+    {
+      "table": 7,
+      "start_page": 86,
+      "end_page": 86,
+      "rows": 8,
+      "columns": 3
+    },
+    {
+      "table": 11,
+      "start_page": 121,
+      "end_page": 121,
+      "rows": 3,
+      "columns": 3
+    },
+    {
+      "table": 14,
+      "start_page": 168,
+      "end_page": 168,
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "table": 16,
+      "start_page": 179,
+      "end_page": 179,
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "table": 23,
+      "start_page": 230,
+      "end_page": 230,
+      "rows": 6,
+      "columns": 3
+    },
+    {
+      "table": 28,
+      "start_page": 238,
+      "end_page": 238,
+      "rows": 6,
+      "columns": 3
+    },
+    {
+      "table": 30,
+      "start_page": 241,
+      "end_page": 241,
+      "rows": 3,
+      "columns": 2
+    },
+    {
+      "table": 31,
+      "start_page": 241,
+      "end_page": 241,
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "table": 32,
+      "start_page": 242,
+      "end_page": 242,
+      "rows": 4,
+      "columns": 2
+    }
+  ],
+  "actual_legal_review_completed": false
+}

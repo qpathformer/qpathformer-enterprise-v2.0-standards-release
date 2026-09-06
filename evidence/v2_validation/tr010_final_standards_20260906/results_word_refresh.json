@@ -1,0 +1,313 @@
+{
+  "paper": "results",
+  "pages": 35,
+  "rounds": 2,
+  "stable": true,
+  "checked_pagerefs": 50,
+  "pagerefs": [
+    {
+      "bookmark": "_Toc239579789",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579790",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579791",
+      "actual": 2,
+      "displayed": "2",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579792",
+      "actual": 3,
+      "displayed": "3",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579793",
+      "actual": 6,
+      "displayed": "6",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579794",
+      "actual": 6,
+      "displayed": "6",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579795",
+      "actual": 6,
+      "displayed": "6",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579796",
+      "actual": 7,
+      "displayed": "7",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579797",
+      "actual": 7,
+      "displayed": "7",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579798",
+      "actual": 8,
+      "displayed": "8",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579799",
+      "actual": 8,
+      "displayed": "8",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579800",
+      "actual": 8,
+      "displayed": "8",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579801",
+      "actual": 9,
+      "displayed": "9",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579802",
+      "actual": 10,
+      "displayed": "10",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579803",
+      "actual": 11,
+      "displayed": "11",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579804",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579805",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579806",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579807",
+      "actual": 12,
+      "displayed": "12",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579808",
+      "actual": 13,
+      "displayed": "13",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579809",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579810",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579811",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579812",
+      "actual": 14,
+      "displayed": "14",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579813",
+      "actual": 15,
+      "displayed": "15",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579814",
+      "actual": 16,
+      "displayed": "16",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579815",
+      "actual": 16,
+      "displayed": "16",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579816",
+      "actual": 16,
+      "displayed": "16",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579817",
+      "actual": 17,
+      "displayed": "17",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579818",
+      "actual": 18,
+      "displayed": "18",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579819",
+      "actual": 18,
+      "displayed": "18",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579820",
+      "actual": 18,
+      "displayed": "18",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579821",
+      "actual": 19,
+      "displayed": "19",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579822",
+      "actual": 20,
+      "displayed": "20",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579823",
+      "actual": 20,
+      "displayed": "20",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579824",
+      "actual": 20,
+      "displayed": "20",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579825",
+      "actual": 21,
+      "displayed": "21",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579826",
+      "actual": 22,
+      "displayed": "22",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579827",
+      "actual": 22,
+      "displayed": "22",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579828",
+      "actual": 22,
+      "displayed": "22",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579829",
+      "actual": 22,
+      "displayed": "22",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579830",
+      "actual": 24,
+      "displayed": "24",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579831",
+      "actual": 29,
+      "displayed": "29",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579832",
+      "actual": 30,
+      "displayed": "30",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579833",
+      "actual": 31,
+      "displayed": "31",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579834",
+      "actual": 31,
+      "displayed": "31",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579835",
+      "actual": 31,
+      "displayed": "31",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579836",
+      "actual": 32,
+      "displayed": "32",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579837",
+      "actual": 33,
+      "displayed": "33",
+      "matched": true
+    },
+    {
+      "bookmark": "_Toc239579838",
+      "actual": 34,
+      "displayed": "34",
+      "matched": true
+    }
+  ],
+  "table_count": 11,
+  "method": "Separate hidden Word instance on a staged copy only",
+  "runtime_tests_performed": false,
+  "release_action_performed": false
+}

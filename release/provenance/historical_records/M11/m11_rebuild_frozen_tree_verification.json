@@ -1,0 +1,40 @@
+{
+  "document_id": "QPATH-V2-M11-FROZEN-TREE-VERIFICATION-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:25:52Z",
+  "milestone": "M11",
+  "status": "PASS",
+  "target_regular_file_count": 351,
+  "target_byte_count": 35754807,
+  "target_canonical_tree_sha256": "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0",
+  "publication_inventory": {
+    "path": "release/PUBLICATION_INVENTORY.json",
+    "sha256": "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6",
+    "listed_file_count": 348,
+    "listed_byte_count": 35619880,
+    "canonical_file_set_sha256": "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d",
+    "exceptions_verified": [
+      "release/PUBLICATION_INVENTORY.json",
+      "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+      "release/SHA256SUMS.txt"
+    ]
+  },
+  "build_report": {
+    "path": "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+    "sha256": "b6d5eaef8f2bdd00e025ac7e0f5736bb03634cc46210760cd61e4b91f2fc1b42",
+    "inventory_digest_binding_verified": true
+  },
+  "checksums": {
+    "path": "release/SHA256SUMS.txt",
+    "sha256": "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75",
+    "entry_count": 350,
+    "self_exclusion_verified": true,
+    "all_other_regular_files_verified": true
+  },
+  "post_freeze_target_write_count": 0,
+  "next_gate": {
+    "milestone": "M12",
+    "action": "External human release review",
+    "authorized": false
+  }
+}

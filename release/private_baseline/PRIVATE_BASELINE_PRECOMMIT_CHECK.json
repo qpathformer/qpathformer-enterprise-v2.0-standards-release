@@ -1,0 +1,33 @@
+{
+  "scope": "Private baseline pre-commit check, not public release approval",
+  "started_at_utc": "2026-09-05T01:12:08.056319+00:00",
+  "completed_at_utc": "2026-09-05T01:12:09.607248+00:00",
+  "result": "PASS_WITH_ENVIRONMENT_SKIP",
+  "unit_tests": {
+    "run": 31,
+    "passed": 30,
+    "skipped": 1,
+    "skip_reason": "symlink creation is unavailable"
+  },
+  "workspace_check_exit": 0,
+  "test_exit": 0,
+  "draft_sha256": "44295dbe0cad76a6c4fc0edfe52a760070796d3f8c14d18cb63909fc4cf7883d",
+  "inherited_implementation_changed": false,
+  "real_training": false,
+  "real_authorization_issued": false,
+  "github_ci": "Awaiting the initial pushed commit; not yet measured",
+  "known_open_findings": [
+    "F01 single-scope contract",
+    "F02 endpoint binding",
+    "F03 v2 runbooks",
+    "Licence adoption pending"
+  ],
+  "file_count": 253,
+  "historical_document_seal": {
+    "verification_record": "release/provenance/historical_seals/tr010_docs_20260721_100018/verification.json",
+    "status": "PASS_HISTORICAL_ARCHIVE_INTEGRITY",
+    "content_files_matched": 5,
+    "current_draft_is_sealed_member": false,
+    "archive_included_in_git": false
+  }
+}

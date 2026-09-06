@@ -1,0 +1,29 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "required_pins": {
+    "attrs": "26.1.0",
+    "cffi": "2.1.0",
+    "cryptography": "49.0.0",
+    "jsonschema": "4.26.0",
+    "jsonschema-specifications": "2025.9.1",
+    "pycparser": "3.0",
+    "referencing": "0.37.0",
+    "rpds-py": "0.30.0"
+  },
+  "installed_versions": {
+    "attrs": "26.1.0",
+    "cffi": "2.1.0",
+    "cryptography": "49.0.0",
+    "jsonschema": "4.26.0",
+    "jsonschema-specifications": "2025.9.1",
+    "pycparser": "3.0",
+    "referencing": "0.37.0",
+    "rpds-py": "0.30.0"
+  },
+  "all_recorded_pins_match": true,
+  "unit_test_command": "py -3 -B -m unittest discover -s ./tests/unit -p test_*.py -v",
+  "rehearsal_command": "py -3 -B ./tools/rehearse_standards_release.py --report <new-report-path>",
+  "real_model_training": false,
+  "hosted_ci_rerun": false
+}

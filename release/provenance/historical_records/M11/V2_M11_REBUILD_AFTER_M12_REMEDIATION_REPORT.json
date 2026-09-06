@@ -1,0 +1,95 @@
+{
+  "document_id": "QPATH-V2-M11-REMEDIATION-REBUILD-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:26:25Z",
+  "milestone": "M11",
+  "gate_result": "PASS",
+  "release_candidate_status": "READY_FOR_M12_RECONSIDERATION",
+  "authorization_record_sha256": "8d7d66b9e3bb751d5ea3a592579c67fa87b67aae8f58ef4f161ddc36a4e7f2db",
+  "source_anchor": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_change_count": 0,
+    "approved_excluded_untracked_file_count": 66
+  },
+  "supersedes_frozen_candidate": {
+    "m11_gate_report_sha256": "18e722ef67d929a5df1d00b0c104d394a7606d189a817fbd9585b405ad9c32ff",
+    "canonical_tree_sha256": "ef86494a1009d6c526211d9efa3b81fdcd2ed45624c163c68c55f8443f07f961",
+    "reason": "M12-F01 through M12-F03 required a human-authorized bounded M09 correction and complete M10/M11 rebuild."
+  },
+  "m10_binding": {
+    "target_pre_seal_report_sha256": "e1681d941e1ce03eef2def0038286a07caa8d49e2a7863ab2fe940b9ba48a218",
+    "external_m10_rerun_report_sha256": "4252fa6ee78f8aaa295e29afb61304567d07b3eca631a17d89682b0de5877741",
+    "gate_result": "PASS"
+  },
+  "ordered_release_records": [
+    {
+      "order": 1,
+      "path": "release/PUBLICATION_INVENTORY.json",
+      "sha256": "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6",
+      "listed_file_count": 348,
+      "listed_byte_count": 35619880,
+      "canonical_file_set_sha256": "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+    },
+    {
+      "order": 2,
+      "path": "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+      "sha256": "b6d5eaef8f2bdd00e025ac7e0f5736bb03634cc46210760cd61e4b91f2fc1b42",
+      "inventory_digest_binding_verified": true
+    },
+    {
+      "order": 3,
+      "path": "release/SHA256SUMS.txt",
+      "sha256": "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75",
+      "entry_count": 350,
+      "self_exclusion_verified": true,
+      "final_target_write": true
+    }
+  ],
+  "frozen_candidate": {
+    "regular_file_count": 351,
+    "byte_count": 35754807,
+    "canonical_tree_sha256": "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0",
+    "independent_read_only_verification_count": 2,
+    "byte_for_byte_unchanged_between_verifications": true,
+    "post_checksum_target_write_count": 0,
+    "prohibited_or_generated_target_entry_count": 0
+  },
+  "delta_audit": {
+    "prior_checksum_entry_count": 350,
+    "new_checksum_entry_count": 350,
+    "changed_checksum_entry_count": 7,
+    "changed_paths": [
+      ".github/workflows/release-validation.yml",
+      "docs/execution/DOWNLOAD_MODEL.md",
+      "QPATHFORMER-PLATFORM-1.0.txt",
+      "release/DOCUMENTATION_CONFORMANCE_REPORT.json",
+      "release/PRE_SEAL_VERIFICATION_REPORT.json",
+      "release/PUBLICATION_INVENTORY.json",
+      "release/RELEASE_CANDIDATE_BUILD_REPORT.md"
+    ],
+    "sha256sums_self_change": "expected and excluded from its own checksum list",
+    "all_other_checksummed_files_unchanged": true,
+    "licence_terms_after_metadata_line_unchanged": true
+  },
+  "resolved_findings": {
+    "M12-F01": "PASS",
+    "M12-F02": "PASS",
+    "M12-F03": "PASS"
+  },
+  "prohibited_actions": {
+    "git_initialized": false,
+    "commit_created": false,
+    "tag_created": false,
+    "zip_created": false,
+    "push_performed": false,
+    "asset_created": false,
+    "publication_performed": false
+  },
+  "next_gate": {
+    "milestone": "M12",
+    "action": "External human review reconsideration against the corrected frozen digest.",
+    "authorized": false
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "private_development_slice_v1",
+  "slice_id": "WINDOWS-DRYRUN-001",
+  "recorded_at_utc": "2026-09-05T01:46:24.292236+00:00",
+  "user_request": "Right - lets investigate the one Windows dry-run test fail",
+  "parent_commit": "52c56d34e248e43ea1fe3d1208507d0f3e365f85",
+  "status": "LOCAL_FIX_VERIFIED_PRIVATE_PR_AUTHORIZED_HOSTED_CI_PENDING",
+  "failed_baseline_ci_run": "https://github.com/qpathformer/qpathformer-enterprise-v2/actions/runs/33935542960",
+  "root_cause_reproduction": "The fixture patches an unresolved temporary path into PATH1_ROOT; runtime resolves the package path before comparing. Windows 8.3 and dotdot aliases reproduce the same rejected-path assertion.",
+  "captured_error_prefix": "unsupported_training_package_path_for_top_level_run_log",
+  "cases": [
+    {
+      "case": "canonical_temp_root",
+      "passed_before": true,
+      "passed_after": true,
+      "valid_dry_run_exit_after": 0,
+      "tampered_dry_run_exit_after": 1,
+      "tampered_error_after": "package_inventory_verification_failed"
+    },
+    {
+      "case": "dotdot_alias_temp_root",
+      "passed_before": false,
+      "passed_after": true,
+      "valid_dry_run_exit_after": 0,
+      "tampered_dry_run_exit_after": 1,
+      "tampered_error_after": "package_inventory_verification_failed"
+    },
+    {
+      "case": "windows_short_name_temp_root",
+      "passed_before": false,
+      "passed_after": true,
+      "valid_dry_run_exit_after": 0,
+      "tampered_dry_run_exit_after": 1,
+      "tampered_error_after": "package_inventory_verification_failed"
+    }
+  ],
+  "unit_tests": {
+    "run": 33,
+    "passed": 32,
+    "skipped": 1,
+    "skip_reason": "symlink creation is unavailable",
+    "windows_short_name_regression_executed": true,
+    "log_path": "evidence/v2_validation/windows_dryrun_20260905_unit_tests.txt"
+  },
+  "workspace_validation": {
+    "status": "PASS",
+    "scope": "private_workspace_preparation_not_release_or_authorization_approval",
+    "verify_origin_bytes": false,
+    "file_count": 256,
+    "selected_copy_count": 170,
+    "python_ast_count": 44,
+    "json_parse_count": 111,
+    "schema_definition_count": 28,
+    "allowlisted_working_drafts_verified": 1,
+    "active_inherited_changes": [
+      "tests/unit/test_training_authorization_v2.py"
+    ],
+    "errors": [],
+    "limits": [
+      "No model execution or training.",
+      "Secret-pattern scan is limited, not a complete security audit.",
+      "No legal, human-release, GitHub-visibility or single-scope approval.",
+      "Local machine folders .git, .local and .venv are excluded."
+    ]
+  },
+  "strict_origin_check": {
+    "exit_code": 1,
+    "result": "EXPECTED_BASELINE_BYTE_DIFFERENCE",
+    "errors": [
+      "origin_bytes_changed:tests/unit/test_training_authorization_v2.py"
+    ],
+    "source_hashes_rewritten": false
+  },
+  "changes": [
+    {
+      "path": "dev_assist.md",
+      "change": "modified",
+      "before_sha256": "0712e8436c8a1e1f941962ca7b9d4fb485f95e2753026ca1bd49914d36a5a3d7",
+      "after_sha256": "ff88465e96135598ab3a7786c5182b15f22c8324c5014789e6c29ca4787aaca1",
+      "bytes": 2108
+    },
+    {
+      "path": "docs/README.md",
+      "change": "modified",
+      "before_sha256": "28baf4455a8dce0f85c02ff2993c12fbd48544f2ea0aff3fdd3315359ba62288",
+      "after_sha256": "aaeefecf7efdfe8ae3339ebfad24f8a7f6ad2bae3c5c5a4d63f323f63d4bdeae",
+      "bytes": 1090
+    },
+    {
+      "path": "docs/release/WINDOWS_DRY_RUN_FIX_20260905.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "2b1d023903a2c9ff4334a7f23b29bec486a2669b3913dbbfb1b163c432803a5e",
+      "bytes": 5342
+    },
+    {
+      "path": "evidence/v2_validation/windows_dryrun_20260905_unit_tests.txt",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "06072991f2c99d62ab5caae34ffc092c1ba44049845ea34eb30cd40f2e7369ec",
+      "bytes": 5391
+    },
+    {
+      "path": "release/provenance/README.md",
+      "change": "modified",
+      "before_sha256": "37ad5137768ef8b63e6b4170dca04215059a1d034d7c113824aec24162c97940",
+      "after_sha256": "d66f531cbc018c4b86ecebf4f40ab24124c9030c49972f97c90cd1f57418163c",
+      "bytes": 3157
+    },
+    {
+      "path": "tests/unit/test_training_authorization_v2.py",
+      "change": "modified",
+      "before_sha256": "f93c4d543f09c20db7716942828ecad781c607fca7dcd1d346dabb1756237a14",
+      "after_sha256": "5f94042282c9447450165b9efb482df97af6de6d297a942669a60a2d482ef152",
+      "bytes": 22635
+    }
+  ],
+  "self_excluded": "release/provenance/development_slices/WINDOWS_DRY_RUN_FIX_20260905.json",
+  "boundaries": {
+    "production_code_changed": false,
+    "authorization_rules_changed": false,
+    "seal_validation_changed": false,
+    "ci_workflow_changed": false,
+    "tr010_changed": false,
+    "historical_records_changed": false,
+    "real_model_training": false,
+    "persistent_keys_created": false,
+    "commit_created": false,
+    "push_performed": false,
+    "tag_or_release_created": false,
+    "m00_restarted": false
+  },
+  "limitations": [
+    "Local reproduction identifies a concrete fixture defect; only a new hosted run can confirm the remote outcome.",
+    "The existing failed CI result is preserved and is not relabelled as PASS.",
+    "F01 single-scope, F02 endpoint binding and F03 runbooks remain separate open work."
+  ],
+  "record_stage": "PRE_COMMIT_SNAPSHOT_FOR_AUTHORIZED_PRIVATE_PR",
+  "prior_local_investigation_record_sha256": "f645da548f262709f65f0470ebae6412c307c0cfc5a27af392dfd325c283a93f",
+  "follow_up_authorization": {
+    "user_instruction": "Perfect - the next step is a focused commit/push and GitHub CI rerun. also note on pr next development might include -- don't add release phases, what tests need tightening, or errors here",
+    "scope": "Focused branch commit/private push, PR with concrete test/error follow-ups, and hosted CI verification",
+    "private_repository": "qpathformer/qpathformer-enterprise-v2",
+    "repository_id": 1357710753,
+    "branch": "fix/windows-dry-run-paths",
+    "merge_authorized": false,
+    "new_release_phases": false
+  },
+  "follow_up_observations": [
+    {
+      "finding": "Unsupported package/log routing leaves an empty run directory",
+      "method": "Valid synthetic signed/sealed dry run with deliberately unrelated path roots; observed before temporary-fixture cleanup",
+      "exit_code": 1,
+      "error_prefix": "unsupported_training_package_path_for_top_level_run_log",
+      "run_directory_exists_after_failure": true,
+      "run_directory_entry_count": 0,
+      "fixed_in_this_pr": false
+    }
+  ],
+  "pre_push_validation": {
+    "recorded_at_utc": "2026-09-05T01:46:26.043245+00:00",
+    "unit_tests_run": 33,
+    "unit_tests_passed": 32,
+    "unit_tests_skipped": 1,
+    "skip_reason": "symlink creation is unavailable",
+    "workspace_validation": {
+      "status": "PASS",
+      "scope": "private_workspace_preparation_not_release_or_authorization_approval",
+      "verify_origin_bytes": false,
+      "file_count": 256,
+      "selected_copy_count": 170,
+      "python_ast_count": 44,
+      "json_parse_count": 111,
+      "schema_definition_count": 28,
+      "allowlisted_working_drafts_verified": 1,
+      "active_inherited_changes": [
+        "tests/unit/test_training_authorization_v2.py"
+      ],
+      "errors": [],
+      "limits": [
+        "No model execution or training.",
+        "Secret-pattern scan is limited, not a complete security audit.",
+        "No legal, human-release, GitHub-visibility or single-scope approval.",
+        "Local machine folders .git, .local and .venv are excluded."
+      ]
+    },
+    "hosted_ci": "PENDING_ACTUAL_HEAD_COMMIT"
+  }
+}

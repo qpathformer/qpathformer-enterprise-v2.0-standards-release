@@ -1,0 +1,34 @@
+{
+  "schema": "qpf.seal.manifest.internal.v1",
+  "authority": "Anthony Siljeg — Platform Steward",
+  "root_dir": "C:\\qpathformer_tr010",
+  "target_path": "C:\\qpathformer_tr010",
+  "file_count": 5,
+  "files": [
+    {
+      "path_rel": "APOD-TR-010_20260721_RIGHTS_PROVENANCE_DOCX_INTEGRATION_REPORT.md",
+      "size_bytes": 13504,
+      "sha256": "A172492BD7F43C59FC0AEC793D26BDE69AE6C7D2304481EAFD10B9373D353F87"
+    },
+    {
+      "path_rel": "APOD-TR-010_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 25459,
+      "sha256": "913575D83A32994F20E0B07C1461822D11EB152793C0368CEF6D6983B365A221"
+    },
+    {
+      "path_rel": "APOD-TR-010_DOCUMENT_REVIEW_AND_NEXT_PHASE_REPORT.md",
+      "size_bytes": 60190,
+      "sha256": "4632651E0D6F0668B82B4D2C04A3D1F6174A688890102DFFFA6679FEE6233F00"
+    },
+    {
+      "path_rel": "Fail-Closed Governed Dataset Lifecycles .docx",
+      "size_bytes": 609918,
+      "sha256": "211EDCD2DE068138C3DDDC936C6346A61B21C65547A995B7C0ECFEC5B7224DCC"
+    },
+    {
+      "path_rel": "Fail-Closed Governed Dataset Lifecycles (23) - Rights and Provenance Integrated 20260721.docx",
+      "size_bytes": 593599,
+      "sha256": "0FAA2384B6F2EE3A31F11B67D3547112E6A5DF9EEEE42C67B17E62B9872E3C9D"
+    }
+  ]
+}

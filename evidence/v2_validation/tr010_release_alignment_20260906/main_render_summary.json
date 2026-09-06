@@ -1,0 +1,1643 @@
+{
+  "pages": 380,
+  "unchanged_page_images": [
+    1,
+    2,
+    8,
+    9,
+    314,
+    315,
+    316,
+    317,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380
+  ],
+  "changed_page_images": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    318,
+    358,
+    373,
+    374
+  ],
+  "new_page_images": [],
+  "prior_render": "C:\\Users\\Alnotrea\\.codex\\visualizations\\2026\\04\\17\\019d9d06-f9f0-7c12-8ffb-2f7f9ff9094f\\tr010_final_standards_20260906\\qa_main\\png",
+  "page_openings": [
+    {
+      "page": 3,
+      "text": "Page | 3 Contents Abstract ............................................................................................."
+    },
+    {
+      "page": 4,
+      "text": "Page | 4 4.2 Control-Chain Overview ................................................................................. 53"
+    },
+    {
+      "page": 5,
+      "text": "Page | 5 7.3 Package-Sealing Role .................................................................................... 1"
+    },
+    {
+      "page": 6,
+      "text": "Page | 6 10.1 Unit and Integration Testing ........................................................................ 196 "
+    },
+    {
+      "page": 7,
+      "text": "Page | 7 12.6 Historical Evidence Qualification ................................................................. 263 12"
+    },
+    {
+      "page": 10,
+      "text": "Page | 10 \u2022 technical reviewer; \u2022 responsible human authority; \u2022 entry criteria; \u2022 evidence identities; \u2022 deterministic "
+    },
+    {
+      "page": 11,
+      "text": "Page | 11 \u2022 SHA-256 member binding; \u2022 deterministic Merkle-root construction; \u2022 execution-time authorization and package"
+    },
+    {
+      "page": 12,
+      "text": "Page | 12 4. Execution permission allows a specific operation only while the required authorization and package-integrit"
+    },
+    {
+      "page": 13,
+      "text": "Page | 13 \u2022 treating STATE_1, freeze completion, or registry membership as training authorization; \u2022 treating a legacy f"
+    },
+    {
+      "page": 14,
+      "text": "Page | 14 \u2022 copy-based migration that preserves historical source packages; \u2022 deterministic, allowlisted public-release "
+    },
+    {
+      "page": 15,
+      "text": "Page | 15 \u2022 researchers studying reproducible AI governance and governed training systems; and \u2022 organizations evaluatin"
+    },
+    {
+      "page": 16,
+      "text": "Page | 16 The separation is intentional: Authorization answers whether a named operation was permitted. Package sealing "
+    },
+    {
+      "page": 17,
+      "text": "Page | 17 Chapter 3 defines the lifecycle-authority problem in greater detail. It examines how package selection, techni"
+    },
+    {
+      "page": 18,
+      "text": "Page | 18 Chapter 16 concludes by restating the principal contribution: Q-Pathformer Enterprise v2 does not automate gov"
+    },
+    {
+      "page": 19,
+      "text": "Page | 19 APOD-TR-006 and APOD-TR-006-E.2 Reasoning posture and artifact-state separation APOD-TR-007 Governed dataset l"
+    },
+    {
+      "page": 20,
+      "text": "Page | 20 In APOD-TR-010, this principle is applied to dataset review and training execution. The existence of a package"
+    },
+    {
+      "page": 21,
+      "text": "Page | 21 APOD-TR-010 does not modify the CSC factor structure, scoring logic, sector weighting model, or revocation sem"
+    },
+    {
+      "page": 22,
+      "text": "Page | 22 Control dimension Governing question Technical eligibility Have the configured technical gates passed? Human a"
+    },
+    {
+      "page": 23,
+      "text": "Page | 23 APOD-TR-007 establishes that datasets may move between these states only through controlled routing and promot"
+    },
+    {
+      "page": 24,
+      "text": "Page | 24 The Dataset Passport and lifecycle records continue to establish provenance and dataset position. The new auth"
+    },
+    {
+      "page": 25,
+      "text": "Page | 25 APOD-TR-008 defines the execution sequence through which signals and datasets may progress toward a freeze bou"
+    },
+    {
+      "page": 26,
+      "text": "Page | 26 embedded All rights reserved text as historical file text; for the exact hash-bound publication copy, the publ"
+    },
+    {
+      "page": 27,
+      "text": "Page | 27 \u2022 alter sector weights; \u2022 remove sparse-coverage qualifications; \u2022 convert a package signature into an assuran"
+    },
+    {
+      "page": 28,
+      "text": "Page | 28 A terminology distinction is necessary. The architectural states described in QPATH-ARCH-001 concern model-pro"
+    },
+    {
+      "page": 29,
+      "text": "Page | 29 2. Non-authoritative technical review semantics Machine-generated review outcomes are expressed as technical f"
+    },
+    {
+      "page": 30,
+      "text": "Page | 30 6. Non-equivalent authorization scopes The following scopes remain separate: \u2022 validation_parameter_update; \u2022 "
+    },
+    {
+      "page": 31,
+      "text": "Page | 31 \u2022 an immutable source baseline; \u2022 explicit source and publication allowlists; \u2022 deterministic export; \u2022 path-t"
+    },
+    {
+      "page": 32,
+      "text": "Page | 32 Working-PoD artifact states Draft, populated, and frozen Working-PoD states retain their existing meanings. An"
+    },
+    {
+      "page": 33,
+      "text": "Page | 33 \u2022 deployment authorization. The inherited governance boundary may therefore be expressed as follows: Reasoning"
+    },
+    {
+      "page": 34,
+      "text": "Page | 34 Lifecycle-authority inflation occurs when a technical state, finding, artifact, or prior execution result is i"
+    },
+    {
+      "page": 35,
+      "text": "Page | 35 \u2022 Execution asks: Are all required conditions still valid at the point of action? An explicit package argument"
+    },
+    {
+      "page": 36,
+      "text": "Page | 36 This rule also protects reproducibility. The same package should produce the same technical gate result whethe"
+    },
+    {
+      "page": 37,
+      "text": "Page | 37 \u2022 an accountable officer authorized training; \u2022 an organization accepted the risk; \u2022 a regulator endorsed the "
+    },
+    {
+      "page": 38,
+      "text": "Page | 38 Technical eligibility \u2192 supports a human decision not: Technical eligibility \u2192 becomes the human decision 3.3 "
+    },
+    {
+      "page": 39,
+      "text": "Page | 39 \u2022 missing evidence may receive a fallback and pass. That outcome is incompatible with evidence-based governanc"
+    },
+    {
+      "page": 40,
+      "text": "Page | 40 These outputs are useful because they explain why the package did not advance. The problem arises where a held"
+    },
+    {
+      "page": 41,
+      "text": "Page | 41 A held freeze shall not emit: \u2022 a freeze/ directory; \u2022 state1_freeze.json; \u2022 frozen_manifest.json; or \u2022 frozen"
+    },
+    {
+      "page": 42,
+      "text": "Page | 42 \u2022 whether an external provider may receive it; \u2022 whether parameter updates may be retained; \u2022 whether the resu"
+    },
+    {
+      "page": 43,
+      "text": "Page | 43 \u2022 valid package integrity \u2022 matching execution conditions = bounded execution permission Even this combination"
+    },
+    {
+      "page": 44,
+      "text": "Page | 44 \u2022 the current decision source; \u2022 the current execution environment; \u2022 the current package state; or \u2022 a verifi"
+    },
+    {
+      "page": 45,
+      "text": "Page | 45 That approach weakens reproducibility. If the original package is changed in place: \u2022 the historical byte iden"
+    },
+    {
+      "page": 46,
+      "text": "Page | 46 The new authorization is not retroactive. It authorizes the new controlled copy for the named operation within"
+    },
+    {
+      "page": 47,
+      "text": "Page | 47 4. Held states must suppress successful downstream artifacts A held stage may emit a bounded decision record. "
+    },
+    {
+      "page": 48,
+      "text": "Page | 48 The package must not supply its own trust anchor. 8. Authorization and integrity must be revalidated at execut"
+    },
+    {
+      "page": 49,
+      "text": "Page | 49 12. Claims must remain evidence-bound The release may claim only what its implementation and verification evid"
+    },
+    {
+      "page": 50,
+      "text": "Page | 50 \u2022 source evidence may support candidate construction; \u2022 candidate construction may support technical review; \u2022"
+    },
+    {
+      "page": 51,
+      "text": "Page | 51 \u2022 lifecycle decisions; \u2022 registry entries; \u2022 authorization artifacts; \u2022 package inventories; \u2022 cryptographic s"
+    },
+    {
+      "page": 52,
+      "text": "Page | 52 \u2022 the rationale; \u2022 the signing-key identifier; and \u2022 the cryptographic signature. The authorization does not r"
+    },
+    {
+      "page": 53,
+      "text": "Page | 53 \u2022 the authorization remains within its validity period; \u2022 the authorization signature verifies; \u2022 the package "
+    },
+    {
+      "page": 54,
+      "text": "Page | 54 \u2022 external client records; \u2022 external packages; \u2022 historical datasets; or \u2022 previously frozen evidence. The so"
+    },
+    {
+      "page": 55,
+      "text": "Page | 55 Primary output: bounded technical review record. Authority boundary: eligibility for human review is not human"
+    },
+    {
+      "page": 56,
+      "text": "Page | 56 Stage 6 \u2014 Explicit freeze Freeze creates a stable package state for inspection and subsequent controlled use. "
+    },
+    {
+      "page": 57,
+      "text": "Page | 57 \u2022 validation_parameter_update; \u2022 production_training; \u2022 external_provider_training; \u2022 model_release; and \u2022 dep"
+    },
+    {
+      "page": 58,
+      "text": "Page | 58 \u2022 key-role separation. Any mismatch causes the execution boundary to fail closed. Primary output after success"
+    },
+    {
+      "page": 59,
+      "text": "Page | 59 Authorization verification \u2192 confirms that the artifact verifies against the supplied public key Execution con"
+    },
+    {
+      "page": 60,
+      "text": "Page | 60 \u2022 select the decision-maker; \u2022 infer authority from technical access alone; \u2022 widen the authorization scope; \u2022"
+    },
+    {
+      "page": 61,
+      "text": "Page | 61 \u2022 maturity thresholds; \u2022 routing checks; \u2022 review requirements; \u2022 promotion requirements; \u2022 content requiremen"
+    },
+    {
+      "page": 62,
+      "text": "Page | 62 Invariant 6 \u2014 Authorization scopes are non-equivalent An authorization for: validation_parameter_update does n"
+    },
+    {
+      "page": 63,
+      "text": "Page | 63 \u2022 added files; \u2022 altered signed metadata; \u2022 incorrect dataset binding; \u2022 incorrect registry binding; \u2022 unsuppo"
+    },
+    {
+      "page": 64,
+      "text": "Page | 64 Invariant Required meaning Complete inventory Additions, removals, and alterations are detected Verify before "
+    },
+    {
+      "page": 65,
+      "text": "Page | 65 It means that the system lacks what it requires to establish the condition. The result must therefore remain n"
+    },
+    {
+      "page": 66,
+      "text": "Page | 66 \u2022 evidence is insufficient; \u2022 a threshold was not reached; \u2022 a prerequisite is incomplete; \u2022 a mismatch exists"
+    },
+    {
+      "page": 67,
+      "text": "Page | 67 A process that does not pass its required gate may emit evidence describing the failed, denied, expired, misma"
+    },
+    {
+      "page": 68,
+      "text": "Page | 68 Registry mutation A held registry evaluation may produce a bounded finding. It shall not: \u2022 change registry by"
+    },
+    {
+      "page": 69,
+      "text": "Page | 69 \u2022 which dependent outputs were suppressed; \u2022 when the event occurred; and \u2022 what next action, if any, is permi"
+    },
+    {
+      "page": 70,
+      "text": "Page | 70 Package sealing binds the package state A separate cryptographic role inventories and signs the complete packa"
+    },
+    {
+      "page": 71,
+      "text": "Page | 71 5. Fail-Closed Lifecycle Enforcement Chapter 4 defined the Q-Pathformer Enterprise v2 control model as a seque"
+    },
+    {
+      "page": 72,
+      "text": "Page | 72 Both methods identify the package to be evaluated. Neither method determines the result of the evaluation. Aut"
+    },
+    {
+      "page": 73,
+      "text": "Page | 73 \u2022 change the candidate count; \u2022 create missing maturity evidence; \u2022 modify a routing result; \u2022 satisfy a promo"
+    },
+    {
+      "page": 74,
+      "text": "Page | 74 This is a technical review. It is not a governance approval. The v2 reference implementation uses two principa"
+    },
+    {
+      "page": 75,
+      "text": "Page | 75 INSUFFICIENT_EVIDENCE does not necessarily mean that the package is permanently unsuitable. It means that prog"
+    },
+    {
+      "page": 76,
+      "text": "Page | 76 It does not represent governance authority, correctness, or human approval. The v2 revision requires maturity "
+    },
+    {
+      "page": 77,
+      "text": "Page | 77 This results in insufficient evidence or a hold. Evidence invalid or unverifiable A value is present but canno"
+    },
+    {
+      "page": 78,
+      "text": "Page | 78 5.4 Promotion Promotion determines whether a reviewed STATE_2 candidate package may advance toward the control"
+    },
+    {
+      "page": 79,
+      "text": "Page | 79 \u2022 identify the latest package satisfying promotion eligibility; or \u2022 return a controlled hold where no eligibl"
+    },
+    {
+      "page": 80,
+      "text": "Page | 80 Handoff is not merely a change in directory location. It is a lifecycle decision supported by the applicable r"
+    },
+    {
+      "page": 81,
+      "text": "Page | 81 A held handoff shall not produce: freeze_ready_manifest.json The absence of that successful downstream artifac"
+    },
+    {
+      "page": 82,
+      "text": "Page | 82 The freeze operation must evaluate the current package rather than relying solely on the historical result of "
+    },
+    {
+      "page": 83,
+      "text": "Page | 83 For that reason, creating an empty or partial freeze directory before all gates pass may create artifact-state"
+    },
+    {
+      "page": 84,
+      "text": "Page | 84 \u2022 lineage references; and \u2022 applicable execution metadata. The registry supports identity, lookup, binding, an"
+    },
+    {
+      "page": 85,
+      "text": "Page | 85 The current lifecycle regression coverage verifies that the registry remains byte-for-byte unchanged after a h"
+    },
+    {
+      "page": 86,
+      "text": "Page | 86 2. artifacts representing successful progression. The following matrix summarizes the distinction. Lifecycle s"
+    },
+    {
+      "page": 87,
+      "text": "Page | 87 No partial positive state Where an operation fails after temporary output has been created, the implementation"
+    },
+    {
+      "page": 88,
+      "text": "Page | 88 1. missing maturity evidence fails closed; 2. latest-package review skips a newer held package; 3. latest-pack"
+    },
+    {
+      "page": 89,
+      "text": "Page | 89 The handoff path remains dependent on its own evidence and prerequisites. Test 5 - Held handoff creates no fre"
+    },
+    {
+      "page": 90,
+      "text": "Page | 90 \u2022 treats missing maturity conservatively; \u2022 does not prefer newer held packages over eligible packages; \u2022 supp"
+    },
+    {
+      "page": 91,
+      "text": "Page | 91 5.10 Chapter Summary Q-Pathformer Enterprise v2 enforces the dataset lifecycle through independently evaluated"
+    },
+    {
+      "page": 92,
+      "text": "Page | 92 identity, limits its period of use, and requires the decision artifact to be authenticated before execution. L"
+    },
+    {
+      "page": 93,
+      "text": "Page | 93 The dataset lifecycle answers: What is the governed preparation status of this dataset or package? Training au"
+    },
+    {
+      "page": 94,
+      "text": "Page | 94 \u2022 the validity period of the decision. A lifecycle process cannot infer these permissions merely because the p"
+    },
+    {
+      "page": 95,
+      "text": "Page | 95 STATE_1 \u2260 training authorization STATE_1 \u2022 explicit matching authorization \u2260 package integrity STATE_1 \u2022 expli"
+    },
+    {
+      "page": 96,
+      "text": "Page | 96 It records and authenticates the decision that was issued. Core authorization fields The current model include"
+    },
+    {
+      "page": 97,
+      "text": "Page | 97 Authorization creation The authorization-creation process should require an explicit human action. For an ALLO"
+    },
+    {
+      "page": 98,
+      "text": "Page | 98 \u2022 deployment. These scopes are non-equivalent. validation_parameter_update This scope permits a bounded parame"
+    },
+    {
+      "page": 99,
+      "text": "Page | 99 \u2022 provider model-training terms; \u2022 jurisdiction; \u2022 confidentiality; \u2022 security; \u2022 subprocessors; \u2022 output owne"
+    },
+    {
+      "page": 100,
+      "text": "Page | 100 Scope isolation The scope relationship must be treated as isolation rather than progression. The scopes are n"
+    },
+    {
+      "page": 101,
+      "text": "Page | 101 \u2022 the resulting run evidence. A version mismatch prevents the authorization from applying. Dataset-digest bin"
+    },
+    {
+      "page": 102,
+      "text": "Page | 102 \u2022 changing the training representation; \u2022 changing labels; \u2022 changing filtering; \u2022 correcting a source; \u2022 com"
+    },
+    {
+      "page": 103,
+      "text": "Page | 103 \u2022 another package using the same dataset name; \u2022 an unregistered copy; \u2022 a later dataset version; \u2022 a package"
+    },
+    {
+      "page": 104,
+      "text": "Page | 104 Registry entry \u2192 identifies the governed dataset record Authorization artifact \u2192 records whether a named oper"
+    },
+    {
+      "page": 105,
+      "text": "Page | 105 Examples may include: \u2022 direct human review; \u2022 formal approval meeting; \u2022 migration review; \u2022 controlled vali"
+    },
+    {
+      "page": 106,
+      "text": "Page | 106 Organizational decision evidence The authorization artifact may reference or be accompanied by external recor"
+    },
+    {
+      "page": 107,
+      "text": "Page | 107 \u2022 the evidence has changed; \u2022 the project purpose has changed; \u2022 the model has changed; \u2022 a policy has change"
+    },
+    {
+      "page": 108,
+      "text": "Page | 108 Expiry and prepared packages A package may have been prepared while the authorization was valid but presented"
+    },
+    {
+      "page": 109,
+      "text": "Page | 109 1. locate the package; 2. confirm required authorization and seal artifacts exist; 3. validate their structur"
+    },
+    {
+      "page": 110,
+      "text": "Page | 110 A signature failure, wrong key, altered payload, unsupported algorithm, or key-fingerprint mismatch causes a "
+    },
+    {
+      "page": 111,
+      "text": "Page | 111 \u2022 execution from a verified snapshot. The current package-sealing model provides detection of content changes"
+    },
+    {
+      "page": 112,
+      "text": "Page | 112 Malformed or schema-invalid authorization Where the artifact is malformed or fails its required schema, the d"
+    },
+    {
+      "page": 113,
+      "text": "Page | 113 Registry mismatch Where the registry entry differs, is absent, or no longer represents the authorized dataset"
+    },
+    {
+      "page": 114,
+      "text": "Page | 114 \u2022 no package shall be treated as authorized merely because it was prepared; and \u2022 the failure shall remain in"
+    },
+    {
+      "page": 115,
+      "text": "Page | 115 STATE_1 \u2260 model_release STATE_1 \u2260 deployment One scope is not another validation_parameter_update \u2260 productio"
+    },
+    {
+      "page": 116,
+      "text": "Page | 116 Authorization is not safety or compliance A valid authorization does not establish: \u2022 dataset quality; \u2022 mode"
+    },
+    {
+      "page": 117,
+      "text": "Page | 117 The software release process remains independently human-gated. Authorization is not perpetual A valid author"
+    },
+    {
+      "page": 118,
+      "text": "Page | 118 \u2022 the decision is authenticated through Ed25519 against an externally supplied trusted public key; \u2022 authoriz"
+    },
+    {
+      "page": 119,
+      "text": "Page | 119 The v2 trust model uses: 1. one Ed25519 key role to authenticate training_authorization.json; and 2. a differ"
+    },
+    {
+      "page": 120,
+      "text": "Page | 120 \u2022 the resulting Merkle root. This role is connected to package preparation and integrity. Risks of a single r"
+    },
+    {
+      "page": 121,
+      "text": "Page | 121 They do not necessarily prove that: \u2022 different people controlled the keys; \u2022 different organizational units "
+    },
+    {
+      "page": 122,
+      "text": "Page | 122 \u2022 public-key fingerprint. The precise signed representation must be deterministic under the applicable author"
+    },
+    {
+      "page": 123,
+      "text": "Page | 123 The second protection does not replace the first. A package seal could faithfully bind an invalid authorizati"
+    },
+    {
+      "page": 124,
+      "text": "Page | 124 \u2022 dataset version; \u2022 dataset digest; \u2022 registry entry; \u2022 inventory; \u2022 algorithms; \u2022 key role; and \u2022 schema ve"
+    },
+    {
+      "page": 125,
+      "text": "Page | 125 Seal independence The package-sealing role does not decide whether the package should be trained. The role ma"
+    },
+    {
+      "page": 126,
+      "text": "Page | 126 \u2022 command-line arguments; \u2022 controlled configuration; \u2022 a read-only trust directory; \u2022 an organizational key "
+    },
+    {
+      "page": 127,
+      "text": "Page | 127 7.5 Complete Package Inventory A package seal must bind the complete package state, not a selected subset of "
+    },
+    {
+      "page": 128,
+      "text": "Page | 128 Package-relative paths Inventory paths must be relative to the package root. They should not contain: \u2022 absol"
+    },
+    {
+      "page": 129,
+      "text": "Page | 129 Where empty directory structure is operationally significant, a future package contract may require explicit "
+    },
+    {
+      "page": 130,
+      "text": "Page | 130 \u2022 altered line endings; \u2022 changed whitespace; \u2022 changed JSON formatting; \u2022 reordered JSON members where byte "
+    },
+    {
+      "page": 131,
+      "text": "Page | 131 Purpose of the Merkle root The Merkle root supports: \u2022 compact package identity; \u2022 deterministic comparison; "
+    },
+    {
+      "page": 132,
+      "text": "Page | 132 A verifier must apply the same rules. Merkle root and inventory The Merkle root does not replace the inventor"
+    },
+    {
+      "page": 133,
+      "text": "Page | 133 It must also determine whether the package currently present matches the signed inventory. Verification seque"
+    },
+    {
+      "page": 134,
+      "text": "Page | 134 Complete reconstruction Verification reconstructs the complete current package inventory. It is insufficient "
+    },
+    {
+      "page": 135,
+      "text": "Page | 135 \u2022 byte size; \u2022 SHA-256 digest; or \u2022 both. Examples include: \u2022 editing dataset content; \u2022 changing the authori"
+    },
+    {
+      "page": 136,
+      "text": "Page | 136 Even where the file bytes remain identical, the inventory entry changes. The package no longer matches the si"
+    },
+    {
+      "page": 137,
+      "text": "Page | 137 Package operating procedures should therefore keep sealed packages in controlled locations and prevent uncont"
+    },
+    {
+      "page": 138,
+      "text": "Page | 138 It is not a claim of complete tamper prevention. 7.10 Key and Custody Limitations The v2 reference implementa"
+    },
+    {
+      "page": 139,
+      "text": "Page | 139 \u2022 cloud key-management services; \u2022 hardware-backed local credentials; \u2022 encrypted key stores; \u2022 dedicated sig"
+    },
+    {
+      "page": 140,
+      "text": "Page | 140 A production environment may need: \u2022 revocation lists; \u2022 trusted key status; \u2022 compromised-key records; \u2022 aut"
+    },
+    {
+      "page": 141,
+      "text": "Page | 141 Any algorithm change must be: \u2022 explicit; \u2022 versioned; \u2022 implemented in the sealer and verifier; \u2022 tested; \u2022 "
+    },
+    {
+      "page": 142,
+      "text": "Page | 142 Current limitation boundary The present implementation does not claim: \u2022 managed enterprise key custody; \u2022 HS"
+    },
+    {
+      "page": 143,
+      "text": "Page | 143 A valid authorization permits a bounded operation. A valid package seal establishes the package state to whic"
+    },
+    {
+      "page": 144,
+      "text": "Page | 144 8. the migrated package is verified independently before execution. The governing migration principle is: His"
+    },
+    {
+      "page": 145,
+      "text": "Page | 145 \u2022 change its byte identity; \u2022 invalidate historical checksums; \u2022 break links from earlier reports; \u2022 make pre"
+    },
+    {
+      "page": 146,
+      "text": "Page | 146 \u2022 approved; \u2022 review_complete; \u2022 training_ready; \u2022 freeze_ready; \u2022 validated; \u2022 eligible; \u2022 authorized; or \u2022 "
+    },
+    {
+      "page": 147,
+      "text": "Page | 147 \u2022 a reviewer identifier; \u2022 a decision source; \u2022 a rationale; \u2022 a trusted authorization key; or \u2022 the current "
+    },
+    {
+      "page": 148,
+      "text": "Page | 148 Historical condition V2 interpretation Historical registry entry Historical identity evidence only; no curren"
+    },
+    {
+      "page": 149,
+      "text": "Page | 149 \u2022 the source package exists; \u2022 the source package path is controlled; \u2022 the source is identifiable; \u2022 the int"
+    },
+    {
+      "page": 150,
+      "text": "Page | 150 New v2 artifacts must be added, including: \u2022 training_authorization.json; \u2022 package_seal.json; and \u2022 applicab"
+    },
+    {
+      "page": 151,
+      "text": "Page | 151 \u2022 the migrated dataset digest; \u2022 the applicable registry entry; \u2022 the issue time; \u2022 the expiry time; \u2022 the re"
+    },
+    {
+      "page": 152,
+      "text": "Page | 152 It is therefore protected through: 1. its internal authorization signature; and 2. the new package seal. Chan"
+    },
+    {
+      "page": 153,
+      "text": "Page | 153 The new identity should distinguish: \u2022 source package; \u2022 migration copy; \u2022 dataset version; \u2022 migration versi"
+    },
+    {
+      "page": 154,
+      "text": "Page | 154 It does not prove that the historical source had the same integrity controls when it was originally used. 8.6"
+    },
+    {
+      "page": 155,
+      "text": "Page | 155 \u2022 excluded source members, not included in the migrated package; \u2022 renamed members, where explicitly permitte"
+    },
+    {
+      "page": 156,
+      "text": "Page | 156 \u2022 what was migrated; \u2022 where it came from; \u2022 what was copied; \u2022 what changed; \u2022 which authorization was attac"
+    },
+    {
+      "page": 157,
+      "text": "Page | 157 Migration status A migration record should distinguish among outcomes such as: \u2022 MIGRATION_COMPLETED; \u2022 MIGRA"
+    },
+    {
+      "page": 158,
+      "text": "Page | 158 The v2 authorization and package seal apply from their own creation and verification context. They do not ope"
+    },
+    {
+      "page": 159,
+      "text": "Page | 159 \u2022 new v2 CSC results; or \u2022 current production assurance. Historical CSC evidence remains qualified Historical"
+    },
+    {
+      "page": 160,
+      "text": "Page | 160 \u2022 \u201cthe original run is now v2-authorized\u201d; \u2022 \u201cthe historical package now has v2 integrity\u201d; \u2022 \u201cthe v1 result "
+    },
+    {
+      "page": 161,
+      "text": "Page | 161 New human authorization \u2192 applies to the named operation and migrated package New package seal \u2192 authenticate"
+    },
+    {
+      "page": 162,
+      "text": "Page | 162 \u2022 machine-specific paths; \u2022 unreviewed dependencies; \u2022 moving supply-chain references; \u2022 inconsistent licence"
+    },
+    {
+      "page": 163,
+      "text": "Page | 163 A passing test suite is technical evidence. A successful export is technical evidence. A complete publication"
+    },
+    {
+      "page": 164,
+      "text": "Page | 164 Source-baseline commit cf9721afb81273d82667dd7b33ee5e5f3ad806d9 Annotated source-baseline tag v2.0-qpathforme"
+    },
+    {
+      "page": 165,
+      "text": "Page | 165 6. annotated tag creation; 7. commit verification; 8. Git-tree verification; and 9. post-action status inspec"
+    },
+    {
+      "page": 166,
+      "text": "Page | 166 The source baseline is therefore an evidence anchor, not a general release approval. 9.2 Explicit Allowlist E"
+    },
+    {
+      "page": 167,
+      "text": "Page | 167 \u2022 continuous-integration definitions; \u2022 selected historical evidence; \u2022 and empty portable examples where mut"
+    },
+    {
+      "page": 168,
+      "text": "Page | 168 M06 deterministic rehearsal M06 created two independent disposable export targets. Each target contained: \u2022 3"
+    },
+    {
+      "page": 169,
+      "text": "Page | 169 \u2022 push; \u2022 ZIP creation; \u2022 release-asset upload; \u2022 final paper publication; \u2022 or commencement of M14. 9.3 Path"
+    },
+    {
+      "page": 170,
+      "text": "Page | 170 The exporter shall not write: \u2022 above the target root; \u2022 into the source repository; \u2022 into an existing histo"
+    },
+    {
+      "page": 171,
+      "text": "Page | 171 Hash verification before writing Where a source file is bound to an expected digest, the exporter verifies th"
+    },
+    {
+      "page": 172,
+      "text": "Page | 172 \u2022 vendor files; \u2022 comparison evidence; \u2022 and other source records whose evidentiary value depends on preservi"
+    },
+    {
+      "page": 173,
+      "text": "Page | 173 The M08 process used an explicitly approved 26-path source set. Twenty-five selected artifacts across four Pa"
+    },
+    {
+      "page": 174,
+      "text": "Page | 174 \u2022 correct; \u2022 complete; \u2022 current; \u2022 compliant; \u2022 safe; \u2022 independently assured; \u2022 or suitable as positive v2 "
+    },
+    {
+      "page": 175,
+      "text": "Page | 175 \u2022 remove limitations; \u2022 change evidence classifications; \u2022 rewrite historical statements; \u2022 modify binary fil"
+    },
+    {
+      "page": 176,
+      "text": "Page | 176 Unbounded dependency declarations may produce different environments over time. Q-Pathformer Enterprise v2 th"
+    },
+    {
+      "page": 177,
+      "text": "Page | 177 The corrected release does not rely on uncontrolled remote script execution as part of its reviewed setup pat"
+    },
+    {
+      "page": 178,
+      "text": "Page | 178 \u2022 file sizes; \u2022 file digests; \u2022 file count; \u2022 byte count; \u2022 deterministic ordering; \u2022 and the canonical diges"
+    },
+    {
+      "page": 179,
+      "text": "Page | 179 It therefore covers: \u2022 the publication inventory; \u2022 the build report; \u2022 public source files; \u2022 schemas; \u2022 doc"
+    },
+    {
+      "page": 180,
+      "text": "Page | 180 \u2022 and the identity of the final tree. It does not establish that every file is: \u2022 correct; \u2022 safe; \u2022 lawful; "
+    },
+    {
+      "page": 181,
+      "text": "Page | 181 The corrected M10 evidence recorded: \u2022 23 of 23 release checks passed; \u2022 27 valid JSON Schemas; \u2022 19 reviewer"
+    },
+    {
+      "page": 182,
+      "text": "Page | 182 No post-freeze target write was detected under the evaluated verification process. Corrected frozen identity "
+    },
+    {
+      "page": 183,
+      "text": "Page | 183 First and corrected M11 candidates The first M11 candidate was independently reviewed at M12 and held for thr"
+    },
+    {
+      "page": 184,
+      "text": "Page | 184 Completion of these actions does not itself authorize public release. Human release role The Human Release Au"
+    },
+    {
+      "page": 185,
+      "text": "Page | 185 Rehearsal authority Authorizes creation of disposable export targets for deterministic comparison. Controlled"
+    },
+    {
+      "page": 186,
+      "text": "Page | 186 M14 development authority Authorizes opening of a separately governed future implementation sequence. It does"
+    },
+    {
+      "page": 187,
+      "text": "Page | 187 Gate Purpose July record status M07 Create the controlled target once PASS M08 Retrieve and qualify historica"
+    },
+    {
+      "page": 188,
+      "text": "Page | 188 9.10 APOD-TR-010 as a Reference Transition Protocol and Worked Example The M00 through M13 sequence is not li"
+    },
+    {
+      "page": 189,
+      "text": "Page | 189 The protocol can therefore be applied beyond source release. Possible future applications include: \u2022 dataset-"
+    },
+    {
+      "page": 190,
+      "text": "Page | 190 \u2022 the responsible person or governing role; \u2022 the applicable organizational authority; \u2022 the evidence require"
+    },
+    {
+      "page": 191,
+      "text": "Page | 191 \u2022 correction of the custom SPDX metadata; \u2022 removal of the mutable remote installer guidance; \u2022 immutable CI "
+    },
+    {
+      "page": 192,
+      "text": "Page | 192 \u2022 observation is insufficient; \u2022 required evidence is missing; \u2022 or a score cannot be supported. M14.3 - Hist"
+    },
+    {
+      "page": 193,
+      "text": "Page | 193 \u2022 technical eligibility does not equal authority; \u2022 a held state does not create successful outputs; \u2022 remedi"
+    },
+    {
+      "page": 194,
+      "text": "Page | 194 \u2022 public commit, tag, push, ZIP, release asset and publication actions were not authorized for that July cand"
+    },
+    {
+      "page": 195,
+      "text": "Page | 195 Verification establishes what the tested evidence supports. It does not convert technical reproducibility int"
+    },
+    {
+      "page": 196,
+      "text": "Page | 196 4. Reconciliation evidence, demonstrating that the source, target, inventories, checksums, documentation, sch"
+    },
+    {
+      "page": 197,
+      "text": "Page | 197 Examples of unit-level concerns include: \u2022 package-selection neutrality; \u2022 candidate-maturity treatment; \u2022 au"
+    },
+    {
+      "page": 198,
+      "text": "Page | 198 \u2192 authorization verification \u2192 training-package preparation Package-integrity integration Prepared package \u2192 "
+    },
+    {
+      "page": 199,
+      "text": "Page | 199 Test grouping The retained automated suite is organized into four principal test areas: Test area Methodologi"
+    },
+    {
+      "page": 200,
+      "text": "Page | 200 Where the result depends on time, such as authorization expiry, the test must control or explicitly calculate"
+    },
+    {
+      "page": 201,
+      "text": "Page | 201 \u2022 missing maturity evidence remains insufficient; \u2022 automatic package selection skips a newer held package; \u2022"
+    },
+    {
+      "page": 202,
+      "text": "Page | 202 Export negative paths The exporter must reject or hold conditions such as: \u2022 source path outside the approved"
+    },
+    {
+      "page": 203,
+      "text": "Page | 203 \u2022 but the control test passes because the system failed closed. 10.3 Schema Testing Schemas define the struct"
+    },
+    {
+      "page": 204,
+      "text": "Page | 204 \u2022 and governance interpretation. Authorization schema testing For training_authorization.json, structural val"
+    },
+    {
+      "page": 205,
+      "text": "Page | 205 Schema validity does not establish that the current package matches the inventory. The verifier must still re"
+    },
+    {
+      "page": 206,
+      "text": "Page | 206 \u2022 factual correctness; \u2022 lawful processing; \u2022 human authority; \u2022 package integrity; \u2022 execution permission; \u2022"
+    },
+    {
+      "page": 207,
+      "text": "Page | 207 \u2022 valid ALLOW; \u2022 valid DENY; \u2022 missing decision; \u2022 unsupported decision; \u2022 and structurally invalid decision."
+    },
+    {
+      "page": 208,
+      "text": "Page | 208 Registry testing The authorization\u2019s registry entry must match the current controlled registry identity. The "
+    },
+    {
+      "page": 209,
+      "text": "Page | 209 The release-process reproduction method verifies authorization and package integrity before run-directory cre"
+    },
+    {
+      "page": 210,
+      "text": "Page | 210 Alteration test An existing inventoried file is modified after sealing. Verification must detect a difference"
+    },
+    {
+      "page": 211,
+      "text": "Page | 211 Seal-metadata alteration The seal artifact is excluded from its own file inventory, but its signed payload re"
+    },
+    {
+      "page": 212,
+      "text": "Page | 212 \u2022 and no broader authority is inferred. Detection boundary Tamper testing establishes detection at the verifi"
+    },
+    {
+      "page": 213,
+      "text": "Page | 213 M06 independent targets Two separate disposable targets are created from the same controlled inputs. Each tar"
+    },
+    {
+      "page": 214,
+      "text": "Page | 214 Controlled-target comparison After the two-target rehearsal passes, the separately authorized M07 target shou"
+    },
+    {
+      "page": 215,
+      "text": "Page | 215 \u2022 historical files represented under incorrect identities; \u2022 internal-only paths; \u2022 private key locations; \u2022 "
+    },
+    {
+      "page": 216,
+      "text": "Page | 216 \u2022 --package-dir selects only; \u2022 held freeze creates no freeze outputs; \u2022 authorization is required separately"
+    },
+    {
+      "page": 217,
+      "text": "Page | 217 \u2022 logs; \u2022 registries; \u2022 and release artifacts. The final candidate recorded zero private keys. Public-key tre"
+    },
+    {
+      "page": 218,
+      "text": "Page | 218 \u2022 test caches; \u2022 temporary files; \u2022 and environment-generated state. The final candidate recorded no cache or"
+    },
+    {
+      "page": 219,
+      "text": "Page | 219 The methodology evaluates more than file count. It examines the relationship among: \u2022 source baseline; \u2022 publ"
+    },
+    {
+      "page": 220,
+      "text": "Page | 220 Historical reconciliation Historical files are compared with their immutable source identities. Where canonic"
+    },
+    {
+      "page": 221,
+      "text": "Page | 221 \u2192 M11 checksum set \u2192 M11 frozen-tree verification Publication-inventory verification The publication inventor"
+    },
+    {
+      "page": 222,
+      "text": "Page | 222 \u2022 reopening the applicable release gate; \u2022 rerunning validation; \u2022 regenerating release records; \u2022 establishi"
+    },
+    {
+      "page": 223,
+      "text": "Page | 223 Environment scope The automated suite was executed within the available Windows-based development and release"
+    },
+    {
+      "page": 224,
+      "text": "Page | 224 They do not establish: \u2022 HSM-backed custody; \u2022 managed enterprise key storage; \u2022 multi-party signing; \u2022 legal"
+    },
+    {
+      "page": 225,
+      "text": "Page | 225 Historical CSC evidence remains sparse, provisional, and subject to its original qualifications. Historical J"
+    },
+    {
+      "page": 226,
+      "text": "Page | 226 A current v2 test pass does not constitute a future M14 implementation pass. Bounded claim The appropriate ve"
+    },
+    {
+      "page": 227,
+      "text": "Page | 227 Defined control invariant \u2192 establishes the expected technical behaviour Positive-path test \u2192 confirms valid "
+    },
+    {
+      "page": 228,
+      "text": "Page | 228 These evidence classes shall not be combined in a manner that creates unsupported claims. In particular: \u2022 a "
+    },
+    {
+      "page": 229,
+      "text": "Page | 229 \u2022 deterministic two-target export; \u2022 historical-byte preservation; \u2022 release-candidate inventory generation; "
+    },
+    {
+      "page": 230,
+      "text": "Page | 230 Result category Count Failed 0 The tests were distributed across four control areas: Test area Tests Outcome "
+    },
+    {
+      "page": 231,
+      "text": "Page | 231 \u2022 no positive maturity contribution was inferred; \u2022 broader package-level purity was not used as a substitute"
+    },
+    {
+      "page": 232,
+      "text": "Page | 232 \u2022 changed no existing entry; \u2022 introduced no formatting-only mutation; \u2022 changed no ordering; \u2022 changed no ti"
+    },
+    {
+      "page": 233,
+      "text": "Page | 233 \u2022 registry-entry identity; \u2022 issue time; \u2022 expiry time; \u2022 reviewer identifier; \u2022 decision source; \u2022 rationale"
+    },
+    {
+      "page": 234,
+      "text": "Page | 234 \u2022 absent. The legacy field remained historical evidence. A current v2 operation required a new explicit autho"
+    },
+    {
+      "page": 235,
+      "text": "Page | 235 package_seal.json The inventory included: training_authorization.json Each inventoried member was represented"
+    },
+    {
+      "page": 236,
+      "text": "Page | 236 \u2022 added members; \u2022 altered signed metadata; \u2022 incorrect package-sealing keys; \u2022 and trust-role collision. The"
+    },
+    {
+      "page": 237,
+      "text": "Page | 237 This establishes that the declared reviewer command paths were present and resolvable within the candidate. I"
+    },
+    {
+      "page": 238,
+      "text": "Page | 238 11.8 Export Determinism and Historical Preservation The M06 release rehearsal created two independent disposa"
+    },
+    {
+      "page": 239,
+      "text": "Page | 239 The two-target and preservation results demonstrate reproducible export under the evaluated environment and e"
+    },
+    {
+      "page": 240,
+      "text": "Page | 240 \u2022 calibration limitations; \u2022 sector qualifications; \u2022 provisional status; \u2022 and non-certifying interpretation"
+    },
+    {
+      "page": 241,
+      "text": "Page | 241 Publication inventory The corrected candidate records: Inventory measure Verified value Listed pre-record fil"
+    },
+    {
+      "page": 242,
+      "text": "Page | 242 \u2022 package-relative path; \u2022 inventory; \u2022 build report; \u2022 checksum set; \u2022 or another candidate member would pro"
+    },
+    {
+      "page": 243,
+      "text": "Page | 243 They also did not create a new M12 human approval. 11.12 Historical July Release Position The following table"
+    },
+    {
+      "page": 244,
+      "text": "Page | 244 M12 remains a human disposition The corrected July candidate passed technical read-only verification. That re"
+    },
+    {
+      "page": 245,
+      "text": "Page | 245 \u2022 public export is exact, allowlisted, and deterministic under the evaluated conditions; \u2022 historical bytes a"
+    },
+    {
+      "page": 246,
+      "text": "Page | 246 Model-release authority \u2260 deployment authority Corrected M11 PASS \u2260 M12 human approval M12 technical verifica"
+    },
+    {
+      "page": 247,
+      "text": "Page | 247 \u2022 the initial M12 findings were corrected through bounded remediation; \u2022 corrected M10 and M11 passed; \u2022 no n"
+    },
+    {
+      "page": 248,
+      "text": "Page | 248 The comparison is not framed as a failed v1.0 release followed by a corrected v2 release. V1.0 established th"
+    },
+    {
+      "page": 249,
+      "text": "Page | 249 It demonstrated that the conceptual lifecycle and governance model could be represented through executable sc"
+    },
+    {
+      "page": 250,
+      "text": "Page | 250 It demonstrated that datasets could move through: Containment \u2192 review \u2192 candidate preparation \u2192 promotion \u2192 "
+    },
+    {
+      "page": 251,
+      "text": "Page | 251 These artifacts demonstrated how execution-layer records could contribute to an assurance interpretation. The"
+    },
+    {
+      "page": 252,
+      "text": "Page | 252 However, they were not necessarily bound to: \u2022 one named operation; \u2022 the current dataset digest; \u2022 the curre"
+    },
+    {
+      "page": 253,
+      "text": "Page | 253 \u2022 and deployment. The scopes are non-equivalent. Authorization for one scope does not imply authority for ano"
+    },
+    {
+      "page": 254,
+      "text": "Page | 254 Authorization dimension V1.0 V2 Dataset-digest binding Available in selected evidence surfaces Required in au"
+    },
+    {
+      "page": 255,
+      "text": "Page | 255 \u2022 SHA-256 member digests; \u2022 exact inventory membership; \u2022 deterministic Merkle-root construction; \u2022 signed pa"
+    },
+    {
+      "page": 256,
+      "text": "Page | 256 Trust-role separation V2 uses: 1. an authorization-signing key; and 2. a separate package-sealing key. The as"
+    },
+    {
+      "page": 257,
+      "text": "Page | 257 It does not convert package integrity into proof of safety, correctness, compliance, or authorization. 12.4 L"
+    },
+    {
+      "page": 258,
+      "text": "Page | 258 \u2022 INSUFFICIENT_EVIDENCE. A compatibility approved field, where retained, means only that deterministic techni"
+    },
+    {
+      "page": 259,
+      "text": "Page | 259 \u2022 no state1_freeze.json; \u2022 no frozen_manifest.json; \u2022 no frozen_dataset.jsonl. Held registry evaluation V1.0 "
+    },
+    {
+      "page": 260,
+      "text": "Page | 260 Control condition V1.0 interpretation V2 interpretation Held registry Earlier evaluation and mutation boundar"
+    },
+    {
+      "page": 261,
+      "text": "Page | 261 Git tree 866cb4246d4fdc5e31c3a8be32249dc1b00b60ec The source baseline is not automatically the public release"
+    },
+    {
+      "page": 262,
+      "text": "Page | 262 \u2022 174 byte-preserved historical files; \u2022 zero historical preservation failures; \u2022 146 normalized active text "
+    },
+    {
+      "page": 263,
+      "text": "Page | 263 Release comparison Release dimension V1.0 V2 Immutable historical tag Yes Preserved Separate reviewed source "
+    },
+    {
+      "page": 264,
+      "text": "Page | 264 It is not represented as new v2 execution evidence. Historical LoRA evidence Historical LoRA summaries demons"
+    },
+    {
+      "page": 265,
+      "text": "Page | 265 V2 treatment was: \u2022 preserve the original bundle; \u2022 disclose the mismatch; \u2022 exclude it from positive v2 evid"
+    },
+    {
+      "page": 266,
+      "text": "Page | 266 \u2022 a lifecycle state; \u2022 a cryptographic key; \u2022 a score; \u2022 a registry entry; \u2022 or an automated verifier. The sy"
+    },
+    {
+      "page": 267,
+      "text": "Page | 267 The new authorization artifact answers a separate question concerning permission for a named operation. Acces"
+    },
+    {
+      "page": 268,
+      "text": "Page | 268 \u2022 the six CSC factors; \u2022 sector weighting; \u2022 assurance revocation; \u2022 evidence-density requirements; \u2022 calibra"
+    },
+    {
+      "page": 269,
+      "text": "Page | 269 Dataset Passport and lineage \u2192 retained Access-Mode and Working-PoD semantics \u2192 retained Historical evidence "
+    },
+    {
+      "page": 270,
+      "text": "Page | 270 13. Governance and Assurance Interpretation Q-Pathformer Enterprise v2 implements technical boundaries intend"
+    },
+    {
+      "page": 271,
+      "text": "Page | 271 Technical controls may constrain execution and improve evidence quality. They do not create the external auth"
+    },
+    {
+      "page": 272,
+      "text": "Page | 272 For example: validation_parameter_update \u2022 successful completion \u2260 production_training production_training \u2022 "
+    },
+    {
+      "page": 273,
+      "text": "Page | 273 \u2022 expired authority; \u2022 package-integrity failure; \u2022 unresolved legal questions; \u2022 privacy concerns; \u2022 contrac"
+    },
+    {
+      "page": 274,
+      "text": "Page | 274 For training_authorization.json, this supports authentication of: \u2022 the decision; \u2022 the authorization scope; "
+    },
+    {
+      "page": 275,
+      "text": "Page | 275 \u2022 key-registration procedures; \u2022 hardware-backed credentials; \u2022 key-custody records; \u2022 approval workflows; \u2022 "
+    },
+    {
+      "page": 276,
+      "text": "Page | 276 The current implementation principally addresses the first layer. 13.3 Sealing Is Not Content Approval The pa"
+    },
+    {
+      "page": 277,
+      "text": "Page | 277 Integrity is not confidentiality Package sealing does not encrypt the package. A valid seal does not prevent:"
+    },
+    {
+      "page": 278,
+      "text": "Page | 278 \u2022 data provenance; \u2022 data ownership; \u2022 copyright; \u2022 confidentiality; \u2022 privacy; \u2022 sensitive information; \u2022 re"
+    },
+    {
+      "page": 279,
+      "text": "Page | 279 \u2022 deployment. The scopes remain non-equivalent. A reviewer issuing one scope does not issue the others implic"
+    },
+    {
+      "page": 280,
+      "text": "Page | 280 \u2022 renew it automatically; \u2022 extend it automatically; \u2022 infer renewal from an earlier run; \u2022 or copy the previ"
+    },
+    {
+      "page": 281,
+      "text": "Page | 281 Authorization does not prove the decision was correct A valid authorization establishes that the recorded dec"
+    },
+    {
+      "page": 282,
+      "text": "Page | 282 regulatory statement from New South Wales, Victoria and Western Australia emphasizes that professional obliga"
+    },
+    {
+      "page": 283,
+      "text": "Page | 283 The hypothetical request is one local validation_parameter_update operation on the identified statements, wit"
+    },
+    {
+      "page": 284,
+      "text": "Page | 284 A technically verified candidate is not automatically publishable. Technical release state The release proces"
+    },
+    {
+      "page": 285,
+      "text": "Page | 285 The corrected July candidate passed read-only verification, but its retained record contains no new M12 appro"
+    },
+    {
+      "page": 286,
+      "text": "Page | 286 \u2022 the responsible role; \u2022 the decision policy; \u2022 the evidence required; \u2022 the transition requested; \u2022 and the"
+    },
+    {
+      "page": 287,
+      "text": "Page | 287 Technical evidence is only one assurance layer A complete assurance interpretation may also require: \u2022 organi"
+    },
+    {
+      "page": 288,
+      "text": "Page | 288 \u2022 calibration limitations; \u2022 sector maturity; \u2022 provisional status; \u2022 and non-certifying interpretation. V2 p"
+    },
+    {
+      "page": 289,
+      "text": "Page | 289 This extends the TR-010 missing-evidence principle into assurance. M14 remains separately authorized The M14 "
+    },
+    {
+      "page": 290,
+      "text": "Page | 290 Passing tests are not independent assurance The internal test result supports bounded claims concerning the t"
+    },
+    {
+      "page": 291,
+      "text": "Page | 291 Historical evidence is not current assurance Historical execution and CSC artifacts remain useful evidence. T"
+    },
+    {
+      "page": 292,
+      "text": "Page | 292 Execution completion \u2260 model quality Internal testing \u2260 independent assurance Frozen candidate \u2260 public relea"
+    },
+    {
+      "page": 293,
+      "text": "Page | 293 \u2022 package sealing establishes the current package state but does not approve the content; \u2022 package integrity"
+    },
+    {
+      "page": 294,
+      "text": "Page | 294 ethical appropriateness, or final assurance meaning of the human governance decisions that surround its use. "
+    },
+    {
+      "page": 295,
+      "text": "Page | 295 \u2022 a passing test does not establish independent assurance; \u2022 a valid schema does not establish semantic or go"
+    },
+    {
+      "page": 296,
+      "text": "Page | 296 The tested Q-Pathformer Enterprise v2 lifecycle, authorization, package-sealing, migration, export, and relea"
+    },
+    {
+      "page": 297,
+      "text": "Page | 297 The report shall not describe the full system as universally fail-safe. The 21 July 2026 rights and provenanc"
+    },
+    {
+      "page": 298,
+      "text": "Page | 298 No legal advice The report does not provide legal advice concerning: \u2022 privacy; \u2022 copyright; \u2022 data protectio"
+    },
+    {
+      "page": 299,
+      "text": "Page | 299 \u2022 an independent code audit; \u2022 penetration testing; \u2022 adversarial red-team testing; \u2022 formal threat-model val"
+    },
+    {
+      "page": 300,
+      "text": "Page | 300 Cryptographic implementation boundary The use of Ed25519 and SHA-256 does not independently prove that: \u2022 key"
+    },
+    {
+      "page": 301,
+      "text": "Page | 301 \u2022 load handling; \u2022 latency targets; \u2022 throughput targets; \u2022 multi-user isolation; \u2022 tenant isolation; \u2022 distr"
+    },
+    {
+      "page": 302,
+      "text": "Page | 302 \u2022 checkpoint continuation; \u2022 distributed workers; \u2022 queued provider jobs; \u2022 retries; \u2022 failover; \u2022 or delayed"
+    },
+    {
+      "page": 303,
+      "text": "Page | 303 \u2022 a regulator; \u2022 or another authorized decision-maker. No delegated-authority proof The current artifact does"
+    },
+    {
+      "page": 304,
+      "text": "Page | 304 14.6 No Complete Key-Management or Trust-Infrastructure Claim APOD-TR-010 does not define a complete producti"
+    },
+    {
+      "page": 305,
+      "text": "Page | 305 \u2022 or revoked organizational roles. A historically valid signature may continue to verify cryptographically ev"
+    },
+    {
+      "page": 306,
+      "text": "Page | 306 No malware assurance A malicious file may be: \u2022 inventoried; \u2022 hashed; \u2022 included in a Merkle root; \u2022 and sig"
+    },
+    {
+      "page": 307,
+      "text": "Page | 307 No ownership or licensing assurance A package digest does not establish: \u2022 authorship; \u2022 ownership; \u2022 copyrig"
+    },
+    {
+      "page": 308,
+      "text": "Page | 308 No distribution control The seal does not prevent: \u2022 copying; \u2022 forwarding; \u2022 uploading; \u2022 extracting; \u2022 or r"
+    },
+    {
+      "page": 309,
+      "text": "Page | 309 It evaluates governed dataset and execution boundaries. No new v2 GPU fine-tune The current verification did "
+    },
+    {
+      "page": 310,
+      "text": "Page | 310 \u2022 agent frameworks; \u2022 dataset-governance platforms; \u2022 or another machine-learning architecture. No architectu"
+    },
+    {
+      "page": 311,
+      "text": "Page | 311 \u2022 or direct-evidence coverage within the historical CSC artifacts. No new assurance level APOD-TR-010 does no"
+    },
+    {
+      "page": 312,
+      "text": "Page | 312 14.11 Historical Candidate Approval Boundary The corrected July M11 candidate was technically frozen and repr"
+    },
+    {
+      "page": 313,
+      "text": "Page | 313 Historical baseline is not the standards release identity The source-baseline commit and tag are not the fina"
+    },
+    {
+      "page": 318,
+      "text": "Page | 318 Area Current evidence supports Current evidence does not establish Lifecycle Tested fail-closed behaviour at "
+    },
+    {
+      "page": 358,
+      "text": "Page | 358 \u2022 new human disposition; \u2022 and new claims boundary. Optimization is not minimization The purpose is not simpl"
+    },
+    {
+      "page": 373,
+      "text": "Page | 373 \u2022 no-telemetry/no-score rule; \u2022 historical non-retroactivity; \u2022 calibration; \u2022 confidence treatment; \u2022 tests;"
+    },
+    {
+      "page": 374,
+      "text": "Page | 374 Standards edition publication handoff at 6 September 2026. The papers are complete. The table distinguishes t"
+    }
+  ]
+}

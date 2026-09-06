@@ -1,0 +1,64 @@
+{
+  "document_id": "QPATH-V2-M09-MODEL-ASSET-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:52:56Z",
+  "repository_is_base_model_distribution": false,
+  "binary_model_assets_included": false,
+  "private_training_assets_included": false,
+  "included_model_related_content": [
+    {
+      "class": "source_only_reference_implementation",
+      "paths": [
+        "shared/models/qpathformer/enterprise/qpathformer_v0_9_grouped_sparse_e64.py",
+        "shared/models/qpathformer/reference/qpathformer_v0_9_reference_sparse_e08.py"
+      ],
+      "contains_learned_parameters": false
+    },
+    {
+      "class": "historical_evaluation_and_run_metadata",
+      "paths": [
+        "shared/models/evaluation/",
+        "path_1_tr_corpus_reference/05_runs/",
+        "path_2_access_mode_canonical/05_runs/"
+      ],
+      "formats": [
+        "JSON",
+        "text"
+      ],
+      "claim": "execution and evaluation metadata only; not model-quality proof"
+    }
+  ],
+  "external_model_references": [
+    {
+      "model_id": "gpt-oss:20b",
+      "historical_role": "Path 2 runtime signal generation",
+      "distribution": "not included",
+      "licence_boundary": "Apache-2.0 and applicable gpt-oss usage terms remain external"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "historical_role": "Path 1 and Path 2 local LoRA continuity runs",
+      "distribution": "not included",
+      "licence_boundary": "Apache-2.0 model terms remain external"
+    }
+  ],
+  "prohibited_release_extensions": [
+    ".bin",
+    ".ckpt",
+    ".gguf",
+    ".onnx",
+    ".pt",
+    ".pth",
+    ".safetensors"
+  ],
+  "excluded_derivative_assets": [
+    "LoRA adapters",
+    "checkpoints",
+    "optimizer state",
+    "tokenizer bundles",
+    "model caches",
+    "training secrets",
+    "private signing keys"
+  ],
+  "dependency_boundary": "requirements-release.txt contains only release-validation dependencies. Optional runtime, training, model, and GPU dependencies are not installed by CI."
+}

@@ -1,0 +1,8 @@
+{
+  "registry_version": "qpds_run_registry_v1.1",
+  "workflow_id": "qpds_three_path_live_registry",
+  "registry_scope": "shared_runtime_and_lifecycle_runs",
+  "registry_note": "Portable empty example. Copy to run_registry.json before use or allow the runtime tool to initialize the registry.",
+  "runs": [],
+  "updated_at_utc": null
+}

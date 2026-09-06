@@ -1,0 +1,16 @@
+{
+  "schema": "qpf.seal.manifest.external.v1",
+  "created_utc": "2026-07-21T10:00:18.8963602Z",
+  "seal_id": "20260721_100018",
+  "authority": "Anthony Siljeg — Platform Steward",
+  "source_dir": "C:\\qpathformer_tr010",
+  "target_path": "C:\\qpathformer_tr010",
+  "output_dir": "C:\\sealed files\\q-pathformer_V2_docs\\phase1\\seal_20260721_100018",
+  "packaging": {
+    "archive": "sealed_20260721_100018.zip",
+    "hash_algorithm": "SHA256",
+    "hash_sha256": "9F61634E4493C2A2E8A5813B816C27F766FCF0C56D8A4C61E5A09DB719F4ADF2",
+    "companion_sha_file": "sealed_20260721_100018.zip.sha256",
+    "internal_manifest_file": "manifest.internal.json"
+  }
+}

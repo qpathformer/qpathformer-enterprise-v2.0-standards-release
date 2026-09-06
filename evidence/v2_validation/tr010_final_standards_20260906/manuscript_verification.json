@@ -1,0 +1,325 @@
+{
+  "format": "tr010_final_edition_verification_v1",
+  "date": "2026-09-06",
+  "papers": [
+    {
+      "paper": "main",
+      "input": {
+        "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+        "bytes": 573297,
+        "sha256": "5c47b2d4591c6d47b2612707dd51fa1a4f804b962de758e39e824c96af1fe173"
+      },
+      "output": {
+        "path": "docs/research/tr010/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx",
+        "bytes": 573219,
+        "sha256": "7faf53c718e4c577c1493a92a6bb5edced386ce8128eb86ae21f8ce60d3f0e47"
+      },
+      "body_paragraph_count": 10712,
+      "text_replacements": 21,
+      "abstract_preserved": true,
+      "tables_preserved": 47,
+      "embedded_media_preserved": true,
+      "pages": 380,
+      "unchanged_page_images": 361,
+      "visually_reviewed_changed_pages": [
+        1,
+        2,
+        7,
+        11,
+        12,
+        13,
+        16,
+        17,
+        32,
+        163,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        379,
+        380
+      ],
+      "toc_references_checked": 179,
+      "native_and_pdf_reference_hyperlinks_verified": 14
+    },
+    {
+      "paper": "results",
+      "input": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 123095,
+        "sha256": "04d1efc9fd2d4aa1956b5f76a4a5c501737e37ca53e35e2f8decf61f9d23c844"
+      },
+      "output": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 123025,
+        "sha256": "cdf59200f272583534b421de7202499858acbadc9d9ccfdadb62eed51a7e3a3c"
+      },
+      "body_paragraph_count": 394,
+      "text_replacements": 17,
+      "abstract_preserved": true,
+      "tables_preserved": 11,
+      "embedded_media_preserved": true,
+      "pages": 35,
+      "unchanged_page_images": 27,
+      "visually_reviewed_changed_pages": [
+        1,
+        14,
+        21,
+        22,
+        24,
+        30,
+        34,
+        35
+      ],
+      "toc_references_checked": 50,
+      "native_and_pdf_reference_hyperlinks_verified": 14
+    }
+  ],
+  "recorded_changes": [
+    {
+      "paper": "main",
+      "paragraph_index": 11,
+      "before": "Edition: First Edition",
+      "after": "Edition: First Edition - v2.0 Standards Exploration"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 12,
+      "before": "Date of Issue: Not issued; local review manuscript prepared 5 September 2026.",
+      "after": "Edition date: 6 September 2026."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 13,
+      "before": "Status: Standards Review Manuscript R04 - 5 September 2026 (Local Draft)",
+      "after": "Status: Final manuscript - v2.0 Standards Edition"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 14,
+      "before": "Later: Public Review Draft (Standards Exploration)",
+      "after": "Release tag: v2.0-qpathformer-enterprise-standards"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 40,
+      "before": "APOD-TR-010 builds on the governed dataset lifecycle demonstrated in Q-Pathformer Enterprise v1.0. The companion History and Provenance Notice (history_notice.md, revision HN-20260905-R03, 5 September 2026) records the historical reviews, evidence identities and revision boundaries supporting this edition. Historical findings retain their original scope and do not establish current publication authority. This manuscript remains a local standards-review draft; its illustrative legal-review example does not constitute practitioner approval.",
+      "after": "APOD-TR-010 builds on the governed dataset lifecycle demonstrated in Q-Pathformer Enterprise v1.0. The companion History and Provenance Notice (history_notice.md, HN-20260905-R03) preserves the historical reviews and evidence boundaries. This final standards edition is dated 6 September 2026; historical findings retain their original scope. Its illustrative legal-review example does not constitute practitioner approval."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 110,
+      "before": "At the evidence cutoff for this draft, corrected M10 and M11 have passed, and the corrected candidate is ready for M12 reconsideration. A new M12 human disposition has not been recorded. No public v2 commit, public release tag, remote push, release ZIP, release asset, final publication attestation, or final APOD-TR-010 publication is claimed.",
+      "after": "The July evidence snapshot ends with corrected M10 and M11 passed and the corrected candidate ready for M12 reconsideration. No new M12 disposition or M13 publication action was recorded for that candidate. This September standards edition reports that history without retrospectively completing those transitions or treating the historical candidate as the current publication package."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 208,
+      "before": "At the evidence cutoff used for this draft, the v2 source baseline was bound to commit:",
+      "after": "At the July evidence cutoff, the v2 source baseline was bound to commit:"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 215,
+      "before": "These facts establish the current drafting evidence boundary. They do not establish final publication. A new M12 human disposition for the corrected candidate had not yet been authorized at the evidence cutoff, and no public v2 commit, public tag, ZIP, release asset, remote push, or publication record had been created.",
+      "after": "These facts identify the July candidate and its evidence boundary, not the publication identity of this standards edition. No new M12 disposition, public tag, release ZIP, release asset or publication record was established for that corrected candidate in the retained evidence. The standards edition has its own designated release reference and separately prepared publication package."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 560,
+      "before": "APOD-TR-010 remains a Public Review Draft for standards exploration.",
+      "after": "APOD-TR-010 is the completed v2.0 Standards Exploration Edition."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 4444,
+      "before": "The controlled release source currently covers M00 through the corrected M11 candidate. M12 and all later public actions remain separately bounded. The release source itself is external to the frozen candidate and does not authorize a public Git identity, ZIP, push, release asset, or publication.",
+      "after": "The retained July release source covers M00 through the corrected M11 candidate. M12 and later public actions remained separately bounded in that record. The historical release source is external to its frozen candidate and does not itself authorize a public Git identity, ZIP, push, release asset or publication."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 8649,
+      "before": "14.11 No Final Human Release Approval",
+      "after": "14.11 Historical Candidate Approval Boundary"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 8650,
+      "before": "The corrected M11 candidate is technically frozen and reproducible.",
+      "after": "The corrected July M11 candidate was technically frozen and reproducible."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 8651,
+      "before": "It has not received a new M12 human release disposition at the current evidence cutoff.",
+      "after": "No new M12 human release disposition for that candidate was recorded at the July evidence cutoff."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10687,
+      "before": "These references distinguish the published TR007-TR009 background from the current TR010 standards manuscripts and future release plans. Repository and release status was checked on 6 September 2026. A reference link does not confer permission, legal clearance, certification or operational authorization.",
+      "after": "These references distinguish the published TR007-TR009 background, this completed TR010 standards edition and future enterprise work. Historical links were checked on 6 September 2026. A release reference does not confer permission, legal clearance, certification or operational authorization."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10698,
+      "before": "TR010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems, explains the method as an implementation report and reference protocol. TR010-R, Verification Results and v1.0 Comparison, explains the evidence and its limits. The current pair is prepared locally for the v2 standards pack; no public TR010 release tag is verified here.",
+      "after": "TR010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems, explains the method as an implementation report and reference protocol. TR010-R, Verification Results and v1.0 Comparison, explains the evidence and its limits. Together they form the completed paper pair for the v2.0 standards release."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10700,
+      "before": "Planned releases and Access PoD background",
+      "after": "Standards release and Access PoD background"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10701,
+      "before": "The following v2 and v3 names follow the v1.0 naming pattern. They are proposed publication destinations, not existing releases or frozen identifiers. Their tag links may be unavailable until separately authorized publication. Confirm the final repository, tag and commit before issue.",
+      "after": "The v2.0 repository and tag below identify the release destination for this completed standards edition. The separate v3 enterprise destination remains proposed. Repository and release pages provide access to the associated assets; the final commit and asset hashes belong to the publication record, not to the earlier verification results."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10702,
+      "before": "V2 standards pack Planned",
+      "after": "V2 standards pack Final edition"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10703,
+      "before": "Proposed repository: qpathformer-enterprise-v2.0-standards-release. Proposed tag: v2.0-qpathformer-enterprise-standards. The local standards workspace supplies the current paper pair and bounded reproducibility records, not a claim of full enterprise reproduction.",
+      "after": "Release repository: qpathformer-enterprise-v2.0-standards-release. Release tag: v2.0-qpathformer-enterprise-standards. This edition supplies the TR010 paper pair and bounded reproducibility records, not a claim of full enterprise reproduction."
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10704,
+      "before": "Proposed v2 standards tag URL (not published)",
+      "after": "V2 standards release"
+    },
+    {
+      "paper": "main",
+      "paragraph_index": 10711,
+      "before": "Reference-update provenance: TR010_REFERENCES_EDIT_RECORD_20260906.md records the verified destinations and current manuscript hashes. The earlier E01 companion snapshot and all historical evidence ledgers remain point-in-time records; this references-only addition does not change the reported findings.",
+      "after": "Edition provenance: TR010_FINAL_EDITION_EDIT_RECORD_20260906.md records the final manuscript identities and editorial changes. Earlier evidence ledgers retain their dated scope. Completing this standards edition does not convert historical results into new execution evidence or establish practitioner approval."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 1,
+      "before": "Q-Pathformer Enterprise v2",
+      "after": "Q-Pathformer Enterprise v2.0 Standards Edition"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 5,
+      "before": "Edition: Standards exploration.",
+      "after": "Edition: First Edition - v2.0 Standards Exploration."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 7,
+      "before": "Status: Local standards-review draft. Not issued or approved for publication.",
+      "after": "Status: Final manuscript - v2.0 Standards Edition."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 101,
+      "before": "The historical TinyLlama 1.1B local LoRA run is reported as completed on CUDA, with aggregate training loss approximately 3.4113 and final logged loss approximately 3.4135. The aggregate and last-step values answer different questions and should not be interchanged. The source establishes recorded execution continuity, not a held-out evaluation, improved generalization or a v2 training outcome. This draft does not calculate a validation loss from the existence of 124 validation rows. [E10]",
+      "after": "The historical TinyLlama 1.1B local LoRA run is reported as completed on CUDA, with aggregate training loss approximately 3.4113 and final logged loss approximately 3.4135. The aggregate and last-step values answer different questions and should not be interchanged. The source establishes recorded execution continuity, not a held-out evaluation, improved generalization or a v2 training outcome. This report does not calculate a validation loss from the existence of 124 validation rows. [E10]"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 143,
+      "before": "For this draft, the 11 rehearsal source bindings were checked against the retained local implementation. The original model outputs, CSC generation, full tagged freeze bundle and July export directories were not re-executed or re-hashed as complete sets. A reviewer should preserve that distinction when describing what they have independently confirmed.",
+      "after": "For this report, the 11 rehearsal source bindings were checked against the retained local implementation. The original model outputs, CSC generation, full tagged freeze bundle and July export directories were not re-executed or re-hashed as complete sets. A reviewer should preserve that distinction when describing what they have independently confirmed."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 152,
+      "before": "The inherited licence and notices remain in place. External legal-review drafts remain separately identified rather than silently adopted. This report does not resolve ownership, standards-expression permissions, jurisdictional exceptions, confidentiality, reliance or distribution authority. Its readiness for author review is distinct from readiness for rights-dependent publication. [E02, E19]",
+      "after": "The inherited licence and notices remain in place. External legal-review drafts remain separately identified rather than silently adopted. This report does not resolve ownership, standards-expression permissions, jurisdictional exceptions, confidentiality, reliance or distribution authority. Final manuscript status does not supply legal clearance for rights-dependent publication. [E02, E19]"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 154,
+      "before": "The retained evidence supports a bounded standards contribution: explicit checks on recorded permission and package integrity, a reproducible synthetic demonstration, and a comparison with earlier lifecycle results. It does not support an official-release, lawyer-reviewed, independently certified or production-ready label.",
+      "after": "The retained evidence supports a bounded standards contribution: explicit checks on recorded permission and package integrity, a reproducible synthetic demonstration, and a comparison with earlier lifecycle results. The completed standards edition reports that contribution; it does not claim lawyer review, independent certification or production readiness."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 160,
+      "before": "The main TR010 manuscript is a contextual reference. Current execution claims are tied to the retained September logs; historical release and CSC claims are tied to their dated records. The July comparison document is a historical narrative source, not a current execution report. The full original v1 run set is not included in this draft.",
+      "after": "The main TR010 manuscript is a contextual reference. Current execution claims are tied to the retained September logs; historical release and CSC claims are tied to their dated records. The July comparison document is a historical narrative source, not a current execution report. The full original v1 run set is not included in this standards pack."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 338,
+      "before": "Remember: passing a test is not permission to publish. This map explains the historical sequence; it does not restart the milestones or approve the new draft.",
+      "after": "Remember: passing a test is not permission to publish. This map explains the historical sequence; it does not restart the milestones or approve a later operation."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 369,
+      "before": "These references distinguish the published TR007-TR009 background from the current TR010 standards manuscripts and future release plans. Repository and release status was checked on 6 September 2026. A reference link does not confer permission, legal clearance, certification or operational authorization.",
+      "after": "These references distinguish the published TR007-TR009 background, this completed TR010 standards edition and future enterprise work. Historical links were checked on 6 September 2026. A release reference does not confer permission, legal clearance, certification or operational authorization."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 380,
+      "before": "TR010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems, explains the method as an implementation report and reference protocol. TR010-R, Verification Results and v1.0 Comparison, explains the evidence and its limits. The current pair is prepared locally for the v2 standards pack; no public TR010 release tag is verified here.",
+      "after": "TR010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems, explains the method as an implementation report and reference protocol. TR010-R, Verification Results and v1.0 Comparison, explains the evidence and its limits. Together they form the completed paper pair for the v2.0 standards release."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 382,
+      "before": "Planned releases and Access PoD background",
+      "after": "Standards release and Access PoD background"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 383,
+      "before": "The following v2 and v3 names follow the v1.0 naming pattern. They are proposed publication destinations, not existing releases or frozen identifiers. Their tag links may be unavailable until separately authorized publication. Confirm the final repository, tag and commit before issue.",
+      "after": "The v2.0 repository and tag below identify the release destination for this completed standards edition. The separate v3 enterprise destination remains proposed. Repository and release pages provide access to the associated assets; the final commit and asset hashes belong to the publication record, not to the earlier verification results."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 384,
+      "before": "V2 standards pack Planned",
+      "after": "V2 standards pack Final edition"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 385,
+      "before": "Proposed repository: qpathformer-enterprise-v2.0-standards-release. Proposed tag: v2.0-qpathformer-enterprise-standards. The local standards workspace supplies the current paper pair and bounded reproducibility records, not a claim of full enterprise reproduction.",
+      "after": "Release repository: qpathformer-enterprise-v2.0-standards-release. Release tag: v2.0-qpathformer-enterprise-standards. This edition supplies the TR010 paper pair and bounded reproducibility records, not a claim of full enterprise reproduction."
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 386,
+      "before": "Proposed v2 standards tag URL (not published)",
+      "after": "V2 standards release"
+    },
+    {
+      "paper": "results",
+      "paragraph_index": 393,
+      "before": "Reference-update provenance: TR010_REFERENCES_EDIT_RECORD_20260906.md records the verified destinations and current manuscript hashes. The earlier E01 companion snapshot and all historical evidence ledgers remain point-in-time records; this references-only addition does not change the reported findings.",
+      "after": "Edition provenance: TR010_FINAL_EDITION_EDIT_RECORD_20260906.md records the final manuscript identities and editorial changes. Earlier evidence ledgers retain their dated scope. Completing this standards edition does not convert historical results into new execution evidence or establish practitioner approval."
+    }
+  ],
+  "results_markdown_matches_recorded_changes": true,
+  "front_matter_review": "Final status and edition date, author and affiliation preserved, no actual legal review claimed, contents refreshed. Unchanged front-matter pages match the previously inspected renders.",
+  "historical_evidence_unchanged": true,
+  "runtime_tests_run": false,
+  "legal_or_license_change": false,
+  "git_action_performed": false,
+  "pdf_deliverables_created": false,
+  "temporary_pdf_render_for_qa_only": true,
+  "seal_or_publication_performed": false,
+  "limits": [
+    "Final manuscript status and a designated URL are not evidence of an existing online release.",
+    "Historical M12/M13 records and fictional review HOLD remain unchanged.",
+    "The full local workspace still needs a publication-file selection; the paper selection is not a full export allowlist."
+  ]
+}

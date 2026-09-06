@@ -1,0 +1,132 @@
+{
+  "manifest_version": "2.0",
+  "repository_id": "qpathformer-enterprise-v2",
+  "repository_status": "M11_frozen_ready_for_human_release_review",
+  "publication_status": "not_committed_not_tagged_not_published",
+  "assessment_date": "2026-07-18",
+  "source_baseline": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec"
+  },
+  "selected_public_surfaces": [
+    "docs/",
+    "path_1_tr_corpus_reference/",
+    "path_2_access_mode_canonical/",
+    "path_3_external_custom_adapter/",
+    "planning/",
+    "release/",
+    "scripts/",
+    "shared/",
+    "tests/unit/"
+  ],
+  "classifications": [
+    {
+      "path": "scripts/",
+      "status": "ACTIVE_V2",
+      "treatment": "lifecycle, authorization, sealing, runtime, adapter, CSC, export, and release validation"
+    },
+    {
+      "path": "shared/configs/",
+      "status": "ACTIVE_V2",
+      "treatment": "portable active configuration"
+    },
+    {
+      "path": "shared/schemas/",
+      "status": "ACTIVE_V2",
+      "treatment": "active contracts including v2 authorization and package sealing"
+    },
+    {
+      "path": "shared/registry/examples/",
+      "status": "SANITIZED_EXAMPLE",
+      "treatment": "portable examples only; mutable registry state excluded"
+    },
+    {
+      "path": "shared/models/qpathformer/",
+      "status": "SOURCE_ONLY_REFERENCE_IMPLEMENTATION",
+      "treatment": "Python source without learned parameters"
+    },
+    {
+      "path": "shared/models/evaluation/",
+      "status": "HISTORICAL_V1_EVIDENCE",
+      "treatment": "JSON evaluation summaries only; not model-quality proof"
+    },
+    {
+      "path": "shared/standards/",
+      "status": "STANDARDS_BOUNDARY",
+      "treatment": "stable namespace with separately licensed Access-PoD material"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/",
+      "status": "HISTORICAL_V1_EVIDENCE",
+      "treatment": "populated deterministic corpus and run evidence; no model binaries"
+    },
+    {
+      "path": "path_2_access_mode_canonical/",
+      "status": "HISTORICAL_V1_EVIDENCE",
+      "treatment": "populated lifecycle and run evidence; CSC session origin"
+    },
+    {
+      "path": "path_3_external_custom_adapter/",
+      "status": "HISTORICAL_V1_EVIDENCE",
+      "treatment": "contained intake and normalization evidence; no promotion claim"
+    },
+    {
+      "path": "docs/orientation/",
+      "status": "HISTORICAL_V1_EVIDENCE",
+      "treatment": "retained papers and qualified result records"
+    },
+    {
+      "path": "docs/release/",
+      "status": "ACTIVE_V2",
+      "treatment": "current release boundary and disclosure"
+    },
+    {
+      "path": "planning/",
+      "status": "DEVELOPMENT_RECORD",
+      "treatment": "retained decision context; not runtime dependencies or completed-gate assertions"
+    },
+    {
+      "path": "tests/unit/",
+      "status": "ACTIVE_V2_TEST",
+      "treatment": "self-contained automated control verification"
+    }
+  ],
+  "release_records": [
+    "SOURCE_PROVENANCE.json",
+    "release/V1_GIT_SOURCE_ANCHOR.json",
+    "release/EXCLUSIONS.json",
+    "release/V1_CSC_EVIDENCE_MANIFEST.json",
+    "release/V1_STANDARDS_VENDOR_VERIFICATION.json",
+    "release/V2_CSC_GOVERNANCE_SNAPSHOT_CONTRACT.json",
+    "release/MODEL_AND_DERIVATIVE_ASSET_MANIFEST.json",
+    "release/THIRD_PARTY_NOTICES.md",
+    "release/DOCUMENTATION_CONFORMANCE_REPORT.json",
+    "release/PRE_SEAL_VERIFICATION_REPORT.json",
+    "release/PUBLICATION_INVENTORY.json",
+    "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+    "release/SHA256SUMS.txt"
+  ],
+  "known_gate_condition": {
+    "status": "RESOLVED_CANONICAL_EQUIVALENCE",
+    "record": "release/V1_STANDARDS_VENDOR_VERIFICATION.json",
+    "reason": "three files are byte-exact and six reproduce the v1a manifest exactly after the approved CRLF-to-LF canonical transform"
+  },
+  "pre_seal_verification": {
+    "status": "PASS",
+    "record": "release/PRE_SEAL_VERIFICATION_REPORT.json",
+    "scope": "M10 complete source and target verification",
+    "next_gate": "M11 freeze and publication inventory"
+  },
+  "m11_freeze": {
+    "status": "READY_FOR_HUMAN_RELEASE_REVIEW",
+    "publication_inventory": "release/PUBLICATION_INVENTORY.json",
+    "build_report": "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+    "checksums": "release/SHA256SUMS.txt",
+    "next_gate": "M12 external human review"
+  },
+  "final_public_commit": null,
+  "final_public_tag": null,
+  "release_asset": null,
+  "final_inventory": "release/PUBLICATION_INVENTORY.json"
+}

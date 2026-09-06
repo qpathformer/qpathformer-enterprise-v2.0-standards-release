@@ -1,0 +1,33 @@
+{
+  "schema_version": "private_baseline_authority_v1",
+  "recorded_at_utc": "2026-09-05T00:59:30.2704206Z",
+  "user_instruction": "Perfect - Next action: establish the private development baseline first.",
+  "scope": "Selected initial commit and push to the named private repository, with TR010 working draft and provenance.",
+  "repository": {
+    "full_name": "qpathformer/qpathformer-enterprise-v2",
+    "id": 1357710753,
+    "url": "https://github.com/qpathformer/qpathformer-enterprise-v2",
+    "visibility_observed": "private",
+    "is_fork": false,
+    "allow_forking": false
+  },
+  "access_observed": {
+    "signed_in_account": "Ante-PoDs",
+    "organization_role": "admin",
+    "members": [
+      "Ante-PoDs"
+    ],
+    "teams": [],
+    "organization_base_permission": "read",
+    "organization_permissions_changed": false
+  },
+  "boundaries": {
+    "private_baseline_only": true,
+    "public_release_authorized": false,
+    "licence_adopted": false,
+    "tags_or_assets_authorized": false,
+    "application_scope_changes_performed": false,
+    "training_authorized": false
+  },
+  "publication_note": "Historical records and private draft are not legal or human public-release approval."
+}

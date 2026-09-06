@@ -1,0 +1,178 @@
+{
+  "schema_version": "private_baseline_delta_v1",
+  "created_at_utc": "2026-09-05T01:12:09.634390+00:00",
+  "compared_to": "Local preparation captured in private_before.json outside the repository; original imported hashes retained in SOURCE_SELECTION.",
+  "self_excluded": "release/provenance/PRIVATE_BASELINE_DELTA.json",
+  "original_inherited_files_modified": false,
+  "removed_files": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "change": "modified",
+      "previous_sha256": "b50b633a348cc7f9b72727bb6f2e8749e38f87324c05caa8b4b417228434f0f3",
+      "sha256": "4259ed6d44de28eb92678a97f91345bf820cea2b401494d47b42869b655318b5",
+      "bytes": 941
+    },
+    {
+      "path": "README.md",
+      "change": "modified",
+      "previous_sha256": "315d896ec9e54b3aec35a55e26c12d1eefd6aac9c58f22b1b080dbd505f4b76b",
+      "sha256": "f6fc4a8bce6e6a8f1be38f57c8cb7237fc7bf9301e7b19eb55f1b3d16af1926b",
+      "bytes": 3003
+    },
+    {
+      "path": "dev_assist.md",
+      "change": "modified",
+      "previous_sha256": "cc49b5fa1d2457a6df234bdf4fc69dc02fb208f2e6d6efeaabfdc22b95fbef15",
+      "sha256": "0712e8436c8a1e1f941962ca7b9d4fb485f95e2753026ca1bd49914d36a5a3d7",
+      "bytes": 1638
+    },
+    {
+      "path": "docs/README.md",
+      "change": "modified",
+      "previous_sha256": "611ae3154ad52e0b7fb4b433c94806e33f49152e3c371d73870d62ca3b5361f1",
+      "sha256": "28baf4455a8dce0f85c02ff2993c12fbd48544f2ea0aff3fdd3315359ba62288",
+      "bytes": 912
+    },
+    {
+      "path": "docs/execution/LOCAL_CHECKS.md",
+      "change": "modified",
+      "previous_sha256": "cf595eabc4adc6d8048a4f299476dd14fb2b5bc69bb6918f09a22de5b40d9249",
+      "sha256": "9363c7d70cc25c521c580097ee6b6331bc7e32b78bf71092348bf0c024b90ffd",
+      "bytes": 1917
+    },
+    {
+      "path": "docs/legal-review/README.md",
+      "change": "modified",
+      "previous_sha256": "62062b82a03cf93aa37490b97d824df2fccbaac339f24f651716dbac3c282d2b",
+      "sha256": "a0da76a6c81eb0de54534a9ffc91a143f82162cf6b06f512e2340d5ca72d7464",
+      "bytes": 1275
+    },
+    {
+      "path": "docs/release/PRIVATE_BASELINE_RECORD_20260905.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8685830cfbdeff06799eb35df76356e1392a7afbb85a8e6257de91542f1c3c02",
+      "bytes": 3402
+    },
+    {
+      "path": "docs/release/PRIVATE_DEVELOPMENT_SCOPE.md",
+      "change": "modified",
+      "previous_sha256": "1afd80c099fd3e0062f9504a53399327b309f7b14bec8c75efa7dabf5bca884b",
+      "sha256": "b05c3505cec6d71b0c2b258edd8fa8a502f0e6162fb82f283ee0a37b51455a4b",
+      "bytes": 1808
+    },
+    {
+      "path": "docs/release/PRIVATE_GIT_CHECKLIST.md",
+      "change": "modified",
+      "previous_sha256": "58bbcf7115d48f0d8d2594bb1d3416eaf13f626291a130e5f6ba40139f6303f8",
+      "sha256": "cadceeebf1fd2286d7de448257b119041ec4b74bb0fc56c9ff901841ea08f421",
+      "bytes": 1924
+    },
+    {
+      "path": "docs/research/tr010/APOD-TR-010_WORKING_DRAFT_20260721.docx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "44295dbe0cad76a6c4fc0edfe52a760070796d3f8c14d18cb63909fc4cf7883d",
+      "bytes": 562752
+    },
+    {
+      "path": "docs/research/tr010/README.md",
+      "change": "modified",
+      "previous_sha256": "85da837161d0b7f87663f5876f2cae18822bae41245f53d0cdbf7996ae62fd26",
+      "sha256": "7346c0210f31bfb27a118ab7850ebd49460ce4fdd21bb41f3b9b5bb6ce723e04",
+      "bytes": 1550
+    },
+    {
+      "path": "release/private_baseline/PRIVATE_BASELINE_PRECOMMIT_CHECK.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f4a6b6b31eb1bfe60c32dbf23105853c7395451216f5b8729b82b40446b801ae",
+      "bytes": 1190
+    },
+    {
+      "path": "release/private_baseline/PRIVATE_BASELINE_UNIT_TEST_LOG.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c82b1adf54092516067717626d123dc33231eae83f879e887bbedb0a32a347f2",
+      "bytes": 5029
+    },
+    {
+      "path": "release/private_baseline/PRIVATE_BASELINE_WORKSPACE_CHECK.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "df0a47e1e89b4039a4e038306926881128012a1eaaa61a367887c079e8ad53bd",
+      "bytes": 655
+    },
+    {
+      "path": "release/provenance/DOCUMENT_ALLOWLIST.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "249db61ca82c935374510a8b392505166ffc08223097da51fb204363eed9b2d7",
+      "bytes": 916
+    },
+    {
+      "path": "release/provenance/PRIVATE_BASELINE_AUTHORITY.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "624aa6102ec1e10b3d8f7068d661441969e35a6a9149373b98dc8e83d860ad0d",
+      "bytes": 1231
+    },
+    {
+      "path": "release/provenance/README.md",
+      "change": "modified",
+      "previous_sha256": "cac42b249932fd80a3d90a42e706d8ad819ec20d7c361a1fe1d081a2edfe4527",
+      "sha256": "37ad5137768ef8b63e6b4170dca04215059a1d034d7c113824aec24162c97940",
+      "bytes": 2854
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "470b025808a7b0c83a68f910d4d69ff178f60a3c8df3304122571037fbebbb85",
+      "bytes": 2632
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/manifest.external.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3fcfe46035192f07e67934167e038c6dbbb51a00888e6ce9ee09d9c1551592f4",
+      "bytes": 674
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/manifest.internal.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b9e98e83bf606bf0db70cc119c10e0b4be74ecedd33e51baa24b319ec15a7ed3",
+      "bytes": 1271
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/sealed_20260721_100018.zip.sha256",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ed5b903742185c505b5c31112c9d10dba39c21074b9bde636dea30c8b2e5b39e",
+      "bytes": 102
+    },
+    {
+      "path": "release/provenance/historical_seals/tr010_docs_20260721_100018/verification.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9428f8a215a3bbd498380df3bd132cb8de1aee63c90aebbf18a8841c599894e9",
+      "bytes": 4975
+    },
+    {
+      "path": "tests/unit/test_private_document_allowlist.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9a35cceede377b2451935566024deff7d17975e8e75ac7ea50036ac0c6f893ce",
+      "bytes": 4017
+    },
+    {
+      "path": "tools/verify_private_workspace.py",
+      "change": "modified",
+      "previous_sha256": "641282b3757d04ffa9925b684d8f35904da9cc38e34b0550b0225d31a70e3a32",
+      "sha256": "bdfd89c0dd65257aac7912edc0cf223b49583b8e9c88cdce5e4d7a1f1c12688e",
+      "bytes": 10233
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "document_id": "QPATH-V2-M08-QUALIFICATION-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:38:19.4651982Z",
+  "mode": "A_release_candidate",
+  "milestone": "M08",
+  "gate_result": "PASS",
+  "record_location_policy": "External to the immutable M05 source repository and the controlled release target.",
+  "m07_binding": {
+    "report_path": "C:\\qpathformer_enterprise_v2_release_records\\M07\\V2_M07_CONTROLLED_TARGET_EXPORT_REPORT.json",
+    "report_sha256": "8029e877045c9001af3a9a9c03f318dd48ac8a2d89c7d71b7e87e2596189787b",
+    "pre_m08_target_file_count": 320,
+    "pre_m08_target_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+  },
+  "historical_source_anchor": {
+    "tag": "v1.0-qpathformer-enterprise",
+    "tag_type": "lightweight",
+    "commit_sha": "0fa94ecf47d698a894bc868545f110570d0dec50",
+    "git_tree_sha": "03fe111643e2c127e0446d8a36624cfc594cfee0",
+    "retrieved_source_file_count": 26,
+    "source_archive_sha256": "00b6c822e97d9e3074625a4464cf075e91758a5521cb6b157f573b09b008fac2"
+  },
+  "source_selection_record": {
+    "path": "shared/standards/access_pod/STANDARDS_PAPER_SOURCE_SET_20260415.md",
+    "byte_size": 6913,
+    "sha256": "a7c8a6c9499383c834021d38b5222a3d916786bf1a3bdf126b29587829f0b0af",
+    "v1_tag_byte_match": true
+  },
+  "selection_result": {
+    "active_profile_count": 4,
+    "active_artifact_count": 25,
+    "artifacts_already_present_after_m07": 14,
+    "source_selection_record_already_present_after_m07": true,
+    "v1_tag_narrative_summaries_added": 11,
+    "research_artifacts_added": 0,
+    "superseded_artifacts_added": 0,
+    "v2_regenerated_artifacts": 0,
+    "path1_or_path3_origin_claims": 0
+  },
+  "profile_results": [
+    {
+      "profile_id": "sector.finance.v1",
+      "profile_role": "mapper_driven_v1_baseline",
+      "composite_score": 91.9,
+      "csc_level": 5,
+      "observed_metric_count": 16,
+      "catalog_metric_count": 60,
+      "coverage_ratio": 0.2667,
+      "sector_validation_status": "met_in_historical_artifact",
+      "qualification": "Provisional historical Level 5. Factors f6.1 and f6.5 are provisional saturated governance-chain factors; coverage and factor confidence remain explicit."
+    },
+    {
+      "profile_id": "sector.healthcare.v1",
+      "profile_role": "mapper_driven_v1_baseline",
+      "composite_score": 84.6,
+      "csc_level": 4,
+      "observed_metric_count": 12,
+      "catalog_metric_count": 60,
+      "coverage_ratio": 0.2,
+      "sector_validation_status": "met_in_historical_artifact",
+      "qualification": "Narrow historical Level 4 with sparse observation; not a general healthcare assurance claim."
+    },
+    {
+      "profile_id": "sector.public.v1",
+      "profile_role": "curated_v1_standards_example",
+      "composite_score": 93.0,
+      "csc_level": 5,
+      "observed_metric_count": 12,
+      "catalog_metric_count": 60,
+      "coverage_ratio": 0.2,
+      "sector_validation_status": "met_in_historical_artifact_but_not_mapper_driven",
+      "qualification": "Curated standards example; no dedicated sector.public.v1 mapper blueprint existed in v1.0."
+    },
+    {
+      "profile_id": "ai.and.emerging_tech.v1",
+      "profile_role": "curated_v1_standards_example",
+      "composite_score": 82.9,
+      "csc_level": 4,
+      "observed_metric_count": 12,
+      "catalog_metric_count": 60,
+      "coverage_ratio": 0.2,
+      "sector_validation_status": "not_met",
+      "qualification": "Curated standards example; sector validation was not met and the artifact is not a validated sector baseline."
+    }
+  ],
+  "path_provenance": {
+    "originating_path": "path_2_access_mode_canonical",
+    "run_id": "RTRUN-llm-runtime-registration-check-20260413T095208Z-77a538bc",
+    "run_at": "2026-04-13T09:52:08Z",
+    "path1_and_path3_role": "contextual_only_not_originating_csc_evidence",
+    "all_selected_items_have_path2_provenance": true
+  },
+  "generated_manifest": {
+    "target_path": "release/V1_CSC_EVIDENCE_MANIFEST.json",
+    "item_count": 25,
+    "byte_size": 72387,
+    "sha256": "e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f",
+    "required_field_failure_count": 0,
+    "target_path_or_hash_failure_count": 0
+  },
+  "post_m08_target": {
+    "path": "C:\\qpathformer_enterprise_v2_release",
+    "file_count": 332,
+    "byte_count": 35536201,
+    "tree_sha256": "1c17d13f09172bb4c51a4b48be6b8046fab0c598ee761a2899f890e620b962ce",
+    "reparse_point_count": 0,
+    "git_initialized": false,
+    "source_mutation_detected": false
+  },
+  "claim_boundary": {
+    "historical_v1_only": true,
+    "not_regenerated_under_v2": true,
+    "certification_claim_prohibited": true,
+    "general_model_quality_claim_prohibited": true,
+    "coverage_and_confidence_must_accompany_levels": true
+  },
+  "next_gate": {
+    "milestone": "M09",
+    "action": "Complete public documentation, notices, dependency locks, layout records, and CI checks.",
+    "authorized": false
+  }
+}

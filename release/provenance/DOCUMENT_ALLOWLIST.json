@@ -1,0 +1,26 @@
+{
+  "schema_version": "standards_pdf_document_allowlist_v1",
+  "scope": "standards_tr010_pdf_pair_only",
+  "selection_basis": "Owner-exported final PDF pair, visually reviewed on 6 September 2026 and registered without modifying PDF bytes. Word files and other PDFs remain outside the selection.",
+  "status": "FINAL_PDFS_REGISTERED",
+  "documents": [
+    {
+      "path": "docs/research/APOD-TR-010_STANDARDS_REVIEW.pdf",
+      "bytes": 358864,
+      "sha256": "61fc5a19e19a963f3d5754daf0f5dc53d1f2d5b116078e29f2f180458bc35fe0"
+    },
+    {
+      "path": "docs/research/APOD-TR-010-R_STANDARDS_REVIEW.pdf",
+      "bytes": 310093,
+      "sha256": "59984745b80eeacfcb1b872375e8dbf4dd1f7bbd0790c1f39bbd10f0f17f0db6"
+    }
+  ],
+  "expected_paths": [
+    "docs/research/APOD-TR-010_STANDARDS_REVIEW.pdf",
+    "docs/research/APOD-TR-010-R_STANDARDS_REVIEW.pdf"
+  ],
+  "registration_rule": "Empty documents means pending, not an approved empty paper release. Unregistered PDFs fail the checker.",
+  "previous_allowlist_archive": "standards_cleanup_20260906/before_edits/release/provenance/DOCUMENT_ALLOWLIST.json",
+  "public_distribution_authority": "Not established by this technical allowlist; licence, notices and applicable rights review remain separate.",
+  "finalization_record": "docs/release/V2_STANDARDS_PDF_FINALIZATION_20260906.md"
+}

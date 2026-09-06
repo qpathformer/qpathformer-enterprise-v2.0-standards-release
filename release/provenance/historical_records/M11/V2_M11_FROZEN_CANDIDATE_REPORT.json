@@ -1,0 +1,121 @@
+{
+  "document_id": "QPATH-V2-M11-GATE-REPORT-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:03:47Z",
+  "milestone": "M11",
+  "gate_result": "PASS",
+  "release_candidate_status": "READY_FOR_HUMAN_RELEASE_REVIEW",
+  "executor": "OpenAI Codex under human-authorized M11 scope",
+  "human_release_authority": "Anthony Siljeg",
+  "authorization_scope": "Finalize and freeze the v2 release candidate, generate the publication inventory, bind the build report, generate SHA256SUMS.txt last, and reproduce all frozen bytes without Git or publication actions.",
+  "source_anchor": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_change_count_after_m11": 0,
+    "approved_excluded_untracked_file_count": 66
+  },
+  "m10_input": {
+    "regular_file_count": 348,
+    "byte_count": 35621407,
+    "canonical_tree_sha256": "b168febd3effaf4f874a33d8950c31864ea2335a7e2df7e09e8604a78a30b00b",
+    "pre_seal_report_sha256": "e51a1c376c7d9e13db50123d64da8091555dcb299df1b83be1a92a7958df8a1b",
+    "external_m10_gate_report_sha256": "50eded34790a34e8e5f68c3a62c4936fd0502d669aba525d70d56cd44619c3d3"
+  },
+  "finalization_overlay": [
+    {
+      "path": "README.md",
+      "sha256": "82c7f9183cbb9f8390cbc951a51b0a19d2ca8f75b127fb2d54467f824b2aa681",
+      "purpose": "Declare the M11 frozen-candidate status and later-gate publication boundary."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2ce6ec9c74fcbe4170d1ce6f8f741527399b24cbafe6d5fdad71607951b1b5c0",
+      "purpose": "Record the M11 method and prohibited publication actions."
+    },
+    {
+      "path": "REPOSITORY_MANIFEST.json",
+      "sha256": "8992bcbee3d4e57b4ca49c479c929d376716f0a479f5bf6a2e567edbdcf3588a",
+      "purpose": "Expose the frozen-candidate status and final release-record paths."
+    }
+  ],
+  "pre_freeze_checks": {
+    "release_conformance": {
+      "status": "PASS",
+      "check_count": 23,
+      "pass_count": 23,
+      "fail_count": 0
+    },
+    "unit_suite": {
+      "status": "PASS",
+      "tests_run": 24,
+      "tests_passed": 23,
+      "environment_guarded_skips": 1,
+      "skip_reason": "Windows symlink creation capability unavailable"
+    },
+    "dependency_consistency": {
+      "status": "PASS",
+      "result": "No broken requirements found."
+    },
+    "prohibited_or_generated_target_entries": 0
+  },
+  "freeze_snapshot_before_release_records": {
+    "regular_file_count": 348,
+    "byte_count": 35622766,
+    "canonical_tree_sha256": "f2e4bc6a6b9e48f4114ea5dc0362093d00870d460667d3a73ae20c4f6bd4bb62"
+  },
+  "ordered_release_records": [
+    {
+      "order": 1,
+      "path": "release/PUBLICATION_INVENTORY.json",
+      "sha256": "875dd343ce1a730b1db58b7b2edf6af4e90ed3db3197687c0e7bc448dde95fea",
+      "listed_file_count": 348,
+      "listed_byte_count": 35622766,
+      "canonical_listed_file_sha256": "f2e4bc6a6b9e48f4114ea5dc0362093d00870d460667d3a73ae20c4f6bd4bb62",
+      "exceptions": [
+        "release/PUBLICATION_INVENTORY.json",
+        "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+        "release/SHA256SUMS.txt"
+      ]
+    },
+    {
+      "order": 2,
+      "path": "release/RELEASE_CANDIDATE_BUILD_REPORT.md",
+      "sha256": "dcefa142a81d87f741c8096d261de43525f8574982adbbf1ef3c5ac4d69bb607",
+      "inventory_digest_binding_verified": true
+    },
+    {
+      "order": 3,
+      "path": "release/SHA256SUMS.txt",
+      "sha256": "7fbc1f1a86de783ac7e4d4244ce76123f7a59a795d2ab477fd67fa144373ebd4",
+      "entry_count": 350,
+      "self_exclusion_verified": true,
+      "final_target_write": true
+    }
+  ],
+  "frozen_candidate": {
+    "regular_file_count": 351,
+    "byte_count": 35757693,
+    "canonical_tree_sha256": "ef86494a1009d6c526211d9efa3b81fdcd2ed45624c163c68c55f8443f07f961",
+    "independent_read_only_verification_count": 2,
+    "byte_for_byte_unchanged_between_verifications": true,
+    "post_checksum_target_write_count": 0
+  },
+  "rehearsal": {
+    "status": "PASS",
+    "method": "The complete ordered build and two read-only verification passes were completed in a disposable candidate before controlled-target writes."
+  },
+  "prohibited_actions": {
+    "git_initialized": false,
+    "commit_created": false,
+    "tag_created": false,
+    "zip_created": false,
+    "push_performed": false,
+    "apod_tr_010_published": false
+  },
+  "next_gate": {
+    "milestone": "M12",
+    "action": "External human release review",
+    "authorized": false
+  }
+}

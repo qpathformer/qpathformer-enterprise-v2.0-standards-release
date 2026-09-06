@@ -1,0 +1,34 @@
+{
+  "created_at_utc": "2026-09-05T00:27:17Z",
+  "current_status": "LOCAL_PRIVATE_DEVELOPMENT_PREPARATION",
+  "source_repository": {
+    "url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release.git",
+    "commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "tree": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "tag_object": "c600ef2f1b153cebeaf9308f5dba44ad88a50f27"
+  },
+  "candidate": {
+    "source_id": "corrected_candidate",
+    "file_count": 351,
+    "publication_inventory_sha256": "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6",
+    "checksum_file_sha256": "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75",
+    "checksum_entries_verified": 350,
+    "status": "HISTORICAL_READY_FOR_M12_RECONSIDERATION_NOT_CURRENT_APPROVAL"
+  },
+  "intended_remote": {
+    "owner": "qpathformer",
+    "repository_name": null,
+    "visibility_intent": "private",
+    "configured": false,
+    "creation_authorized": false,
+    "push_authorized": false
+  },
+  "decision_boundaries": [
+    "No M00 restart",
+    "No licence adoption",
+    "No source implementation changes",
+    "No commit/tag/remote/push",
+    "Historical gate records do not approve this workspace"
+  ]
+}

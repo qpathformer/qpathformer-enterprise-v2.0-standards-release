@@ -1,0 +1,72 @@
+{
+  "format": "tr010_paper_references_verification_v1",
+  "date": "2026-09-06",
+  "scope": "Reference appendices in the two current manuscripts only, with Markdown and documentary provenance.",
+  "papers": [
+    {
+      "paper": "main",
+      "before": {
+        "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+        "bytes": 570411,
+        "sha256": "a6ceb060ad18cacc55588ddfe0c0831342b49d7fed9be9aa6cabe8404ec42e06"
+      },
+      "after": {
+        "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+        "bytes": 573297,
+        "sha256": "5c47b2d4591c6d47b2612707dd51fa1a4f804b962de758e39e824c96af1fe173"
+      },
+      "original_body_paragraphs_preserved": 10686,
+      "added_body_paragraphs": 26,
+      "tables_preserved": 47,
+      "existing_media_unchanged": true,
+      "hyperlinks_added": 14,
+      "pdf_hyperlinks_verified": true,
+      "pages_before": 378,
+      "pages_after": 380,
+      "unchanged_rendered_pages": 377,
+      "visually_reviewed_changed_pages": [
+        8,
+        379,
+        380
+      ],
+      "toc_pagerefs_checked": 179
+    },
+    {
+      "paper": "results",
+      "before": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 120549,
+        "sha256": "470d2be1aceb546e649c396c73c23d6e93d705034bef61ff2cbf0087676ff10a"
+      },
+      "after": {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+        "bytes": 123095,
+        "sha256": "04d1efc9fd2d4aa1956b5f76a4a5c501737e37ca53e35e2f8decf61f9d23c844"
+      },
+      "original_body_paragraphs_preserved": 368,
+      "added_body_paragraphs": 26,
+      "tables_preserved": 11,
+      "existing_media_unchanged": true,
+      "hyperlinks_added": 14,
+      "pdf_hyperlinks_verified": true,
+      "pages_before": 33,
+      "pages_after": 35,
+      "unchanged_rendered_pages": 31,
+      "visually_reviewed_changed_pages": [
+        5,
+        7,
+        34,
+        35
+      ],
+      "toc_pagerefs_checked": 50
+    }
+  ],
+  "results_markdown_preserved_plus_exact_appendix": true,
+  "historical_source_ledger_policy": "E01 in the preserved E01-E26 ledger identifies the main manuscript before this references addition. Historical ledgers are not rewritten. The original is backed up locally, its exact input hash is retained here, and all pre-existing body text is verified unchanged. Current hashes are recorded separately in this report and the current document allowlist.",
+  "runtime_tests_performed": false,
+  "model_training_performed": false,
+  "licence_or_legal_approval_changed": false,
+  "git_actions_performed": false,
+  "publication_performed": false,
+  "planned_destinations_are_not_existing_releases": true
+}

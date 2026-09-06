@@ -1,0 +1,11 @@
+{
+  "fixture_id": "SYNTHETIC-LEGAL-REVIEW-MATERIALS-001",
+  "example_only": true,
+  "description": "Fictitious governance statements authored for a documentation example, not copied from a client or historical TR paper.",
+  "records": [
+    {"id": "SYN-001", "statement": "Record the declared purpose before a synthetic local test."},
+    {"id": "SYN-002", "statement": "Keep the test fixture separate from client materials."},
+    {"id": "SYN-003", "statement": "Treat unresolved permissions as a reason not to proceed with real use."},
+    {"id": "SYN-004", "statement": "A successful technical check is not a legal opinion."}
+  ]
+}

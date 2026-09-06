@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_RECORDED_ENVIRONMENT_SKIP",
+  "scope": "Local repository preparation, not single-scope or release approval",
+  "started_at_utc": "2026-09-05T00:28:50.3251721Z",
+  "completed_at_utc": "2026-09-05T00:28:51.0189140Z",
+  "workspace_validation_exit": 0,
+  "unit_test_exit": 0,
+  "tests_run": 24,
+  "tests_passed": 23,
+  "tests_skipped": 1,
+  "skip_reason": "symlink creation is unavailable",
+  "inherited_code_changed": false,
+  "training_performed": false,
+  "actual_authorization_issued": false,
+  "ephemeral_test_keys_only": true,
+  "ci_execution": "NOT_RUN_GITHUB_REMOTE_NOT_CONFIGURED",
+  "commands": [
+    "py -3 -B tools/verify_private_workspace.py --verify-origin-bytes",
+    "py -3 -B -m unittest discover -s tests/unit -p test_*.py -v"
+  ],
+  "pending": [
+    "single-scope contract",
+    "endpoint-to-operation binding",
+    "v2 end-to-end runbook",
+    "file-specific private-upload and licence review"
+  ]
+}

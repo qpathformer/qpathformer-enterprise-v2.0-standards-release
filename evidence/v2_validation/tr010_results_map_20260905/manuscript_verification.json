@@ -1,0 +1,111 @@
+{
+  "format": "tr010r_map_editorial_verification_v1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "scope": "Documentary milestone-map addition only; no new execution or release gate.",
+  "document": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D02.docx",
+    "bytes": 113355,
+    "sha256": "dd21e67cb6274feb0e7b4b080e861e1e91f28feb64a82e52475cf9361bea1e91",
+    "pages": 29
+  },
+  "source_document_sha256": "27eb183cf69cbce9ae22e060d4db94147948274252478950c0d9b9269c8eae7b",
+  "source_document_preserved": true,
+  "map_pages": [
+    3,
+    4
+  ],
+  "map_paragraphs": 56,
+  "milestones_in_order": [
+    "M00",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13A",
+    "M13B",
+    "M13C"
+  ],
+  "M14_separately_marked_future": true,
+  "bounded_replacements": [
+    {
+      "old": "Edition: First local drafting edition, D01.",
+      "new": "Edition: Local drafting edition D02 with the milestone map."
+    },
+    {
+      "old": "Before this results draft, the R04 editorial inventory",
+      "new": "Before the first results draft, the R04 editorial inventory"
+    },
+    {
+      "old": "Appendix A identifies 23 source groups.",
+      "new": "Appendix A identifies 24 source groups."
+    },
+    {
+      "old": "records 57 file references",
+      "new": "records 58 file references"
+    },
+    {
+      "old": "TR010-R D01 has its own Markdown source",
+      "new": "TR010-R D02 has its own Markdown source"
+    },
+    {
+      "old": "evidence/v2_validation/tr010_results_draft_20260905",
+      "new": "evidence/v2_validation/tr010_results_map_20260905"
+    }
+  ],
+  "original_narrative_preserved_apart_from_listed_replacements": true,
+  "verified_body_and_cell_paragraphs": 519,
+  "tables_unchanged": 11,
+  "toc_pagerefs_verified": 43,
+  "source_groups_verified": 24,
+  "source_file_references_verified": 58,
+  "rendered_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "page_geometry_preserved": true,
+  "command_blocks_unchanged": true,
+  "new_model_or_unit_test_execution": false,
+  "actual_lawyer_review_completed": false,
+  "release_action_performed": false,
+  "limits": [
+    "The arrows explain historical order, not permission to proceed.",
+    "M13A-M13C remain unperformed in the cited July record.",
+    "M14 is pre-existing future work, not a new gate or implemented scorer."
+  ]
+}

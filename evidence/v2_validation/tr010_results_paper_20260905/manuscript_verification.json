@@ -1,0 +1,253 @@
+{
+  "format": "tr010r_explanatory_paper_verification_v1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "document": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 115168,
+    "sha256": "ada78ae9201512fb781bc7b5ff4170ea390f4a048495ec207d5fe51f8da7095b",
+    "pages": 30
+  },
+  "source_document_sha256": "60d0e7ad896e9ed3c00b2473b6c832071cbec05e882cfe520f36298db0b5caa6",
+  "source_document_preserved": true,
+  "owner_saved_input_revision": {
+    "differences_from_prior_capture": [
+      {
+        "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+        "prior": {
+          "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+          "bytes": 115779,
+          "sha256": "83d055e63c6a14e6ea8d3ed980b77dcd27ce01d0b3096126050c3564bc06d767"
+        },
+        "observed": {
+          "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+          "bytes": 116934,
+          "sha256": "60d0e7ad896e9ed3c00b2473b6c832071cbec05e882cfe520f36298db0b5caa6"
+        }
+      }
+    ],
+    "temporary_files_excluded_not_modified": [
+      "docs/research/tr010/~$OD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905_D04.docx",
+      "docs/research/tr010/~$OD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+      "docs/research/tr010/~WRL0003.tmp"
+    ]
+  },
+  "changed_paragraphs": [
+    {
+      "old": "Evidence-bound verification of the governed dataset lifecycle",
+      "new": "Verification of recorded permission and protected dataset packages"
+    },
+    {
+      "old": "Companion: APOD-TR-010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems, Standards Review Manuscript R04.",
+      "new": "Companion: APOD-TR-010, Fail-Closed Governed Dataset Lifecycles and Explicit Training Authorization for AI Training Systems."
+    },
+    {
+      "old": "Edition: Local drafting edition D04 with a reader overview and historical milestone appendix.",
+      "new": "Edition: Standards exploration."
+    },
+    {
+      "old": "Evidence basis: Retained April v1.0 results, July v2 release records, and September local verification records. No new model execution was performed to draft this report.",
+      "new": "Evidence basis: Historical v1.0 execution, July v2 verification and September synthetic testing."
+    },
+    {
+      "old": "Review boundary: No actual lawyer review, independent assurance or final release authorization is asserted. The legal-review example remains fictional and on actual HOLD.",
+      "new": "Review boundary: No actual lawyer review or independent assurance is claimed."
+    },
+    {
+      "old": "APOD-TR-010-R records the verification evidence supporting the implementation described in APOD-TR-010 and compares it with the governed dataset lifecycle demonstrated in Q-Pathformer Enterprise v1.0. It separates historical execution from current control verification so that a successful earlier run, a lifecycle state or a retained signature cannot be mistaken for authority over a different operation or snapshot.",
+      "new": "Preparing a dataset does not, by itself, give permission to use it. APOD-TR-010-R examines how Q-Pathformer Enterprise v2 checks recorded permission and protects prepared data before an operation proceeds. It presents the verification results for the method described in APOD-TR-010 and compares them with the earlier v1.0 lifecycle."
+    },
+    {
+      "old": "The retained September suite reports 48 tests: 47 passed, one Windows symbolic-link-capability test was skipped, and none failed. A separate nine-step synthetic command-line rehearsal records the expected key-generation, authorization, package-preparation, dry-run and rejection outcomes. The 11 implementation and configuration hashes recorded by that rehearsal match the files inspected for this draft. These findings support the tested single-scope authorization boundary, endpoint binding and rejection behavior. They do not establish complete path execution, model improvement or universal absence of side effects.",
+      "new": "The current study uses a small synthetic dataset. A permitted package completes a dry run without training a model. Deliberately invalid cases, including the wrong operation and altered package contents, are rejected. The recorded automated checks passed where they could run; one Windows-dependent check remained untested because the required system capability was unavailable."
+    },
+    {
+      "old": "The July evidence separately records deterministic exports and a corrected 351-file frozen candidate. The v1.0 material records three-path execution examples, local TinyLlama runs and sparse, qualified CSC results. Those identities and measurements remain historical. The report preserves negative findings, including the reported tagged Path 3 freeze-bundle discrepancy, rather than treating every earlier success message as conclusive integrity evidence.",
+      "new": "These findings support a bounded conclusion: the tested controls distinguish a prepared dataset from a package permitted for a named operation. They do not establish better model quality, production readiness or legal entitlement. Earlier training and governance results are included for comparison, not presented as new outcomes of this study."
+    },
+    {
+      "old": "The contribution is a traceable account of which controls were tested, under which conditions, and what the findings do not establish. Cryptographic verification authenticates recorded bindings, not legal entitlement. The proposed practitioner-review workflow is not implemented credential verification; its fictional example does not supply actual review or organizational permission. This report remains a local drafting artifact, not a new experiment, release gate, certification or publication approval.",
+      "new": "TR010 explains the method and its governance boundaries; TR010-R shows what the verification establishes and where its limits remain. Legal review and organizational authorization remain separate human responsibilities. The study does not demonstrate automated legal approval."
+    },
+    {
+      "old": "Governed datasets; fail-closed verification; explicit authorization; single scope; Ed25519; package integrity; provenance; standards exploration.",
+      "new": "Governed datasets; recorded permission; fail-closed controls; package integrity; verification; provenance; standards exploration."
+    },
+    {
+      "old": "The companion History and Provenance Notice, HN-20260905-R03, dated 5 September 2026, provides the detailed chronology and earlier review boundaries. This report uses TR010 R04 as its explanatory and formatting reference, while retaining separate identities for each results source. Neither the notice nor a prior seal approves this new draft. [E01, E02]",
+      "new": "The companion History and Provenance Notice (history_notice.md) records the chronology and evidence boundaries. Detailed source identities are provided in Appendix A and its source ledger. Historical records retain their original scope. [E01, E02]"
+    },
+    {
+      "old": "What TR010 and TR010 R explain",
+      "new": "Purpose and demonstration"
+    },
+    {
+      "old": "TR010 explains the design: how a system checks recorded permission before an operation and detects changes to a protected package. TR010-R is its results companion: what was tested, what happened and what remains unproven. Together they examine the method and its evidence, rather than accept a claim of success alone. [E01, E26]",
+      "new": "TR010 describes how recorded permission is checked before an operation and how changes to a protected package are detected. TR010-R reports the tests and their outcomes. Together, the papers connect the method to observable evidence. [E01, E26]"
+    },
+    {
+      "old": "The central question is simple: does preparing a dataset mean it may now be used? The answer is no. Readiness, recorded permission and intact files are different checks. A valid signature does not establish legal rights or human authority. [E01, E07]",
+      "new": "The distinction is between readiness and permission. A dataset can be complete and correctly formatted but still not be permitted for a particular use. A digital signature can verify a recorded decision without establishing that the signer had the right to make it. [E01, E07]"
+    },
+    {
+      "old": "This is an isolated software test, not the full Path 1-3 workflow. It starts with an already prepared synthetic dataset and registry. [E04, E08]",
+      "new": "The demonstration uses four made-up records and a prepared test registry. It tests the controls around one operation, not a new end-to-end run of Paths 1, 2 and 3. [E04, E08]"
+    },
+    {
+      "old": "Synthetic dataset. Four made-up records let reviewers test the controls without using the historical paper corpus or client data.",
+      "new": "Synthetic dataset. The made-up records provide test material without using the historical paper corpus or client data."
+    },
+    {
+      "old": "One-operation authorization. A signed test record names one permitted operation. It is not permission for every possible use of the data.",
+      "new": "One-operation authorization. A signed test record names one permitted operation. It does not grant permission for every use or limit the operation to a single execution."
+    },
+    {
+      "old": "Sealed package. A separate signing key binds the package's file list and hashes so that altered contents can be detected.",
+      "new": "Sealed package. A separate signature protects a record of the package files and their hashes, so later changes can be detected."
+    },
+    {
+      "old": "Valid dry run and rejection tests. A correctly bound package passes the dry run without loading a model. Separate wrong-scope and tampering cases must stop; rejection is their expected result.",
+      "new": "Valid dry run and rejection tests. The permitted package passes without loading a model. Separate wrong-operation and tampering cases must stop; rejection is the expected result."
+    },
+    {
+      "old": "Verification report. The report records the nine detailed outcomes and file identities. This five-part overview groups those steps; it adds no test or approval. [E04, E08]",
+      "new": "Verification report. The report records what passed, what was rejected and which files were tested. The detailed sequence and outcomes appear in Chapter 2. [E04, E08]"
+    },
+    {
+      "old": "Keep the three views separate. The flow above explains the current test. TR007-TR010 explains the paper background. Appendix B records the historical July release milestones. Neither the flow nor the milestone arrows grant permission, establish lawyer review or introduce new release gates.",
+      "new": "The flow describes executable behavior. TR007-TR010 provides the research background. Appendix B records the historical July release milestones. These are separate views; none of their arrows grants permission or introduces a new gate."
+    },
+    {
+      "old": "1. Scope and Evidence Boundaries",
+      "new": "1. Purpose and Scope"
+    },
+    {
+      "old": "TR010 explains the control model, its implementation and its governance limits. TR010-R is the results companion: it records the tested conditions, outcomes, source identities, comparison limits and reproduction route. It should be read with the main paper rather than as a replacement specification. Repetition is limited to information necessary to interpret an individual result. [E01]",
+      "new": "APOD-TR-010 explains the governed dataset method: prepared data, recorded permission and package integrity are checked separately before a named operation can proceed. APOD-TR-010-R examines the evidence for those checks. Its purpose is to show which behavior was observed, under which conditions, and what cannot be concluded from it. [E01]"
+    },
+    {
+      "old": "1.2 Evidence classes and dates",
+      "new": "1.2 What the evidence shows"
+    },
+    {
+      "old": "This report uses three distinct results classes and a separate editorial class. A result is not transferred from one class to another merely because its file appears in the same local directory.",
+      "new": "The evidence has three time periods. September checks examine the current controls using synthetic data. July records concern preparation of an earlier v2 candidate. The v1.0 records show earlier lifecycle and model-run examples. Keeping these groups separate prevents an old success from being presented as a new result. Documentation records identify the files; they are not additional experiments."
+    },
+    {
+      "old": "Before the first results draft, the R04 editorial inventory described 301 persistent files in the consolidated local workspace. That is a point-in-time documentation inventory, not the 351-file July frozen candidate. Adding TR010-R changes the local selection again; the separate drafting identity records that addition. The report does not assign itself a public Git tag or reuse the July candidate digest. [E20]",
+      "new": "The standards package is intended to contain one APOD-TR-010 paper and one APOD-TR-010-R companion. The planned enterprise v3 is a separate future release and has not yet been released. This study does not establish that v3 is complete or approved for publication. [E26]"
+    },
+    {
+      "old": "Appendix A identifies 26 source groups. The companion machine-readable source ledger records 60 file references with their relative paths, byte sizes and SHA-256 values. A source hash identifies the record read; it does not independently prove every assertion inside that record.",
+      "new": "Appendix A and its source ledger identify the records used for the findings. File paths and hashes allow a specific record to be located and compared. They identify the evidence examined; they do not independently prove every statement within it."
+    },
+    {
+      "old": "1.4 What was not done for this draft",
+      "new": "1.4 Scope of the study"
+    },
+    {
+      "old": "Draft preparation did not run the full three-path lifecycle, download or invoke a model, produce a new adapter, recalculate CSC scores, mutate a registry, reopen a historical gate, or conduct a legal engagement. No historical record is overwritten. Document rendering and file checks are editorial verification, not a substitute for a runtime experiment.",
+      "new": "The current verification is a synthetic control test, not a new model-training or full three-path experiment. No new adapter or CSC score is reported. Historical records retain their original identities, and no legal engagement is established by the worked example. Document checks are separate from runtime tests."
+    },
+    {
+      "old": "No inference about final public availability is drawn from historical filenames containing the words release, certificate or frozen. Each source retains its own status and date. The local standards workspace and this report remain subject to separate author, rights-review and release decisions. [E02, E19, E20]",
+      "new": "The scope is standards exploration: a method and an evidence set that can be examined and reproduced within their stated limits. Filenames containing release, certificate or frozen do not establish public availability, certification or current authority. Publication and real-world use require their own decisions. [E02, E19]"
+    },
+    {
+      "old": "8.3 Disposition of this draft",
+      "new": "8.3 Standards contribution"
+    },
+    {
+      "old": "The retained evidence is sufficient to prepare a bounded results companion for standards exploration. It supports documented technical hardening and reproducible synthetic checks, while preserving the earlier lifecycle contribution and negative findings. It does not support an official-release, lawyer-reviewed, independently certified or production-ready label.",
+      "new": "The retained evidence supports a bounded standards contribution: explicit checks on recorded permission and package integrity, a reproducible synthetic demonstration, and a comparison with earlier lifecycle results. It does not support an official-release, lawyer-reviewed, independently certified or production-ready label."
+    },
+    {
+      "old": "The remaining review work is focused: confirm the manuscript's claim-to-source mapping, obtain original artifacts for any stronger historical claims, examine the recorded technical gaps, and resolve the actual rights and intended-release selection with the responsible people. Those decisions do not require this document to invent another M00-to-M13 process or to declare an old gate newly passed.",
+      "new": "Further evaluation should examine the recorded technical gaps, independently reproduce the applicable tests and obtain original artifacts before making stronger historical claims. Rights-dependent use and publication remain separate decisions for the responsible people. The historical milestone sequence is not a new approval process for this study."
+    },
+    {
+      "old": "TR010 R04 remains unchanged. TR010-R D04 has its own Markdown source, drafting record, source ledger and document identity. No Git initialization, commit, tag, ZIP, push or publication is performed by drafting it.",
+      "new": "The two-paper structure separates the method from its verification. APOD-TR-010 provides the design and governance account; APOD-TR-010-R provides the observed results, reproduction route and limitations. The supporting source ledger and History and Provenance Notice retain the evidence identities without making manuscript drafting history part of the research claim."
+    },
+    {
+      "old": "The following identifiers resolve the report's source references. Paths are relative to the consolidated local workspace. Exact byte sizes and hashes are in the companion source_ledger.json under evidence/v2_validation/tr010_results_d04_20260905. The ledger records local source-file identities, not a cryptographic certification of their claims. Source groups can contain more than one file.",
+      "new": "The following identifiers resolve the source references. Paths are relative to the standards workspace. Exact byte sizes and hashes are in source_ledger.json under evidence/v2_validation/tr010_results_paper_20260905. The ledger records source identities, not certification of their claims. It contains 26 source groups and 60 file references; some groups include more than one file."
+    },
+    {
+      "old": "[E01] Companion manuscript R04",
+      "new": "[E01] Companion paper APOD-TR-010"
+    },
+    {
+      "old": "Editorial reference.",
+      "new": "Method and governance context."
+    },
+    {
+      "old": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+      "new": "APOD-TR-010. The exact companion file and hash are recorded under E01 in the source ledger."
+    },
+    {
+      "old": "[E20] Pre-drafting editorial identity",
+      "new": "[E20] Local documentary provenance"
+    },
+    {
+      "old": "release/provenance/development_slices/TR010_R04_TABLES_20260905.json",
+      "new": "The exact local selection record and hash are recorded under E20 in the source ledger."
+    }
+  ],
+  "moved_source_binding": "The September source was based on private-repository parent HEAD 57c7fbbed476a8f74ba4ca7b6acb495791ba5524 with uncommitted changes. That commit is a parent reference, not a complete identity for the tested working tree. The source inventories and rehearsal hashes provide the additional byte-level binding. [E06]",
+  "unchanged_narrative_recovered_by_reversing_recorded_changes": true,
+  "verified_body_and_cell_paragraphs": 544,
+  "tables_unchanged": 11,
+  "historical_map_unchanged": true,
+  "historical_map_pages": [
+    29,
+    30
+  ],
+  "command_blocks_unchanged": true,
+  "page_geometry_preserved": true,
+  "source_groups_verified": 26,
+  "source_file_references_verified": 60,
+  "contents_pagerefs_verified": 44,
+  "abstract_page": 2,
+  "explanation_page": 3,
+  "technical_results_start_page": 8,
+  "rendered_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "overview_emphasis": "Only step labels and flow are emphasized; paragraph explanations remain normal weight.",
+  "new_runtime_tests_or_model_execution": false,
+  "main_tr010_manuscript_changed": false,
+  "planned_enterprise_label": "v3, owner-selected future version, not yet released",
+  "official_product_release_assigned": false,
+  "actual_lawyer_review_completed": false,
+  "release_action_performed": false
+}

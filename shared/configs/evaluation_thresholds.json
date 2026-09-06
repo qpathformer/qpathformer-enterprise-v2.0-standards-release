@@ -1,0 +1,33 @@
+{
+  "evaluation_schema_version": "v0.2-batch",
+  "pairing_mode": "index",
+  "max_pairs": null,
+  "thresholds": {
+    "mean_delta": {
+      "coherence_drop_warn": 0.10,
+      "coherence_drop_critical": 0.15,
+      "stability_drop_warn": 0.10,
+      "stability_drop_critical": 0.15,
+      "ambiguity_rise_warn": 0.10,
+      "ambiguity_rise_critical": 0.20,
+      "novelty_drop_warn": 0.10,
+      "novelty_drop_critical": 0.20
+    },
+    "variance_shift": {
+      "warn": 0.05,
+      "critical": 0.10
+    },
+    "drift_consistency": {
+      "warn": 0.60,
+      "critical": 0.80
+    },
+    "structural_failures": {
+      "warn": 1,
+      "critical": 1
+    },
+    "governance_violations": {
+      "warn": 1,
+      "critical": 1
+    }
+  }
+}

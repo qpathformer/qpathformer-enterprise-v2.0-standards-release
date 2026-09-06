@@ -1,0 +1,20 @@
+{
+  "source_sha256": "e13fbfc4c0f8f1dac203db51f361e030120f6efdc06162b7b48d24b07bc2731c",
+  "final_sha256": "218677828f071a1ec2d30e78adbc43ce285453184a1b9da154ac87e8f8743145",
+  "final_bytes": 569130,
+  "manual_changes": 12,
+  "toc_text_changes": 162,
+  "word_non_toc_body_text_unchanged": true,
+  "pages": 380,
+  "verified_toc_pagerefs": 178,
+  "toc_mismatches": [],
+  "changed_ooxml_parts": [
+    "docProps/app.xml",
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/endnotes.xml",
+    "word/footer1.xml",
+    "word/footnotes.xml",
+    "word/settings.xml"
+  ]
+}

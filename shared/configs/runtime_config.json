@@ -1,0 +1,12 @@
+{
+  "schema_version": "v0.2-dev",
+  "enterprise_model_enabled": true,
+  "strategic_model_enabled": false,
+  "model_registry": "./configs/model_registry.json",
+  "signal_capture": true,
+  "validation_enabled": true,
+  "routing_enabled": true,
+  "storage_path": "./artifacts/signals/",
+  "routing_log_path": "./artifacts/routing_logs/",
+  "default_interaction_type": "enterprise_only"
+}

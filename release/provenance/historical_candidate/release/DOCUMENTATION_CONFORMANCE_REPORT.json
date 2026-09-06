@@ -1,0 +1,224 @@
+{
+  "document_id": "QPATH-V2-M10-RELEASE-CONFORMANCE-001",
+  "version": "3.0",
+  "generated_at_utc": "2026-07-18T00:21:45.409411Z",
+  "validation_result": "PASS",
+  "release_gate_recommendation": "PASS",
+  "root": ".",
+  "file_count_at_validation": 348,
+  "byte_count_at_validation": 35622870,
+  "check_count": 23,
+  "passed_check_count": 23,
+  "failed_check_count": 0,
+  "checks": [
+    {
+      "check_id": "required_files",
+      "status": "PASS",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "required_directories",
+      "status": "PASS",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "prohibited_roots",
+      "status": "PASS",
+      "details": {
+        "present": []
+      }
+    },
+    {
+      "check_id": "generated_cache_exclusion",
+      "status": "PASS",
+      "details": {
+        "paths": []
+      }
+    },
+    {
+      "check_id": "symlinks_and_reparse_links",
+      "status": "PASS",
+      "details": {
+        "paths": []
+      }
+    },
+    {
+      "check_id": "exact_release_dependency_lock",
+      "status": "PASS",
+      "details": {
+        "expected": [
+          "attrs==26.1.0",
+          "cffi==2.1.0",
+          "cryptography==49.0.0",
+          "jsonschema==4.26.0",
+          "jsonschema-specifications==2025.9.1",
+          "pycparser==3.0",
+          "referencing==0.37.0",
+          "rpds-py==0.30.0"
+        ],
+        "actual": [
+          "attrs==26.1.0",
+          "cffi==2.1.0",
+          "cryptography==49.0.0",
+          "jsonschema==4.26.0",
+          "jsonschema-specifications==2025.9.1",
+          "pycparser==3.0",
+          "referencing==0.37.0",
+          "rpds-py==0.30.0"
+        ]
+      }
+    },
+    {
+      "check_id": "json_syntax",
+      "status": "PASS",
+      "details": {
+        "checked": 182,
+        "invalid": []
+      }
+    },
+    {
+      "check_id": "jsonl_syntax",
+      "status": "PASS",
+      "details": {
+        "checked_files": 14,
+        "checked_records": 6313,
+        "invalid": []
+      }
+    },
+    {
+      "check_id": "markdown_headings",
+      "status": "PASS",
+      "details": {
+        "checked": 74,
+        "failures": []
+      }
+    },
+    {
+      "check_id": "markdown_internal_links",
+      "status": "PASS",
+      "details": {
+        "failures": []
+      }
+    },
+    {
+      "check_id": "active_local_absolute_paths",
+      "status": "PASS",
+      "details": {
+        "checked": 25,
+        "findings": [],
+        "historical_metadata_policy": "Inert historical paths outside the active set are preserved and excluded from this check."
+      }
+    },
+    {
+      "check_id": "secret_scan",
+      "status": "PASS",
+      "details": {
+        "findings": [],
+        "private_key_files": []
+      }
+    },
+    {
+      "check_id": "file_size_limit",
+      "status": "PASS",
+      "details": {
+        "limit_bytes": 10485760,
+        "oversized": []
+      }
+    },
+    {
+      "check_id": "model_binary_exclusion",
+      "status": "PASS",
+      "details": {
+        "paths": []
+      }
+    },
+    {
+      "check_id": "licence_and_notice_files",
+      "status": "PASS",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "repository_layout_document",
+      "status": "PASS",
+      "details": {
+        "missing_documented_roots": [],
+        "missing_readme_roots": [],
+        "missing_target_roots": []
+      }
+    },
+    {
+      "check_id": "path3_m03_publication_treatment",
+      "status": "PASS",
+      "details": {
+        "failures": [],
+        "selected_populated_example": "CLIENT-DATASET-EXAMPLE-001",
+        "excluded_positive_evidence": "QPDS-PACKAGE-001"
+      }
+    },
+    {
+      "check_id": "mutable_registry_and_training_state_exclusion",
+      "status": "PASS",
+      "details": {
+        "mutable_registry_paths": [],
+        "optimizer_checkpoint_or_adapter_files": [],
+        "historical_registry_update_receipts": "allowed immutable path evidence"
+      }
+    },
+    {
+      "check_id": "vendor_manifest_verification_and_disclosure",
+      "status": "PASS",
+      "details": {
+        "failures": [],
+        "expected_profile": {
+          "byte_matches": 3,
+          "canonical_lf_matches": 6
+        },
+        "release_treatment": "ACCEPTED_CANONICAL_EQUIVALENCE"
+      }
+    },
+    {
+      "check_id": "v2_governance_snapshot_and_scoring_contract",
+      "status": "PASS",
+      "details": {
+        "failures": [],
+        "enforcement_status": "not_implemented"
+      }
+    },
+    {
+      "check_id": "qualified_v1_csc_evidence",
+      "status": "PASS",
+      "details": {
+        "failures": []
+      }
+    },
+    {
+      "check_id": "ai_assistance_disclosure",
+      "status": "PASS",
+      "details": {
+        "missing_terms": []
+      }
+    },
+    {
+      "check_id": "release_claim_boundary",
+      "status": "PASS",
+      "details": {
+        "missing_terms": []
+      }
+    }
+  ],
+  "known_holds": [],
+  "resolved_conditions": [
+    {
+      "id": "V1_VENDOR_CANONICAL_EQUIVALENCE",
+      "record": "release/V1_STANDARDS_VENDOR_VERIFICATION.json",
+      "status": "RESOLVED",
+      "reason": "Three files are byte-exact and six reproduce the manifest exactly after the approved CRLF-to-LF canonical transform."
+    }
+  ]
+}

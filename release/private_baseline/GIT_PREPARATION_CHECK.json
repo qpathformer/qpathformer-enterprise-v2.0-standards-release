@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "git_visible_files": 238,
+  "git_visible_provenance_files": 52,
+  "imported_files_missing_from_git_selection": [],
+  "generated_hash_mismatches": [],
+  "machine_local_locators_ignored": true,
+  "staged_files": 0,
+  "remotes": [],
+  "local_branch": "main",
+  "commit_status": "UNBORN_BRANCH_NO_COMMITS",
+  "upload_performed": false,
+  "count_scope": "File counts observed before this check record was saved into the repository."
+}

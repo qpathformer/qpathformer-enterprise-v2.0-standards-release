@@ -1,0 +1,127 @@
+{
+  "format": "tr010_reference_link_check_v1",
+  "checked_at_utc": "2026-09-05T23:08:22Z",
+  "method": "Read-only authenticated GitHub API through gh; no remote mutation or paper download.",
+  "repository_directory": "https://github.com/orgs/qpathformer/repositories",
+  "access_pod_release_directory": "https://github.com/Access-PoD/access-pod-artifacts-core/releases",
+  "repositories_observed": [
+    {
+      "name": ".github",
+      "html_url": "https://github.com/qpathformer/.github",
+      "visibility": "public"
+    },
+    {
+      "name": "qpath-dataset-lifecycle",
+      "html_url": "https://github.com/qpathformer/qpath-dataset-lifecycle",
+      "visibility": "public"
+    },
+    {
+      "name": "qpathformer-enterprise-v1.0-release",
+      "html_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release",
+      "visibility": "public"
+    },
+    {
+      "name": "qpathformer-enterprise-v2",
+      "html_url": "https://github.com/qpathformer/qpathformer-enterprise-v2",
+      "visibility": "private"
+    }
+  ],
+  "published_releases": [
+    {
+      "repository": "qpathformer/qpath-dataset-lifecycle",
+      "tag": "v1.0-qpath-dataset-lifecycle",
+      "html_url": "https://github.com/qpathformer/qpath-dataset-lifecycle/releases/tag/v1.0-qpath-dataset-lifecycle",
+      "published_at": "2026-03-12T09:57:28Z",
+      "draft": false,
+      "prerelease": false,
+      "resolved_commit": "08a70324f8a2c317736a52c228e913259e4575e9"
+    },
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+      "tag": "v1.0-qpathformer-enterprise",
+      "html_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+      "published_at": "2026-04-18T14:38:51Z",
+      "draft": false,
+      "prerelease": false,
+      "resolved_commit": "0fa94ecf47d698a894bc868545f110570d0dec50"
+    },
+    {
+      "repository": "Access-PoD/access-pod-artifacts-core",
+      "tag": "v1a",
+      "html_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a",
+      "published_at": "2025-12-28T02:26:35Z",
+      "draft": false,
+      "prerelease": false,
+      "resolved_commit": "4de97be6d130534a4272a734f1880faf1ab1ae04"
+    },
+    {
+      "repository": "Access-PoD/access-pod-artifacts-core",
+      "tag": "v1.0-access-mode",
+      "html_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+      "published_at": "2026-02-05T07:34:59Z",
+      "draft": false,
+      "prerelease": false,
+      "resolved_commit": "99df5adf93f728b2cbab4177677e551fc650800e"
+    },
+    {
+      "repository": "Access-PoD/access-pod-artifacts-core",
+      "tag": "v1.0-apod-dataset-lifecycle",
+      "html_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+      "published_at": "2026-03-12T11:27:48Z",
+      "draft": false,
+      "prerelease": false,
+      "resolved_commit": "324e4069c38067cbb27a2ac863c1ada6d285c2ee"
+    }
+  ],
+  "tagged_papers": [
+    {
+      "repository": "qpathformer/qpath-dataset-lifecycle",
+      "tag": "v1.0-qpath-dataset-lifecycle",
+      "commit": "08a70324f8a2c317736a52c228e913259e4575e9",
+      "path": "docs/relationship_to_apod_dataset_lifecycle_release/APOD-TR-007 - Governed Dataset Onboarding and Lifecycle Routing.pdf",
+      "git_blob_sha1": "a8244d899a719574af17299ed7c32e943aac04f4"
+    },
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+      "tag": "v1.0-qpathformer-enterprise",
+      "commit": "0fa94ecf47d698a894bc868545f110570d0dec50",
+      "path": "docs/orientation/APOD-TR-008 Interaction-Role Signal Exchange.pdf",
+      "git_blob_sha1": "e6fe4cd7849bb5829a043e430b50e55fbb0d773c"
+    },
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+      "tag": "v1.0-qpathformer-enterprise",
+      "commit": "0fa94ecf47d698a894bc868545f110570d0dec50",
+      "path": "docs/orientation/APOD-TR-009 - Access pod - CSC Session Model & Execution.pdf",
+      "git_blob_sha1": "9f12bbafa30e5ca7336f851d7ac08fa72bdedd03"
+    },
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+      "tag": "v1.0-qpathformer-enterprise",
+      "commit": "0fa94ecf47d698a894bc868545f110570d0dec50",
+      "path": "docs/orientation/results_docs/APOD-TR-009-R - Access PoD CSC Results.pdf",
+      "git_blob_sha1": "f916c68f844def63fa48361fd1d2bb9cdd1540b8"
+    }
+  ],
+  "existing_private_v2_release_count": 0,
+  "proposed_destinations": [
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v2.0-standards-release",
+      "tag": "v2.0-qpathformer-enterprise-standards",
+      "status": "PROPOSED_NOT_PUBLISHED",
+      "basis": "Owner requested the v1 naming pattern, with v2 identified as standards; exact spelling is an editorial proposal, not an assigned immutable identity."
+    },
+    {
+      "repository": "qpathformer/qpathformer-enterprise-v3.0-release",
+      "tag": "v3.0-qpathformer-enterprise",
+      "status": "PROPOSED_NOT_PUBLISHED",
+      "basis": "Owner-planned v3 enterprise scope; exact destination proposed for documentation only."
+    }
+  ],
+  "limits": [
+    "A Git tag can be moved; resolved commit and blob identities record what was checked.",
+    "Directories are discovery links, not immutable evidence.",
+    "Proposed URLs are intentionally not represented as verified existing releases.",
+    "No licence, legal clearance or publication authority is established by link verification."
+  ]
+}

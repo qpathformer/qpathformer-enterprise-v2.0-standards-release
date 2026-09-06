@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "private_workspace_preparation_not_release_or_authorization_approval",
+  "verify_origin_bytes": true,
+  "file_count": 239,
+  "selected_copy_count": 170,
+  "python_ast_count": 43,
+  "json_parse_count": 102,
+  "schema_definition_count": 28,
+  "active_inherited_changes": [],
+  "errors": [],
+  "limits": [
+    "No model execution or training.",
+    "Secret-pattern scan is limited, not a complete security audit.",
+    "No legal, human-release, GitHub-visibility or single-scope approval.",
+    "Local machine folders .git, .local and .venv are excluded."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "document_id": "QPATH-V2-M09-GATE-001",
+  "version": "1.0",
+  "phase": "M09",
+  "mode": "A_release_candidate",
+  "result": "HOLD",
+  "repository": "qpathformer-enterprise-v2",
+  "branch": "main",
+  "source_head": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "source_baseline_commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "source_baseline_tag": "v2.0-qpathformer-enterprise-source-baseline",
+  "source_baseline_tree": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+  "target_path": "C:\\qpathformer_enterprise_v2_release",
+  "target_state": "M09_overlay_applied_and_technically_validated_with_vendor_manifest_hold",
+  "started_at_utc": "2026-07-17T22:52:56Z",
+  "completed_at_utc": "2026-07-17T23:05:46Z",
+  "executor": "OpenAI Codex under human-authorized M09 scope",
+  "reviewer": "Anthony Siljeg",
+  "reviewer_authority": "Human release authority; vendor exception decision not yet recorded",
+  "inputs": [
+    {
+      "id": "M08_CONTROLLED_TARGET",
+      "file_count": 332,
+      "byte_count": 35536201,
+      "canonical_tree_sha256": "1c17d13f09172bb4c51a4b48be6b8046fab0c598ee761a2899f890e620b962ce"
+    },
+    {
+      "id": "M08_GATE_REPORT",
+      "sha256": "e2dc751d8c225dec56c7f6049b169cb88c9567612d2975a21da68c5aac380fc1"
+    },
+    {
+      "id": "M08_V1_CSC_EVIDENCE_MANIFEST",
+      "sha256": "e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f"
+    }
+  ],
+  "outputs": {
+    "target_file_count": 345,
+    "target_byte_count": 35581801,
+    "target_canonical_tree_sha256": "8d19fdf973a514e3e5c3973dea73fb40cd89784b713ed2a67b9eb71c10d571a6",
+    "applied_overlay_file_count": 28,
+    "new_target_file_count": 13,
+    "overwritten_active_file_count": 15,
+    "historical_path_or_vendor_files_modified": 0,
+    "stage_to_target_hash_mismatch_count": 0,
+    "git_initialized": false,
+    "public_commit_created": false,
+    "public_tag_created": false,
+    "zip_created": false,
+    "push_performed": false
+  },
+  "commands_or_methods": [
+    "Revalidated the target against the exact M08 file count, byte count, and canonical digest before applying M09.",
+    "Prepared the 28-file M09 overlay in a writable staging root using patch-reviewed edits.",
+    "Applied the staged overlay to the controlled target without deleting or transforming historical evidence.",
+    "Ran scripts/validate_v2_release.py in report and check-only modes.",
+    "Ran Python compileall with an external pycache prefix.",
+    "Ran unittest discovery with PYTHONDONTWRITEBYTECODE=1.",
+    "Ran pip check against the local exact release-validation dependency set.",
+    "Recomputed the canonical target tree digest and compared all staged files with target hashes."
+  ],
+  "checks": [
+    {
+      "check_id": "pre_apply_M08_target_identity",
+      "status": "PASS",
+      "details": "332 files, 35,536,201 bytes, and canonical digest matched the M08 record."
+    },
+    {
+      "check_id": "immutable_source_anchor",
+      "status": "PASS",
+      "details": "Tracked source worktree remained clean at the approved M05 commit and tag."
+    },
+    {
+      "check_id": "documentation_and_repository_conformance",
+      "status": "PASS",
+      "details": "20 of 20 checks passed: required files and directories, generated caches, symlinks, exact dependency lock, JSON, JSONL, Markdown headings, internal links, active paths, secrets, file size, model binaries, licences and notices, layout, vendor disclosure integrity, M08 evidence hashes, AI disclosure, and claim boundary."
+    },
+    {
+      "check_id": "unit_tests",
+      "status": "PASS",
+      "details": "24 tests ran: 23 passed and 1 Windows symlink-capability test was skipped by its explicit environment guard."
+    },
+    {
+      "check_id": "python_compilation",
+      "status": "PASS",
+      "details": "scripts and tests/unit compiled with bytecode redirected outside the controlled target."
+    },
+    {
+      "check_id": "dependency_consistency",
+      "status": "PASS",
+      "details": "pip check reported no broken requirements."
+    },
+    {
+      "check_id": "target_packaging_hygiene",
+      "status": "PASS",
+      "details": "No pycache or bytecode files, reparse points, model binaries, private keys, or .git directory were present."
+    },
+    {
+      "check_id": "M08_historical_CSC_preservation",
+      "status": "PASS",
+      "details": "The M08 evidence manifest hash remained e851bda7e77f459817055fc487cdaa38788cf13244c767d4222abd64c3085e0f and all 25 selected artifact hashes verified."
+    },
+    {
+      "check_id": "Access_PoD_v1a_original_manifest",
+      "status": "HOLD",
+      "details": "Three of nine entries match manifest_v1a_pack.json. Six retained files mismatch the original bytes and hashes. All nine target files match the immutable v1 enterprise tag, and the nested MIT licence matches. Upstream byte-exactness is not claimed."
+    }
+  ],
+  "exceptions": [
+    {
+      "exception_id": "V1_VENDOR_MANIFEST_MISMATCH",
+      "severity": "release_integrity_decision",
+      "status": "HOLD_PENDING_HUMAN_DECISION",
+      "record": "release/V1_STANDARDS_VENDOR_VERIFICATION.json",
+      "record_sha256": "b7f6e9bf1a1bb84ef87636f6d05602e9b72bc36d0cee5ab376ffb685a0254fe2",
+      "reason": "The vendor ORIGIN record describes an unmodified upstream v1a snapshot, but six retained files do not match the included upstream manifest. Automated validation pins and discloses the exact mismatch but cannot approve release treatment.",
+      "permitted_human_decisions": [
+        "accept_as_pinned_historical_v1_enterprise_vendor_snapshot_with_no_upstream_exactness_claim",
+        "replace_from_a_separately_verified_upstream_v1a_source",
+        "exclude_the_six_mismatching_files_and_reconcile_dependencies"
+      ]
+    }
+  ],
+  "evidence_references": [
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "sha256": "1ef76d83a01046092d069d68f2d88e16a8cba58507887cde40b17ce7c59afbe8"
+    },
+    {
+      "path": "release/DOCUMENTATION_CONFORMANCE_REPORT.json",
+      "sha256": "11c7dd8763a2a8ba9ae77c3ba0a18d6305b626ea3f3de1e4c4fd9042e9a72101"
+    },
+    {
+      "path": "release/THIRD_PARTY_NOTICES.md",
+      "sha256": "d7095376ca88d00f6360e4300b4793fbb06d325441774047d831b621a4bff743"
+    },
+    {
+      "path": "release/MODEL_AND_DERIVATIVE_ASSET_MANIFEST.json",
+      "sha256": "6a7f2b421e78178952d28225d4736fa99b7e323ca425eb9b733146f1f388b8c5"
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "sha256": "cd4486bca2b5c9559dcaadafc280d935c1263fe1a660c108df60eb7077ec6845"
+    },
+    {
+      "path": "scripts/validate_v2_release.py",
+      "sha256": "783a7ff9a061689dda2cc56fc93b9a5f04e9e735239f9ce8991eeaa20c7fcfd7"
+    },
+    {
+      "path": ".github/workflows/release-validation.yml",
+      "sha256": "b7397f0d03fc1725a8fa5f34afed619c24428945d83f12f50d39726eebfbaf86"
+    },
+    {
+      "path": "requirements-release.txt",
+      "sha256": "8d4000cba762b2b7d1795c39b8005b69b99411672bafc9b2b10213c56be7d69e"
+    }
+  ],
+  "next_authorized_phase": "NONE_UNTIL_M09_VENDOR_EXCEPTION_DECISION",
+  "approval_reference": "User authorized M09 execution in the active Codex task on 2026-07-18 Australia/Sydney; no authorization was given to accept or remediate the vendor manifest mismatch."
+}

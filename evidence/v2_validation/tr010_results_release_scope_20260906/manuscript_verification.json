@@ -1,0 +1,80 @@
+{
+  "format": "tr010_results_release_scope_check_v1",
+  "date": "2026-09-06",
+  "status": "CONTENT_LAYOUT_AND_VISUAL_REVIEW_PASS",
+  "input": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 120324,
+    "sha256": "f0a49fde35eb803a9171f4674e3547f92f268e477b98d535f726c9f294771f3b"
+  },
+  "output": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 120549,
+    "sha256": "470d2be1aceb546e649c396c73c23d6e93d705034bef61ff2cbf0087676ff10a"
+  },
+  "change": {
+    "before": "The standards package is intended to contain one APOD-TR-010 paper and one APOD-TR-010-R companion. The planned enterprise v3 is a separate future release and has not yet been released. This study does not establish that v3 is complete or approved for publication. [E26]",
+    "heading": "Notes about this release",
+    "paragraphs": [
+      "The v2 standards pack explains the governed method and its reproducibility records through bounded synthetic verification. It pairs TR010, an implementation report and reference protocol, with TR010-R, the results and limitations report. It does not reproduce the full v1.0 enterprise lifecycle. [E01, E04, E08, E26]",
+      "The planned v3 enterprise release is intended to build on the v1.0 three-path foundation and the v2 authorization and package-integrity controls. Its objective is full-scale end-to-end reproduction within a defined enterprise scope, supported by the necessary datasets, configurations and execution evidence. V3 is not yet released; this objective is not a verified v2 result or an approved release."
+    ],
+    "markdown_after": "**Notes about this release**\n\nThe v2 standards pack explains the governed method and its reproducibility records through bounded synthetic verification. It pairs TR010, an implementation report and reference protocol, with TR010-R, the results and limitations report. It does not reproduce the full v1.0 enterprise lifecycle. [E01, E04, E08, E26]\n\nThe planned v3 enterprise release is intended to build on the v1.0 three-path foundation and the v2 authorization and package-integrity controls. Its objective is full-scale end-to-end reproduction within a defined enterprise scope, supported by the necessary datasets, configurations and execution evidence. V3 is not yet released; this objective is not a verified v2 result or an approved release.",
+    "basis": "Owner requested v2 standards-pack positioning and planned v3 full-scale enterprise reproduction extending v1.0. Future capabilities are labelled as objectives, not verified outcomes.",
+    "scope": "Section 1.2 only; no abstract, table, command, appendix or technical outcome change."
+  },
+  "body_paragraphs_before": 366,
+  "body_paragraphs_after": 368,
+  "only_section_1_2_text_changed": true,
+  "unchanged_tables": 11,
+  "abstract_and_appendices_unchanged": true,
+  "pages": 33,
+  "release_scope_note_page": 6,
+  "contents_references_verified": 49,
+  "primary_source_hashes_verified": 60,
+  "supplemental_source_hashes_verified": 2,
+  "visual_review": {
+    "status": "PASS",
+    "reviewed_changed_pages": [
+      3,
+      4,
+      6,
+      7,
+      14,
+      23
+    ],
+    "byte_identical_previously_reviewed_pages": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "method": "Separate hidden Word PDF export followed by document skill render_docx.py rasterization at 100 DPI; changed pages visually inspected and remaining pages byte-identical to previously reviewed rendering."
+  },
+  "new_runtime_test_model_run_or_release_gate": false,
+  "v3_status": "PLANNED_OBJECTIVE_NOT_RELEASED_OR_VERIFIED",
+  "legal_review_or_publication_authorized": false
+}

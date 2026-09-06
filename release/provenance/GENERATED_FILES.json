@@ -1,0 +1,321 @@
+{
+  "status": "PREPARATION_IDENTITIES_NOT_RELEASE_SEAL",
+  "excludes": [
+    "this self-referencing file",
+    "later validation records",
+    "Git metadata",
+    "ignored local locators"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 227,
+      "sha256": "d477bd09232f849305fccace969eee32b3899999c30657ac082c995849beb8b6"
+    },
+    {
+      "path": ".github/workflows/private-validation.yml",
+      "bytes": 1052,
+      "sha256": "fc89f8302c7dc449f8c8c687e7f0564a1d59ae4aaad9f861310f6555e3b9c7b8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 880,
+      "sha256": "b50b633a348cc7f9b72727bb6f2e8749e38f87324c05caa8b4b417228434f0f3"
+    },
+    {
+      "path": "dev_assist.md",
+      "bytes": 1466,
+      "sha256": "cc49b5fa1d2457a6df234bdf4fc69dc02fb208f2e6d6efeaabfdc22b95fbef15"
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "bytes": 341,
+      "sha256": "eecfa678522c09f36104614413e27634dbd5cda87f7d593871c3cb0846802724"
+    },
+    {
+      "path": "docs/execution/LOCAL_CHECKS.md",
+      "bytes": 1704,
+      "sha256": "cf595eabc4adc6d8048a4f299476dd14fb2b5bc69bb6918f09a22de5b40d9249"
+    },
+    {
+      "path": "docs/history/README.md",
+      "bytes": 554,
+      "sha256": "247173f2e850c3387f41476d0e00c07aaf1b84cd5cd012877aa968e7e5fc8840"
+    },
+    {
+      "path": "docs/legal-review/README.md",
+      "bytes": 1192,
+      "sha256": "62062b82a03cf93aa37490b97d824df2fccbaac339f24f651716dbac3c282d2b"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 800,
+      "sha256": "611ae3154ad52e0b7fb4b433c94806e33f49152e3c371d73870d62ca3b5361f1"
+    },
+    {
+      "path": "docs/release/LOCAL_PREPARATION_RESULT_20260905.md",
+      "bytes": 3309,
+      "sha256": "d153c5d7356bd209940fe0a3be954f2fc7e696a846baa9022ad05343e7dcd54d"
+    },
+    {
+      "path": "docs/release/PRIVATE_DEVELOPMENT_SCOPE.md",
+      "bytes": 1633,
+      "sha256": "1afd80c099fd3e0062f9504a53399327b309f7b14bec8c75efa7dabf5bca884b"
+    },
+    {
+      "path": "docs/release/PRIVATE_GIT_CHECKLIST.md",
+      "bytes": 1520,
+      "sha256": "58bbcf7115d48f0d8d2594bb1d3416eaf13f626291a130e5f6ba40139f6303f8"
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "bytes": 1464,
+      "sha256": "88e75f546f9d18a7ff8083322784b9f73ba96410e9299d8e4ecf6b2e0393022f"
+    },
+    {
+      "path": "docs/research/tr010/README.md",
+      "bytes": 559,
+      "sha256": "85da837161d0b7f87663f5876f2cae18822bae41245f53d0cdbf7996ae62fd26"
+    },
+    {
+      "path": "evidence/historical_v1/README.md",
+      "bytes": 346,
+      "sha256": "4b5b1128522ec970d1980b5be11f0b5e73ed68e4ae734b3fcd5b45ba4f8d60a0"
+    },
+    {
+      "path": "evidence/v2_validation/README.md",
+      "bytes": 346,
+      "sha256": "4a01201a2c719717703ac06b0e08591f9ef52d36f679f649cec2b1cbdd4acfd2"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1019,
+      "sha256": "ede63a6ee6c2d76a5efdf5e5945ccc853e4a1a024d61c4a7e11280f33cc1c93d"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/01_source/corpus_snapshot/README.md",
+      "bytes": 376,
+      "sha256": "1f0f899d4ce08dcd8d23fb73e7e7825cacda0f06180e2b6d653c41954e3c1ce6"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/01_source/readme_refs/README.md",
+      "bytes": 372,
+      "sha256": "b1b3458ea2018c3412a1d6ff3de3433c8e6470e8403d50ff340adcbfa658d678"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/01_source/README.md",
+      "bytes": 360,
+      "sha256": "dc02e9ee6f1981a229188a662b82bc6c190f29b204caad432bea7afc9c97a420"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/01_source/tr_docs/README.md",
+      "bytes": 368,
+      "sha256": "9b49858996613882ad88517f64e9a52c42f5d6b9a75428ecfa681ecd6609113c"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/02_signals/README.md",
+      "bytes": 361,
+      "sha256": "c08c854fe6f0eca10d07f6ce3b883480907a784771bc261f857bd7756f27b2d4"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/03_dataset/README.md",
+      "bytes": 361,
+      "sha256": "8b662d2573bbed96cd255e6527c6cde93b468a1a0d94078ba39985c3324c3601"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/04_state1_package/README.md",
+      "bytes": 368,
+      "sha256": "681d1228ef1ecb2e4d8e078fe7a8f9d11ef5b69d973aa398e68703fff47652cb"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/05_runs/README.md",
+      "bytes": 358,
+      "sha256": "ea36764ab7f35ac4fd978a66c681e6524088068fd7a90281df19085be1639ba0"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/06_review/README.md",
+      "bytes": 360,
+      "sha256": "5f0abd9cc14956d939799a11ce4d99c016ee1753754cb0c921eba8e7c7946999"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/07_logs/README.md",
+      "bytes": 358,
+      "sha256": "84bdce548b71addcc08ffd9710539d67ef38baee88be0ef242dfd4cdaf3752cf"
+    },
+    {
+      "path": "path_1_tr_corpus_reference/README.md",
+      "bytes": 350,
+      "sha256": "3ee0d1348ba3f560a208ceb38aa6641dbf6dcce632e9cf7011caa79bf7711ef6"
+    },
+    {
+      "path": "path_2_access_mode_canonical/01_source/README.md",
+      "bytes": 362,
+      "sha256": "250d0973a6e771df2cee29f71054e77eb7ac4a8f1ffd0da7a0290aefd2fc61a6"
+    },
+    {
+      "path": "path_2_access_mode_canonical/02_signals/README.md",
+      "bytes": 363,
+      "sha256": "4d0854254610b2e7a6e62725d7363f0fec0d92c359261879d8f3eab3d158fddc"
+    },
+    {
+      "path": "path_2_access_mode_canonical/03_dataset/README.md",
+      "bytes": 363,
+      "sha256": "52dfdbcb871dd07072c140de03ca8387dbda8b747069edd04328cdaf4b4dfcef"
+    },
+    {
+      "path": "path_2_access_mode_canonical/04_state1_package/README.md",
+      "bytes": 370,
+      "sha256": "0a5f38f25d79e7beaeba943b7a0def2e2bcfe52132c4271641ded677fb9d127c"
+    },
+    {
+      "path": "path_2_access_mode_canonical/05_runs/README.md",
+      "bytes": 360,
+      "sha256": "559664d91c38a57fb56d0629531684e9f7f18e388bd004f99c97e6448bbff6bc"
+    },
+    {
+      "path": "path_2_access_mode_canonical/06_review/README.md",
+      "bytes": 362,
+      "sha256": "a51093346a7d094cda97edc224259395da3acc9bdab8877ceac6ea47a8409154"
+    },
+    {
+      "path": "path_2_access_mode_canonical/07_logs/README.md",
+      "bytes": 360,
+      "sha256": "5fc0b9218d157ed73ca9c19997198ba560585e4c178e38033861e4a8293fda05"
+    },
+    {
+      "path": "path_2_access_mode_canonical/README.md",
+      "bytes": 352,
+      "sha256": "2755075fd2c688a4f1a39f7e5490be22f9f64882ada23a226ed32eaba3b284ab"
+    },
+    {
+      "path": "path_3_external_custom_adapter/01_source/inbound/README.md",
+      "bytes": 372,
+      "sha256": "5c0cbdc8c16244f8ebc08aea5f193c646815f00642f8de10ff377fb317cf6e22"
+    },
+    {
+      "path": "path_3_external_custom_adapter/01_source/README.md",
+      "bytes": 364,
+      "sha256": "688c34e97caf219cf934373797e56ed76d48bfcb6693ce40e82ad4dced2f1184"
+    },
+    {
+      "path": "path_3_external_custom_adapter/02_signals/README.md",
+      "bytes": 365,
+      "sha256": "7bc3becfab630ea88eba16f253e64b1dcb738ae1f5a14edc5a54e92224472663"
+    },
+    {
+      "path": "path_3_external_custom_adapter/03_dataset/README.md",
+      "bytes": 365,
+      "sha256": "5da2e8fe798241a187b68ed326bdab987427d5be0926af5c780b7f2799d94113"
+    },
+    {
+      "path": "path_3_external_custom_adapter/04_state1_package/README.md",
+      "bytes": 372,
+      "sha256": "05440cc91f7a288a3f74c526b1c66a4e7f53825e3757defa1ee52914ce37f994"
+    },
+    {
+      "path": "path_3_external_custom_adapter/05_runs/README.md",
+      "bytes": 362,
+      "sha256": "266f8604faec7de349a45b5c7021fb4fc5db7af244d3ef7e3774f368aecdc790"
+    },
+    {
+      "path": "path_3_external_custom_adapter/06_review/README.md",
+      "bytes": 364,
+      "sha256": "9db7cb91b27bf069cea7780b2e24901e42830795070a0594230d78f045505e3d"
+    },
+    {
+      "path": "path_3_external_custom_adapter/07_logs/README.md",
+      "bytes": 362,
+      "sha256": "c002693c0fb4f1e6288f35156e4c82c16f15d84950999bc37f81c356e41d2643"
+    },
+    {
+      "path": "path_3_external_custom_adapter/README.md",
+      "bytes": 354,
+      "sha256": "3b2f8d72355961fef6a57494d7adfda57fbc8cf64e9805f1ff18b0e713a24b7b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2632,
+      "sha256": "315d896ec9e54b3aec35a55e26c12d1eefd6aac9c58f22b1b080dbd505f4b76b"
+    },
+    {
+      "path": "release/private_baseline/README.md",
+      "bytes": 348,
+      "sha256": "dc9e8dec212973658f759f0721ae87dcc5531b489930c61312342109a73404fd"
+    },
+    {
+      "path": "release/provenance/EXCLUSIONS.json",
+      "bytes": 329525,
+      "sha256": "531ce03b2a257d7ad6927d905429d82fd3ef5291f444c1c0a1241e984cd9c185"
+    },
+    {
+      "path": "release/provenance/EXTERNAL_REFERENCES.json",
+      "bytes": 1801,
+      "sha256": "c70285e3295cb341229ba03168f1c18b9171a3288878310ea27603336342ab9c"
+    },
+    {
+      "path": "release/provenance/README.md",
+      "bytes": 1828,
+      "sha256": "cac42b249932fd80a3d90a42e706d8ad819ec20d7c361a1fe1d081a2edfe4527"
+    },
+    {
+      "path": "release/provenance/SOURCE_ANCHORS.json",
+      "bytes": 1280,
+      "sha256": "77e4ff10cd22931114ffe35ec4717ae3fb812ec96ae9a6630c6a1f7e656da3c8"
+    },
+    {
+      "path": "release/provenance/SOURCE_CATALOGUE.json",
+      "bytes": 305900,
+      "sha256": "c2ff9f8146e7c8cbb50446340e1950f124c84a0dca77e51b996728b4f734ea7e"
+    },
+    {
+      "path": "release/provenance/SOURCE_SELECTION.json",
+      "bytes": 113721,
+      "sha256": "074ea4cd546d14559a50f701e47c9b155ba684f39be349236174da2e97ecc1ef"
+    },
+    {
+      "path": "release/provenance/STANDARDS_SUBSET.json",
+      "bytes": 4725,
+      "sha256": "6977277d5f4e2c08b32e8294ed9521e228bae87d5a37d734d8b17f0ff5764cb7"
+    },
+    {
+      "path": "shared/models/evaluation/README.md",
+      "bytes": 348,
+      "sha256": "584e858697e70e80216fd093064ddff8b43f1caf7537cd2cfc8f9458e620d046"
+    },
+    {
+      "path": "shared/runtime/README.md",
+      "bytes": 338,
+      "sha256": "cc4ea8cd0d0564633bab0905ac24b378b1b704e145189b6cc618edde5669ba32"
+    },
+    {
+      "path": "shared/standards/access_pod/README.md",
+      "bytes": 882,
+      "sha256": "e3d6b0d8a16f3f55f9fb199b52de44e0cf9edecbbec237ea523caf858ba1c521"
+    },
+    {
+      "path": "shared/standards/README.md",
+      "bytes": 333,
+      "sha256": "127afbc199ab8e762a4c000911018b338c097f13277e5af1401a3af9c4551d41"
+    },
+    {
+      "path": "tests/fixtures/synthetic/README.md",
+      "bytes": 410,
+      "sha256": "fabadf6e6b94c457561ecc37495af2c162c4fde3729db80a1b048223521620b7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1835,
+      "sha256": "50bb796de3da13c45c154c6655d1007c160ce13e672ae9912f84df1d9b3b1532"
+    },
+    {
+      "path": "tools/prepare_private_workspace.ps1",
+      "bytes": 20530,
+      "sha256": "3bd6c07b05a90611648054c62261a31378da8383e1afb9b7d3ad4f7d5f0abc5a"
+    },
+    {
+      "path": "tools/verify_private_workspace.py",
+      "bytes": 7438,
+      "sha256": "641282b3757d04ffa9925b684d8f35904da9cc38e34b0550b0225d31a70e3a32"
+    }
+  ]
+}

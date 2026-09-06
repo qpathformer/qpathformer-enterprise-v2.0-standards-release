@@ -1,0 +1,167 @@
+{
+  "format": "tr010r_manuscript_editorial_verification_v1",
+  "date": "2026-09-05",
+  "status": "PASS",
+  "scope": "New documentary results companion; source identities and rendered text checked, not runtime or release verification.",
+  "document": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON_DRAFT_20260905.docx",
+    "bytes": 110192,
+    "sha256": "27eb183cf69cbce9ae22e060d4db94147948274252478950c0d9b9269c8eae7b",
+    "pages": 27
+  },
+  "format_reference": {
+    "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R04.docx",
+    "sha256": "a6ceb060ad18cacc55588ddfe0c0831342b49d7fed9be9aa6cabe8404ec42e06",
+    "unchanged": true
+  },
+  "body_and_cell_paragraphs_verified": 459,
+  "tables_verified": 11,
+  "toc_pagerefs_verified": 41,
+  "source_groups": 23,
+  "source_file_references_verified": 57,
+  "rehearsal_source_bindings_verified": [
+    {
+      "path": "scripts/crypto_keys.py",
+      "recorded_sha256": "72247447266e0b16e1993b4f563fc0f189faa12ec5d89bfbc2fbe96a530654d3",
+      "current_sha256": "72247447266e0b16e1993b4f563fc0f189faa12ec5d89bfbc2fbe96a530654d3",
+      "matched": true
+    },
+    {
+      "path": "scripts/package_sealing.py",
+      "recorded_sha256": "48ed6822ca1881d18628b89ac7f5a14d81e25aa4666aa1e3c472e82872eda086",
+      "current_sha256": "48ed6822ca1881d18628b89ac7f5a14d81e25aa4666aa1e3c472e82872eda086",
+      "matched": true
+    },
+    {
+      "path": "scripts/path_layout.py",
+      "recorded_sha256": "a5abc4dadb5a1c87ba9255adc20579a65fb7f3cbcde990e1974f1fe6d4afca30",
+      "current_sha256": "a5abc4dadb5a1c87ba9255adc20579a65fb7f3cbcde990e1974f1fe6d4afca30",
+      "matched": true
+    },
+    {
+      "path": "scripts/training_authorization.py",
+      "recorded_sha256": "dd96032fbe96b4a4fee78400818f3e59b424e3d79071f6d6adb2aced9dc6505a",
+      "current_sha256": "dd96032fbe96b4a4fee78400818f3e59b424e3d79071f6d6adb2aced9dc6505a",
+      "matched": true
+    },
+    {
+      "path": "scripts/generate_ed25519_keypair_v2.py",
+      "recorded_sha256": "afbc232716effa26f195df5fdf4edf281e3074021fd614f29ba049a83eaebe4d",
+      "current_sha256": "afbc232716effa26f195df5fdf4edf281e3074021fd614f29ba049a83eaebe4d",
+      "matched": true
+    },
+    {
+      "path": "scripts/create_training_authorization_v2.py",
+      "recorded_sha256": "65ce0c90e74ea93583fb3fcce59b62791d2197cd2104dd910ef8a51942725a01",
+      "current_sha256": "65ce0c90e74ea93583fb3fcce59b62791d2197cd2104dd910ef8a51942725a01",
+      "matched": true
+    },
+    {
+      "path": "scripts/run_training_state1.py",
+      "recorded_sha256": "ef74ef423711b9605838389ff41ef38a1acc4ebacf45b057cc244503718eb743",
+      "current_sha256": "ef74ef423711b9605838389ff41ef38a1acc4ebacf45b057cc244503718eb743",
+      "matched": true
+    },
+    {
+      "path": "scripts/run_state1_finetune_local_lora.py",
+      "recorded_sha256": "88e7d22be7a1372a92cc73de07695028ce342af1152cb1509a477ea2999a5bb6",
+      "current_sha256": "88e7d22be7a1372a92cc73de07695028ce342af1152cb1509a477ea2999a5bb6",
+      "matched": true
+    },
+    {
+      "path": "tools/standards_rehearsal_child.py",
+      "recorded_sha256": "c13841579160df1442e5000612f5b4bee7c175ac9b52e89198398bea99f05cae",
+      "current_sha256": "c13841579160df1442e5000612f5b4bee7c175ac9b52e89198398bea99f05cae",
+      "matched": true
+    },
+    {
+      "path": "tools/rehearse_standards_release.py",
+      "recorded_sha256": "5890b3e9c585e2a6bde16ec90df1611482da08efd2f8db75ee965ebee7da59da",
+      "current_sha256": "5890b3e9c585e2a6bde16ec90df1611482da08efd2f8db75ee965ebee7da59da",
+      "matched": true
+    },
+    {
+      "path": "shared/configs/training_backend_profile.local_lora.json",
+      "recorded_sha256": "d86f8aa0c69de3b9fdf4540af5fd0c7e8f5f4d7ff4dfc7cd758307b2c6c4c5ea",
+      "current_sha256": "d86f8aa0c69de3b9fdf4540af5fd0c7e8f5f4d7ff4dfc7cd758307b2c6c4c5ea",
+      "matched": true
+    }
+  ],
+  "historical_inventory_and_checksum_record_hashes_verified": 2,
+  "full_historical_frozen_tree_reverified": false,
+  "full_length_digest_values_found_in_render": [
+    "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75",
+    "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080",
+    "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0",
+    "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+  ],
+  "page_geometry_and_footer_fields_match_reference": true,
+  "visual_review": {
+    "initial_full_size_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "final_refined_pages": [
+      9,
+      10,
+      15,
+      16,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "findings_resolved": [
+      "Widened CLI exit-code heading column.",
+      "Widened CSC Composite column.",
+      "Kept evidence headings and classes with a first path.",
+      "Wrapped 18 long paths at directory boundaries without changing their text."
+    ],
+    "final_page_count": 27
+  },
+  "new_model_execution": false,
+  "new_unit_or_rehearsal_execution": false,
+  "actual_lawyer_review_completed": false,
+  "limits": [
+    "Historical v1 results are attributed to the retained July comparison, not a fresh reopening of all original runs.",
+    "Documentary source hashes do not validate legal entitlement or all assertions inside a source.",
+    "Not a release gate, new candidate seal or publication approval."
+  ],
+  "command_syntax": {
+    "status": "PASS",
+    "blocks": [
+      {
+        "language": "powershell",
+        "syntax_errors": 0,
+        "executed": false
+      }
+    ],
+    "scope": "Syntax only; no manuscript commands executed."
+  }
+}

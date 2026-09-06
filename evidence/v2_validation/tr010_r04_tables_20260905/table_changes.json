@@ -1,0 +1,645 @@
+{
+  "cover_before": "Status: Standards Review Manuscript R03 - 5 September 2026 (Local Draft)",
+  "cover_after": "Status: Standards Review Manuscript R04 - 5 September 2026 (Local Draft)",
+  "tables": [
+    {
+      "table_number": 7,
+      "section": "5.8 Negative-Path Output Rules",
+      "before_grid_twips": [
+        1111,
+        4155,
+        3760
+      ],
+      "after_grid_twips": [
+        1500,
+        3900,
+        3626
+      ],
+      "before_rows": [
+        [
+          "Lifecycle stage",
+          "Bounded output permitted after hold",
+          "Output or mutation prohibited after hold"
+        ],
+        [
+          "STATE_2 review",
+          "state2_review.json with non-positive finding",
+          "Positive eligibility where required evidence is absent"
+        ],
+        [
+          "STATE_2 promotion",
+          "state2_promotion_decision.json with hold result",
+          "Representation of the package as promoted"
+        ],
+        [
+          "STATE_1 handoff",
+          "state1_handoff.json with hold result",
+          "freeze_ready_manifest.json"
+        ],
+        [
+          "STATE_1 freeze",
+          "Returned or externally recorded hold evidence",
+          "freeze/, state1_freeze.json, frozen_manifest.json, frozen_dataset.jsonl"
+        ],
+        [
+          "Registry evaluation",
+          "Returned or externally recorded hold evidence",
+          "Registry mutation and state1_registry_update.json"
+        ],
+        [
+          "Training preparation",
+          "Failure or denial evidence outside final package",
+          "Final package representing successful authorization"
+        ],
+        [
+          "Fine-tune execution",
+          "Pre-execution failure evidence",
+          "Final run directory"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Lifecycle stage",
+          "Bounded output permitted after hold",
+          "Output or mutation prohibited after hold"
+        ],
+        [
+          "STATE_2 review",
+          "state2_review.json with non-positive finding",
+          "Positive eligibility where required evidence is absent"
+        ],
+        [
+          "STATE_2 promotion",
+          "state2_promotion_decision.json with hold result",
+          "Representation of the package as promoted"
+        ],
+        [
+          "STATE_1 handoff",
+          "state1_handoff.json with hold result",
+          "freeze_ready_manifest.json"
+        ],
+        [
+          "STATE_1 freeze",
+          "Returned or externally recorded hold evidence",
+          "freeze/, state1_freeze.json, frozen_manifest.json, frozen_dataset.jsonl"
+        ],
+        [
+          "Registry evaluation",
+          "Returned or externally recorded hold evidence",
+          "Registry mutation and state1_registry_update.json"
+        ],
+        [
+          "Training preparation",
+          "Failure or denial evidence outside final package",
+          "Final package representing successful authorization"
+        ],
+        [
+          "Fine-tune execution",
+          "Pre-execution failure evidence",
+          "Final run directory"
+        ]
+      ],
+      "relocated_label_digest_pairs": []
+    },
+    {
+      "table_number": 11,
+      "section": "7.1 Why Two Trust Roles",
+      "before_grid_twips": [
+        1576,
+        3949,
+        3501
+      ],
+      "after_grid_twips": [
+        1805,
+        3610,
+        3611
+      ],
+      "before_rows": [
+        [
+          "Trust role",
+          "Signed artifact",
+          "Primary assertion"
+        ],
+        [
+          "Authorization signer",
+          "training_authorization.json",
+          "The recorded decision was signed by the holder of the authorization key"
+        ],
+        [
+          "Package sealer",
+          "package_seal.json",
+          "The recorded package inventory and metadata were signed by the holder of the package-sealing key"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Trust role",
+          "Signed artifact",
+          "Primary assertion"
+        ],
+        [
+          "Authorization signer",
+          "training_authorization.json",
+          "The recorded decision was signed by the holder of the authorization key"
+        ],
+        [
+          "Package sealer",
+          "package_seal.json",
+          "The recorded package inventory and metadata were signed by the holder of the package-sealing key"
+        ]
+      ],
+      "relocated_label_digest_pairs": []
+    },
+    {
+      "table_number": 14,
+      "section": "9.2 M04 dry-run identity",
+      "before_grid_twips": [
+        860,
+        8166
+      ],
+      "after_grid_twips": [
+        5416,
+        3610
+      ],
+      "before_rows": [
+        [
+          "Field",
+          "Expected result"
+        ],
+        [
+          "Resolved files",
+          "320"
+        ],
+        [
+          "Source bytes",
+          "35,442,108"
+        ],
+        [
+          "Expected target bytes",
+          "35,414,938"
+        ],
+        [
+          "Expected target digest",
+          "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Field",
+          "Expected result"
+        ],
+        [
+          "Resolved files",
+          "320"
+        ],
+        [
+          "Source bytes",
+          "35,442,108"
+        ],
+        [
+          "Expected target bytes",
+          "35,414,938"
+        ]
+      ],
+      "relocated_label_digest_pairs": [
+        [
+          "Expected target digest",
+          "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080"
+        ]
+      ]
+    },
+    {
+      "table_number": 16,
+      "section": "9.7 Corrected M11 measurements",
+      "before_grid_twips": [
+        1078,
+        7948
+      ],
+      "after_grid_twips": [
+        5416,
+        3610
+      ],
+      "before_rows": [
+        [
+          "Candidate measure",
+          "Verified value"
+        ],
+        [
+          "Publication-inventory entries",
+          "348"
+        ],
+        [
+          "Publication-inventory bytes",
+          "35,619,880"
+        ],
+        [
+          "Publication-inventory SHA-256",
+          "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+        ],
+        [
+          "Canonical listed-file digest",
+          "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+        ],
+        [
+          "Final checksum entries",
+          "350"
+        ],
+        [
+          "Checksum-set SHA-256",
+          "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75"
+        ],
+        [
+          "Final regular files",
+          "351"
+        ],
+        [
+          "Final bytes",
+          "35,754,807"
+        ],
+        [
+          "Final canonical tree SHA-256",
+          "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Candidate measure",
+          "Verified value"
+        ],
+        [
+          "Publication-inventory entries",
+          "348"
+        ],
+        [
+          "Publication-inventory bytes",
+          "35,619,880"
+        ],
+        [
+          "Final checksum entries",
+          "350"
+        ],
+        [
+          "Final regular files",
+          "351"
+        ],
+        [
+          "Final bytes",
+          "35,754,807"
+        ]
+      ],
+      "relocated_label_digest_pairs": [
+        [
+          "Publication-inventory SHA-256",
+          "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+        ],
+        [
+          "Canonical listed-file digest",
+          "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+        ],
+        [
+          "Checksum-set SHA-256",
+          "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75"
+        ],
+        [
+          "Final canonical tree SHA-256",
+          "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0"
+        ]
+      ]
+    },
+    {
+      "table_number": 23,
+      "section": "11.2 Automated Test Outcome",
+      "before_grid_twips": [
+        4785,
+        594,
+        3647
+      ],
+      "after_grid_twips": [
+        4332,
+        1083,
+        3611
+      ],
+      "before_rows": [
+        [
+          "Test area",
+          "Tests",
+          "Outcome"
+        ],
+        [
+          "Ed25519 authorization and migration",
+          "4",
+          "Passed"
+        ],
+        [
+          "Deterministic release export",
+          "8",
+          "7 passed; 1 environment-guarded skip"
+        ],
+        [
+          "Fail-closed lifecycle behaviour",
+          "7",
+          "Passed"
+        ],
+        [
+          "Complete package inventory and Ed25519 sealing",
+          "5",
+          "Passed"
+        ],
+        [
+          "Total",
+          "24",
+          "23 passed; 1 skipped; 0 failed"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Test area",
+          "Tests",
+          "Outcome"
+        ],
+        [
+          "Ed25519 authorization and migration",
+          "4",
+          "Passed"
+        ],
+        [
+          "Deterministic release export",
+          "8",
+          "7 passed; 1 environment-guarded skip"
+        ],
+        [
+          "Fail-closed lifecycle behaviour",
+          "7",
+          "Passed"
+        ],
+        [
+          "Complete package inventory and Ed25519 sealing",
+          "5",
+          "Passed"
+        ],
+        [
+          "Total",
+          "24",
+          "23 passed; 1 skipped; 0 failed"
+        ]
+      ],
+      "relocated_label_digest_pairs": []
+    },
+    {
+      "table_number": 28,
+      "section": "11.8 Deterministic target result",
+      "before_grid_twips": [
+        2162,
+        1140,
+        1155
+      ],
+      "after_grid_twips": [
+        4513,
+        2256,
+        2257
+      ],
+      "before_rows": [
+        [
+          "Export measure",
+          "Target A",
+          "Target B"
+        ],
+        [
+          "Regular files",
+          "320",
+          "320"
+        ],
+        [
+          "Total bytes",
+          "35,414,938",
+          "35,414,938"
+        ],
+        [
+          "File-set mismatches",
+          "0",
+          "0"
+        ],
+        [
+          "File-hash mismatches",
+          "0",
+          "0"
+        ],
+        [
+          "Extra or missing files",
+          "0",
+          "0"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Export measure",
+          "Target A",
+          "Target B"
+        ],
+        [
+          "Regular files",
+          "320",
+          "320"
+        ],
+        [
+          "Total bytes",
+          "35,414,938",
+          "35,414,938"
+        ],
+        [
+          "File-set mismatches",
+          "0",
+          "0"
+        ],
+        [
+          "File-hash mismatches",
+          "0",
+          "0"
+        ],
+        [
+          "Extra or missing files",
+          "0",
+          "0"
+        ]
+      ],
+      "relocated_label_digest_pairs": []
+    },
+    {
+      "table_number": 30,
+      "section": "11.10 Publication inventory",
+      "before_grid_twips": [
+        1078,
+        7948
+      ],
+      "after_grid_twips": [
+        5416,
+        3610
+      ],
+      "before_rows": [
+        [
+          "Inventory measure",
+          "Verified value"
+        ],
+        [
+          "Publication-inventory SHA-256",
+          "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+        ],
+        [
+          "Listed pre-record files",
+          "348"
+        ],
+        [
+          "Listed pre-record bytes",
+          "35,619,880"
+        ],
+        [
+          "Canonical listed-file digest",
+          "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Inventory measure",
+          "Verified value"
+        ],
+        [
+          "Listed pre-record files",
+          "348"
+        ],
+        [
+          "Listed pre-record bytes",
+          "35,619,880"
+        ]
+      ],
+      "relocated_label_digest_pairs": [
+        [
+          "Publication-inventory SHA-256",
+          "bed0957ddb1de0b3ed1b76c295f7febc12f7ca53880d7c1fd408996c2bcc07e6"
+        ],
+        [
+          "Canonical listed-file digest",
+          "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+        ]
+      ]
+    },
+    {
+      "table_number": 31,
+      "section": "11.10 Complete checksum set",
+      "before_grid_twips": [
+        1017,
+        8009
+      ],
+      "after_grid_twips": [
+        5416,
+        3610
+      ],
+      "before_rows": [
+        [
+          "Checksum measure",
+          "Verified value"
+        ],
+        [
+          "Checksum entries",
+          "350"
+        ],
+        [
+          "Checksum-set SHA-256",
+          "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75"
+        ],
+        [
+          "Self-exclusion verified",
+          "Yes"
+        ],
+        [
+          "All other regular files verified",
+          "Yes"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Checksum measure",
+          "Verified value"
+        ],
+        [
+          "Checksum entries",
+          "350"
+        ],
+        [
+          "Self-exclusion verified",
+          "Yes"
+        ],
+        [
+          "All other regular files verified",
+          "Yes"
+        ]
+      ],
+      "relocated_label_digest_pairs": [
+        [
+          "Checksum-set SHA-256",
+          "47a04a06dcc3595402c95f8028c0cf222ccc09351040b9a3fb76f399e87dbf75"
+        ]
+      ]
+    },
+    {
+      "table_number": 32,
+      "section": "11.10 Final tree identity",
+      "before_grid_twips": [
+        944,
+        8082
+      ],
+      "after_grid_twips": [
+        5416,
+        3610
+      ],
+      "before_rows": [
+        [
+          "Final candidate measure",
+          "Verified value"
+        ],
+        [
+          "Regular files",
+          "351"
+        ],
+        [
+          "Total bytes",
+          "35,754,807"
+        ],
+        [
+          "Canonical tree SHA-256",
+          "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0"
+        ],
+        [
+          "Post-freeze target writes",
+          "0"
+        ]
+      ],
+      "after_rows": [
+        [
+          "Final candidate measure",
+          "Verified value"
+        ],
+        [
+          "Regular files",
+          "351"
+        ],
+        [
+          "Total bytes",
+          "35,754,807"
+        ],
+        [
+          "Post-freeze target writes",
+          "0"
+        ]
+      ],
+      "relocated_label_digest_pairs": [
+        [
+          "Canonical tree SHA-256",
+          "9682ef298961b5288d3c7a59134b6273511f1a066a705d221af71ce69d225bb0"
+        ]
+      ]
+    }
+  ],
+  "standalone_digest_formatted": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080",
+  "all_paragraph_text_preserved_except_cover_revision": true,
+  "visual_refinement": "Table 7 filename columns widened to keep state2_promotion_decision.json and state1_registry_update.json on single lines."
+}

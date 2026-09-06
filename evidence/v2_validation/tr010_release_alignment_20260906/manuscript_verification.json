@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "date": "2026-09-06",
+  "scope": "Documentary release-position alignment and table presentation; not a release gate.",
+  "main_before": {
+    "path": "docs/research/tr010/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx",
+    "bytes": 573219,
+    "sha256": "7faf53c718e4c577c1493a92a6bb5edced386ce8128eb86ae21f8ce60d3f0e47"
+  },
+  "main_after": {
+    "path": "docs/research/tr010/APOD-TR-010_FAIL_CLOSED_GOVERNED_DATASET_LIFECYCLES.docx",
+    "bytes": 573689,
+    "sha256": "36df947027e0fd2f480df8de1768386488a2e3f1a9e2f5b1b789a79b806102e5"
+  },
+  "results_unchanged": {
+    "path": "docs/research/tr010/APOD-TR-010-R_VERIFICATION_RESULTS_AND_V1_COMPARISON.docx",
+    "bytes": 123025,
+    "sha256": "cdf59200f272583534b421de7202499858acbadc9d9ccfdadb62eed51a7e3a3c"
+  },
+  "paragraph_replacements": 67,
+  "duplicate_conclusion_paragraphs_removed": 15,
+  "direct_body_paragraphs_before": 10712,
+  "direct_body_paragraphs_after": 10697,
+  "unplanned_body_text_changes": 0,
+  "refreshed_pageref_text_changes": [],
+  "tables_total": 47,
+  "tables_changed_zero_based": [
+    16,
+    32,
+    40,
+    46
+  ],
+  "historical_table_body_values_preserved": true,
+  "abstract_and_front_matter_before_paragraph_89_preserved": true,
+  "unchanged_media_parts": 0,
+  "unchanged_hyperlink_targets": 14,
+  "historical_sha256_occurrences_preserved": 2,
+  "results_markdown_source_unchanged": true,
+  "pages": 380,
+  "toc_pagerefs_checked": 179,
+  "toc_pagerefs_match": true,
+  "visual_review": {
+    "method": "Native Microsoft Word pagination and internal PDF, skill page rendering at 100 dpi; comparison against the preceding approved render.",
+    "pages_rendered": 380,
+    "pixel_identical_to_preceding_render": 67,
+    "changed_pages_visually_reviewed": 313,
+    "contact_sheets_reviewed": 27,
+    "targeted_full_page_review": [
+      10,
+      243,
+      374
+    ],
+    "historical_table_page": 243,
+    "current_standards_table_page": 374,
+    "result": "No introduced clipping, overlapping text or unreadable table layout observed. Current handoff table fits on one page.",
+    "qa_pdf_is_release_asset": false
+  },
+  "runtime_tests_or_model_runs_performed": false,
+  "release_gate_performed": false,
+  "actual_lawyer_review_completed": false,
+  "git_action_or_release_seal_performed": false
+}

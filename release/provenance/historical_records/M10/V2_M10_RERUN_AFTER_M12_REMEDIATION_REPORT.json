@@ -1,0 +1,77 @@
+{
+  "document_id": "QPATH-V2-M10-REMEDIATION-RERUN-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:24:03Z",
+  "milestone": "M10",
+  "gate_result": "PASS",
+  "authorization_record_sha256": "8d7d66b9e3bb751d5ea3a592579c67fa87b67aae8f58ef4f161ddc36a4e7f2db",
+  "source_anchor": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_change_count": 0,
+    "approved_excluded_untracked_file_count": 66
+  },
+  "corrected_candidate": {
+    "target_path": "C:\\qpathformer_enterprise_v2_release",
+    "regular_file_count_before_m11_records": 348,
+    "byte_count_before_m11_records": 35619880,
+    "canonical_tree_sha256_before_m11_records": "59ca99c9869cbd26d537a577b7d1f79f487cc999f39408e52c4fa07674f8915d"
+  },
+  "resolved_findings": [
+    {
+      "finding_id": "M12-F01",
+      "status": "PASS",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "finding_id": "M12-F02",
+      "status": "PASS",
+      "path": "docs/execution/DOWNLOAD_MODEL.md",
+      "sha256": "d04420a35395992cb1b98d757dfa3f8cad6f3ff6876bd93f4d2c8f7b2ce3ef9d"
+    },
+    {
+      "finding_id": "M12-F03",
+      "status": "PASS",
+      "path": ".github/workflows/release-validation.yml",
+      "sha256": "f3442beffebd48eaaf85cfd634589f2be57497477883721d50e155891dd2ce50",
+      "pins": {
+        "actions/checkout_v4.3.1": "34e114876b0b11c390a56381ad16ebd13914f8d5",
+        "actions/setup-python_v5.6.0": "a26af69be951a213d495a4c3e4e4022e16d87065"
+      }
+    }
+  ],
+  "verification": {
+    "release_conformance": "23/23 PASS",
+    "unit_tests": "24 run; 23 passed; 1 environment-guarded symlink skip",
+    "dependency_check": "PASS",
+    "finding_specific_assertions": "5/5 PASS",
+    "historical_evidence_files_modified": 0,
+    "prohibited_or_generated_target_entries": 0,
+    "unexplained_warnings": 0
+  },
+  "target_records": {
+    "documentation_conformance_report_sha256": "2e9073467d3358114df1815300944c3aca68feca8f5105f86e3b86bd269de3d0",
+    "pre_seal_verification_report_sha256": "e1681d941e1ce03eef2def0038286a07caa8d49e2a7863ab2fe940b9ba48a218"
+  },
+  "rehearsal": {
+    "status": "PASS",
+    "scope": "Corrected M09 overlay, M10 checks, and complete M11 ordered rebuild with read-only verification."
+  },
+  "prohibited_actions": {
+    "git_initialized": false,
+    "commit_created": false,
+    "tag_created": false,
+    "zip_created": false,
+    "push_performed": false,
+    "asset_created": false,
+    "publication_performed": false
+  },
+  "next_gate": {
+    "milestone": "M11",
+    "action": "Rebuild and independently verify the corrected frozen candidate.",
+    "authorized": true,
+    "stop_after_completion": true
+  }
+}

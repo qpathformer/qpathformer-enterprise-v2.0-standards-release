@@ -1,0 +1,147 @@
+{
+  "document_id": "QPATH-V2-M12-TECHNICAL-REVIEW-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-18T00:12:22Z",
+  "phase": "M12",
+  "mode": "A_release_candidate",
+  "result": "HOLD",
+  "repository": "qpathformer-enterprise-v2 controlled release candidate",
+  "branch": "not_initialized_in_controlled_target",
+  "source_head": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "source_baseline_commit": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+  "target_path": "C:\\qpathformer_enterprise_v2_release",
+  "target_state": "M11_frozen_ready_for_human_release_review",
+  "started_at_utc": "2026-07-18T00:04:00Z",
+  "completed_at_utc": "2026-07-18T00:12:22Z",
+  "executor": "OpenAI Codex technical reviewer under human-authorized M12 scope",
+  "reviewer": "PENDING_HUMAN_REVIEWER",
+  "reviewer_authority": "NOT_RECORDED",
+  "inputs": {
+    "m11_gate_report": {
+      "path": "C:\\qpathformer_enterprise_v2_release_records\\M11\\V2_M11_FROZEN_CANDIDATE_REPORT.json",
+      "sha256": "18e722ef67d929a5df1d00b0c104d394a7606d189a817fbd9585b405ad9c32ff"
+    },
+    "publication_inventory": {
+      "path": "release/PUBLICATION_INVENTORY.json",
+      "sha256": "875dd343ce1a730b1db58b7b2edf6af4e90ed3db3197687c0e7bc448dde95fea"
+    },
+    "candidate_checksum_set": {
+      "path": "release/SHA256SUMS.txt",
+      "sha256": "7fbc1f1a86de783ac7e4d4244ce76123f7a59a795d2ab477fd67fa144373ebd4"
+    }
+  },
+  "checks": [
+    {
+      "check_id": "frozen_candidate_identity",
+      "status": "PASS",
+      "evidence": "Independent implementation reproduced 351 regular files, 35,757,693 bytes, and canonical tree SHA-256 ef86494a1009d6c526211d9efa3b81fdcd2ed45624c163c68c55f8443f07f961."
+    },
+    {
+      "check_id": "inventory_and_checksum_reproduction",
+      "status": "PASS",
+      "evidence": "All 348 inventory entries and all 350 checksum entries reproduce; declared circularity exceptions and checksum self-exclusion are exact."
+    },
+    {
+      "check_id": "structured_evidence_syntax",
+      "status": "PASS",
+      "evidence": "183 JSON files and 6,313 JSONL records parsed with zero syntax failures."
+    },
+    {
+      "check_id": "release_claim_boundary",
+      "status": "PASS",
+      "evidence": "Current release-facing documents qualify historical CSC coverage and confidence, prohibit certification and model-quality claims, and separate the non-enforced v2 scoring design baseline from v1 evidence."
+    },
+    {
+      "check_id": "historical_record_time_scope",
+      "status": "PASS",
+      "evidence": "M09 statements that inventory and checksums were not yet created are explicitly labeled with M09 document IDs or wording and are retained as time-scoped provenance; M11 current-status records supersede them operationally."
+    },
+    {
+      "check_id": "model_reference_and_distribution_boundary",
+      "status": "PASS",
+      "evidence": "Official OpenAI, Ollama, and Hugging Face pages confirm the named gpt-oss:20b and TinyLlama references and Apache-2.0 treatment; no weights, adapters, or caches are present in the candidate."
+    },
+    {
+      "check_id": "custom_licence_spdx_identifier",
+      "status": "HOLD",
+      "evidence": "QPATHFORMER-PLATFORM-1.0.txt line 1 uses SPDX-License-Identifier: QPATHFORMER-PLATFORM-1.0. SPDX requires a non-list custom licence to use a LicenseRef- identifier, for example LicenseRef-QPATHFORMER-PLATFORM-1.0.",
+      "impact": "Automated SPDX and licence scanners can reject or misclassify the platform licence even though the full licence text is included."
+    },
+    {
+      "check_id": "remote_installer_execution_guidance",
+      "status": "HOLD",
+      "evidence": "docs/execution/DOWNLOAD_MODEL.md line 73 pipes a live remote installer directly to PowerShell under ExecutionPolicy ByPass without pinning or digest verification.",
+      "impact": "Reviewer execution depends on mutable network content that is outside the frozen checksum and review boundary."
+    },
+    {
+      "check_id": "github_actions_dependency_identity",
+      "status": "HOLD",
+      "evidence": ".github/workflows/release-validation.yml lines 17 and 20 use actions/checkout@v4 and actions/setup-python@v5 rather than reviewed full commit SHAs.",
+      "impact": "The clean-checkout validation workflow invokes dependencies through movable references and is not fully reproducible from the frozen repository bytes alone."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "M12-F01",
+      "priority": "P1",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "line": 1,
+      "title": "Custom licence uses an invalid SPDX short identifier",
+      "required_disposition": "Use LicenseRef-QPATHFORMER-PLATFORM-1.0 or remove the SPDX-License-Identifier label while retaining the complete licence text and consistent notice references."
+    },
+    {
+      "finding_id": "M12-F02",
+      "priority": "P1",
+      "path": "docs/execution/DOWNLOAD_MODEL.md",
+      "line": 73,
+      "title": "Optional model setup executes mutable remote content",
+      "required_disposition": "Remove the pipe-to-shell installer; retain the official installation link and the model download command, or use a separately reviewed and digest-bound installer procedure."
+    },
+    {
+      "finding_id": "M12-F03",
+      "priority": "P2",
+      "path": ".github/workflows/release-validation.yml",
+      "lines": [
+        17,
+        20
+      ],
+      "title": "CI actions are not pinned to immutable commits",
+      "required_disposition": "Replace major-version action references with reviewed full commit SHAs and retain the human-readable version in comments."
+    }
+  ],
+  "exceptions": [],
+  "evidence_references": [
+    {
+      "path": "m12_independent_technical_verification.json",
+      "sha256": "b61e98c2f589421045af7f2da9554fe89f8618530b826379f2d54bd563cd46f3"
+    },
+    {
+      "url": "https://spdx.github.io/spdx-spec/v3.0.1/annexes/spdx-license-expressions/",
+      "purpose": "SPDX custom LicenseRef syntax"
+    },
+    {
+      "url": "https://docs.github.com/en/actions/reference/security/secure-use",
+      "purpose": "GitHub Actions secure-use guidance"
+    },
+    {
+      "url": "https://openai.com/index/gpt-oss-model-card/",
+      "purpose": "gpt-oss identity and licence reference"
+    },
+    {
+      "url": "https://ollama.com/library/gpt-oss:20b",
+      "purpose": "Ollama model tag and command reference"
+    },
+    {
+      "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "purpose": "TinyLlama model identity and licence reference"
+    }
+  ],
+  "technical_recommendation": {
+    "result": "HOLD",
+    "reason": "The frozen candidate is byte-valid, but the project policy requires integrity and licensing findings to be resolved rather than downgraded to warnings.",
+    "proposed_exact_next_action": "Return to M09 only for M12-F01 through M12-F03, rebuild and reverify M10 and M11, then repeat M12 against the new frozen digest."
+  },
+  "next_authorized_phase": null,
+  "approval_reference": null,
+  "authority_boundary": "This technical report does not constitute the external human review decision and authorizes no repository modification or later release action."
+}

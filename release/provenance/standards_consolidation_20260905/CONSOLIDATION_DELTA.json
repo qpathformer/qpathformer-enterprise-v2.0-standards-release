@@ -1,0 +1,166 @@
+{
+  "format": "qpath_local_consolidation_delta_v1",
+  "excluded_self_and_inventory": [
+    "release/provenance/standards_consolidation_20260905/CONSOLIDATION_DELTA.json",
+    "release/provenance/standards_consolidation_20260905/FINAL_LOCAL_INVENTORY.json"
+  ],
+  "removed": [],
+  "entries": [
+    {
+      "path": ".gitignore",
+      "action": "changed",
+      "source_sha256": "e081b65b8e1d270b8a6f1edc401acb1ae0127d7b98dcdf26b5adc6e8e0aaa162",
+      "final_sha256": "a72d508132f3f2bfd327d4ec9f48f4e2f8fe881940878de16015a9d42db6e2b3"
+    },
+    {
+      "path": "tests/fixtures/synthetic/legal_review/materials.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "c1cc00f01cfdaac35258535e1debd8857b1143266d9d4b2664467f442c1f079b"
+    },
+    {
+      "path": "release/provenance/standards_consolidation_20260905/SOURCE_CAPTURE.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "77188c4c9b073ab0a8c6c97a308509f7bc7fcb74ba4c30675dcd78cd1d0f699a"
+    },
+    {
+      "path": "release/provenance/standards_consolidation_20260905/README.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "7c81426a9881810d21ca999974d57fc297e117ba04e2581da1284a6b0b925ee1"
+    },
+    {
+      "path": "release/provenance/README.md",
+      "action": "changed",
+      "source_sha256": "d66f531cbc018c4b86ecebf4f40ab24124c9030c49972f97c90cd1f57418163c",
+      "final_sha256": "af1681f5ac60bc541856f41a4bf13b699c97dd43705d6b26a9d38770a065fd9d"
+    },
+    {
+      "path": "release/provenance/DOCUMENT_ALLOWLIST.json",
+      "action": "changed",
+      "source_sha256": "8e931903b10e32dcf6471cf9a4959885a6928cb3315e52290ac943dd9a4222f6",
+      "final_sha256": "9e94a033867a3288e3523a0071e9af6be697b34b900555ef1738e1d58a5a0366"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/workspace_verification.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "0b158f1f52b6a73435e713cc7f4f6460113499926598bc81e7cfded632a8df2d"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/word_refresh.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "ae36350112a261baa633701c02b825ad308ea5f2f2b52d05278229e8a559dc9e"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/unit_tests.txt",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "179f385a489fba9e20456fa88d1a703ad4bd51efa400abb783223dc93bb93f85"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/selection_checks.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "b5d12c30d1d5278db30935d79ef9e87e3f701b1ba0ac5af6bc119c1b8aba2be2"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/rehearsal.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "e58f4bb12c55f13fdd5b35f497b5aaee632055b4e43a1d2872711bef5c28d93d"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/README.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "2f08627b9bb32b5225c68fddad18b525dc0a2fc8f5bceea155c4000b1bc77efa"
+    },
+    {
+      "path": "evidence/v2_validation/standards_consolidation_20260905/manuscript_verification.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "77a8ac5dae531f4fc13aef577cedf76274ba8f17fee1ff46f97a951090034051"
+    },
+    {
+      "path": "docs/research/tr010/TR010_STANDARDS_R02_EDIT_RECORD_20260905.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "e13e28ea808d45347d7b163de4d61ed902173d7a4ec8ae37403e83ec79b749bf"
+    },
+    {
+      "path": "docs/research/tr010/README.md",
+      "action": "changed",
+      "source_sha256": "819fc4fbc766f068bf51855d409254d4960dfa5558518ca390e04cd0495499b0",
+      "final_sha256": "1a33a28a707bf422a5eb42a0e133924cd48c93fd00e0b5dc586a5732773effb3"
+    },
+    {
+      "path": "docs/research/tr010/APOD-TR-010_STANDARDS_REVIEW_DRAFT_20260905_R02.docx",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "218677828f071a1ec2d30e78adbc43ce285453184a1b9da154ac87e8f8743145"
+    },
+    {
+      "path": "docs/release/LOCAL_STANDARDS_CONSOLIDATION_20260905.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "3050e6226711614d37ba30cf5f8a087561937eda16745556e85151b50383a140"
+    },
+    {
+      "path": "docs/legal-review/README.md",
+      "action": "changed",
+      "source_sha256": "a0da76a6c81eb0de54534a9ffc91a143f82162cf6b06f512e2340d5ca72d7464",
+      "final_sha256": "534b1b4f0a168e76d96e7c470b058fccbdd3a30d49a22588d73baefa7db9f8ca"
+    },
+    {
+      "path": "docs/legal-review/ILLUSTRATIVE_LEGAL_REVIEW_WORKED_EXAMPLE.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "62789578292cc854f59f72564e58371051920276b1cda21985b35144203529af"
+    },
+    {
+      "path": "docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md",
+      "action": "changed",
+      "source_sha256": "0be6caedc61b2b1899dd3b9c3b81a5b3f67ff31811b35e6b69d6fa873c262de7",
+      "final_sha256": "af466dcbd3484d917f1a444aacd6ce646f06c47ff96800d27087efd2b854974a"
+    },
+    {
+      "path": "docs/execution/LOCAL_CHECKS.md",
+      "action": "changed",
+      "source_sha256": "25e009a52a783c1c6e19bfd8587e8323df675b455ca56884f752a977257597c1",
+      "final_sha256": "b374d1d72ebb5eceba1004b8975c6a765dc3a5c4a74ad4b62204006b01ec3b32"
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "action": "changed",
+      "source_sha256": "88e75f546f9d18a7ff8083322784b9f73ba96410e9299d8e4ecf6b2e0393022f",
+      "final_sha256": "861e43aa603279d93f50816d7e1bb5efbb05885f638337cbb9442f6853e613b5"
+    },
+    {
+      "path": "docs/README.md",
+      "action": "changed",
+      "source_sha256": "f03d001e67a8e5011ce115a50938f226202fe08e36b01be9b1608489ca1f2ef3",
+      "final_sha256": "b76c662ebe7579b87f617496b01a41a8aac98eb4631c03162285ce4fd3cdb011"
+    },
+    {
+      "path": "README.md",
+      "action": "changed",
+      "source_sha256": "81dcb0518b79267b2748557a201f0099f007f0b65a61ed60c479c4610d77a831",
+      "final_sha256": "8b65b119a8664b69abeaa1fde0c42ab407c0ed3162f463a6fdf9d2dac911dc84"
+    },
+    {
+      "path": "tests/fixtures/synthetic/legal_review/README.md",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "c8a48072c088a7e5ed81793c08ac950a4d634adc0e1826c822d473d07925965b"
+    },
+    {
+      "path": "tests/fixtures/synthetic/legal_review/review_record.json",
+      "action": "added",
+      "source_sha256": null,
+      "final_sha256": "79a0c8b87b779c8c33584555aee1817eeb430dfc6977ad828170cfee4cf7ee24"
+    }
+  ]
+}

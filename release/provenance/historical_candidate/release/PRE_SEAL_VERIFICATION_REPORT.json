@@ -1,0 +1,150 @@
+{
+  "document_id": "QPATH-V2-M10-PRE-SEAL-002",
+  "version": "2.0",
+  "generated_at_utc": "2026-07-18T00:22:47Z",
+  "milestone": "M10",
+  "mode": "A_release_candidate",
+  "gate_result": "PASS",
+  "release_gate_recommendation": "PASS_M10_PROCEED_TO_AUTHORIZED_M11_REBUILD",
+  "executor": "OpenAI Codex under bounded M12 remediation authorization",
+  "human_release_authority": "Anthony Siljeg",
+  "authorization_scope": "Return to M09 only for M12-F01 through M12-F03, rerun M10, and rebuild M11. No M12 approval or M13 action is authorized.",
+  "authorization_record": {
+    "record": "external M12_REMEDIATION_AUTHORIZATION_20260718.md",
+    "sha256": "8d7d66b9e3bb751d5ea3a592579c67fa87b67aae8f58ef4f161ddc36a4e7f2db"
+  },
+  "source_anchor": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_worktree_clean": true,
+    "intentionally_excluded_untracked_file_count": 66
+  },
+  "supersedes": {
+    "document_id": "QPATH-V2-M10-PRE-SEAL-001",
+    "sha256": "e51a1c376c7d9e13db50123d64da8091555dcb299df1b83be1a92a7958df8a1b",
+    "reason": "The first M12 review found three bounded release-surface issues and authorized a corrected candidate rebuild."
+  },
+  "verified_target_snapshot_before_this_report": {
+    "logical_root": ".",
+    "file_count": 348,
+    "byte_count": 35622870,
+    "canonical_tree_sha256": "2c8f956972ec306243feccca0d8117d613cc41ba211b1247a9142effb2a6d77d",
+    "self_output_policy": "This digest covers the corrected candidate immediately before this superseding M10 report replaced the prior report. M11 inventories the resulting 348-file state."
+  },
+  "remediation": [
+    {
+      "finding_id": "M12-F01",
+      "status": "RESOLVED",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "treatment": "Changed only the SPDX metadata to LicenseRef-QPATHFORMER-PLATFORM-1.0; licence terms are unchanged.",
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "finding_id": "M12-F02",
+      "status": "RESOLVED",
+      "path": "docs/execution/DOWNLOAD_MODEL.md",
+      "treatment": "Removed the remote pipe-to-shell installer while retaining the official guide and model download command.",
+      "sha256": "d04420a35395992cb1b98d757dfa3f8cad6f3ff6876bd93f4d2c8f7b2ce3ef9d"
+    },
+    {
+      "finding_id": "M12-F03",
+      "status": "RESOLVED",
+      "path": ".github/workflows/release-validation.yml",
+      "treatment": "Pinned actions/checkout v4.3.1 and actions/setup-python v5.6.0 to official full commit SHAs.",
+      "sha256": "f3442beffebd48eaaf85cfd634589f2be57497477883721d50e155891dd2ce50"
+    }
+  ],
+  "summary": {
+    "check_count": 15,
+    "pass_count": 15,
+    "fail_count": 0,
+    "hold_count": 0,
+    "unexplained_warning_count": 0
+  },
+  "checks": [
+    {
+      "check_id": "bounded_authorization",
+      "status": "PASS",
+      "evidence": "Only the three authorized finding files and required M10/M11 generated records were changed or regenerated."
+    },
+    {
+      "check_id": "source_identity_and_cleanliness",
+      "status": "PASS",
+      "evidence": "HEAD, tag commit, and Git tree remain at the immutable M05 source identifiers; tracked changes are zero and all 66 untracked files remain approved exclusions."
+    },
+    {
+      "check_id": "custom_licence_spdx_identifier",
+      "status": "PASS",
+      "evidence": "The custom licence now uses LicenseRef-QPATHFORMER-PLATFORM-1.0 and the complete Platform License 1.0 terms remain byte-identical after line 1."
+    },
+    {
+      "check_id": "remote_installer_execution_guidance",
+      "status": "PASS",
+      "evidence": "No irm-to-iex or ExecutionPolicy ByPass command remains in DOWNLOAD_MODEL.md."
+    },
+    {
+      "check_id": "github_actions_dependency_identity",
+      "status": "PASS",
+      "evidence": "checkout is pinned to 34e114876b0b11c390a56381ad16ebd13914f8d5 (v4.3.1) and setup-python to a26af69be951a213d495a4c3e4e4022e16d87065 (v5.6.0), resolved from the official repositories."
+    },
+    {
+      "check_id": "release_conformance",
+      "status": "PASS",
+      "evidence": "The regenerated documentation conformance report passed 23 of 23 checks.",
+      "record_sha256": "2e9073467d3358114df1815300944c3aca68feca8f5105f86e3b86bd269de3d0"
+    },
+    {
+      "check_id": "unit_behavior",
+      "status": "PASS",
+      "evidence": "24 tests ran: 23 passed and one Windows symlink-capability test was skipped by its explicit environment guard."
+    },
+    {
+      "check_id": "dependency_consistency",
+      "status": "PASS",
+      "evidence": "The exact eight-package validation lock remains installed and pip check reports no broken requirements."
+    },
+    {
+      "check_id": "schema_and_structured_data",
+      "status": "PASS",
+      "evidence": "All schema and JSON/JSONL checks passed through the release validator and unit suite."
+    },
+    {
+      "check_id": "security_and_release_asset_exclusion",
+      "status": "PASS",
+      "evidence": "No secret, private key, reparse point, cache, mutable registry, model weight, adapter, checkpoint, optimizer state, or Git metadata is present."
+    },
+    {
+      "check_id": "historical_evidence_preservation",
+      "status": "PASS",
+      "evidence": "No historical Path 1, Path 2, Path 3, CSC, model-evaluation, or Access-PoD vendor evidence file was changed."
+    },
+    {
+      "check_id": "claim_boundary",
+      "status": "PASS",
+      "evidence": "Historical CSC, model-run, non-certifying, and non-enforced v2 scoring qualifications remain intact."
+    },
+    {
+      "check_id": "rehearsal",
+      "status": "PASS",
+      "evidence": "The corrected candidate passed a disposable M10 run and complete ordered M11 inventory, report, checksum, and frozen-tree verification rehearsal."
+    },
+    {
+      "check_id": "m11_generated_output_reset",
+      "status": "PASS",
+      "evidence": "Only the prior publication inventory, build report, and SHA256SUMS.txt were removed before the corrected rebuild."
+    },
+    {
+      "check_id": "publication_boundary",
+      "status": "PASS",
+      "evidence": "No Git initialization, commit, tag, ZIP, push, asset, M12 approval, or publication action occurred."
+    }
+  ],
+  "known_holds": [],
+  "next_gate": {
+    "milestone": "M11",
+    "action": "Rebuild the publication inventory, build report, and checksums in the mandated order for the corrected candidate.",
+    "authorized": true,
+    "authorization_limit": "Stop after external read-only M11 verification; M12 reconsideration requires a new explicit human action."
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "document_id": "QPATH-V2-CSC-GOVERNANCE-SNAPSHOT-001",
+  "contract_version": "2.0.0-draft.1",
+  "generated_at_utc": "2026-07-17T23:22:06Z",
+  "status": "DESIGN_BASELINE_NOT_YET_ENFORCED",
+  "non_certifying": true,
+  "active_v2_scoring_enabled": false,
+  "implementation_target": "M14_versioned_CSC_Assurance_Record",
+  "historical_non_retroactivity": true,
+  "layers": [
+    {
+      "layer_id": "UPSTREAM_ACCESS_POD_V1A",
+      "role": "public_review_contract_baseline",
+      "manifest": {
+        "path": "shared/standards/access_pod/vendor/access-pod-artifacts-core/v1a/manifest_v1a_pack.json",
+        "sha256": "a98e992307f1d76ac52d2354636c7d4ddd349a6894f17d6f838d77d9d6d2a649"
+      },
+      "verification": "three byte matches and six canonical LF matches",
+      "verification_record": "release/V1_STANDARDS_VENDOR_VERIFICATION.json"
+    },
+    {
+      "layer_id": "V1_ENTERPRISE_CSC_BRIDGE",
+      "role": "enterprise_profiles_mappers_inputs_and_reference_scorer",
+      "artifacts": [
+        {
+          "path": "shared/standards/access_pod/profiles/enterprise_sector_profile_extensions.json",
+          "sha256": "97e0d929240e5fb27718ad6c402debdf01ea6ce58664a04402ca6a0fedd8de83"
+        },
+        {
+          "path": "shared/standards/access_pod/schemas/enterprise_csc_evidence_input.schema.json",
+          "sha256": "9928192bc2eca1b4a83608f11944ce7efaa9181107daedf98ec7f5f827464891"
+        },
+        {
+          "path": "shared/standards/access_pod/mappers/sector.finance.v1.mapper_blueprint.json",
+          "sha256": "7f8c72acde48c4dcf945c6efe13a68507f5019931fc7e576c6d8996ecb089a8c"
+        },
+        {
+          "path": "shared/standards/access_pod/mappers/sector.healthcare.v1.mapper_blueprint.json",
+          "sha256": "66d3ecdbf012d72aac34ddfee0ef223b09d3ff86e1e63fb30070367075d07852"
+        },
+        {
+          "path": "shared/standards/access_pod/mappers/ai.and.emerging_tech.v1.mapper_blueprint.json",
+          "sha256": "5ea8bb2e4a8c3207c9d2e4f49a19fc5c3141ea4d6787a8a7b7fc87fc4f99f826"
+        },
+        {
+          "path": "scripts/build_csc_certificate.py",
+          "sha256": "92d509748ba0784e48446807adfe44e718520839aa1d593a801a43fd3f9659a9"
+        }
+      ],
+      "scoring_status": "historical_reference_not_v2_conformant"
+    },
+    {
+      "layer_id": "HISTORICAL_V1_CSC_EVIDENCE",
+      "role": "qualified_non_retroactive_results",
+      "manifest_path": "release/V1_CSC_EVIDENCE_MANIFEST.json",
+      "profile_count": 4,
+      "selected_item_count": 25
+    },
+    {
+      "layer_id": "ACTIVE_V2_GOVERNANCE_CONTRACT",
+      "role": "future_assurance_record_and_scoring_requirements",
+      "document_path": "docs/release/V2_CSC_GOVERNANCE_SNAPSHOT_AND_SCORING_CONTRACT.md",
+      "enforcement_status": "not_implemented"
+    }
+  ],
+  "required_snapshot_bindings": [
+    "metric_catalog_id_version_bytes_sha256",
+    "assurance_record_schema_id_version_bytes_sha256",
+    "sector_profile_id_version_bytes_sha256",
+    "mapper_or_crosswalk_id_version_bytes_sha256",
+    "scoring_policy_id_version_bytes_sha256",
+    "implementation_version",
+    "run_id_and_session_id",
+    "evidence_window",
+    "evidence_bundle_digest_and_signature_state"
+  ],
+  "observation_status": {
+    "allowed": [
+      "observed",
+      "insufficient_evidence",
+      "unobserved",
+      "not_applicable",
+      "suspended"
+    ],
+    "numeric_value_allowed_for": [
+      "observed"
+    ],
+    "numeric_value_prohibited_for": [
+      "insufficient_evidence",
+      "unobserved",
+      "suspended"
+    ],
+    "not_applicable_rule": "Requires a governed justification and is excluded from the applicable denominator.",
+    "missing_value_rule": "Missing evidence is not imputed as zero."
+  },
+  "evidence_classes": [
+    "direct_telemetry",
+    "proxy_evidence",
+    "derived_evidence",
+    "excluded_evidence"
+  ],
+  "coverage_contract": {
+    "applicable_metric_count": "catalogue_metric_count - approved_not_applicable_count",
+    "observed_coverage": "observed_metric_count / applicable_metric_count",
+    "direct_telemetry_ratio": "direct_telemetry_count / observed_metric_count",
+    "proxy_evidence_ratio": "proxy_evidence_count / observed_metric_count",
+    "new_catalogue_metric_rule": "An older record mapped to a newly required metric begins as unobserved unless an approved crosswalk provides qualifying evidence.",
+    "historical_score_rule": "Coverage changes do not silently overwrite the historical raw score bound to its original snapshot."
+  },
+  "score_surfaces": {
+    "raw_observed_score": "Weighted score over eligible observed metrics only.",
+    "confidence_adjusted_score": "Sum of profile_weight multiplied by factor_score multiplied by qualified_factor_confidence; uncertainty is not renormalized away.",
+    "maximum_permissible_level": "Minimum cap produced by coverage, direct telemetry, independent windows, sector validation, and mandatory gates.",
+    "displayed_level_rule": "Use the confidence-adjusted score and do not exceed maximum_permissible_level."
+  },
+  "qualified_confidence_inputs": [
+    "observation_confidence",
+    "applicable_metric_coverage",
+    "direct_vs_proxy_ratio",
+    "evidence_freshness",
+    "independent_observation_windows",
+    "unresolved_exclusions_or_contradictions"
+  ],
+  "level_cap_policy": {
+    "status": "CALIBRATION_REQUIRED_NOT_ACTIVE",
+    "required_dimensions": [
+      "observed_coverage",
+      "direct_telemetry_ratio",
+      "independent_observation_windows",
+      "sector_validation",
+      "mandatory_control_gates"
+    ],
+    "fail_closed_rule": "A v2 numeric level shall not be emitted until versioned thresholds and calibration evidence are approved.",
+    "legacy_default_inheritance": false
+  },
+  "cross_version_policy": {
+    "implicit_blending_allowed": false,
+    "approved_crosswalk_required": true,
+    "required_crosswalk_fields": [
+      "source_snapshot_id",
+      "target_snapshot_id",
+      "source_metric_id",
+      "target_metric_id",
+      "semantic_relationship",
+      "transformation",
+      "evidence_loss_behavior",
+      "confidence_penalty",
+      "new_or_incompatible_metric_treatment",
+      "approval_authority",
+      "effective_period"
+    ]
+  },
+  "prohibited_claims": [
+    "regulatory_certification",
+    "automatic_compliance_determination",
+    "historical_v1_rescored_as_v2",
+    "model_quality_from_execution_continuity",
+    "proxy_evidence_presented_as_direct_telemetry",
+    "v2_conformance_before_enforcement_and_calibration"
+  ]
+}

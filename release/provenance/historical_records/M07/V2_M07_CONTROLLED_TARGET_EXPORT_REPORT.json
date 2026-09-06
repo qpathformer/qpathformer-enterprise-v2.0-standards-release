@@ -1,0 +1,80 @@
+{
+  "document_id": "QPATH-V2-M07-CONTROLLED-TARGET-001",
+  "version": "1.0",
+  "generated_at_utc": "2026-07-17T22:28:59.5741704Z",
+  "mode": "A_release_candidate",
+  "milestone": "M07",
+  "gate_result": "PASS",
+  "record_location_policy": "External to both the immutable M05 source repository and the controlled public target.",
+  "source_anchor": {
+    "commit_sha": "cf9721afb81273d82667dd7b33ee5e5f3ad806d9",
+    "annotated_tag": "v2.0-qpathformer-enterprise-source-baseline",
+    "git_tree_sha": "866cb4246d4fdc5e31c3a8be32249dc1b00b60ec",
+    "tracked_change_count_after_export": 0
+  },
+  "m06_binding": {
+    "report_path": "C:\\qpathformer_enterprise_v2_release_records\\M06\\V2_EXPORT_REHEARSAL_REPORT.json",
+    "report_sha256": "414d24ccea740c4a93a9cbdedee7f369e0a1487ca72782d89e450faa61357ead",
+    "gate_result": "PASS"
+  },
+  "frozen_export_inputs": {
+    "exporter_path": "scripts/export_v2_public_release.py",
+    "exporter_sha256": "7e37422bea5fbaeeac0e5eb98c488c7c70fea49e7cf434c151c4ee919d48022a",
+    "allowlist_path": "planning/migration/V2_PUBLIC_COPY_ALLOWLIST.json",
+    "allowlist_sha256": "3315f405f69b2d3442f7f1d77ecae810ed013f92f2eaa92756319944db4faf6b"
+  },
+  "controlled_target": {
+    "path": "C:\\qpathformer_enterprise_v2_release",
+    "preexisting_before_m07": false,
+    "created_once": true,
+    "git_initialized": false,
+    "file_count": 320,
+    "byte_count": 35414938,
+    "target_tree_sha256": "62a866976506a65b9e238faa5e9e94d6f32c8991f1b2795a4561fdd3e6ed3080",
+    "verify_only_result": "PASS"
+  },
+  "reconciliation": {
+    "rehearsal_file_or_hash_mismatch_count": 0,
+    "missing_file_count": 0,
+    "extra_file_count": 0,
+    "byte_preserved_historical_file_count": 174,
+    "byte_preservation_failure_count": 0,
+    "normalized_active_text_file_count": 146,
+    "reparse_point_count": 0,
+    "forbidden_or_excluded_path_count": 0,
+    "source_mutation_detected": false
+  },
+  "excluded_path_controls_verified": [
+    "_upstream_qpath-dataset-lifecycle",
+    "legacy_reference",
+    "tests/fixtures",
+    ".git",
+    "mutable_registry_records",
+    "model_weights_checkpoints_adapters_and_private_keys",
+    "path_3_qpds_package_001_positive_evidence"
+  ],
+  "logs": [
+    {
+      "path": "C:\\qpathformer_enterprise_v2_release_records\\M07\\controlled_target_export.json",
+      "sha256": "bbadab2a66d0daae6dd8c4a6e43cc4b7840dc6aab66dbe35d0811bc65e0dec0b"
+    },
+    {
+      "path": "C:\\qpathformer_enterprise_v2_release_records\\M07\\controlled_target_verify.json",
+      "sha256": "a31192014fa57978a3437099c9b22acb7977e73a4791a9b8918e19e42b8af40b"
+    }
+  ],
+  "target_control": {
+    "target_status": "populated_and_verified",
+    "target_mutation_after_m07": "prohibited_without_later_gate_authorization",
+    "public_commit_created": false,
+    "public_tag_created": false,
+    "zip_created": false,
+    "remote_configured": false,
+    "push_performed": false
+  },
+  "next_gate": {
+    "milestone": "M08",
+    "action": "Package and qualify the selected historical v1.0 CSC evidence already present in the controlled target.",
+    "authorized": false
+  }
+}

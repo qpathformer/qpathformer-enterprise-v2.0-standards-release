@@ -1,0 +1,47 @@
+{
+  "format": "windows_symlink_targeted_recheck_v1",
+  "timestamp_utc": "2026-09-05T08:17:01.411905+00:00",
+  "scope": "Single existing unit test and a real filesystem capability probe; not a full suite, release gate or model run.",
+  "status": "SKIPPED",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.11.9",
+  "python_executable": "C:\\Users\\Alnotrea\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "source_files": [
+    {
+      "path": "tests/unit/test_export_v2_public_release.py",
+      "bytes": 5539,
+      "sha256": "b7d26a4e5ec0f3eb64f056bae259c0fad978dc8c21ae62ba2ee23e45703a92dd"
+    },
+    {
+      "path": "scripts/export_v2_public_release.py",
+      "bytes": 13937,
+      "sha256": "7e37422bea5fbaeeac0e5eb98c488c7c70fea49e7cf434c151c4ee919d48022a"
+    }
+  ],
+  "test_id": "test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_symlink_is_rejected_when_supported",
+  "tests_run": 1,
+  "passed": 0,
+  "skipped": 1,
+  "failures": 0,
+  "errors": 0,
+  "skip_reasons": [
+    "symlink creation is unavailable"
+  ],
+  "capability_probe": {
+    "operation": "os.symlink(real_file, link_file)",
+    "target_type": "file",
+    "both_paths_inside_disposable_scratch": true,
+    "status": "UNAVAILABLE",
+    "exception_type": "OSError",
+    "winerror": 1314,
+    "errno": 22,
+    "message": "A required privilege is not held by the client"
+  },
+  "test_log": "test_source_symlink_is_rejected_when_supported (test_export_v2_public_release.ExportV2PublicReleaseTests.test_source_symlink_is_rejected_when_supported) ... skipped 'symlink creation is unavailable'\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK (skipped=1)\n",
+  "temporary_artifacts_removed": true,
+  "system_settings_changed": false,
+  "windows_elevation_requested": false,
+  "repository_code_changed": false,
+  "historical_logs_rewritten": false,
+  "interpretation": "SKIPPED is not PASS. A capability failure happens before the exporter rejection assertion. This current diagnostic does not recover the missing error code from the historical log."
+}

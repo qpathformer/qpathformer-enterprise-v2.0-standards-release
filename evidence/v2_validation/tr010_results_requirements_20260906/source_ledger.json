@@ -1,0 +1,28 @@
+{
+  "format": "tr010_results_supplemental_source_ledger_v1",
+  "preserved_primary_ledger": "evidence/v2_validation/tr010_results_paper_20260905/source_ledger.json",
+  "preserved_primary_ledger_sha256": "88ed2e46cd1bf9ef69e5f193922dcd584fba4baf4881b3910dd3dafac4577ee3",
+  "groups": [
+    {
+      "id": "E27",
+      "files": [
+        {
+          "path": "evidence/v2_validation/tr010_results_requirements_20260906/operator_reported_symlink_pass.json",
+          "bytes": 1751,
+          "sha256": "e772f04ac73a83913c1ec504ede9fa02caafa1755f4da7368b5599562325dba7"
+        }
+      ]
+    },
+    {
+      "id": "E28",
+      "files": [
+        {
+          "path": "evidence/v2_validation/tr010_results_requirements_20260906/requirements_source_inventory.json",
+          "bytes": 7584,
+          "sha256": "8d7558436b0b02f0e94d765c3b0eab314b2082dd93b9810b128c0d27ad3be5e1"
+        }
+      ]
+    }
+  ],
+  "scope": "Supplementary documentary sources only; E27 is operator-reported, E28 is read-only requirements inspection."
+}
