@@ -18,6 +18,8 @@ The release focuses on a specific governance problem: a dataset may be technical
 
 A favorable result at one boundary does not silently grant authority at another boundary.
 
+[Read the papers](docs/research/README.md) · [Run the synthetic rehearsal](docs/execution/TR010_STANDARDS_REFERENCE_RUNBOOK.md) · [Download the release](https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards)
+
 ## Control Model
 
 ```text
@@ -190,7 +192,7 @@ Repository: qpathformer/qpathformer-enterprise-v2.0-standards-release
 Release tag: v2.0-qpathformer-enterprise-standards
 ```
 
-The owner will bind the selected publication assets and release-integrity records through the final GitHub release record; local PDF registration does not assert that publication has occurred. Earlier editorial handoffs and historical ledgers remain preserved rather than being rewritten to match later publication files.
+The [published v2.0 Standards Edition](https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards) identifies the selected distribution, paper downloads and integrity records. Earlier preparation records retain their original dated scope. Later live README updates do not replace the published tag, assets or recorded evidence.
 
 ## Licence and Notices
 
